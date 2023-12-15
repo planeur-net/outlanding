@@ -1,0 +1,44 @@
+name: 1 - Add version to guide_aires_securite.cup
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches:
+      - main
+    paths:
+      - 'guide_aires_securite.cup'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  add-version:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Clone this repo
+        uses: actions/checkout@v3
+          
+      # Add version information to guide_aires_securite.cup
+      - name: Get info, delete 1st line if applicable, add info
+        run: |
+          # Get information
+          git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup
+          versionInfo=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
+          # Remove first line if applicable
+          sed -i "$((grep -nm1 *version= ./guide_aires_securite.cup || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite.cup
+          # Add version information
+          sed -i "1i *version= $versionInfo" ./guide_aires_securite.cup
+          
+     
+      # Push changes to repo    
+      - name: Push changes into repo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated Change
+          file_pattern: 'guide_aires_securite.cup'
