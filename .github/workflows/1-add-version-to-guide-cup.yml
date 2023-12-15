@@ -40,5 +40,5 @@ jobs:
       - name: Push changes into repo
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Automated Change
+          commit_message: New version number
           file_pattern: 'guide_aires_securite.cup'
