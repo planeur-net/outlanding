@@ -1,4 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
+"version=",4.1,,,,,,,,,,"f40aeaa 2023-12-15T13:56:41+01:00",,
 "version=",4.1,,0000.000N,00000.000E,0.0m,1,,,,,"357b371 2023-12-15T09:53:29+01:00",,
 "#78 LSGS Sion",#78LSion,CH,4613.200N,00719.733E,482.0m,2,7,600.0m,,"118.275","Frequence Approche=126.825Frequence VV=123.67",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,90,1290.0m,,"120.450",,,
