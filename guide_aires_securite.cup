@@ -1,4 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
+"version=",,,,,,,,,,,"357b371 2023-12-15T09:53:29+01:00",,
 "219 Landry Les Ilettes",O21,,4535.300N,00645.033E,750.0m,3,0,300.0m,,,"240/060 Champs tres delicats / Reco a pied indispensable",,
 "232 Flayosc ULM",V32,,4332.283N,00619.067E,365.0m,3,20,500.0m,,"123.5","20/200 Aero prive largeur=20m / Inside LF-R95 Le Luc (122.20)",,
 "#10 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,30,590.0m,,"130.000",,,
