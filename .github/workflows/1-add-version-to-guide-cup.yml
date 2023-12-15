@@ -31,7 +31,7 @@ jobs:
           git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup
           versionInfo=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
           # Remove first line if applicable
-          sed -i "$((grep -nm1 *version= ./guide_aires_securite.cup || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite.cup
+          sed -i "$((grep -nm1 \"version= ./guide_aires_securite.cup || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite.cup
           # Add version information
           sed -i "2i \"version=\",4.1,,,,,,,,,,\"$versionInfo\",," ./guide_aires_securite.cup
           
