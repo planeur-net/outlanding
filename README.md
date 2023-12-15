@@ -7,7 +7,7 @@ Les fichiers suivants sont maintenus:
 ### Guide de nommage
 La version du guide de reference est indiquee dans la 2e ligne du fichier cup, dans la colonne code.
 ```
-"version"=,3,,,,,,,,,,"357b371 2023-12-15T09:53:29+01:00",,
+"version=",4.1,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
 ```
 #<num_page> <nom_aero>: Aerodrome. Le code est le code OACI de l'aerodrome  
 ```
