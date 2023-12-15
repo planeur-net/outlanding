@@ -33,7 +33,7 @@ jobs:
           # Remove first line if applicable
           sed -i "$((grep -nm1 *version= ./guide_aires_securite.cup || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite.cup
           # Add version information
-          sed -i "1i *version= $versionInfo" ./guide_aires_securite.cup
+          sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./guide_aires_securite.cup
           
      
       # Push changes to repo    
