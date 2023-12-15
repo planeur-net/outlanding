@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",4.1,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
+"version=",4.1,,,,,,,,,"357b371 2023-12-15T09:53:29+01:00",,
 "#78 LSGS Sion",#78LSion,CH,4613.200N,00719.733E,482.0m,2,7,600.0m,,"118.275","Frequence Approche=126.825Frequence VV=123.67",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,90,1290.0m,,"120.450",,,
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,30,590.0m,,"130.000",,,
@@ -18,6 +18,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#4 LFHD Pierrelatte",LFHD,FR,4423.933N,00443.050E,61.0m,4,10,1200.0m,,"118.975",,,
 "#40 LFNC St Crepin 38",LFNC,FR,4442.100N,00635.983E,902.0m,5,160,860.0m,,"123.500",,,"N089E006LFNCStCrepin.jpg"
 "#42 LFMR Barcelonnette",LFMR,FR,4423.300N,00636.583E,1131.0m,5,90,800.0m,,"123.500",,,"N088E006LFMRBarcelonette.jpg"
+"#44 Valsusa",#44Vausa,IT,4506.750N,00717.230E,380.0m,2,0,360.0m,23.0m,"130.00","Terrain prive. Piste en herbe balisee.https://www.vaeivola.it",,"valusa1.jpg;valusa2.jpg;valusa3.jpg"
 "#46 LFHE Romans",LFHE,FR,4503.967N,00506.167E,180.0m,4,60,740.0m,,"118.800",,,"N090E005LFHERomans.jpg"
 "#48 LFKE St Jean en Royans",LFKE,FR,4501.667N,00518.600E,264.0m,2,14,0.0m,,"123.5",,,
 "#50 LFLU Valence Chabeuil",LFLU,FR,4454.933N,00458.117E,162.0m,5,10,2080.0m,,"120.100",,,"N089E004LFLUValence1.jpg;N089E004LFLUValence2.jpg"
@@ -34,38 +35,44 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#68 LFKD Sollieres Sardieres",LFKD,FR,4515.267N,00648.033E,1299.0m,2,20,620.0m,,"123.500",,,"N090E006LFKDSolieres1.jpg;N090E006LFKDSolieres2.jpg"
 "#7 LFNH Carpentras",LFNH,FR,4401.400N,00505.417E,119.0m,5,130,1200.0m,,"118.175",,,
 "#70 LFKR St Remy de Maurienne",LFKR,FR,4522.167N,00616.917E,450.0m,2,350,900.0m,,"123.5","Aerodrome St Remi de Maurienne 350/170 123.5 900m",,"N090E00670StRemidemaurienne1.jpg;N090E00670StRemidemaurienne2.jpg;N090E00670StRemidemaurienne3.jpg"
+"#72 Prealpi-Musine",#72Prine,IT,4507.460N,00731.310E,330.0m,2,30,600.0m,,"130.000","Terrain prive. Piste en herbe balisee.",,
+"#73 Busano",#73Buano,IT,4518.610N,00739.920E,300.0m,2,180,500.0m,,,"Terrain prive. Piste en herbe balisee",,
+"#74 Canavese",#74Caese,IT,4521.500N,00743.180E,260.0m,2,130,370.0m,,,"Terrain prive. Piste en herbe balisee",,
+"#75 Montalto Dora",#75Moora,IT,4529.230N,00750.630E,256.0m,2,140,620.0m,,"118.450","Terrain prive. Piste en herbe balisee",,
+"#76 LIMW Aoste",#76LIste,IT,4544.300N,00722.050E,547.0m,5,9,1500.0m,,"119.955","Frequence VV=123.375",,
+"#77 Chatelair",#77Chair,IT,4544.410N,00728.800E,457.0m,2,100,400.0m,,"130.000","Terrain prive. Piste en herbe balisee.www.aeroclubcorradogex.com",,
 "#8 LFNT Avignon",LFNT,FR,4359.767N,00445.267E,44.0m,2,164,1350.0m,,"123.35",,,
 "#9 LFNZ St Remy",LFNZ,FR,4346.133N,00453.583E,119.0m,2,90,980.0m,,"118.450","Le Mazet de Romanin",,
-"110 Remoulins ULM",110,FR,4356.600N,00434.917E,55.0m,3,5,500.0m,,,"Piste ULM Largeur=25-30m Herbe fauchee",,
-"111 Tarascon ULM",111,FR,4347.300N,00441.817E,10.0m,3,5,400.0m,,,"ULM",,"N087E00439TarasconULM.jpg"
-"112 Eygalieres",112,FR,4347.000N,00459.533E,100.0m,3,225,400.0m,,,"SW/NE Ligne HT / Sol variable cailloux et prairie",,"N087E00440Eygalieres.jpg"
-"113 Isle Sorgue",113,FR,4355.017N,00504.983E,65.0m,3,315,300.0m,,,"Delicat NW/SE - Cultures hautes - Plusieurs champs",,"N087E00543IslesurSorgue.jpg"
-"114 Orgon-Cheval Blanc",114,FR,4347.325N,00503.915E,90.0m,3,90,300.0m,,,"Prairie - Culture possible / Posable dans 2 sens",,
-"120 Gordes ZA",120,FR,4354.750N,00515.100E,203.0m,3,360,300.0m,,,"Zone atterrissable cultures",,"N087E00544Gordes.jpg"
-"122 Bonnieux ZA",122,FR,4350.000N,00517.500E,180.0m,3,0,300.0m,,,"cultures",,"N087E00545Bonnieux.jpg"
-"124 Mallemort",124,FR,4344.425N,00510.900E,110.0m,3,270,400.0m,,,"Prairie - Cultures possiblesProche du point entre Merindol et Mallemort",,
-"126 Lourmarin",126,FR,4345.533N,00523.967E,280.0m,3,0,400.0m,,,"Zone Lourmarin N/S et E/W Cultures 400m",,"N087E00546Lourmarin.jpg"
-"127 Banon",127,FR,4404.000N,00540.000E,770.0m,3,0,300.0m,,,"ZA / Zone Cultivee attention au champs lavande",,
-"128 Vitrolles en Luberon",128,FR,4347.280N,00535.600E,360.0m,3,0,300.0m,,,"Remonte vers le N. Attention par vent N (turbulences). Autres champs posables",,
-"130 Rosans",130,FR,4422.883N,00528.300E,620.0m,3,180,400.0m,,,"Remonte vers le N / Champ Att N turb par NW / Autres champs posables",,"N088E00517Rosans1.jpg;N088E00517Rosans2.jpg"
-"131 Sederon",131,FR,4413.233N,00534.483E,750.0m,3,90,250.0m,,,"Champ Sederon Att Pref face Est LHT",,"N088E00519Sederon1.jpg;N088E00519Sederon2.jpg"
-"132 Sainte Jalle",132,FR,4420.067N,00518.183E,440.0m,3,305,250.0m,,,"Ligne electrique partie SE des champs / Vent Arriere cote NEZone St Jalle ZA",,"N088E00518SainteJalle.jpg"
-"133 Curnier",133,FR,4423.380N,00513.200E,310.0m,3,90,300.0m,,,"Prairie. Cultures possibles. Posable dans les 2 sens",,
-"135 Methamis",135,FR,4400.400N,00511.000E,225.0m,3,65,220.0m,,,"Prairie. Cultures possibles. Posable dans les 2 sens",,
-"210 Quinson",210,FR,4341.000N,00604.283E,500.0m,3,0,500.0m,,,"Zone Quinson att NW 500m",,"N087E0061Quinson.jpg"
-"211 Artignosc",211,FR,4341.083N,00608.100E,580.0m,3,70,550.0m,,,"Aerodrome prive / Herbe / Legere montee vers le NE",,
-"212 Bauden",212,FR,4341.500N,00612.550E,710.0m,3,130,500.0m,,,"Culture / Choisir champs",,
-"213 Aups",213,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"Zone cultures",,
-"214 Trets ULM",214,FR,4328.833N,00542.683E,240.0m,3,120,400.0m,,"123.45","Terrain ULM 123.45 120/300 / Piste balisee / Seuil decale en 30 (280m)",,"N086E00528Trets1.jpg;N086E00528Trets2.jpg"
-"220 Thorame Haute",220,FR,4405.717N,00633.617E,1100.0m,3,310,300.0m,,,"Champ difficile / Pente se poser face NW. Tdp main gauche. Base le long de la montagne / Rotors par Vent NW",,"N088E0067Thorame1.jpg;N088E0067Thorame2.jpg;N088E0067Thorame3.jpg"
-"221 Thorame basse",221,FR,4404.617N,00628.417E,1100.0m,3,310,300.0m,,,"Poser face NW dans moitie droite du champs / Talus en entree et fosse extremite NW / Vent arriere cote NE / Rotors par NW",,
-"222 La Mure",222,FR,4358.917N,00631.867E,930.0m,3,40,300.0m,,,"La Mure 040/220 Prairie / Arbre cote SW / Utiliser partie encadree dans photo",,"N087E00660Lamure1.jpg;N087E00660Lamure2.jpg;N087E00660Lamure3.jpg"
-"223 Soleihas",223,FR,4351.217N,00638.817E,1120.0m,3,300,250.0m,,,"En pente / Atterro face au NW uniquement / Route 50cm plus haut",,
-"224 Mousteiret",224,FR,4347.917N,00638.100E,1080.0m,3,0,400.0m,,,"Zone posable / Attentions selon axe: collines a survoler ou longer",,
-"225 Logis du Pin",225,FR,4346.650N,00638.467E,1025.0m,3,70,500.0m,,,"Logis du Pin 170/350 70/250 Prairies / Partie S souvet detrempee / Attention promeneurs",,"N087E0064Logisdupin1.jpg;N087E0064Logisdupin2.jpg"
-"226 Caile",226,FR,4346.883N,00644.183E,1080.0m,3,270,350.0m,,,"Zone Prairies / Detrempe au printemps / Se poser dans la montee / Possibilite cloture electriques le long des parcelles ou de la route",,"N087E0065Caille.jpg"
-"227 La chapelle",227,FR,4346.183N,00641.500E,1065.0m,3,90,350.0m,,,"Atterro dans les 2 sens / Attention piquets / Face W: ne pas se poser juste apres le chemin, mauvais terrain",,
-"228 Trigance",228,FR,4345.267N,00627.333E,740.0m,3,125,300.0m,,,"Champ Trigance Difficile 135/315 Prairie",,"N087E00622Trigance1.jpg;N087E00622Trigance2.jpg"
+"110 Remoulins ULM",G10,FR,4356.600N,00434.917E,55.0m,3,5,500.0m,,,"Piste ULM Largeur=25-30m Herbe fauchee",,
+"111 Tarascon ULM",G11,FR,4347.300N,00441.817E,10.0m,3,5,400.0m,,,"ULM",,"N087E00439TarasconULM.jpg"
+"112 Eygalieres",G12,FR,4347.000N,00459.533E,100.0m,3,225,400.0m,,,"SW/NE Ligne HT / Sol variable cailloux et prairie",,"N087E00440Eygalieres.jpg"
+"113 Isle Sorgue",0G13Igue,FR,4355.017N,00504.983E,65.0m,3,315,300.0m,,,"Delicat NW/SE - Cultures hautes - Plusieurs champs",,"N087E00543IslesurSorgue.jpg"
+"114 Orgon-Cheval Blanc",G14,FR,4347.325N,00503.915E,90.0m,3,90,300.0m,,,"Prairie - Culture possible / Posable dans 2 sens",,
+"120 Gordes ZA",G20,FR,4354.750N,00515.100E,203.0m,3,360,300.0m,,,"Zone atterrissable cultures",,"N087E00544Gordes.jpg"
+"122 Bonnieux ZA",G22,FR,4350.000N,00517.500E,180.0m,3,0,300.0m,,,"cultures",,"N087E00545Bonnieux.jpg"
+"124 Mallemort",G24,FR,4344.425N,00510.900E,110.0m,3,270,400.0m,,,"Prairie - Cultures possiblesProche du point entre Merindol et Mallemort",,
+"126 Lourmarin",G26,FR,4345.533N,00523.967E,280.0m,3,0,400.0m,,,"Zone Lourmarin N/S et E/W Cultures 400m",,"N087E00546Lourmarin.jpg"
+"127 Banon",G27,FR,4404.000N,00540.000E,770.0m,3,0,300.0m,,,"ZA / Zone Cultivee attention au champs lavande",,
+"128 Vitrolles en Luberon",128Viron,FR,4347.280N,00535.600E,360.0m,3,0,300.0m,,,"Remonte vers le N. Attention par vent N (turbulences). Autres champs posables",,
+"130 Rosans",G30,FR,4422.883N,00528.300E,620.0m,3,180,400.0m,,,"Remonte vers le N / Champ Att N turb par NW / Autres champs posables",,"N088E00517Rosans1.jpg;N088E00517Rosans2.jpg"
+"131 Sederon",G31,FR,4413.233N,00534.483E,750.0m,3,90,250.0m,,,"Champ Sederon Att Pref face Est LHT",,"N088E00519Sederon1.jpg;N088E00519Sederon2.jpg"
+"132 Sainte Jalle",G32,FR,4420.067N,00518.183E,440.0m,3,305,250.0m,,,"Ligne electrique partie SE des champs / Vent Arriere cote NEZone St Jalle ZA",,"N088E00518SainteJalle.jpg"
+"133 Curnier",133Cuier,FR,4423.380N,00513.200E,310.0m,3,90,300.0m,,,"Prairie. Cultures possibles. Posable dans les 2 sens",,
+"135 Methamis",145Memis,FR,4400.400N,00511.000E,225.0m,3,65,220.0m,,,"Prairie. Cultures possibles. Posable dans les 2 sens",,
+"210 Quinson",V10,FR,4341.000N,00604.283E,500.0m,3,0,500.0m,,,"Zone Quinson att NW 500m",,"N087E0061Quinson.jpg"
+"211 Artignosc",V11,FR,4341.083N,00608.100E,580.0m,3,70,550.0m,,,"Aerodrome prive / Herbe / Legere montee vers le NE",,
+"212 Bauden",V12,FR,4341.500N,00612.550E,710.0m,3,130,500.0m,,,"Culture / Choisir champs",,
+"213 Aups",V13,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"Zone cultures",,
+"214 Trets ULM",V14,FR,4328.833N,00542.683E,240.0m,3,120,400.0m,,"123.45","Terrain ULM 123.45 120/300 / Piste balisee / Seuil decale en 30 (280m)",,"N086E00528Trets1.jpg;N086E00528Trets2.jpg"
+"220 Thorame Haute",V20,FR,4405.717N,00633.617E,1100.0m,3,310,300.0m,,,"Champ difficile / Pente se poser face NW. Tdp main gauche. Base le long de la montagne / Rotors par Vent NW",,"N088E0067Thorame1.jpg;N088E0067Thorame2.jpg;N088E0067Thorame3.jpg"
+"221 Thorame basse",V21,FR,4404.617N,00628.417E,1100.0m,3,310,300.0m,,,"Poser face NW dans moitie droite du champs / Talus en entree et fosse extremite NW / Vent arriere cote NE / Rotors par NW",,
+"222 La Mure",V22,FR,4358.917N,00631.867E,930.0m,3,40,300.0m,,,"La Mure 040/220 Prairie / Arbre cote SW / Utiliser partie encadree dans photo",,"N087E00660Lamure1.jpg;N087E00660Lamure2.jpg;N087E00660Lamure3.jpg"
+"223 Soleihas",V23,FR,4351.217N,00638.817E,1120.0m,3,300,250.0m,,,"En pente / Atterro face au NW uniquement / Route 50cm plus haut",,
+"224 Mousteiret",V24,FR,4347.917N,00638.100E,1080.0m,3,0,400.0m,,,"Zone posable / Attentions selon axe: collines a survoler ou longer",,
+"225 Logis du Pin",V25,FR,4346.650N,00638.467E,1025.0m,3,70,500.0m,,,"Logis du Pin 170/350 70/250 Prairies / Partie S souvet detrempee / Attention promeneurs",,"N087E0064Logisdupin1.jpg;N087E0064Logisdupin2.jpg"
+"226 Caile",V26,FR,4346.883N,00644.183E,1080.0m,3,270,350.0m,,,"Zone Prairies / Detrempe au printemps / Se poser dans la montee / Possibilite cloture electriques le long des parcelles ou de la route",,"N087E0065Caille.jpg"
+"227 La chapelle",V27,FR,4346.183N,00641.500E,1065.0m,3,90,350.0m,,,"Atterro dans les 2 sens / Attention piquets / Face W: ne pas se poser juste apres le chemin, mauvais terrain",,
+"228 Trigance",V28,FR,4345.267N,00627.333E,740.0m,3,125,300.0m,,,"Champ Trigance Difficile 135/315 Prairie",,"N087E00622Trigance1.jpg;N087E00622Trigance2.jpg"
 "229 Palue Verdon",V29,FR,4346.783N,00621.183E,890.0m,3,135,300.0m,,,"135/315 Reco a pied recommandee / Praire",,
 "231 Ampus",V31,FR,4337.017N,00620.933E,625.0m,3,0,300.0m,,,"Zone cultures",,"N087E0063Ampus.jpg"
 "232 Flayosc - ULM",232FlULM,FR,4332.283N,00619.067E,365.0m,2,20,500.0m,20.0m,"123.500","20/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200)",,
@@ -129,11 +136,4 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "721 Landry Les Ilettes",Landrtes,FR,4535.300N,00645.040E,750.0m,3,0,0.0m,,,"Activite parapente",,
 "722 La Bathie",O22,FR,4537.533N,00626.617E,375.0m,3,165,200.0m,,,"165/345 Atterro sur axe parallele a la nationale / Toucher et rouler dans la largeur d'un seul champs",,"N091E00658Bathie1.jpg;N091E00658Bathie2.jpg"
 "723 Aiton",O23,FR,4533.417N,00613.667E,300.0m,3,0,250.0m,,,"Vaste ZA / Attention au mais / Vent variableLigne HT",,"N091E006Aiton1.jpg;N091E006Aiton2.jpg;N091E006Aiton3.jpg"
-"#44 Valsusa",#44Vausa,IT,4506.750N,00717.230E,380.0m,2,0,360.0m,23.0m,"130.00","Terrain prive. Piste en herbe balisee.http://www.vaievola.it",,
-"#72 Prealpi-Musine",#72Prine,IT,4507.460N,00731.310E,330.0m,2,30,600.0m,,"130.000","Terrain prive. Piste en herbe balisee.",,
-"#73 Busano",#73Buano,IT,4518.610N,00739.920E,300.0m,2,180,500.0m,,,"Terrain prive. Piste en herbe balisee",,
-"#74 Canavese",#74Caese,IT,4521.500N,00743.180E,260.0m,2,130,370.0m,,,"Terrain prive. Piste en herbe balisee",,
-"#75 Montalto Dora",#75Moora,IT,4529.230N,00750.630E,256.0m,2,140,620.0m,,"118.450","Terrain prive. Piste en herbe balisee",,
-"#76 LIMW Aoste",#76LIste,IT,4544.300N,00722.050E,547.0m,5,9,1500.0m,,"119.955","Frequence VV=123.375",,
-"#77 Chatelair",#77Chair,IT,4544.410N,00728.800E,457.0m,2,100,400.0m,,"130.000","Terrain prive. Piste en herbe balisee. http://www.aeroclubcorradogex.com",,
 -----Related Tasks-----
