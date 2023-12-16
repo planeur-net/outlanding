@@ -1,8 +1,8 @@
 # outlanding
-
+<span style="color:red">Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilite des contributeurs et encore moins celle des proprietaires des champs.</span>
 ## Download
 [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup)  
-[guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)
+[guide_aires_securite.cupx]() - Images en cours de mise a jour - Bientot disponible
 ## Fichiers de champs "vachables" pour les Alpes
 Les fichiers suivants sont maintenus:
 - .cup : representant les champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
@@ -22,3 +22,5 @@ La version du guide de reference est indiquee dans la 2e ligne du fichier cup, d
 ```
 "213 Aups",V13,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"Zone cultures",,
 ```
+## Copyrights - Droits
+Images fournies et utilisées avec l'autorisation de Jérémie Badaroux 
