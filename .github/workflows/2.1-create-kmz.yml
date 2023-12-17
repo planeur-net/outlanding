@@ -1,6 +1,6 @@
 # Copy file to planeur.net FTP server
 
-name: 1 - Create .kmz
+name: 2.1 - Create .kmz
 
 # Controls when the workflow will run
 on:
@@ -47,6 +47,10 @@ jobs:
         echo "Do something..."
         pwd
         ls -l
+        cd ./cup2kmz
+        npm install
+        cd ..
+        pwd
         node ./cup2kmz/cup2kmz.js
 
         # push to repo
