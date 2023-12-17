@@ -23,6 +23,8 @@ jobs:
 
     - name: 🚚 Get latest code for outlanding
       uses: actions/checkout@v3
+      with:
+        path: ./outlanding
 
     - name: 🚚 Get latest code for cup2kmz
       uses: actions/checkout@v3
@@ -48,13 +50,11 @@ jobs:
         pwd
         ls -l
         cd ./cup2kmz
-        npm install
-        cd ..
-        pwd
-        node ./cup2kmz/cup2kmz.js
+        node ./cup2kmz.js
 
         # push to repo
         echo "Pulling latest version before push..."
+        cd ../outlanding
         git pull
 
     - name: ⚙️ Push .cub to repo
