@@ -47,7 +47,7 @@ jobs:
         echo "Do something..."
         pwd
         ls -l
-        node ./cup2kmz.js
+        node ./cup2kmz/cup2kmz.js
 
         # push to repo
         echo "Pulling latest version before push..."
