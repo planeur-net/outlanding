@@ -43,7 +43,7 @@ jobs:
         cd ./cup2kmz
         npm install
     
-    - name: ⚙️ Convert to .cup to .cupx and push to repo
+    - name: ⚙️ Convert to .kml + .kmz
       run: |
         cd ./cup2kmz
         node ./cuptokmz.js
@@ -53,7 +53,7 @@ jobs:
         cd ../outlanding
         git pull
 
-    - name: ⚙️ Push .cub to repo
+    - name: ⚙️ Push .kml + .kmz to repo
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
