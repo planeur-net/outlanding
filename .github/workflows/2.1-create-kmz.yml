@@ -50,7 +50,7 @@ jobs:
         pwd
         ls -l
         cd ./cup2kmz
-        node ./cup2kmz.js
+        node ./cuptokmz.js
 
         # push to repo
         echo "Pulling latest version before push..."
