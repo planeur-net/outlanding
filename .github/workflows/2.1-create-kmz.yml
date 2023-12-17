@@ -58,6 +58,6 @@ jobs:
       with:
         repository: ./outlanding
         commit_message: Automated Change
-        file_pattern: 'guide_aires_securite.kmz'
+        file_pattern: 'guide_aires_securite.*'
 
 
