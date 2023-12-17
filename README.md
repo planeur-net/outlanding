@@ -2,11 +2,15 @@
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilite des contributeurs et encore moins celle des proprietaires des champs.
 ## Download
 [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup)  
-[guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)
+[guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)  
+
+[guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml)  
+[guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz)
 ## Fichiers de champs "vachables" pour les Alpes
 Les fichiers suivants sont maintenus:
-- .cup : representant les champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
-- .cupx : fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./SeeYou_cupx_file_format.md)
+- .cup : Champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
+- .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./SeeYou_cupx_file_format.md)
+- .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup 
 
 ### Guide de nommage
 La version du guide de reference est indiquee dans la 2e ligne du fichier cup, dans la colonne code.
