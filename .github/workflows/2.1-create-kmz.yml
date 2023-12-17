@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+    - name: 🚚 Get latest code for outlanding
+      uses: actions/checkout@v3
+
     - name: 🚚 Get latest code for cup2kmz
       uses: actions/checkout@v3
       with:
@@ -28,9 +31,6 @@ jobs:
         token: ${{ secrets.ACCESS_TOKEN_CUP2KMZ }}
         path: ./cup2kmz
         ref: master
-
-    - name: 🚚 Get latest code for outlanding
-      uses: actions/checkout@v3
 
     - name: Use Node.js
       uses: actions/setup-node@v3
