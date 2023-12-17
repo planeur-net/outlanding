@@ -42,12 +42,11 @@ jobs:
         cd ./cup2kmz
         npm install
     
-
     - name: ⚙️ Convert to .cup to .cupx and push to repo
       run: |
         echo "Do something..."
         pwd
-        ls-l
+        ls -l
         node ./cup2kmz.js
 
         # push to repo
