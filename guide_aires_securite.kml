@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="Sans_Difficulte">
+<IconStyle>
+<Icon>
+<href>marker_green.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="Avec_Difficulte">
+<IconStyle>
+<Icon>
+<href>marker_orange.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="Difficile">
+<IconStyle>
+<Icon>
+<href>marker_red.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="Tres_Difficile">
+<IconStyle>
+<Icon>
+<href>marker_black.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Folder>
+<name>Landouts</name>
+</Folder>
+</Document>
+</kml>
