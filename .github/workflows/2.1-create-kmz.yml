@@ -46,7 +46,9 @@ jobs:
     - name: ⚙️ Convert to .cup to .cupx and push to repo
       run: |
         echo "Do something..."
-        node ./cup2kmz/cup2kmz.js
+        pwd
+        ls-l
+        node ./cup2kmz.js
 
         # push to repo
         echo "Pulling latest version before push..."
