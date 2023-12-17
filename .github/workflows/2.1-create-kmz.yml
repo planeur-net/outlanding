@@ -58,8 +58,9 @@ jobs:
         git pull
 
     - name: ⚙️ Push .cub to repo
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
+        repository: ./outlanding
         commit_message: Automated Change
         file_pattern: 'guide_aires_securite.kmz'
 
