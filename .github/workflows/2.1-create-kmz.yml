@@ -40,15 +40,11 @@ jobs:
         node-version: '20.x'
     - name: Install dependencies
       run: | 
-        ls -l
         cd ./cup2kmz
         npm install
     
     - name: ⚙️ Convert to .cup to .cupx and push to repo
       run: |
-        echo "Do something..."
-        pwd
-        ls -l
         cd ./cup2kmz
         node ./cuptokmz.js
 
