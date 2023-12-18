@@ -1,4 +1,4 @@
-# outlanding
+# Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilite des contributeurs et encore moins celle des proprietaires des champs.
 ## Download
 [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup)  
@@ -9,9 +9,10 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 ## Fichiers de champs "vachables" pour les Alpes
 Les fichiers suivants sont maintenus:
 - .cup : Champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
-- .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./SeeYou_cupx_file_format.md)
+- .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup 
 
+[![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 ### Guide de nommage
 La version du guide de reference est indiquee dans la 2e ligne du fichier cup, dans la colonne code.
 ```
@@ -30,16 +31,16 @@ La version du guide de reference est indiquee dans la 2e ligne du fichier cup, d
 #### Commentaires
 Les commentaires proviennent generalement du guide. A la fin de chaque commentaire est ajoute un "tag" qui permet d'idientifier rapidement la difficulte associee.  
 Les "tag" sont:
-| Tag  | Commentaire  | Couleur dans le guide |
-|---|---|---|
-|  {aerodrome} | Aerodrome ou aeroport  | blanc |
-|  {terrain} | Terrain balise (prive) ou piste ULM | blanc |
-|  {altiport} | Altiport | blanc |
-|  {velisurface} | Velisurface |  |
-|  {facile} | Champ sans difficulte particuliere. Adapte a tous les types de machines  | Vert |
-|  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange |
-|  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge |
-|  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir |
+| Tag  | Commentaire  | Couleur dans le guide | kmz icon|
+|---|---|---|---|
+|  {aerodrome} | Aerodrome ou aeroport  | blanc | ![](doc/images/runway.png)|
+|  {terrain} | Terrain balise (prive) ou piste ULM | blanc | ![](doc/images/windsock.png)|
+|  {altiport} | Altiport | blanc | ![](doc/images/altiport.png)|
+|  {velisurface} | Velisurface |  |![](doc/images/velisurface.png) |
+|  {facile} | Champ sans difficulte particuliere. Adapte a tous les types de machines  | Vert | ![](doc/images/marker_green.png)|
+|  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange | ![](doc/images/marker_orange.png)|
+|  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge | ![](doc/images/marker_red.png)| 
+|  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir | ![](doc/images/marker_black.png)|
 
 ## Copyrights - Droits
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux 
