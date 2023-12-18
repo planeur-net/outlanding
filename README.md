@@ -26,5 +26,20 @@ La version du guide de reference est indiquee dans la 2e ligne du fichier cup, d
 ```
 "213 Aups",V13,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"Zone cultures",,
 ```
+
+#### Commentaires
+Les commentaires proviennent generalement du guide. A la fin de chaque commentaire est ajoute un "tag" qui permet d'idientifier rapidement la difficulte associee.  
+Les "tag" sont:
+| Tag  | Comment  | Couleur dans le guide |
+|---|---|---|
+|  {aerodrome} | Aerodrome ou aeroport  | blanc |
+|  {terrain} | Terrain balise (prive) ou piste ULM | blanc |
+|  {altiport} | Altiport | blanc |
+|  {velisurface} | Velisurface |  |
+|  {facile} | Champ sans difficulte particuliere. Adapte a tous les types de machines  | Vert |
+|  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange |
+|  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge |
+|  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir |
+
 ## Copyrights - Droits
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux 
