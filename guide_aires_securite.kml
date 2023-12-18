@@ -33,7 +33,7 @@
 <name>Landouts</name>
 <Placemark>
 <name>#10 LFNE Salon Eyguieres</name>
-<description></description>
+<description>015/33 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.01305, 43.65833333333333</coordinates>
@@ -41,7 +41,7 @@
 </Placemark>
 <Placemark>
 <name>#12 LFJE La Motte Chalancon</name>
-<description></description>
+<description>Altiport {altiport}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.402783333333334, 44.499716666666664</coordinates>
@@ -49,7 +49,7 @@
 </Placemark>
 <Placemark>
 <name>#14 Cereste LF8421</name>
-<description>Terrain prive / Piste balisee / Hangar 080/260</description>
+<description>08/26 Terrain prive. Piste balisee. Hangar. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.54945, 43.852783333333335</coordinates>
@@ -57,7 +57,7 @@
 </Placemark>
 <Placemark>
 <name>#16 LFNF Vinon</name>
-<description></description>
+<description>02/30 + 100/280 + 160/340 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.783616666666667, 43.73778333333333</coordinates>
@@ -65,7 +65,7 @@
 </Placemark>
 <Placemark>
 <name>#18 StCroix LF0429</name>
-<description>Motoplaneur St Croix 130/310 122.5 LHT 700m</description>
+<description>130/310 Terrain prive motoplaneur. Ligne electrique et antennes au NW. Piste balisee. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.159716666666666, 43.77805</coordinates>
@@ -73,7 +73,7 @@
 </Placemark>
 <Placemark>
 <name>#20 LFTP Puimoisson</name>
-<description></description>
+<description>07/25 + 16/34 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.164166666666667, 43.87028333333333</coordinates>
@@ -81,7 +81,7 @@
 </Placemark>
 <Placemark>
 <name>#22 LFMF Fayence</name>
-<description></description>
+<description>10R/28L + 10L/28R + 32 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.69695, 43.61055</coordinates>
@@ -89,7 +89,7 @@
 </Placemark>
 <Placemark>
 <name>#24 LFNJ Aspres Sur Bueche</name>
-<description></description>
+<description>18/36 + 10/28 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.73555, 44.51833333333333</coordinates>
@@ -97,7 +97,7 @@
 </Placemark>
 <Placemark>
 <name>#26 LFTM Serres La Batie</name>
-<description></description>
+<description>18/36 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.727783333333333, 44.458333333333336</coordinates>
@@ -105,7 +105,7 @@
 </Placemark>
 <Placemark>
 <name>#28 LFNA Gap Tallard</name>
-<description></description>
+<description>02/20 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.037216666666667, 44.455</coordinates>
@@ -113,7 +113,7 @@
 </Placemark>
 <Placemark>
 <name>#32 LFNS Sisteron</name>
-<description></description>
+<description>17/35 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.929716666666667, 44.2875</coordinates>
@@ -121,7 +121,7 @@
 </Placemark>
 <Placemark>
 <name>#34 Motte du Caire LF0431</name>
-<description>360/180 Velisurface treuil / Piste non balisee / Vent arriere cote E / Atterro preferentiel face au N</description>
+<description>360/180 Velisurface treuil. Piste non balisee. Vent arriere cote E. Atterro preferentiel face au N. {velisurface}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.030833333333334, 44.32528333333333</coordinates>
@@ -129,7 +129,7 @@
 </Placemark>
 <Placemark>
 <name>#36 LFMX St Auban</name>
-<description></description>
+<description>{aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.990833333333334, 44.06</coordinates>
@@ -137,7 +137,7 @@
 </Placemark>
 <Placemark>
 <name>#38 Seyne LF0430</name>
-<description>130/310 / Velisurface / Vent arriere cote SW</description>
+<description>130/310 Terrain prive. Activite treuil. Vent arriere cote SW. {velisurface}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.3727833333333335, 44.342216666666666</coordinates>
@@ -145,7 +145,7 @@
 </Placemark>
 <Placemark>
 <name>#4 LFHD Pierrelatte</name>
-<description></description>
+<description>18/36 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>4.7175, 44.39888333333333</coordinates>
@@ -153,7 +153,7 @@
 </Placemark>
 <Placemark>
 <name>#40 LFNC St Crepin</name>
-<description></description>
+<description>16/34 + 16L 34R {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.599716666666667, 44.70166666666667</coordinates>
@@ -161,7 +161,7 @@
 </Placemark>
 <Placemark>
 <name>#42 LFMR Barcelonnette</name>
-<description></description>
+<description>09/27 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.6097166666666665, 44.388333333333335</coordinates>
@@ -169,7 +169,7 @@
 </Placemark>
 <Placemark>
 <name>#44 Valsusa</name>
-<description>Terrain prive. Piste en herbe balisee.https://www.vaeivola.it</description>
+<description>090/270 Terrain prive. Piste en herbe balisee. https://www.vaeivola.it {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.287166666666667, 45.1125</coordinates>
@@ -177,7 +177,7 @@
 </Placemark>
 <Placemark>
 <name>#46 LFHE Romans</name>
-<description></description>
+<description>06R/24L {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.102783333333333, 45.066116666666666</coordinates>
@@ -185,7 +185,7 @@
 </Placemark>
 <Placemark>
 <name>#48 LFKE St Jean en Royans</name>
-<description></description>
+<description>14/32 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.31, 45.02778333333333</coordinates>
@@ -193,7 +193,7 @@
 </Placemark>
 <Placemark>
 <name>#50 LFLU Valence Chabeuil</name>
-<description></description>
+<description>01/19 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>4.968616666666667, 44.91555</coordinates>
@@ -201,7 +201,7 @@
 </Placemark>
 <Placemark>
 <name>#52 LFJF Aubenasson</name>
-<description>Terrain prive 090/270 VA Sud</description>
+<description>09/27 Terrain prive. Vent Arriere au Sud. {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.15055, 44.695</coordinates>
@@ -209,7 +209,7 @@
 </Placemark>
 <Placemark>
 <name>#54 Aix en Diois</name>
-<description>160/340 Piste prive / Choix en fct culture / _P12_2 ZA</description>
+<description>160/340 Piste prive. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.409166666666667, 44.689166666666665</coordinates>
@@ -217,7 +217,7 @@
 </Placemark>
 <Placemark>
 <name>#56 LFLI Annemasse</name>
-<description></description>
+<description>12/30 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.268883333333333, 46.19195</coordinates>
@@ -225,7 +225,7 @@
 </Placemark>
 <Placemark>
 <name>#57 Habere Poche LF7469</name>
-<description>014/194 Vent arriere bordure Est plateau / Piste non balisee / Pas de verticale=treuil / Attention parapentes / Atterro possible Terrain ULM Cervens dans le 320 pour 2Km (alt 600m)</description>
+<description>014/194 Piste non balisee. Vent arriere bordure Est plateau. Pas de verticale=treuil. Attention parapentes. Atterro possible Terrain ULM Cervens dans le 320 pour 2Km (alt 600m). {velisurface}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.463333333333333, 46.26971666666667</coordinates>
@@ -233,7 +233,7 @@
 </Placemark>
 <Placemark>
 <name>#58 LFLP Annecy</name>
-<description></description>
+<description>04/22 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.1063833333333335, 45.93083333333333</coordinates>
@@ -241,7 +241,7 @@
 </Placemark>
 <Placemark>
 <name>#6 LFNV Valreas Visan</name>
-<description></description>
+<description>02/20 {aerodrome}`</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>4.90695, 44.33583333333333</coordinates>
@@ -249,7 +249,7 @@
 </Placemark>
 <Placemark>
 <name>#60 LFLB Chambery Aix Les Bains</name>
-<description></description>
+<description>18/36 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.88, 45.63916666666667</coordinates>
@@ -257,7 +257,7 @@
 </Placemark>
 <Placemark>
 <name>#62 LFLE Challes les eaux</name>
-<description></description>
+<description>14/32 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.976383333333334, 45.56138333333333</coordinates>
@@ -265,7 +265,7 @@
 </Placemark>
 <Placemark>
 <name>#64 LFLG Grenoble Versoud</name>
-<description></description>
+<description>04/22 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.849166666666667, 45.219166666666666</coordinates>
@@ -273,7 +273,7 @@
 </Placemark>
 <Placemark>
 <name>#66 LFKA Albertville</name>
-<description></description>
+<description>05/23 {aewrodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.329166666666667, 45.62721666666667</coordinates>
@@ -281,7 +281,7 @@
 </Placemark>
 <Placemark>
 <name>#68 LFKD Sollieres Sardieres</name>
-<description></description>
+<description>01/19 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.80055, 45.25445</coordinates>
@@ -289,7 +289,7 @@
 </Placemark>
 <Placemark>
 <name>#7 LFNH Carpentras</name>
-<description></description>
+<description>13/31 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>5.090283333333334, 44.02333333333333</coordinates>
@@ -297,7 +297,7 @@
 </Placemark>
 <Placemark>
 <name>#70 LFKR St Remy de Maurienne</name>
-<description>Aerodrome St Remi de Maurienne 350/170 123.5 900m</description>
+<description>16/34 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.28195, 45.36945</coordinates>
@@ -313,7 +313,7 @@
 </Placemark>
 <Placemark>
 <name>#73 Busano</name>
-<description>Terrain prive. Piste en herbe balisee</description>
+<description>180/360 Terrain prive. Piste en herbe balisee. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.665333333333333, 45.31016666666667</coordinates>
@@ -321,7 +321,7 @@
 </Placemark>
 <Placemark>
 <name>#74 Canavese</name>
-<description>Terrain prive. Piste en herbe balisee</description>
+<description>130/310 Terrain prive. Piste en herbe balisee. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.719666666666667, 45.358333333333334</coordinates>
@@ -329,7 +329,7 @@
 </Placemark>
 <Placemark>
 <name>#75 Montalto Dora</name>
-<description>Terrain prive. Piste en herbe balisee</description>
+<description>140/320 Terrain prive. Piste en herbe balisee. {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.843833333333333, 45.48716666666667</coordinates>
@@ -337,7 +337,7 @@
 </Placemark>
 <Placemark>
 <name>#76 LIMW Aoste</name>
-<description>Frequence VV=123.375</description>
+<description>09/27 Frequence VV=123.375 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.3675, 45.73833333333333</coordinates>
@@ -345,7 +345,7 @@
 </Placemark>
 <Placemark>
 <name>#77 Chatelair</name>
-<description>Terrain prive. Piste en herbe balisee.www.aeroclubcorradogex.com</description>
+<description>100/280 Terrain prive. Piste en herbe balisee. www.aeroclubcorradogex.com {terrain}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.48, 45.74016666666667</coordinates>
@@ -353,7 +353,7 @@
 </Placemark>
 <Placemark>
 <name>#78 LSGS Sion</name>
-<description>Frequence Approche=126.825Frequence VV=123.67</description>
+<description>07/25 Frequence Approche=126.825 Frequence VV=123.67 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>7.328883333333334, 46.22</coordinates>
@@ -361,7 +361,7 @@
 </Placemark>
 <Placemark>
 <name>#8 LFNT Avignon</name>
-<description></description>
+<description>16R/34L + 12/30 {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>4.75445, 43.996116666666666</coordinates>
@@ -369,7 +369,7 @@
 </Placemark>
 <Placemark>
 <name>#9 LFNZ St Remy</name>
-<description>Le Mazet de Romanin</description>
+<description>18/36 Le Mazet de Romanin. {aerodrome}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>4.89305, 43.768883333333335</coordinates>
@@ -377,7 +377,7 @@
 </Placemark>
 <Placemark>
 <name>110 Remoulins ULM</name>
-<description>Piste ULM Largeur=25-30m Herbe fauchee</description>
+<description>005/185 Piste ULM Largeur=25-30m. Herbe fauchee. {terrain}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>4.58195, 43.943333333333335</coordinates>
@@ -385,7 +385,7 @@
 </Placemark>
 <Placemark>
 <name>111 Tarascon ULM</name>
-<description>ULM</description>
+<description>005/185 Zone posable. Choisir en fct cultures. Piste ULM dans zone. Taxi-way posable. Herbe fauchee. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>4.69695, 43.788333333333334</coordinates>
@@ -393,7 +393,7 @@
 </Placemark>
 <Placemark>
 <name>112 Eygalieres</name>
-<description>SW/NE Ligne HT / Sol variable cailloux et prairie</description>
+<description>SW/NE Attention ligne HT 1km au SW.Sol variable cailloux et prairie. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>4.992216666666667, 43.78333333333333</coordinates>
@@ -401,7 +401,7 @@
 </Placemark>
 <Placemark>
 <name>113 Isle Sorgue</name>
-<description>Delicat NW/SE - Cultures hautes - Plusieurs champs</description>
+<description>NW/SE Cultures hautes. Plusieurs champs. {Difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>5.08305, 43.91695</coordinates>
@@ -409,7 +409,7 @@
 </Placemark>
 <Placemark>
 <name>114 Orgon-Cheval Blanc</name>
-<description>Prairie - Culture possible / Posable dans 2 sens</description>
+<description>50/230 Prairie. Culture possible. Posable dans 2 sens. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.06525, 43.78875</coordinates>
@@ -417,7 +417,7 @@
 </Placemark>
 <Placemark>
 <name>120 Gordes ZA</name>
-<description>Zone atterrissable cultures</description>
+<description>ZA Possibilite cultures hautes. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.251666666666667, 43.9125</coordinates>
@@ -425,7 +425,7 @@
 </Placemark>
 <Placemark>
 <name>122 Bonnieux ZA</name>
-<description>Cultures</description>
+<description>ZA Possibilite cultures hautes. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.291666666666667, 43.833333333333336</coordinates>
@@ -433,7 +433,7 @@
 </Placemark>
 <Placemark>
 <name>124 Mallemort</name>
-<description>Prairie - Cultures possiblesProche du point entre Merindol et Mallemort</description>
+<description>270/090 Prairie. Cultures possibles. Proche du point entre Merindol et Mallemort. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.181666666666667, 43.74041666666667</coordinates>
@@ -441,7 +441,7 @@
 </Placemark>
 <Placemark>
 <name>126 Lourmarin</name>
-<description>Zone Lourmarin N/S et E/W Cultures 400m</description>
+<description>ZA Cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.39945, 43.75888333333333</coordinates>
@@ -449,7 +449,7 @@
 </Placemark>
 <Placemark>
 <name>127 Banon</name>
-<description>ZA / Zone Cultivee attention au champs lavande</description>
+<description>ZA Zone cultivee attention aux champs lavande. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.666666666666667, 44.06666666666667</coordinates>
@@ -457,7 +457,7 @@
 </Placemark>
 <Placemark>
 <name>128 Vitrolles en Luberon</name>
-<description>Remonte vers le N. Attention par vent N (turbulences). Autres champs posables</description>
+<description>N/S Remonte vers le N. Attention par vent N (turbulences). Autres champs posables. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.593333333333334, 43.788</coordinates>
@@ -465,7 +465,7 @@
 </Placemark>
 <Placemark>
 <name>130 Rosans</name>
-<description>Remonte vers le N / Champ Att N turb par NW / Autres champs posables</description>
+<description>N/S Remonte vers le N. Turbulences par NW. Autres champs posables. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.471666666666667, 44.38138333333333</coordinates>
@@ -473,7 +473,7 @@
 </Placemark>
 <Placemark>
 <name>131 Sederon</name>
-<description>Champ Sederon Att Pref face Est LHT</description>
+<description>ZA Attention par vent NW. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.574716666666666, 44.22055</coordinates>
@@ -481,7 +481,7 @@
 </Placemark>
 <Placemark>
 <name>132 Sainte Jalle</name>
-<description>Ligne electrique partie SE des champs / Vent Arriere cote NEZone St Jalle ZA</description>
+<description>305/125 Ligne electrique partie SE des champs. Vent arriere cote NE. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>5.30305, 44.33445</coordinates>
@@ -489,7 +489,7 @@
 </Placemark>
 <Placemark>
 <name>133 Curnier</name>
-<description>Prairie. Cultures possibles. Posable dans les 2 sens</description>
+<description>E/W Prairie. Cultures possibles. Posable dans les 2 sens. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.22, 44.38966666666666</coordinates>
@@ -497,7 +497,7 @@
 </Placemark>
 <Placemark>
 <name>135 Methamis</name>
-<description>Prairie. Cultures possibles. Posable dans les 2 sens</description>
+<description>65/245 Prairie. Cultures possibles. Posable dans les 2 sens. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>5.183333333333334, 44.00666666666667</coordinates>
@@ -505,7 +505,7 @@
 </Placemark>
 <Placemark>
 <name>210 Quinson</name>
-<description>Zone Quinson att NW 500m</description>
+<description>ZA Choisir fct cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.071383333333333, 43.68333333333333</coordinates>
@@ -513,7 +513,7 @@
 </Placemark>
 <Placemark>
 <name>211 Artignosc</name>
-<description>Aerodrome prive / Herbe / Legere montee vers le NE</description>
+<description>070 Aerodrome prive. 20m de large. Herbe. Legere montee vers le NE. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.135, 43.68471666666667</coordinates>
@@ -521,7 +521,7 @@
 </Placemark>
 <Placemark>
 <name>212 Bauden</name>
-<description>Culture / Choisir champs</description>
+<description>130/310 Choisir champ en fct cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.2091666666666665, 43.69166666666667</coordinates>
@@ -529,7 +529,7 @@
 </Placemark>
 <Placemark>
 <name>213 Aups</name>
-<description>Zone cultures</description>
+<description>ZA Choisir en fct cultures. Pb possible avec prorietaire. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.18305, 43.625283333333336</coordinates>
@@ -537,7 +537,7 @@
 </Placemark>
 <Placemark>
 <name>214 Trets ULM</name>
-<description>Terrain ULM 123.45 120/300 / Piste balisee / Seuil decale en 30 (280m)</description>
+<description>120/300 Terrain ULM. Piste balisee. Seuil decale en 30 (280m). {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.711383333333333, 43.48055</coordinates>
@@ -545,7 +545,7 @@
 </Placemark>
 <Placemark>
 <name>220 Thorame Haute</name>
-<description>Champ difficile / Pente se poser face NW. Tdp main gauche. Base le long de la montagne / Rotors par Vent NW</description>
+<description>310 Pente se poser face NW. Tdp main gauche. Base le long de la montagne. Rotors par Vent NW. {tres_difficile}</description>
 <styleUrl>#Tres_Difficile</styleUrl>
 <Point>
 <coordinates>6.5602833333333335, 44.095283333333334</coordinates>
@@ -553,7 +553,7 @@
 </Placemark>
 <Placemark>
 <name>221 Thorame basse</name>
-<description>Poser face NW dans moitie droite du champs / Talus en entree et fosse extremite NW / Vent arriere cote NE / Rotors par NW</description>
+<description>310 Poser face NW dans moitie droite du champs. Talus en entree et fosse extremite NW. Vent arriere cote NE. Rotors par NW. {normal}}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.473616666666667, 44.07695</coordinates>
@@ -561,7 +561,7 @@
 </Placemark>
 <Placemark>
 <name>222 La Mure</name>
-<description>La Mure 040/220 Prairie / Arbre cote SW / Utiliser partie encadree dans photo</description>
+<description>040/220 La Mure Prairie. Arbre cote SW. Utiliser partie encadree dans photo. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.531116666666667, 43.98195</coordinates>
@@ -569,7 +569,7 @@
 </Placemark>
 <Placemark>
 <name>223 Soleihas</name>
-<description>En pente / Atterro face au NW uniquement / Route 50cm plus haut</description>
+<description>300 En pente. Atterro face au NW uniquement. Route 50cm plus haut. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.64695, 43.85361666666667</coordinates>
@@ -577,7 +577,7 @@
 </Placemark>
 <Placemark>
 <name>224 Mousteiret</name>
-<description>Zone posable / Attentions selon axe: collines a survoler ou longer</description>
+<description>ZA Attentions selon axe: collines a survoler ou longer. Probleme possible avec proprietaire. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.635, 43.79861666666667</coordinates>
@@ -585,7 +585,7 @@
 </Placemark>
 <Placemark>
 <name>225 Logis du Pin</name>
-<description>Logis du Pin 170/350 70/250 Prairies / Partie S souvet detrempee / Attention promeneurs</description>
+<description>070/250 Prairies. Partie S souvent detrempee. Attention promeneurs. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.641116666666667, 43.7775</coordinates>
@@ -593,7 +593,7 @@
 </Placemark>
 <Placemark>
 <name>226 Caile</name>
-<description>Zone Prairies / Detrempe au printemps / Se poser dans la montee / Possibilite cloture electriques le long des parcelles ou de la route</description>
+<description>270 Prairies. Detrempe au printemps. Se poser dans la montee. Possibilite cloture electriques le long des parcelles ou de la route. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.736383333333333, 43.78138333333333</coordinates>
@@ -601,7 +601,7 @@
 </Placemark>
 <Placemark>
 <name>227 La chapelle</name>
-<description>Atterro dans les 2 sens / Attention piquets / Face W: ne pas se poser juste apres le chemin</description>
+<description>090/270 Atterro dans les 2 sens. Attention piquets. Face W: ne pas se poser juste apres le chemin: mauvais terrain. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.691666666666666, 43.76971666666667</coordinates>
@@ -609,7 +609,7 @@
 </Placemark>
 <Placemark>
 <name>228 Trigance</name>
-<description>Champ Trigance Difficile 135/315 Prairie</description>
+<description>125/305 Reco a pied recommandee. Prairie. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.45555, 43.75445</coordinates>
@@ -617,7 +617,7 @@
 </Placemark>
 <Placemark>
 <name>229 Palue Verdon</name>
-<description>135/315 Reco a pied recommandee / Praire</description>
+<description>135/315 Reco a pied recommandee. Praire. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.35305, 43.779716666666666</coordinates>
@@ -625,7 +625,7 @@
 </Placemark>
 <Placemark>
 <name>231 Ampus</name>
-<description>Zone cultures</description>
+<description>ZA Choisir en fct cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.348883333333333, 43.61695</coordinates>
@@ -633,7 +633,7 @@
 </Placemark>
 <Placemark>
 <name>232 Flayosc - ULM</name>
-<description>20/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200)</description>
+<description>020/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200). {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.317783333333334, 43.53805</coordinates>
@@ -641,7 +641,7 @@
 </Placemark>
 <Placemark>
 <name>310 La Faurie</name>
-<description>300/120 Reco a pied indispensable= delicat / Atterro face SE conseille</description>
+<description>300/120 Reco a pied indispensable=delicat. Atterro face SE conseille. {tres_difficile}</description>
 <styleUrl>#Tres_Difficile</styleUrl>
 <Point>
 <coordinates>5.758883333333333, 44.56361666666667</coordinates>
@@ -649,7 +649,7 @@
 </Placemark>
 <Placemark>
 <name>311 Montmaur</name>
-<description>Champ Montmaure VA Est Cultures 500m / Attention arroseurs</description>
+<description>ZA Attention arroseurs. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.857216666666667, 44.56055</coordinates>
@@ -657,7 +657,7 @@
 </Placemark>
 <Placemark>
 <name>312 Valenty</name>
-<description>Champ Valenty Att face au Sud LHT Turb / Bordure plateau</description>
+<description>215 Bordure plateau. Risque turbulence en courte. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.93, 44.36</coordinates>
@@ -665,7 +665,7 @@
 </Placemark>
 <Placemark>
 <name>313 Laragne ULM</name>
-<description>130/310 ULM TP au NE</description>
+<description>130/310 ULM. Tdp au NE. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.79195, 44.32055</coordinates>
@@ -673,7 +673,7 @@
 </Placemark>
 <Placemark>
 <name>314 Nossage</name>
-<description>020/200 Champ Nossage Att 200 / Terrain prive / Remonte vers le SW / Piste balisee / Vent arriere cote E</description>
+<description>020/200 Terrain prive. Remonte vers le SW. Piste balisee. Vent arriere cote E. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.744166666666667, 44.31555</coordinates>
@@ -681,7 +681,7 @@
 </Placemark>
 <Placemark>
 <name>315 Chabottes</name>
-<description>Terrain ULM inutilisable / Zone posable au S de la riviere</description>
+<description>ZA Terrain ULM inutilisable. Zone posable au S de la riviere. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.183883333333333, 44.65445</coordinates>
@@ -689,7 +689,7 @@
 </Placemark>
 <Placemark>
 <name>316 Domaine de Malcor</name>
-<description>270/90 Prairie</description>
+<description>270/90 Prairie. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.103883333333333, 44.475</coordinates>
@@ -697,7 +697,7 @@
 </Placemark>
 <Placemark>
 <name>317 Espinasse</name>
-<description>270/90 Cultures fouragere attero delicat a partir debut juin</description>
+<description>270/90 Cultures fouragere attero delicat a partir debut juin. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.218333333333334, 44.46055</coordinates>
@@ -705,7 +705,7 @@
 </Placemark>
 <Placemark>
 <name>318 Montgardin</name>
-<description>Atterro face NW / Bumpy / Ne pas utiliser champs au S</description>
+<description>330 Atterro face NW. Bumpy. Ne pas utiliser les champs au S. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.213616666666667, 44.54971666666667</coordinates>
@@ -713,7 +713,7 @@
 </Placemark>
 <Placemark>
 <name>320 Bayon</name>
-<description>SW/NE / Prairie / Champ difficile / Reco a pied indispensable</description>
+<description>SW/NE Prairie. Reco a pied indispensable. {tres_difficile}</description>
 <styleUrl>#Tres_Difficile</styleUrl>
 <Point>
 <coordinates>6.163333333333333, 44.33583333333333</coordinates>
@@ -721,7 +721,7 @@
 </Placemark>
 <Placemark>
 <name>321 Noyer sur Jabron</name>
-<description>340 uniquement / Reco a pied indispensable</description>
+<description>340 uniquement. Reco a pied indispensable. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>5.841666666666667, 44.17</coordinates>
@@ -729,7 +729,7 @@
 </Placemark>
 <Placemark>
 <name>322 Volonne</name>
-<description>Zone atterisable / Cultures possibles</description>
+<description>ZA Cultures possibles. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6, 44.10166666666667</coordinates>
@@ -737,7 +737,7 @@
 </Placemark>
 <Placemark>
 <name>323 Salignac</name>
-<description>160/340 cultures 500m</description>
+<description>160/340 Cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.98, 44.138333333333335</coordinates>
@@ -745,7 +745,7 @@
 </Placemark>
 <Placemark>
 <name>324 Thouard</name>
-<description>Zone atterrisable / Reco a pied indispensable / Cultures possible</description>
+<description>ZA Reco a pied indispensable. Cultures possible. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.128333333333333, 44.1175</coordinates>
@@ -753,7 +753,7 @@
 </Placemark>
 <Placemark>
 <name>325 Malmoisson</name>
-<description>Zone atterrisable / Cultures possibles</description>
+<description>ZA Cultures possibles. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.083333333333333, 44.03</coordinates>
@@ -761,7 +761,7 @@
 </Placemark>
 <Placemark>
 <name>330 Selonnet</name>
-<description>Zone atterrisable / Culture possibles</description>
+<description>ZA Culture possibles. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.31, 44.36833333333333</coordinates>
@@ -769,7 +769,7 @@
 </Placemark>
 <Placemark>
 <name>331 Marcoux 1</name>
-<description>130/310 Zone posable / Choisir en fct cultures / Attention lignes electriques / Ne pas utiliser #1</description>
+<description>130/310 + ZA Choisir en fct cultures. Attention lignes electriques / Ne pas utiliser #1</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.335, 44.170833333333334</coordinates>
@@ -777,7 +777,7 @@
 </Placemark>
 <Placemark>
 <name>331 Marcoux 2</name>
-<description>130/310 Zone posable / Choisir en fct cultures / Attention lignes electriques / Ne pas utiliser #1</description>
+<description>130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.281116666666667, 44.147216666666665</coordinates>
@@ -785,7 +785,7 @@
 </Placemark>
 <Placemark>
 <name>332 Barreme</name>
-<description>010/190 Champ difficile (fosses) / Vent arriere cote E / Atterro preferentiel face au N</description>
+<description>010/190 Champ difficile avec fosses. Vent arriere cote E. Atterro preferentiel face au N. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.386666666666667, 43.9925</coordinates>
@@ -793,7 +793,7 @@
 </Placemark>
 <Placemark>
 <name>410 Oulx</name>
-<description>90/270 Reco a pied indispensable / Prairie</description>
+<description>E/W Reco a pied indispensable. Prairie. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.838883333333333, 45.041666666666664</coordinates>
@@ -801,7 +801,7 @@
 </Placemark>
 <Placemark>
 <name>411 Le Casset</name>
-<description>105/285 Vent arriere cote S du champ</description>
+<description>105/285 Vent arriere cote S du champ. Zone frequentee par promeneurs. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.493883333333334, 44.98278333333333</coordinates>
@@ -809,7 +809,7 @@
 </Placemark>
 <Placemark>
 <name>412 St Blaise</name>
-<description>050/230 Champ tres difficile / 3 fosses qui limitent la longueur utilisable / Au 230 passer sous la ligne HT</description>
+<description>050/230 Champ tres difficile. 3 fosses qui limitent la longueur utilisable. Au 230 passer sous la ligne HT. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.61, 44.87278333333333</coordinates>
@@ -817,7 +817,7 @@
 </Placemark>
 <Placemark>
 <name>413 Le Rosier</name>
-<description>360/180 Champ difficile / Fosses buse au milieu du champ / Approche sur le 1er champ et se poser sur le 2</description>
+<description>N/S Champ difficile. Fosses buse au milieu du champ. Approche sur le 1er champ et se poser sur le 2. Reco a pied indispensable. {dificille}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.680833333333333, 44.93528333333333</coordinates>
@@ -825,7 +825,7 @@
 </Placemark>
 <Placemark>
 <name>420 Roche de Rame</name>
-<description>360/180 Tres delicat / Reco a pied indispensable / Beaucoup de fosses</description>
+<description>N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}</description>
 <styleUrl>#Tres_Difficile</styleUrl>
 <Point>
 <coordinates>6.575, 44.74333333333333</coordinates>
@@ -833,7 +833,7 @@
 </Placemark>
 <Placemark>
 <name>421 Chateauroux</name>
-<description>Zone posable / Reco a pied indispensable / Ligne THT en cours de construction</description>
+<description>ZA Reco a pied indispensable. Ligne THT en cours de construction. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.531666666666666, 44.600833333333334</coordinates>
@@ -841,7 +841,7 @@
 </Placemark>
 <Placemark>
 <name>422 Les Crots ULM</name>
-<description>060/240 ULM en gravier / Piste non balisee / Largeur 40m / Attention kite surf / 123.50</description>
+<description>060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.4336166666666665, 44.535833333333336</coordinates>
@@ -849,7 +849,7 @@
 </Placemark>
 <Placemark>
 <name>423 Pruniere</name>
-<description>QFU 310 / Vent arriere cote S du champ / Prairie</description>
+<description>310 Vent arriere cote S du champ. Prairie. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.363333333333333, 44.534166666666664</coordinates>
@@ -857,7 +857,7 @@
 </Placemark>
 <Placemark>
 <name>510 Saou</name>
-<description>Champ + Zone Saoux Cultures</description>
+<description>ZA Choisir en fct cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.062783333333333, 44.63666666666667</coordinates>
@@ -865,7 +865,7 @@
 </Placemark>
 <Placemark>
 <name>511 Die ZA</name>
-<description>Choix fct Cultures</description>
+<description>ZA Choisir en fct cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.3533333333333335, 44.76833333333333</coordinates>
@@ -873,7 +873,7 @@
 </Placemark>
 <Placemark>
 <name>513 Luc en Diois</name>
-<description>NW/SE Cultures / Autre ZA 3Km au SE</description>
+<description>ZA Choisir en fct cultures. Autre ZA 3Km au SE. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.473883333333333, 44.5925</coordinates>
@@ -881,7 +881,7 @@
 </Placemark>
 <Placemark>
 <name>515 Lus la croix haute</name>
-<description>Zone atterissable. Attention aux lignes electriques qui traversent la zone.</description>
+<description>ZA Attention aux lignes electriques qui traversent la zone. {dificille}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>5.7125, 44.661</coordinates>
@@ -889,7 +889,7 @@
 </Placemark>
 <Placemark>
 <name>520 Vif</name>
-<description>Champ Cereales / Attention lignes electriques</description>
+<description>ZA Champ Cereales. Attention lignes electriques. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.681666666666667, 45.07666666666667</coordinates>
@@ -897,7 +897,7 @@
 </Placemark>
 <Placemark>
 <name>521 Vizille</name>
-<description>Atterro face au 030 / Cereales / Attention ligne HT</description>
+<description>030 Atterro face au 030. Cereales. Attention ligne HT. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.7775, 45.08</coordinates>
@@ -905,7 +905,7 @@
 </Placemark>
 <Placemark>
 <name>522 Grisail</name>
-<description>ZA / Bon etat a W du champ contrairement apparences / Leger devers / Approche degagee</description>
+<description>ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.625, 44.95</coordinates>
@@ -913,7 +913,7 @@
 </Placemark>
 <Placemark>
 <name>523 St Jean Herans</name>
-<description>Point haut ZA= Route E/W qui passe dans St Jean / Champs redescendent faiblement au N et au S / Ligne HT bien visible</description>
+<description>ZA Point haut= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.7725, 44.852783333333335</coordinates>
@@ -921,7 +921,7 @@
 </Placemark>
 <Placemark>
 <name>524 Pellafol</name>
-<description>ZA / Choisir en fct cultures / Attention ligne HT et eoliennes (h=100m) / Reco a pied conseillee</description>
+<description>ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.904716666666666, 44.80305</coordinates>
@@ -929,7 +929,7 @@
 </Placemark>
 <Placemark>
 <name>525 Montmeilleur</name>
-<description>Piste privee / Herbe / Atterro face a E / TDP Main droite. Pente 10%</description>
+<description>085 Piste privee. Herbe. Atterro face a E. Tdp Main droite. Pente 10%. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.763333333333334, 44.79333333333334</coordinates>
@@ -937,7 +937,7 @@
 </Placemark>
 <Placemark>
 <name>526 Prebois</name>
-<description>Remonte vers E / Atterro face a E imperativement / Choisir en fct cultures</description>
+<description>E Remonte vers E. Atterro face a E imperativement. Choisir en fct cultures. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>5.688616666666666, 44.79083333333333</coordinates>
@@ -945,7 +945,7 @@
 </Placemark>
 <Placemark>
 <name>527 Bourg Oisans</name>
-<description>340 Vent arriere a W du champ / En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique</description>
+<description>340 Vent arriere a W du champ. En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.03195, 45.064166666666665</coordinates>
@@ -953,7 +953,7 @@
 </Placemark>
 <Placemark>
 <name>529 Chauffayer</name>
-<description>Zone atterrissabale. Attention aux lignes electriques qui traversent la zone.</description>
+<description>ZA Attention aux lignes electriques qui traversent la zone. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.007333333333333, 44.747166666666665</coordinates>
@@ -961,7 +961,7 @@
 </Placemark>
 <Placemark>
 <name>610 Bernex</name>
-<description>80/260 Parcelles paralleles / Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm</description>
+<description>080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.6475, 46.35888333333333</coordinates>
@@ -969,7 +969,7 @@
 </Placemark>
 <Placemark>
 <name>611 Megevette</name>
-<description>360/180 Reco a pied indispensable / Possibilite clotures mobiles / Prairies</description>
+<description>N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.501666666666667, 46.20945</coordinates>
@@ -977,7 +977,7 @@
 </Placemark>
 <Placemark>
 <name>612 St Jeoire</name>
-<description>360 Reco a pied indispensable / Atterro face au N</description>
+<description>N Reco a pied indispensable. Atterro face au N. {difficile}</description>
 <styleUrl>#Difficile</styleUrl>
 <Point>
 <coordinates>6.47, 46.14333333333333</coordinates>
@@ -985,7 +985,7 @@
 </Placemark>
 <Placemark>
 <name>613 Taninges</name>
-<description>090/270 Clotures mobiles / Prairies</description>
+<description>ZA Clotures mobiles. Prairies. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.645833333333333, 46.09471666666666</coordinates>
@@ -993,7 +993,7 @@
 </Placemark>
 <Placemark>
 <name>614 Samoens</name>
-<description>Piquets en bois / Prairies</description>
+<description>ZA Clotures modiles. Prairies. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.740833333333334, 46.07111666666667</coordinates>
@@ -1001,7 +1001,7 @@
 </Placemark>
 <Placemark>
 <name>615 Bonneville</name>
-<description>Zone facile / Brise dans axe different des champs</description>
+<description>ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.365, 46.07138333333333</coordinates>
@@ -1017,7 +1017,7 @@
 </Placemark>
 <Placemark>
 <name>622 Motte en Bauges</name>
-<description>150/330 Passage sous ligne electrique au roulage a mi-champ / Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau / Approche possible dans les deux sens / Face au S ne pas utiliser le debut du cham: presence fosse</description>
+<description>150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.121666666666667, 45.708333333333336</coordinates>
@@ -1025,7 +1025,7 @@
 </Placemark>
 <Placemark>
 <name>623 Ecole en bauges</name>
-<description>020/200 Plat. Pas de devers cote route / Approche possible dans les deux sens / Se poser cote route pour eviter le devers / Foin</description>
+<description>020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.166666666666667, 45.641666666666666</coordinates>
@@ -1033,7 +1033,7 @@
 </Placemark>
 <Placemark>
 <name>624 Francin-Montmelian</name>
-<description>150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs</description>
+<description>150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.038333333333333, 45.49</coordinates>
@@ -1041,7 +1041,7 @@
 </Placemark>
 <Placemark>
 <name>630 Les Echelles</name>
-<description>Attention petite ligne electrique / Foin haut / Paturage - Cereales</description>
+<description>ZA Attention petite ligne electrique. Foin haut. Paturage. Cereales. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.76445, 45.430283333333335</coordinates>
@@ -1049,7 +1049,7 @@
 </Placemark>
 <Placemark>
 <name>631 St Laurent du Pont</name>
-<description>Attention petite lignes electriques / Foin haut / Paturage - Cereales</description>
+<description>ZA Attention petite lignes electriques. Foin haut. Paturage. Cereales. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.730833333333333, 45.40055</coordinates>
@@ -1057,7 +1057,7 @@
 </Placemark>
 <Placemark>
 <name>632 St Vincent de Mercuze</name>
-<description>020/200 Champ en fonction du vent</description>
+<description>020/200 Champ en fonction du ven. ZA. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.970283333333334, 45.371383333333334</coordinates>
@@ -1065,7 +1065,7 @@
 </Placemark>
 <Placemark>
 <name>633 Voreppe</name>
-<description>360/180 Champ Novotel / Attention lignes electriques / Cereales - Mais / Choisir en fct des cultures</description>
+<description>360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>5.632216666666666, 45.27028333333333</coordinates>
@@ -1073,7 +1073,7 @@
 </Placemark>
 <Placemark>
 <name>710 Passy</name>
-<description>160/340 Deniveles possibles en limite de parcelle / Atterro conseille vers le S et dans la partie la nmoins ondulee a W de la zone</description>
+<description>160/340 Deniveles possibles en limite de parcelle. Atterro conseille vers le S et dans la partie la moins ondulee a W de la zone. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.72, 45.92445</coordinates>
@@ -1081,7 +1081,7 @@
 </Placemark>
 <Placemark>
 <name>720 Marthod</name>
-<description>210/030 Prairie / Reco a pied conseillee</description>
+<description>210/030 Prairie. Reco a pied conseillee. {normal}</description>
 <styleUrl>#Avec_Difficulte</styleUrl>
 <Point>
 <coordinates>6.40945, 45.723333333333336</coordinates>
@@ -1089,7 +1089,7 @@
 </Placemark>
 <Placemark>
 <name>721 Landry</name>
-<description>Travaux en cours: Imposable !240/060 Champs tres delicat / Reco a pied indispensable / Activite parapente pres du champ #2 / Attero face E ou S / Foin</description>
+<description>240/060 Travaux en cours: Imposable !240/060 Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}</description>
 <styleUrl>#Tres_Difficile</styleUrl>
 <Point>
 <coordinates>6.734166666666667, 45.57305</coordinates>
@@ -1097,7 +1097,7 @@
 </Placemark>
 <Placemark>
 <name>721 Landry Les Ilettes</name>
-<description>Activite parapente</description>
+<description>020/200 Activite parapente. {tres_difficile}</description>
 <styleUrl>#</styleUrl>
 <Point>
 <coordinates>6.750666666666667, 45.58833333333333</coordinates>
@@ -1105,7 +1105,7 @@
 </Placemark>
 <Placemark>
 <name>722 La Bathie</name>
-<description>165/345 Atterro sur axe parallele a la nationale / Toucher et rouler dans la largeur d'un seul champs</description>
+<description>165/345 Atterro sur axe parallele a la nationale. Toucher et rouler dans la largeur d'un seul champs. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.443616666666666, 45.62555</coordinates>
@@ -1113,7 +1113,7 @@
 </Placemark>
 <Placemark>
 <name>723 Aiton</name>
-<description>Vaste ZA / Attention au mais / Vent variableLigne HT</description>
+<description>ZA Vaste ZA. Attention au mais. Vent variable. Ligne HT. {facile}</description>
 <styleUrl>#Sans_Difficulte</styleUrl>
 <Point>
 <coordinates>6.227783333333333, 45.55695</coordinates>
