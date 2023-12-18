@@ -30,7 +30,7 @@ La version du guide de reference est indiquee dans la 2e ligne du fichier cup, d
 #### Commentaires
 Les commentaires proviennent generalement du guide. A la fin de chaque commentaire est ajoute un "tag" qui permet d'idientifier rapidement la difficulte associee.  
 Les "tag" sont:
-| Tag  | Comment  | Couleur dans le guide |
+| Tag  | Commentaire  | Couleur dans le guide |
 |---|---|---|
 |  {aerodrome} | Aerodrome ou aeroport  | blanc |
 |  {terrain} | Terrain balise (prive) ou piste ULM | blanc |
