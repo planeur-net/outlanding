@@ -1,11 +1,21 @@
 # Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilite des contributeurs et encore moins celle des proprietaires des champs.
 ## Download
-[guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup)  
-[guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)  
+| Fichier  | Format  | Lien |
+|---|---|---|
+| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) 
+| | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)  
+| | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) 
+| | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz)
+||||
+| Cols des Alpes | cup | [cols_des_alpes.cup](https://planeur-net.github.io/outlanding/cols_des_alpes.cup)
+| | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml)
+| | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz)
+ 
 
-[guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml)  
-[guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz)
+
+ 
+
 ## Fichiers de champs "vachables" pour les Alpes
 Les fichiers suivants sont maintenus:
 - .cup : Champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
@@ -41,6 +51,7 @@ Les "tag" sont:
 |  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange | ![](doc/images/marker_orange.png)|
 |  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge | ![](doc/images/marker_red.png)| 
 |  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir | ![](doc/images/marker_black.png)|
+|||||
 |  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
 
 ## Copyrights - Droits
