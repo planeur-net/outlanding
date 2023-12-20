@@ -41,6 +41,7 @@ Les "tag" sont:
 |  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange | ![](doc/images/marker_orange.png)|
 |  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge | ![](doc/images/marker_red.png)| 
 |  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir | ![](doc/images/marker_black.png)|
+|  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
 
 ## Copyrights - Droits
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux 
