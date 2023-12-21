@@ -1,0 +1,175 @@
+name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
+"Burgdorf",,,4703.633N,00737.283E,530.0m,1,,,,,,,
+"Chalais",,,4517.550N,00540.700E,1150.0m,1,,,,,,,
+"Cruseille",,,4602.000N,00606.400E,740.0m,1,,,,,,,
+"C-Theodule",,,4556.600N,00742.533E,3317.0m,1,,,,,,,
+"Goppenst",,,4622.133N,00745.317E,1214.0m,1,,,,,,,
+"Graechen",,,4611.833N,00750.533E,1616.0m,1,,,,,,,
+"Landeck",,,4708.200N,01033.483E,930.0m,1,,,,,,,
+"Nyons",,,4421.300N,00508.300E,270.0m,1,,,,,,,
+"Orsest",,,4600.583N,00712.117E,2240.0m,1,,,,,,,
+"Scopi",,,4634.533N,00849.867E,3032.0m,1,,,,,,,
+"Willisau",,,4707.350N,00759.800E,555.0m,1,,,,,,,
+"C-Furka",,--,4634.933N,00824.933E,2429.0m,6,,,,,"Col furkapass",,
+"C-Grimsel",,--,4633.633N,00820.200E,2165.0m,6,,,,,"Col grimsel",,
+"C-Saisie",,--,4546.216N,00631.616E,1631.0m,6,,,,,"Col des saisiers",,
+"Brig",Brig,CH,4619.000N,00759.000E,800.0m,1,,,,,,,
+"Cervin",Cervin,CH,4558.717N,00739.650E,4478.0m,1,,,,,,,
+"C-Gottard",C-Gotard,CH,4633.233N,00834.067E,2108.0m,1,,,,,,,
+"Chur",Chur,CH,4651.533N,00931.583E,600.0m,1,,,,,,,
+"Furka Sud",,CH,4630.367N,00821.167E,2205.0m,1,,,,,,,
+"Furka-1",,CH,4630.367N,00821.167E,2205.0m,1,,,,,,,
+"Grindelwalde",Grindlde,CH,4637.367N,00801.550E,1034.0m,1,,,,,,,
+"Jung Frau",JungFrau,CH,4632.100N,00757.517E,4158.0m,1,,,,,,,
+"Nauders",Nauders,CH,4653.500N,01030.067E,1359.0m,1,,,,,,,
+"RheinWal Horn",Rheinorn,CH,4629.683N,00902.217E,3222.0m,1,,,,,,,
+"Sierre",Sierre,CH,4618.133N,00731.583E,752.0m,1,,,,,,,
+"Verbier",Verbier,CH,4605.717N,00713.217E,1395.0m,1,,,,,,,
+"Zermatt",Zermatt,CH,4601.283N,00745.067E,1750.0m,1,,,,,,,
+"Zinal",Zinal,CH,4608.233N,00737.633E,1675.0m,1,,,,,,,
+"4 Seigneurs",,FR,4509.633N,00547.150E,616.0m,1,,,,,,,
+"Abondance",,FR,4616.900N,00643.200E,920.0m,1,,,,,,,
+"Aiguebel",,FR,4532.633N,00618.450E,320.0m,1,,,,,,,
+"Aiguines",Aiguines,FR,4348.083N,00614.967E,550.0m,1,,,,,,,
+"Allevard collet",,FR,4523.350N,00605.667E,1030.0m,1,,,,,,,
+"Andey",,FR,4602.600N,00625.200E,1877.0m,1,,,,,,,
+"Annot",,FR,4357.833N,00640.333E,700.0m,1,,,,,,,
+"Argentiere",,FR,4447.417N,00633.550E,1400.0m,1,,,,,,,
+"Avoriaz",,FR,4611.500N,00646.600E,1878.0m,1,,,,,,,
+"Barbiere",Barbiere,FR,4457.333N,00508.350E,425.0m,1,,,,,,,
+"Barreme",,FR,4357.133N,00621.950E,720.0m,1,,,,,,,
+"Bedoin",,FR,4407.583N,00510.600E,310.0m,1,,,,,,,
+"Beverin",,FR,4638.883N,00921.550E,2732.0m,1,,,,,,,
+"Biel Gare",,FR,4708.000N,00714.567E,437.0m,1,,,,,,,
+"Binn",,FR,4621.917N,00811.100E,1397.0m,1,,,,,,,
+"Bissorte",,FR,4510.817N,00634.783E,2085.0m,1,,,,,,,
+"Blayeul",,FR,4414.750N,00618.967E,2190.0m,1,,,,,,,
+"Bonneval",,FR,4522.283N,00702.700E,1780.0m,1,,,,,,,
+"Bourdeau",,FR,4435.150N,00508.050E,410.0m,1,,,,,,,
+"Bourg St Maurice",,FR,4537.083N,00646.267E,810.0m,1,,,,,,,
+"Briancon",,FR,4453.383N,00638.000E,1230.0m,1,,,,,,,
+"Brignol",,FR,4325.350N,00604.067E,250.0m,1,,,,,,,
+"Brunet",,FR,4353.883N,00601.683E,405.0m,1,,,,,,,
+"Castillon Ville",Castille,FR,4352.717N,00632.233E,885.0m,1,,,,,,,
+"C-Cabre",C-Cabre,FR,4432.983N,00535.917E,1180.0m,1,,,,,,,
+"Chamechaude",,FR,4516.383N,00547.033E,1262.0m,1,,,,,,,
+"Chamonix",,FR,4555.233N,00652.250E,1087.0m,1,,,,,,,
+"Chamrousse",,FR,4507.500N,00552.633E,1930.0m,1,,,,,,,
+"Chatillon en Diois",,FR,4441.683N,00529.133E,570.0m,1,,,,,,,
+"Chur -10",,FR,4651.817N,00921.667E,2285.0m,1,,,,,,,
+"Chur -20",,FR,4649.700N,00912.200E,1947.0m,1,,,,,,,
+"C-Menee",,FR,4445.700N,00535.517E,1580.0m,1,,,,,,,
+"Coiro-Sud",,FR,4455.717N,00554.817E,2196.0m,1,,,,,,,
+"Colmars",,FR,4410.783N,00637.600E,1250.0m,1,,,,,,,
+"Contamines",,FR,4549.333N,00643.733E,1165.0m,1,,,,,,,
+"C-Tour",C-Tour,FR,4600.300N,00656.700E,1750.0m,1,,,,,"Col du Tour",,
+"Dent de Crolles",,FR,4518.550N,00551.567E,1602.0m,1,,,,,,,
+"DEPART Colombier",,FR,4538.967N,00606.867E,1575.0m,1,,,,,,,
+"Dignes",,FR,4405.250N,00613.333E,585.0m,1,,,,,,,
+"Dormillouse",,FR,4424.450N,00623.300E,2505.0m,1,,,,,,,
+"Ecrins",,FR,4455.750N,00623.000E,2500.0m,1,,,,,,,
+"Embrun",,FR,4434.267N,00629.817E,820.0m,1,,,,,,,
+"Gap Ville",,FR,4433.833N,00605.233E,740.0m,1,,,,,,,
+"Glieres",,FR,4557.800N,00620.100E,1440.0m,1,,,,,,,
+"Granier",,FR,4526.167N,00556.667E,1000.0m,1,,,,,,,
+"Greoux les bains",,FR,4345.617N,00553.017E,360.0m,1,,,,,,,"N087E005LFLG.jpg"
+"Guillaume",,FR,4435.500N,00626.250E,2550.0m,1,,,,,,,
+"Jausier",,FR,4425.267N,00644.450E,1220.0m,1,,,,,,,
+"La Javie",La Javie,FR,4410.300N,00620.983E,805.0m,1,,,,,,,
+"Le Muy",,FR,4327.633N,00633.050E,35.0m,1,,,,,,,
+"Les gets",,FR,4609.500N,00640.000E,1170.0m,1,,,,,,,
+"Les Mees",,FR,4401.767N,00558.783E,630.0m,1,,,,,,,
+"Les Puis",,FR,4552.017N,00607.283E,633.0m,1,,,,,,,
+"Lure",,FR,4407.400N,00548.167E,976.0m,1,,,,,,,
+"Mallefougasse",,FR,4403.983N,00553.883E,700.0m,1,,,,,,,
+"Manosque",,FR,4348.267N,00549.467E,295.0m,1,,,,,,,
+"Marcelly",,FR,4607.800N,00634.600E,2000.0m,1,,,,,,,
+"Mayrhofen Ville",,FR,4707.950N,01148.050E,1755.0m,1,,,,,,,
+"Mezel",,FR,4359.850N,00611.717E,590.0m,1,,,,,,,
+"Mirabeau",,FR,4341.233N,00540.383E,290.0m,1,,,,,,,
+"Modane",,FR,4512.767N,00642.667E,1100.0m,1,,,,,,,
+"Mont Aiguille",,FR,4450.500N,00533.000E,1290.0m,1,,,,,,,
+"Montaud",Montaud,FR,4515.750N,00533.783E,750.0m,1,,,,,,,
+"Montenvers",,FR,4555.833N,00655.050E,1909.0m,1,,,,,,,
+"Morez",,FR,4631.550N,00601.433E,736.0m,1,,,,,,,
+"Morteau",,FR,4703.233N,00636.300E,759.0m,1,,,,,,,
+"Morzine",,FR,4610.750N,00642.600E,900.0m,1,,,,,,,
+"Moucherotte",,FR,4508.617N,00538.267E,690.0m,1,,,,,,,
+"Moutiers",,FR,4528.883N,00632.050E,500.0m,1,,,,,,,
+"Mt Ventoux",,FR,4410.133N,00516.517E,1909.0m,1,,,,,,,
+"Obiou",,FR,4442.850N,00547.433E,2500.0m,1,,,,,"Obiou Sud",,
+"Obiou-Sud",,FR,4439.483N,00547.017E,1806.0m,1,,,,,,,
+"Orcierre",,FR,4441.133N,00619.600E,1400.0m,1,,,,,,,
+"Orpierre",,FR,4419.000N,00541.450E,700.0m,1,,,,,,,
+"Pertuis",,FR,4341.067N,00530.300E,216.0m,1,,,,,,,
+"Plampinet",,FR,4500.133N,00639.083E,1480.0m,1,,,,,,,
+"Pontcharrat",,FR,4525.533N,00559.717E,255.0m,1,,,,,,,
+"Prapoutel",,FR,4515.383N,00559.667E,1350.0m,1,,,,,,,
+"Pres Mdm Carl",,FR,4455.000N,00624.967E,1880.0m,1,,,,,,,
+"Rians",,FR,4336.383N,00545.400E,400.0m,1,,,,,,,
+"Rochemol",,FR,4507.650N,00645.867E,1980.0m,1,,,,,,,
+"Romont",,FR,4641.683N,00654.767E,707.0m,1,,,,,,,
+"Sautet",,FR,4449.100N,00555.100E,946.0m,1,,,,,,,
+"Savines",,FR,4431.550N,00624.267E,81.0m,1,,,,,,,
+"Semnoz",Semnoz,FR,4547.850N,00606.150E,1700.0m,1,,,,,,,
+"St Andreol",,FR,4358.200N,00630.383E,920.0m,1,,,,,,,
+"St Eynard",,FR,4514.200N,00545.700E,1300.0m,1,,,,,,,
+"St Gingolf",,FR,4623.600N,00648.067E,410.0m,1,,,,,,,
+"St Veran",,FR,4441.950N,00652.050E,2050.0m,1,,,,,,,
+"St Victoire",,FR,4332.433N,00532.217E,355.0m,1,,,,,,,
+"Tamie",,FR,4541.200N,00618.950E,1000.0m,1,,,,,,,
+"Thorens",,FR,4559.900N,00614.900E,700.0m,1,,,,,,,
+"Ugine",,FR,4544.733N,00625.250E,410.0m,1,,,,,,,
+"Veyrier",Veyrier,FR,4554.000N,00611.000E,1291.0m,1,,,,,,,
+"Bardonechia",Bardohia,IT,4504.617N,00642.633E,1260.0m,1,,,,,,,
+"Courmayeur",,IT,4547.683N,00701.400E,1575.0m,1,,,,,,,
+"Courmayeur+10",,IT,4551.717N,00706.250E,2870.0m,1,,,,,,,
+"Fully",,IT,4610.583N,00705.700E,2055.0m,1,,,,,,,
+"Grivola",Grivola,IT,4535.900N,00715.300E,3970.0m,1,,,,,,,
+"Mont Rose",MontRose,IT,4556.217N,00752.033E,4634.0m,1,,,,,,,
+"Parrayer",,IT,4555.850N,00732.017E,1245.0m,1,,,,,,,
+"Sion-Sud",,IT,4609.850N,00722.000E,2428.0m,1,,,,,,,
+"St Jurs",,IT,4353.917N,00612.083E,850.0m,1,,,,,,,
+-----Related Tasks-----
+"1004:Granier-Aiguines-Binn-StJurs-Aiguebel","???","Granier","Aiguines","Binn","St Jurs","Aiguebel","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1005:StEynard-Furka-Chamrousse-Furka-4Seigneurs","???","St Eynard","C-Furka","Chamrousse","Furka-1","4 Seigneurs","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1006:Aiguille-Furka-Aiguines-Chamonix-Chamrousse","???","Mont Aiguille","C-Furka","Aiguines","Chamonix","Chamrousse","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1008:Granier-Aiguille-Chur-StJurs-Prapoutel","???","Granier","Mont Aiguille","Chur -10","St Jurs","Prapoutel","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1008:Granier-Chatillon-Chur-CCabre-Aiguebel","???","Granier","Chatillon en Diois","Chur","C-Cabre","Aiguebel","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1011:StEynard-Chur-Saisie-Furka-4Seigneurs","???","St Eynard","Chur -10","C-Saisie","C-Furka","4 Seigneurs","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1023:Granier-Lure-CGrimsel-Aiguines-Aiguebel","???","Granier","Lure","C-Grimsel","Aiguines","Aiguebel","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"1045:Granier-Ventoux-Nauders-Granier","???","Granier","Mt Ventoux","Nauders","Granier","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=3,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"524:Aiguines-Courmayeur","???","Moucherotte","Aiguines","Courmayeur+10","4 Seigneurs","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=3,Style=3,SpeedStyle=2,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"538:Aiguines-CTour","???","Moucherotte","Aiguines","C-Tour","4 Seigneurs","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=3,Style=3,SpeedStyle=2,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"649:Aiguine-Courmayeur-Obiou-Allevard","???","Moucherotte","Aiguines","Courmayeur+10","Obiou-Sud","Allevard collet","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=45,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"753:Aiguines-Sion-Sud-Obiou-Allevard","???","Granier","Aiguines","Sion-Sud","Obiou-Sud","Allevard collet","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"756:Aiguines-Grimsel","???","Moucherotte","Aiguines","C-Grimsel","4 Seigneurs","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=3,Style=3,SpeedStyle=2,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+"763:Aiguines-Zinal-Obiou-Aiguebelle","???","Moucherotte","Aiguines","Zinal","Obiou-Sud","Aiguebel","???"
+ObsZone=0,Style=2,SpeedStyle=0,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
+ObsZone=4,Style=3,SpeedStyle=2,R1=500m,A1=180,R2=0m,A2=0,MaxAlt=0.0m,Line=1
