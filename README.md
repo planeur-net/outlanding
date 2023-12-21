@@ -8,6 +8,9 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) 
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz)
 ||||
+| Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup)
+| | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx)
+||||
 | Cols des Alpes | cup | [cols_des_alpes.cup](https://planeur-net.github.io/outlanding/cols_des_alpes.cup)
 | | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml)
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz)
@@ -17,8 +20,15 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
  
 
 ## Fichiers de champs "vachables" pour les Alpes
-Les fichiers suivants sont maintenus:
-- .cup : Champs et aerodromes du Guide des aires de sécurité dans les Alpes Edition 4.1
+| Fichier  | Commentaire  |
+|---|---|
+|Guide des Aires de securite| Reprend les aerodromes et champs definis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peux cependant contenir des differences liees aux corrections apportees par les contributeurs (altitude, position exacte, ...). [Fiabilite: bonne].
+| Champs des Alpes | Autres champs definis par des contributeurs. [Fiabilite: moyenne]
+|Cols des Alpes | Cols interessants dans les Alpes
+
+
+### Les formats suivants sont maintenus:
+- .cup : Le fichier source
 - .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup 
 
