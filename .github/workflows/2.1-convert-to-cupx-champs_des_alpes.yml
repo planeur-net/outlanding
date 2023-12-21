@@ -1,12 +1,12 @@
 # Copy file to planeur.net FTP server
 
-name: 2.1 - Convert to .cupx - outlanding_alps
+name: 2.1 - Convert to .cupx - champs_des_alpes.cup
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow After the version has been added
   workflow_run:
-    workflows: ["2 - Add version to outlanding.alps"]
+    workflows: ["2 - Add version to champs_des_alpes"]
     types:
       - completed
 
@@ -17,7 +17,7 @@ on:
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
   convert-to-cupx:
-    name: Convert outlanding_alps.cup to .cupx
+    name: Convert champs_des_alpes.cup to .cupx
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -26,11 +26,11 @@ jobs:
     - name: ⚙️ Convert to .cup to .cupx and push to repo
       run: |
         echo "Creating new .cupx file"
-        zip points.zip outlanding_alps.cup
+        zip points.zip champs_des_alpes.cup
         mv ./Pics ./Pics_guide_aires_securite
-        mv ./Pics_outlanding_alps ./Pics
+        mv ./Pics_champs_des_alpes ./Pics
         zip -r pics.zip Pics
-        cat pics.zip points.zip > outlanding_alps.cupx
+        cat pics.zip points.zip > champs_des_alpes.cupx
         
         # push to repo
         echo "Pulling latest version before push..."
@@ -40,6 +40,6 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Automated Change
-        file_pattern: 'outlanding_alps.cupx'
+        file_pattern: 'champs_des_alpes.cupx'
 
 
