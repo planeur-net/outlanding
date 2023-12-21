@@ -36,10 +36,10 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#70 LFKR St Remy de Maurienne",LFKR,FR,4522.167N,00616.917E,450.0m,2,350,900.0m,,123.5,"16/34 {aerodrome}",,"LFKR_St_remy_de_maurienne.jpg"
 "#72 Prealpi-Musine",#72,IT,4507.460N,00731.310E,330.0m,2,30,600.0m,,130.000,"Terrain prive. Piste en herbe balisee. {facile}",,"Prealpi.jpg"
 "#73 Busano",#73,IT,4518.610N,00739.920E,300.0m,2,180,500.0m,,,"180/360 Terrain prive. Piste en herbe balisee. {terrain}",,"Busano.jpg"
-"#74 Canavese",#74,IT,4521.500N,00743.180E,260.0m,2,130,370.0m,,,"130/310 Terrain prive. Piste en herbe balisee. {terrain}",,"Canavese.jpg"
+"#74 Canavese",#74,IT,4521.500N,00743.180E,310.0m,2,130,370.0m,,,"130/310 Terrain prive. Piste en herbe balisee. {terrain}",,"Canavese.jpg"
 "#75 Montalto Dora",#75,IT,4529.230N,00750.630E,256.0m,2,140,620.0m,,118.450,"140/320 Terrain prive. Piste en herbe balisee. {terrain}",,"Montalto.jpg"
 "#76 LIMW Aoste",#76,IT,4544.300N,00722.050E,547.0m,5,9,1500.0m,,119.955,"09/27 Frequence VV=123.375 {aerodrome}",,"LIMW_Aoste.jpg"
-"#77 Chatelair",#77,IT,4544.410N,00728.800E,457.0m,2,100,400.0m,,130.000,"100/280 Terrain prive. Piste en herbe balisee. www.aeroclubcorradogex.com {terrain}",,"Chatelair.jpg"
+"#77 Chatelair",#77,IT,4544.410N,00728.800E,510.0m,2,100,400.0m,,130.000,"100/280 Terrain prive. Piste en herbe balisee. www.aeroclubcorradogex.com {terrain}",,"Chatelair.jpg"
 "#78 LSGS Sion",#78,CH,4613.200N,00719.733E,482.0m,2,7,600.0m,,118.275,"07/25 Frequence Approche=126.825 Frequence VV=123.67 {aerodrome}",,"LSGS_Sion.jpg"
 "#8 LFNT Avignon",LFNT,FR,4359.767N,00445.267E,44.0m,2,164,1350.0m,,123.35,"16R/34L + 12/30 {aerodrome}",,"LFNT_Avignon_Pujaut.jpg"
 "#9 LFNZ St Remy",LFNZ,FR,4346.133N,00453.583E,119.0m,2,90,980.0m,,118.450,"18/36 Le Mazet de Romanin. {aerodrome}",,"LFNZ_St_Remy.jpg"
@@ -80,7 +80,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "311 Montmaur",311,FR,4433.633N,00551.433E,900.0m,3,0,400.0m,,,"ZA Attention arroseurs. {facile}",,"311_Montmaur.jpg"
 "312 Valenty",312,FR,4421.600N,00555.800E,570.0m,3,215,400.0m,,,"215 Bordure plateau. Risque turbulence en courte. {normal}",,"312_Valenty.jpg"
 "313 Laragne ULM",313,FR,4419.233N,00547.517E,570.0m,3,130,480.0m,,,"130/310 ULM. Tdp au NE. {facile}",,"313_-Laragne_-ULM.jpg"
-"314 Nossage",314,FR,4418.933N,00544.650E,750.0m,3,200,550.0m,,130.00,"020/200 Terrain prive. Remonte vers le SW. Piste balisee. Vent arriere cote E. {facile}",,"314_Nossage.jpg"
+"314 Nossage",314,FR,4418.933N,00544.650E,670.0m,3,200,550.0m,,130.00,"020/200 Terrain prive. Remonte vers le SW. Piste balisee. Vent arriere cote E. {facile}",,"314_Nossage.jpg"
 "315 Chabottes",315,FR,4439.267N,00611.033E,1080.0m,3,0,200.0m,,,"ZA Terrain ULM inutilisable. Zone posable au S de la riviere. {normal}",,"315_Chabottes.jpg"
 "316 Domaine de Malcor",316,FR,4428.500N,00606.233E,620.0m,3,270,250.0m,,,"270/90 Prairie. {normal}",,"316_Domaine_de_malcor.jpg"
 "317 Espinasse",317,FR,4427.633N,00613.100E,650.0m,3,270,350.0m,,,"270/90 Cultures fouragere attero delicat a partir debut juin. {difficile}",,"317_Espinasse.jpg"
@@ -91,7 +91,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "323 Salignac",323,FR,4408.300N,00558.800E,500.0m,3,160,500.0m,,,"160/340 Cultures. {facile}",,"323_Salignac.jpg"
 "324 Thouard",324,FR,4407.050N,00607.700E,670.0m,3,0,250.0m,,,"ZA Reco a pied indispensable. Cultures possible. {difficile}",,"324_Thouard.jpg"
 "325 Malmoisson",325,FR,4401.800N,00605.000E,460.0m,3,0,300.0m,,,"ZA Cultures possibles. {facile}",,"325_Mallemoisson.jpg"
-"330 Selonnet",330,FR,4422.100N,00618.600E,1150.0m,3,0,250.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet.jpg"
+"330 Selonnet",330,FR,4422.100N,00618.600E,1080.0m,3,0,250.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet.jpg"
 "331 Marcoux",331_2,FR,4408.833N,00616.867E,700.0m,3,130,250.0m,,,"130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}",,"331_Marcoux.jpg"
 "332 Barreme",332,FR,4359.550N,00623.200E,780.0m,3,10,300.0m,,,"010/190 Champ difficile avec fosses. Vent arriere cote E. Atterro preferentiel face au N. {difficile}",,"332_Barreme.jpg"
 "410 Oulx",410,FR,4502.500N,00650.333E,1050.0m,3,90,250.0m,,,"E/W Reco a pied indispensable. Prairie. {difficile}",,"410_Oulx.jpg"
@@ -103,12 +103,12 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "422 Les Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,60,250.0m,,123.5,"060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}",,"422_Les_crots.jpg"
 "423 Pruniere",423,FR,4432.050N,00621.800E,860.0m,3,310,450.0m,,,"310 Vent arriere cote S du champ. Prairie. {facile}",,"423_Prunieres.jpg"
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,0,400.0m,,,"ZA Choisir en fct cultures. {facile}",,
-"511 Die ZA",511,FR,4446.100N,00521.200E,550.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. {facile}",,
+"511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. {facile}",,
 "513 Luc en Diois",513,FR,4435.550N,00528.433E,630.0m,3,315,0.0m,,,"ZA Choisir en fct cultures. Autre ZA 3Km au SE. {facile}",,
 "515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
-"520 Vif",520,FR,4504.600N,00540.900E,200.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,
+"520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,
 "521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,30,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,
-"522 Grisail",522,FR,4457.000N,00537.500E,850.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
+"522 Grisail",522,FR,4457.000N,00537.500E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
 "523 St Jean Herans",523,FR,4451.167N,00546.350E,825.0m,3,0,300.0m,,,"ZA Point haut= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}",,
 "524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,
 "525 Montmeilleur",525,FR,4447.600N,00545.800E,880.0m,3,85,550.0m,,130.00,"085 Piste privee. Herbe. Atterro face a E. Tdp Main droite. Pente 10%. {facile}",,
@@ -119,7 +119,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,
 "612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,90,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,
-"614 Samoens",614,FR,4604.267N,00644.450E,625.0m,3,90,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
+"614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,90,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
 "615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,
 "620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,
 "622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,
