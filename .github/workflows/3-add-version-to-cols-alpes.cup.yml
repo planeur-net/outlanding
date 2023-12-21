@@ -26,6 +26,7 @@ jobs:
           
       # Add version information to cols_des_alpes.cup
       - name: Get info, delete 1st line if applicable, add info
+        id: set_version
         run: |
           # Get information
           git log --pretty="%h %cI" -n1 -- cols_des_alpes.cup
@@ -34,11 +35,14 @@ jobs:
           sed -i "$((grep -nm1 \"version= ./cols_des_alpes.cup || echo 1000000000:) | cut -f 1 -d:) d" ./cols_des_alpes.cup
           # Add version information
           sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./cols_des_alpes.cup
+
+          # Save commit message for future push
+          echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- cols_des_alpes.cup`" >> $GITHUB_OUTPUT
           
      
       # Push changes to repo    
       - name: Push changes into repo
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: New version number
+          commit_message: ${{ steps.set_version.outputs.LAST_COMMIT_MESSSAGE }}
           file_pattern: 'cols_des_alpes.cup'

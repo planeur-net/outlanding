@@ -44,6 +44,7 @@ jobs:
         npm install
     
     - name: ⚙️ Convert to .kml + .kmz
+      id: convert_to_kmz
       run: |
         cd ./cup2kmz
         node ./cuptokmz.js ../outlanding/guide_aires_securite.cup
@@ -53,11 +54,14 @@ jobs:
         cd ../outlanding
         git pull
 
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- champs_des_alpes.cup`" >> $GITHUB_OUTPUT
+
     - name: ⚙️ Push .kml + .kmz to repo
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
-        commit_message: Automated Change
-        file_pattern: 'guide_aires_securite.*'
+        commit_message: ${{ steps.convert_to_kmz.outputs.LAST_COMMIT_MESSSAGE }}
+        file_pattern: 'guide_aires_securite.km*'
 
 

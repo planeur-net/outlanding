@@ -24,6 +24,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: ⚙️ Convert to .cup to .cupx and push to repo
+      id: convert_to_cupx
       run: |
         echo "Creating new .cupx file"
         zip points.zip guide_aires_securite.cup
@@ -34,10 +35,13 @@ jobs:
         echo "Pulling latest version before push..."
         git pull
 
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- guide_aires_securite.cup`" >> $GITHUB_OUTPUT
+
     - name: ⚙️ Push .cub to repo
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automated Change
+        commit_message: ${{ steps.convert_to_cupx.outputs.LAST_COMMIT_MESSSAGE }}
         file_pattern: 'guide_aires_securite.cupx'
 
 
