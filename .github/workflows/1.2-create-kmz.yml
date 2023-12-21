@@ -1,10 +1,12 @@
-name: 2.1 - Create cols_des_alpes.kmz
+# Copy file to planeur.net FTP server
+
+name: 1.2 - Create .kmz
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow After the version has been added
   workflow_run:
-    workflows: ["10 - Add version to cols_des_alpes.cup"]
+    workflows: ["1 - Add version to guide_aires_securite.cup"]
     types:
       - completed
 
@@ -44,7 +46,7 @@ jobs:
     - name: ⚙️ Convert to .kml + .kmz
       run: |
         cd ./cup2kmz
-        node ./cuptokmz.js ../outlanding/cols_des_alpes.cup
+        node ./cuptokmz.js ../outlanding/guide_aires_securite.cup
 
         # push to repo
         echo "Pulling latest version before push..."
@@ -56,6 +58,6 @@ jobs:
       with:
         repository: ./outlanding
         commit_message: Automated Change
-        file_pattern: 'cols_des_alpes.*'
+        file_pattern: 'guide_aires_securite.*'
 
 

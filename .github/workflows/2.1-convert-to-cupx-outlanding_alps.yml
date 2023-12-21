@@ -1,0 +1,45 @@
+# Copy file to planeur.net FTP server
+
+name: 2.1 - Convert to .cupx - outlanding_alps
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow After the version has been added
+  workflow_run:
+    workflows: ["2 - Add version to outlanding.alps"]
+    types:
+      - completed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# see: https://github.com/marketplace/actions/ftp-deployment
+jobs:
+  convert-to-cupx:
+    name: Convert outlanding_alps.cup to .cupx
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: ⚙️ Convert to .cup to .cupx and push to repo
+      run: |
+        echo "Creating new .cupx file"
+        zip points.zip outlanding_alps.cup
+        mv ./Pics ./Pics_guide_aires_securite
+        mv ./Pics_outlanding_alps ./Pics
+        zip -r pics.zip Pics
+        cat pics.zip points.zip > outlanding_alps.cupx
+        
+        # push to repo
+        echo "Pulling latest version before push..."
+        git pull
+
+    - name: ⚙️ Push .cub to repo
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Change
+        file_pattern: 'outlanding_alps.cupx'
+
+

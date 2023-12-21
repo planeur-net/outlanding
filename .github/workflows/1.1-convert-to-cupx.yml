@@ -1,6 +1,6 @@
 # Copy file to planeur.net FTP server
 
-name: 2 - Convert to .cupx
+name: 1.1 - Convert to .cupx
 
 # Controls when the workflow will run
 on:

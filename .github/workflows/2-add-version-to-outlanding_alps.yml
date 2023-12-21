@@ -1,4 +1,4 @@
-name: 10 - Add version to cols_des_alpes.cup
+name: 2 - Add version to outlanding.alps
 
 # Controls when the workflow will run
 on:
@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - 'cols_des_alpes.cup'
+      - 'outlanding.alps.cup'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,16 +24,16 @@ jobs:
       - name: Clone this repo
         uses: actions/checkout@v3
           
-      # Add version information to cols_des_alpes.cup
+      # Add version information to outlanding_alps.cup
       - name: Get info, delete 1st line if applicable, add info
         run: |
           # Get information
-          git log --pretty="%h %cI" -n1 -- cols_des_alpes.cup
-          versionInfo=$(git log --pretty="%h %cI" -n1 -- cols_des_alpes.cup)
+          git log --pretty="%h %cI" -n1 -- outlanding_alps.cup
+          versionInfo=$(git log --pretty="%h %cI" -n1 -- outlanding_alps.cup)
           # Remove first line if applicable
-          sed -i "$((grep -nm1 \"version= ./cols_des_alpes.cup || echo 1000000000:) | cut -f 1 -d:) d" ./cols_des_alpes.cup
+          sed -i "$((grep -nm1 \"version= ./outlanding_alps.cup || echo 1000000000:) | cut -f 1 -d:) d" ./outlanding_alps.cup
           # Add version information
-          sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./cols_des_alpes.cup
+          sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./outlanding_alps.cup
           
      
       # Push changes to repo    
@@ -41,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: New version number
-          file_pattern: 'cols_des_alpes.cup'
+          file_pattern: 'outlanding_alps.cup'
