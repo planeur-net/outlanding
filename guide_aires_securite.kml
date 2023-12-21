@@ -57,6 +57,13 @@
 </Icon>
 </IconStyle>
 </Style>
+<Style id="{col}">
+<IconStyle>
+<Icon>
+<href>mountain_pass.png</href>
+</Icon>
+</IconStyle>
+</Style>
 <Folder>
 <name>Landouts</name>
 <Placemark>
@@ -796,15 +803,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>331 Marcoux 1</name>
-<description>130/310 + ZA Choisir en fct cultures. Attention lignes electriques / Ne pas utiliser #1</description>
-<styleUrl>#</styleUrl>
-<Point>
-<coordinates>6.335, 44.170833333333334</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>331 Marcoux 2</name>
+<name>331 Marcoux</name>
 <description>130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
 <Point>
@@ -1147,6 +1146,9 @@
 <coordinates>6.227783333333333, 45.55695</coordinates>
 </Point>
 </Placemark>
+</Folder>
+<Folder>
+<name>Mountain Passes</name>
 </Folder>
 </Document>
 </kml>
