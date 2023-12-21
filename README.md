@@ -22,7 +22,7 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 ## Fichiers de champs "vachables" pour les Alpes
 | Fichier  | Commentaire  |
 |---|---|
-|Guide des Aires de securite| Reprend les aerodromes et champs definis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peux cependant contenir des differences liees aux corrections apportees par les contributeurs (altitude, position exacte, ...). [Fiabilite: bonne].
+|Guide des Aires de securite| Reprend les aerodromes et champs definis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liees aux corrections apportees par les contributeurs (altitude, position exacte, ...). [Fiabilite: bonne].
 | Champs des Alpes | Autres champs definis par des contributeurs. [Fiabilite: moyenne]
 |Cols des Alpes | Cols interessants dans les Alpes
 
