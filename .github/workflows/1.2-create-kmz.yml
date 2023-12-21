@@ -62,6 +62,6 @@ jobs:
       with:
         repository: ./outlanding
         commit_message: ${{ steps.convert_to_kmz.outputs.LAST_COMMIT_MESSSAGE }}
-        file_pattern: 'guide_aires_securite.km*'
+        file_pattern: 'guide_aires_securite.kml guide_aires_securite.kmz'
 
 
