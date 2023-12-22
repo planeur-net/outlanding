@@ -16,8 +16,13 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz)
  
 
-
+### Mise a jour des fichiers sur Android
+ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDownloader/tree/2.0) permet de mettre a jours les fichiers dans les bons repertoires pour XCSoar ou SeeYou Navigator en 1 click.  
+ Le repo github: https://github.com/llauner/AirspaceDownloader  
+ Le fichier .apk: [com.llcs.airspacedownloader.apk](https://github.com/llauner/AirspaceDownloader/releases/download/2.0/com.llcs.airspacedownloader.apk)  
  
+ ![Github Downloader screenshot](https://github.com/llauner/AirspaceDownloader/raw/master/doc/images/screenshot_main_screen.jpg =97x166)
+
 
 ## Fichiers de champs "vachables" pour les Alpes
 | Fichier  | Commentaire  |
