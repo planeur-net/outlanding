@@ -17,11 +17,20 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
  
 
 ### Mise a jour des fichiers sur Android
- Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDownloader/tree/2.0) permet de mettre a jours les fichiers dans les bons repertoires pour XCSoar ou SeeYou Navigator en 1 click.  
+<table>
+<tr>
+<td width=80%>  
+
+Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDownloader/tree/2.0) permet de mettre a jours les fichiers dans les bons repertoires pour XCSoar ou SeeYou Navigator en 1 click.  
  Le repo github: https://github.com/llauner/AirspaceDownloader  
- Le fichier .apk: [com.llcs.airspacedownloader.apk](https://github.com/llauner/AirspaceDownloader/releases/download/2.0/com.llcs.airspacedownloader.apk)  
- 
- ![Github Downloader screenshot](https://github.com/llauner/AirspaceDownloader/raw/master/doc/images/screenshot_main_screen.jpg =97x166)
+ Le fichier .apk: [com.llcs.airspacedownloader.apk](https://github.com/llauner/AirspaceDownloader/releases/download/2.0/com.llcs.airspacedownloader.apk)
+
+</td>
+<td>
+<img src="https://github.com/llauner/AirspaceDownloader/raw/master/doc/images/screenshot_main_screen.jpg" alt="drawing" width="97" height=166/>
+</td>
+</tr>
+</table>
 
 
 ## Fichiers de champs "vachables" pour les Alpes
