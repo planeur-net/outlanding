@@ -21,9 +21,9 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 <tr>
 <td width=80%>  
 
-Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDownloader/tree/2.0) permet de mettre a jours les fichiers dans les bons repertoires pour XCSoar ou SeeYou Navigator en 1 click.  
+Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDownloader) permet de mettre a jours les fichiers dans les bons repertoires pour XCSoar ou SeeYou Navigator en 1 click.  
  Le repo github: https://github.com/llauner/AirspaceDownloader  
- Le fichier .apk: [com.llcs.airspacedownloader.apk](https://github.com/llauner/AirspaceDownloader/releases/download/2.0/com.llcs.airspacedownloader.apk)
+ Le fichier .apk: [com.llcs.airspacedownloader.apk](https://github.com/llauner/AirspaceDownloader/releases)
 
 </td>
 <td>
