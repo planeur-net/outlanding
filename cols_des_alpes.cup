@@ -63,7 +63,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-2Soeurs",,FR,4500.816N,00535.000E,2056.0m,6,,,,,"{col} des deux soeurs",,
 "C-Agnel",,FR,4441.200N,00658.550E,2744.0m,6,,,,,"{col} agnel",,
 "C-Allos",,FR,4417.883N,00635.700E,2247.0m,6,,,,,"{col} d allos",,
-"C-Aravis",,FR,4552.950N,00627.900E,1490.0m,6,,,,,"{col} aravis",,
+"C-Aravis",,FR,4552.950N,00627.900E,1490.0m,6,,,,,"{col} aravis",,"aravis1.jpg;aravis2.jpg"
 "C-Arche",C-Arche,FR,4425.500N,00654.000E,1948.0m,6,,,,,"{col} arche",,
 "C-Balme",,FR,4601.550N,00658.200E,2204.0m,6,,,,,"{col} de balme",,
 "C-Basmont",,FR,4533.133N,00623.333E,1791.0m,6,,,,,"{col} de basmon",,
