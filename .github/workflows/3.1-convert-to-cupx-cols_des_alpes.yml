@@ -1,0 +1,49 @@
+# Copy file to planeur.net FTP server
+
+name: 2.1 - Convert to .cupx - cols_des_alpes.cup
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow After the version has been added
+  workflow_run:
+    workflows: ["3 - Add version to cols_des_alpes"]
+    types:
+      - completed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# see: https://github.com/marketplace/actions/ftp-deployment
+jobs:
+  convert-to-cupx:
+    name: Convert cols_des_alpes.cup to .cupx
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: ⚙️ Convert to .cup to .cupx and push to repo
+      id: convert_to_cupx
+      run: |
+        echo "Creating new .cupx file"
+        zip points.zip cols_des_alpes.cup
+        mv ./Pics ./Pics_guide_aires_securite
+        mv ./Pics_cols_des_alpes ./Pics
+        zip -r pics.zip Pics
+        cat pics.zip points.zip > cols_des_alpes.cupx
+        
+        # push to repo
+        echo "Pulling latest version before push..."
+        git pull
+
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- cols_des_alpes.cup`" >> $GITHUB_OUTPUT
+
+    - name: ⚙️ Push .cub to repo
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: ${{ steps.convert_to_cupx.outputs.LAST_COMMIT_MESSSAGE }}
+        file_pattern: 'cols_des_alpes.cupx'
+
+
