@@ -795,11 +795,19 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>330 Selonnet</name>
+<name>330 Selonnet 1</name>
 <description>ZA Culture possibles. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
 <Point>
 <coordinates>6.31, 44.36833333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>330 Selonnet 2</name>
+<description>ZA Culture possibles. {normal}</description>
+<styleUrl>#{normal}</styleUrl>
+<Point>
+<coordinates>6.331666666666667, 44.346666666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
