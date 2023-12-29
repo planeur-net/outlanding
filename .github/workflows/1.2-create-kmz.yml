@@ -6,7 +6,7 @@ name: 1.2 - Create .kmz
 on:
   # Triggers the workflow After the version has been added
   workflow_run:
-    workflows: ["1 - Add version to guide_aires_securite.cup"]
+    workflows: ["1.1 - Convert to .cupx"]
     types:
       - completed
 

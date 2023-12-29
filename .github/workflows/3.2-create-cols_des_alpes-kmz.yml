@@ -4,7 +4,7 @@ name: 3.1 - Create cols_des_alpes.kmz
 on:
   # Triggers the workflow After the version has been added
   workflow_run:
-    workflows: ["3 - Add version to cols_des_alpes.cup"]
+    workflows: ["3.1 - Convert to .cupx - cols_des_alpes.cup"]
     types:
       - completed
 
