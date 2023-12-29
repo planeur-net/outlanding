@@ -15,7 +15,8 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | cupx | [cols_des_alpes.cupx](https://planeur-net.github.io/outlanding/cols_des_alpes.cupx)
 | | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml)
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz)
- 
+||||
+| Montagnes des Alpes | cup | [montagnes_des_alpes.cup](https://planeur-net.github.io/outlanding/montagnes_des_alpes.cup) 
 
 ### Mise a jour des fichiers sur Android
 <table>
@@ -40,6 +41,7 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 |Guide des Aires de securite| Reprend les aerodromes et champs definis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liees aux corrections apportees par les contributeurs (altitude, position exacte, ...). [Fiabilite: bonne].
 | Champs des Alpes | Autres champs definis par des contributeurs. [Fiabilite: moyenne]
 |Cols des Alpes | Cols interessants dans les Alpes
+|Montagnes des Alpes | Noms de montagnes dans les Alpes. :warning: Certains nom peuvent etre erronés ou fantaisistes. Merci de participer a sa correction. (Source initiale du fichier a retrouver...)
 
 
 ### Les formats suivants sont maintenus:
