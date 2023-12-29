@@ -1,4 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
+"version=",,,,,,,,,,,"021d0fb 2023-12-29T17:29:50+01:00",,
 "Achen-Kogel",Achengel,AT,4714.400N,01253.900E,2260.0m,7,,,,,,,
 "Acherkogel",Achergel,AT,4711.316N,01057.383E,3008.0m,7,,,,,,,
 "Ach-Kogel",Ach-Kgel,AT,4712.716N,01212.750E,2311.0m,7,,,,,,,
