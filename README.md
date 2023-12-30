@@ -50,6 +50,14 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup 
 
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
+
+### Fichier _details.txt pour XCSoar
+Le fichier *guide_aires_securite.wp_details.txt* ainsi que le repertoire *xcsoar_waipoint_details/pic* permettent d'associer une image a un point (champ, aerodrome, ...).  
+Voir l'aide a l'installation:  <a href="https://github.com/planeur-net/outlanding/blob/main/doc/xcsoar_waypoint_details.md" target="_blank">xcsoar_waypoint_details.md</a>  
+Et le contenu du <a href="https://github.com/planeur-net/outlanding/tree/main/xcsoar_waypoint_details" target="_blank">repertoire /xcsoar_waypoint_details/</a>
+  
+ ![Site Files](doc/images/Screenshot_XCSoar_wp_details.png)
+
 ### Guide de nommage
 La version du guide de reference est indiquee dans la 2e ligne du fichier cup, dans la colonne code.
 ```
