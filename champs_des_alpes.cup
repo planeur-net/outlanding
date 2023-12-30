@@ -10,7 +10,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Oex - Sallanches 2",SallaOex,FR,4558.682N,00637.943E,535.0m,5,0,0.0m,,,"Piste en travers de la vallee.Deux zones de 400m utilisables dans axe de la vallee.Attention cabane entre deux zones. Partie ouest piste ULM est montante et le sol est plan dans toute la plaine.",,
 "Richardiere",,FR,4448.774N,00534.275E,0.0m,3,0,0.0m,,,"La Richardiere",,"fugieres.jpg"
 "Envie Aero",Enviaero,IT,4441.733N,00724.150E,0.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
-"Valenty_2", valenty2,FR,4422.500N,00556.000E,568.0m,2,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
+"Valenty_2", valenty2,FR,4422.500N,00556.000E,568.0m,3,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
 "LIMA - Torino Aeritalia",LIMA,IT,4505.067N,00736.183E,288.0m,5,0,500.0m,,"119.800","10R/28R https://vfr-pilote.fr/aerodrome/lima/",,"LIMA.jpg;LIMA2.jpg"
 "LIMZ - Cuneo Levaldigi",LIMZCigi,IT,4432.850N,00737.383E,387.0m,5,3,2110.0m,,"121.100","03/21",,"LIMZ.jpg;LIMZ2.jpg"
 -----Related Tasks-----
