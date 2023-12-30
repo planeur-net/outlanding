@@ -74,6 +74,6 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
-        file_pattern: './XCSoar_waypoint_details/*'
+        file_pattern: './xcsoar_waypoint_details/*'
 
 
