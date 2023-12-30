@@ -48,7 +48,7 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .cup : Le fichier source
 - .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup
-- [XCSoar _details.txt et /pics](#Fichier-_details.txt-pour-XCSoar): Fichiers générés automatiquement
+- [XCSoar _details.txt et /pics](#fichier-_detailstxt-pour-xcsoar): Fichiers générés automatiquement
 
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
