@@ -747,7 +747,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>320 Bayon</name>
+<name>320 Bayons</name>
 <description>SW/NE Prairie. Reco a pied indispensable. {tres_difficile}</description>
 <styleUrl>#{tres_difficile}</styleUrl>
 <Point>
@@ -779,7 +779,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>324 Thouard</name>
+<name>324 Thoard</name>
 <description>ZA Reco a pied indispensable. Cultures possible. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
@@ -875,7 +875,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>422 Les Crots ULM</name>
+<name>422 Crots ULM</name>
 <description>060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
