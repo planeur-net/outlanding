@@ -45,7 +45,7 @@ jobs:
       with:
         python-version: '3.10.11' 
     
-    - name: Install dependencies
+    - name: Install dependencies and execute convertion
       run: | 
         echo "### Install Python requirements.txt..."
         cd ./Landewiese-to-XCSoar-Waypoints
@@ -64,12 +64,15 @@ jobs:
         cd ./Landewiese-to-XCSoar-Waypoints
         python ./convert.py guide_aires_securite
 
+        echo "### Copy output to oulanding repo"
+        cp -r ./output/docs ../outlanding/XCSoar_waypoint_details/
+        cp -r ./output/pics ../outlanding/XCSoar_waypoint_details/
+        cp ./output/guide_aires_securite.wp_details.txt ../outlanding/XCSoar_waypoint_details/
 
-    - name: ⚙️ Push .kml + .kmz to repo
-      if: ${{ false }}
+    - name: ⚙️ Push output directory to repo
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
-        file_pattern: 'guide_aires_securite.kml guide_aires_securite.kmz'
+        file_pattern: './XCSoar_waypoint_details/*'
 
 
