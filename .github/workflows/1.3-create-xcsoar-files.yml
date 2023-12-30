@@ -65,9 +65,10 @@ jobs:
         python ./convert.py guide_aires_securite
 
         echo "### Copy output to oulanding repo"
-        cp -r ./output/docs ../outlanding/XCSoar_waypoint_details/
-        cp -r ./output/pics ../outlanding/XCSoar_waypoint_details/
-        cp ./output/guide_aires_securite.wp_details.txt ../outlanding/XCSoar_waypoint_details/
+        cp -r ./output/docs ../outlanding/xcsoar_waypoint_details/
+        cp -r ./output/pics ../outlanding/xcsoar_waypoint_details/
+        cp ./output/guide_aires_securite.wp_details.txt ../outlanding/xcsoar_waypoint_details/
+
 
     - name: ⚙️ Push output directory to repo
       uses: stefanzweifel/git-auto-commit-action@v5
