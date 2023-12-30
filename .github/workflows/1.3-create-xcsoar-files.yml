@@ -40,24 +40,27 @@ jobs:
         path: ./binwalk
         ref: master
     
-    - name: 🚚 Get latest code for ReFirmLabs/binwalk
+    - name: ⚙️ Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10.11' 
     
     - name: Install dependencies
       run: | 
+        echo "### Install Python requirements.txt..."
         cd ./Landewiese-to-XCSoar-Waypoints
         mkdir data
         pip install -r requirements.txt
         
+        echo "### Install binwalk..."
         cd ../binwalk
         sudo python setup.py install
         
+        echo "### Execute Python ..."
         cd ../
         cp ./outlanding/guide_aires_securite.cupx ./Landewiese-to-XCSoar-Waypoints/data
-        cd ./Landewiese-to-XCSoar-Waypoints/data
-        python .convert.py guide_aires_securite
+        cd ./Landewiese-to-XCSoar-Waypoints
+        python ./convert.py guide_aires_securite
 
 
     - name: ⚙️ Push .kml + .kmz to repo
