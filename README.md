@@ -92,4 +92,5 @@ Les "tag" sont:
 |  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
 
 ## Copyrights - Droits
-Images fournies et utilisées avec l'autorisation de Jérémie Badaroux 
+Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
+Conversion XCSoar Waypoints details: https://github.com/ubx/Landewiese-to-XCSoar-Waypoints
