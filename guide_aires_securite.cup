@@ -7,7 +7,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#18 StCroix LF0429",#18,FR,4346.683N,00609.583E,655.0m,4,130,700.0m,,122.5,"130/310 Terrain prive motoplaneur. Ligne electrique et antennes au NW. Piste balisee. {terrain}",,"Sainte_Croix.jpg"
 "#20 LFTP Puimoisson",LFTP,FR,4352.217N,00609.850E,768.0m,4,80,800.0m,,122.500,"07/25 + 16/34 {aerodrome}",,"LFTP_Puimoisson.jpg"
 "#22 LFMF Fayence",LFMF,FR,4336.633N,00641.817E,226.0m,4,100,830.0m,,119.050,"10R/28L + 10L/28R + 32 {aerodrome}",,"LFMF_Fayence.jpg"
-"#24 LFNJ Aspres Sur Bueche",LFNJ,FR,4431.100N,00544.133E,832.0m,2,180,890.0m,,123.500,"18/36 + 10/28 {aerodrome}",,"LFNJ_Aspres.jpg"
+"#24 LFNJ Aspres Sur Buech",LFNJ,FR,4431.100N,00544.133E,832.0m,2,180,890.0m,,123.500,"18/36 + 10/28 {aerodrome}",,"LFNJ_Aspres.jpg"
 "#26 LFTM Serres La Batie",LFTM,FR,4427.500N,00543.667E,716.0m,2,180,650.0m,,123.500,"18/36 {aerodrome}",,"LFTM_Serres.jpg"
 "#28 LFNA Gap Tallard",LFNA,FR,4427.300N,00602.233E,607.0m,5,30,890.0m,,119.100,"02/20 {aerodrome}",,"LFNA_Gap_Tallard.jpg"
 "#32 LFNS Sisteron",LFNS,FR,4417.250N,00555.783E,540.0m,5,180,1170.0m,,120.050,"17/35 {aerodrome}",,"LFNS_Sisteron_These.jpg"
