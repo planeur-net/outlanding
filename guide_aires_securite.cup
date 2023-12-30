@@ -58,7 +58,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "131 Sederon",131,FR,4413.233N,00534.483E,750.0m,3,90,250.0m,,,"ZA Attention par vent NW. {normal}",,"131_Sederon.jpg"
 "132 Sainte Jalle",132,FR,4420.067N,00518.183E,440.0m,3,305,250.0m,,,"305/125 Ligne electrique partie SE des champs. Vent arriere cote NE. {difficile}",,"132_Sainte_Jalle.jpg"
 "133 Curnier",133,FR,4423.380N,00513.200E,310.0m,3,90,300.0m,,,"E/W Prairie. Cultures possibles. Posable dans les 2 sens. {normal}",,"133_Curnier.jpg"
-"135 Methamis",135,FR,4400.400N,00511.000E,225.0m,3,65,220.0m,,,"65/245 Prairie. Cultures possibles. Posable dans les 2 sens. {difficile}",,"135_Méthamis.jpg"
+"135 Methamis",135,FR,4400.400N,00511.000E,225.0m,3,65,220.0m,,,"65/245 Prairie. Cultures possibles. Posable dans les 2 sens. {difficile}",,"135_Methamis.jpg"
 "210 Quinson",210,FR,4341.000N,00604.283E,500.0m,3,0,500.0m,,,"ZA Choisir fct cultures. {facile}",,"210_Quinson.jpg"
 "211 Artignosc",211,FR,4341.083N,00608.100E,580.0m,3,70,550.0m,,,"070 Aerodrome prive. 20m de large. Herbe. Legere montee vers le NE. {facile}",,"211_Artignosc_ULM.jpg"
 "212 Bauden",212,FR,4341.500N,00612.550E,710.0m,3,130,500.0m,,,"130/310 Choisir champ en fct cultures. {facile}",,"212_Bauden.jpg"
