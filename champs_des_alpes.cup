@@ -15,4 +15,5 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "LIMZ - Cuneo Levaldigi",LIMZCigi,IT,4432.850N,00737.383E,387.0m,5,3,2110.0m,,"121.100","03/21",,"LIMZ.jpg;LIMZ2.jpg"
 "Ste-Jalle_2",,FR,4420.483N,00518.650E,490M,3,008,300.0m,,,"En montée 4% vers le nord",,"ste-jalle2.jpg"
 "Bevons_1",,FR,4410.333N,00553.717E,490m,3,073,340.0m,,,"A l'Est de Noyers sur Jabron",,"bevons1.jpeg"
+"Bevons_2",,FR,4410.100N,00552.783E,500m,3,075,210.0m,,,"A l'Est de Noyers sur Jabron",,"bevons2.jpeg"
 -----Related Tasks-----
