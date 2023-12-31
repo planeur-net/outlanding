@@ -17,6 +17,7 @@ on:
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
   convert-to-kmz:
+    if: github.ref == 'refs/heads/main' && github.repository == 'llauner/outlanding'
     name: Checkout repo for cup
     runs-on: ubuntu-latest
     steps:

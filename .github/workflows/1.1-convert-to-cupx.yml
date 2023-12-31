@@ -17,6 +17,7 @@ on:
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
   convert-to-cupx:
+    if: github.ref == 'refs/heads/main' && github.repository == 'llauner/outlanding'
     name: Convert guide_aires_securite.cup to .cupx
     runs-on: ubuntu-latest
     steps:
