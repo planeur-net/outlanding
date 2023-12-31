@@ -1,4 +1,4 @@
-[4.1]
+[version]
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
 [LFJE]
