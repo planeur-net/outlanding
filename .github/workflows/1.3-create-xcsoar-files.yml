@@ -79,12 +79,15 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Clone this repo
         uses: actions/checkout@v3
+        with:
+          path: ./outlanding
           
       # Add version information to guide_aires_securite.cup
       - name: Get info, delete 1st line if applicable, add info
         id: set_version
         run: |
           # Get information
+          cd ./outlanding
           git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup
           versionInfo=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
           # Remove first line if applicable
@@ -94,6 +97,12 @@ jobs:
 
           # Save commit message for future push
           echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- guide_aires_securite.cup`" >> $GITHUB_OUTPUT
+
+          # push to repo
+          echo "Pulling latest version before push..."
+          cd ../outlanding
+          git pull
+
           
       
       # Push changes to repo    
