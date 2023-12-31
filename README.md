@@ -48,15 +48,14 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .cup : Le fichier source
 - .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup
-- [XCSoar _details.txt et /pics](#fichier-_detailstxt-pour-xcsoar): Fichiers générés automatiquement
+- [XCSoar _details.txt](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement
 
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
 ### Fichier _details.txt pour XCSoar
-Fichiers générés automatiquement:  
-Le fichier *guide_aires_securite.wp_details.txt* ainsi que le repertoire *xcsoar_waipoint_details/pic* permettent d'associer une image a un point (champ, aerodrome, ...).  
-Voir l'aide a l'installation:  <a href="https://github.com/planeur-net/outlanding/blob/main/doc/xcsoar_waypoint_details.md" target="_blank">xcsoar_waypoint_details.md</a>  
-Et le contenu du <a href="https://github.com/planeur-net/outlanding/tree/main/xcsoar_waypoint_details" target="_blank">repertoire /xcsoar_waypoint_details/</a>
+Fichier généré automatiquement:  
+Le fichier *guide_aires_securite_details.txt* ainsi que le repertoire *Pics* permettent d'associer une image a un point (champ, aerodrome, ...).  
+Voir l'aide a l'installation: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_details.md)    
   
  ![Site Files](doc/images/Screenshot_XCSoar_wp_details.png)
 
