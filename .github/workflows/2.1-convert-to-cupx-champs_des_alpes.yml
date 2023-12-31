@@ -17,7 +17,7 @@ on:
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
   convert-to-cupx:
-    if: github.ref == 'refs/heads/main' && github.repository == 'llauner/outlanding'
+    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
     name: Convert champs_des_alpes.cup to .cupx
     runs-on: ubuntu-latest
     steps:
