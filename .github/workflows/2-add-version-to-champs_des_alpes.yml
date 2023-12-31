@@ -13,6 +13,20 @@ on:
   workflow_dispatch:
 
 jobs:
+  get-info:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps: 
+      # Add version information to guide_aires_securite.cup
+      - name: Get info
+        id: get-info
+        run: |
+          echo "This was executed !!"
+          echo ${{ github.ref }}
+          echo ${{ github.repository }}
+
   add-version:
     if: github.ref == 'refs/heads/main' && github.repository == 'llauner/outlanding'
     # The type of runner that the job will run on
