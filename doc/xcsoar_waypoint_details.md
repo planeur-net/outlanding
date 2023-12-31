@@ -1,6 +1,6 @@
 # Fichier Details pour XCSoar
-Comme indique dans la documention:  
->Les fichiers dedétails des aérodromes/points de virage sont de simples fichiers textes (extension.txt) comportant une entrée pour chaque aérodrome, écrit entre crochets et en majuscules, suivi du texte affiché dans la fenêtre d’information des aérodromes/points de virage.
+Comme indiqué dans la documention:  
+>Les fichiers de détails des aérodromes/points de virage sont de simples fichiers textes (extension.txt) comportant une entrée pour chaque aérodrome, écrit entre crochets et en majuscules, suivi du texte affiché dans la fenêtre d’information des aérodromes/points de virage.
 
 Il permet d'associer une image a un point et de visualiser cette image dans la page des details de ce point.
 
@@ -10,11 +10,11 @@ Il permet d'associer une image a un point et de visualiser cette image dans la p
 - Copier dans ce repertoire le repertoire des images `/Pics`
 - Copier dans ce repertoire le fichier `guide_aires_securite_details.txt`
 
-- Dans XCSoar: Config/System/Site Files/Site Files selectionner le fichier *guide_aires_securite.cup* pour Waypoints et *guide_aires_securite_details.txt* pour Waypoint details.  
+- Dans XCSoar: Config/System/Site Files/Site Files sélectionner le fichier *guide_aires_securite.cup* pour Waypoints et *guide_aires_securite_details.txt* pour Waypoint details.  
   
   ![Site Files](images/Screenshot_XCSoar_files.png)
 
 # Waypoint details et images
-  Lorsque vous selectionnez un point, et naviguez dans les details, vous pouvez maintenant voir l'image associee.
+  Lorsque vous sélectionnez un point, et naviguez dans les details, vous pouvez maintenant voir l'image associée.
 
  ![Site Files](images/Screenshot_XCSoar_wp_details.png)

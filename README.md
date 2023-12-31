@@ -1,5 +1,5 @@
 # Outlanding
-Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilite des contributeurs et encore moins celle des proprietaires des champs.
+Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilité des contributeurs et encore moins celle des propriétaires des champs.
 ## Download
 | Fichier  | Format  | Lien |
 |---|---|---|
@@ -38,10 +38,10 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 ## Fichiers de champs "vachables" pour les Alpes
 | Fichier  | Commentaire  |
 |---|---|
-|Guide des Aires de securite| Reprend les aerodromes et champs definis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liees aux corrections apportees par les contributeurs (altitude, position exacte, ...). [Fiabilite: bonne].
-| Champs des Alpes | Autres champs definis par des contributeurs. [Fiabilite: moyenne]
-|Cols des Alpes | Cols interessants dans les Alpes
-|Montagnes des Alpes | Noms de montagnes dans les Alpes. :warning: Certains noms peuvent etre erronés ou fantaisistes. Merci de participer aux corrections. (Source initiale du fichier a retrouver...)
+|Guide des Aires de securite| Reprend les aerodromes et champs définis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liées aux corrections apportées par les contributeurs (altitude, position exacte, ...). [Fiabilité: bonne].
+| Champs des Alpes | Autres champs définis par des contributeurs. [Fiabilité: moyenne]
+|Cols des Alpes | Cols intéressants dans les Alpes
+|Montagnes des Alpes | Noms de montagnes dans les Alpes. :warning: Certains noms peuvent être erronés ou fantaisistes. Merci de participer aux corrections. (Source initiale du fichier a retrouver...)
 
 
 ### Les formats suivants sont maintenus:
@@ -60,7 +60,7 @@ Voir l'aide a l'installation: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_d
  ![Site Files](doc/images/Screenshot_XCSoar_wp_details.png)
 
 ### Guide de nommage
-La version du guide de reference est indiquee dans la 2e ligne du fichier cup, dans la colonne code.
+La version du guide de reference est indiquée dans la 2e ligne du fichier cup, dans la colonne code.
 ```
 "version=",4.1,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
 ```
@@ -75,21 +75,20 @@ La version du guide de reference est indiquee dans la 2e ligne du fichier cup, d
 ```
 
 #### Commentaires
-Les commentaires proviennent generalement du guide. A la fin de chaque commentaire est ajoute un "tag" qui permet d'idientifier rapidement la difficulte associee.  
+Les commentaires proviennent généralement du guide. A la fin de chaque commentaire est ajoute un "tag" qui permet d’identifier rapidement la difficulté associée.  
 Les "tag" sont:
 | Tag  | Commentaire  | Couleur dans le guide | kmz icon|
 |---|---|---|---|
-|  {aerodrome} | Aerodrome ou aeroport  | blanc | ![](doc/images/runway.png)|
+|  {aerodrome} | Aerodrome ou aéroport  | blanc | ![](doc/images/runway.png)|
 |  {terrain} | Terrain balise (prive) ou piste ULM | blanc | ![](doc/images/windsock.png)|
 |  {altiport} | Altiport | blanc | ![](doc/images/altiport.png)|
 |  {velisurface} | Velisurface |  |![](doc/images/velisurface.png) |
-|  {facile} | Champ sans difficulte particuliere. Adapte a tous les types de machines  | Vert | ![](doc/images/marker_green.png)|
-|  {normal} | Champ avec une ou plusieurs difficultes. (Un seul sens, taille reduite, ...) | Orange | ![](doc/images/marker_orange.png)|
+|  {facile} | Champ sans difficulté particulière. Adapte a tous les types de machines  | Vert | ![](doc/images/marker_green.png)|
+|  {normal} | Champ avec une ou plusieurs difficultés. (Un seul sens, taille réduite, ...) | Orange | ![](doc/images/marker_orange.png)|
 |  {difficile} | Champ difficile. Pas forcement utilisable avec les grandes plumes, casse possible, ...  | Rouge | ![](doc/images/marker_red.png)| 
 |  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir | ![](doc/images/marker_black.png)|
 |||||
 |  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
 
 ## Copyrights - Droits
-Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
-Conversion XCSoar Waypoints details: https://github.com/ubx/Landewiese-to-XCSoar-Waypoints
+Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.
