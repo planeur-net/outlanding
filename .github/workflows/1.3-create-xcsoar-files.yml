@@ -109,6 +109,7 @@ jobs:
       - name: Push changes into repo
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          repository: ./outlanding
           commit_message: ${{ steps.set_version.outputs.LAST_COMMIT_MESSSAGE }}
           file_pattern: 'guide_aires_securite_details.txt'
 
