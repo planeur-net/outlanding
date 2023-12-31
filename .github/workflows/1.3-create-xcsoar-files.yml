@@ -41,7 +41,6 @@ jobs:
     - name: Install dependencies
       run: | 
         cd ./cup2xcsoar
-        npm install
     
     - name: ⚙️ Create _details.txt
       id: create_details
