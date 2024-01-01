@@ -131,7 +131,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "632 St Vincent de Mercuze",632,FR,4522.283N,00558.217E,260.0m,3,20,300.0m,,,"020/200 Champ en fonction du ven. ZA. {facile}",,
 "633 Voreppe",633,FR,4516.217N,00537.933E,200.0m,3,360,400.0m,,,"360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}",,
 "710 Passy",710,FR,4555.467N,00643.200E,590.0m,3,160,600.0m,,,"160/340 Deniveles possibles en limite de parcelle. Atterro conseille vers le S et dans la partie la moins ondulee a W de la zone. {facile}",,
-"720 Marthod",720,FR,4543.400N,00624.567E,380.0m,3,210,3000.0m,,,"210/030 Prairie. Reco a pied conseillee. {normal}",,
+"720 Marthod",720,FR,4543.400N,00624.567E,380.0m,3,210,320.0m,,,"210/030 Prairie. Reco a pied conseillee. {normal}",,
 "721 Landry",721,FR,4534.383N,00644.050E,750.0m,3,0,0.0m,,,"240/060 Travaux en cours: Imposable !240/060 Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}",,
 "721 Landry Les Ilettes",721_2,FR,4535.300N,00645.040E,750.0m,3,0,0.0m,,,"020/200 Activite parapente. {tres_difficile}",,
 "722 La Bathie",722,FR,4537.533N,00626.617E,375.0m,3,165,200.0m,,,"165/345 Atterro sur axe parallele a la nationale. Toucher et rouler dans la largeur d'un seul champs. {facile}",,
