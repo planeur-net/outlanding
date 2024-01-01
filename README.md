@@ -1,12 +1,14 @@
 # Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilité des contributeurs et encore moins celle des propriétaires des champs.
 ## Download
-| Fichier  | Format  | Lien |
-|---|---|---|
+| Fichier  | Format  | Lien | Commentaire |
+|---|---|---|---|
 | Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) 
 | | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx)  
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) 
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz)
+| | _details.txt | [guide_aires_securite_details.txt](https://planeur-net.github.io/outlanding/guide_aires_securite_details.txt) | XCSoar:  Fichier description des images
+| | zip | [guide_aires_securite.xcsoar.zip](https://planeur-net.github.io/outlanding/guide_aires_securite.xcsoar.zip) | XCSoar: Contient tous les fichiers nécessaires pour XCSoar. Voir l'aide a l'installation: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_details.md)    
 ||||
 | Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup)
 | | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx)
@@ -49,7 +51,8 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [See: SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup
 - [XCSoar _details.txt](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement
-
+- [guide_aires_securite.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Securite.  
+  
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
 ### Fichier _details.txt pour XCSoar

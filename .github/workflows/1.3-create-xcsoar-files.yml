@@ -1,6 +1,6 @@
 # Copy file to planeur.net FTP server
 
-name: 1.3 - Create XCSoar _details.txt + add version
+name: 1.3 - Create XCSoar _details.txt + version + zip
 
 # Controls when the workflow will run
 on:
@@ -53,65 +53,34 @@ jobs:
         echo "### Copy _details to outlanding repo location"
         cp ./guide_aires_securite_details.txt ../outlanding/
 
-        # push to repo
-        echo "Pulling latest version before push..."
-        cd ../outlanding
-        git pull
+
+    - name: Set version
+      id: set_version
+      run: |
+        # Get information
+        cd ./outlanding
+        git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup
+        versionInfo=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
+        # Remove first line if applicable
+        sed -i "$((grep -nm1 \"[version] ./guide_aires_securite_details.txt || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite_details.txt
+        # Add version information
+        sed -i "2i $versionInfo" ./guide_aires_securite_details.txt
+
+
+        
+    - name: Create ZIP for XCSoar folder
+      id: create_zip
+      run: |
+        echo "### Create ZIP to be copied to XCSoar folder"
+        cd ./outlanding
+        zip guide_aires_securite.xcsoar.zip guide_aires_securite.cup guide_aires_securite_details.txt Pics/
 
         # Save commit message for future push
         echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- champs_des_alpes.cup`" >> $GITHUB_OUTPUT
 
-    - name: ⚙️ Push guide_aires_securite_details.txt to repo
+    - name: ⚙️ Push to repo
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
-        commit_message: ${{ steps.create_details.outputs.LAST_COMMIT_MESSSAGE }}
-        file_pattern: 'guide_aires_securite_details.txt'
-
-
-  add-version:
-    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
-    needs: convert-to-xcsoar
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Clone this repo
-        uses: actions/checkout@v3
-        with:
-          path: ./outlanding
-          
-      # Add version information to guide_aires_securite.cup
-      - name: Get info, delete 1st line if applicable, add info
-        id: set_version
-        run: |
-          # Get information
-          cd ./outlanding
-          git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup
-          versionInfo=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
-          # Remove first line if applicable
-          sed -i "$((grep -nm1 \"[version] ./guide_aires_securite_details.txt || echo 1000000000:) | cut -f 1 -d:) d" ./guide_aires_securite_details.txt
-          # Add version information
-          sed -i "2i $versionInfo" ./guide_aires_securite_details.txt
-
-          # Save commit message for future push
-          echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- guide_aires_securite.cup`" >> $GITHUB_OUTPUT
-
-          # push to repo
-          echo "Pulling latest version before push..."
-          cd ../outlanding
-          git pull
-
-          
-      
-      # Push changes to repo    
-      - name: Push changes into repo
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          repository: ./outlanding
-          commit_message: ${{ steps.set_version.outputs.LAST_COMMIT_MESSSAGE }}
-          file_pattern: 'guide_aires_securite_details.txt'
-
+        commit_message: ${{ steps.create_zip.outputs.LAST_COMMIT_MESSSAGE }}
 

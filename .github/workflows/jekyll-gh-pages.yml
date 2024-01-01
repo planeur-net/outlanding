@@ -4,7 +4,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   # Triggers the workflow After the version has been added
   workflow_run:
-    workflows: ["1.3 - Create XCSoar _details.txt file", "2.1 - Convert to .cupx - champs_des_alpes.cup", "3.2 - Create cols_des_alpes.kmz", "4 - Add version to montagnes_des_alpes.cup"]
+    workflows: ["1.3 - Create XCSoar _details.txt + version + zip", "2.1 - Convert to .cupx - champs_des_alpes.cup", "3.2 - Create cols_des_alpes.kmz", "4 - Add version to montagnes_des_alpes.cup"]
     types:
       - completed
 
