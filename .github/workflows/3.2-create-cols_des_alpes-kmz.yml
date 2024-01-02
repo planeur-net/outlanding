@@ -63,4 +63,8 @@ jobs:
         commit_message: ${{ steps.convert_to_kmz.outputs.LAST_COMMIT_MESSSAGE }}
         file_pattern: 'cols_des_alpes.*'
 
+    - name: Trigger event for github pages update
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        event-type: update-pages-event
 

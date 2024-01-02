@@ -47,4 +47,7 @@ jobs:
         commit_message: ${{ steps.convert_to_cupx.outputs.LAST_COMMIT_MESSSAGE }}
         file_pattern: 'champs_des_alpes.cupx'
 
-
+    - name: Trigger event for github pages update
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        event-type: update-pages-event
