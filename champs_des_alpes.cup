@@ -6,7 +6,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Fugieres",Fugieres,FR,4457.333N,00547.833E,1030.0m,3,34,430.0m,,,"Sommet de monticule. Monte vers le ",,
 "La Javie",Javie,FR,4410.250N,00620.100E,800.0m,3,0,250.0m,,,"ZA Choisir en fct cultures.",,"la_javie.jpg"
 "La Javie_2",LaJavie2,FR,4410.132N,00619.789E,800.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
-"Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,34,250.0m,16.0m,"130.000","16/34 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable après fortes pluies. Fossé de part et d'autre de la piste, balisé par cônes rouges. Contact tel obligatoire: 0680528747",,"lesche.jpg"
+"Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,"130.000","16/34 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable après fortes pluies. Fossé de part et d'autre de la piste, balisé par cônes rouges. Contact tel obligatoire: 0680528747",,"lesche.jpg"
 "Oex - Sallanches 2",SallaOex,FR,4558.682N,00637.943E,535.0m,5,0,0.0m,,,"Piste en travers de la vallee.Deux zones de 400m utilisables dans axe de la vallee.Attention cabane entre deux zones. Partie ouest piste ULM est montante et le sol est plan dans toute la plaine.",,
 "Richardiere",,FR,4448.774N,00534.275E,0.0m,3,0,0.0m,,,"La Richardiere",,"fugieres.jpg"
 "Envie Aero",Enviaero,IT,4441.733N,00724.150E,0.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
