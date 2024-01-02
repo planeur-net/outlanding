@@ -16,4 +16,10 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Ste-Jalle_2",Ste-Jalle_2,FR,4420.483N,00518.650E,490M,3,008,300.0m,,,"En montée 4% vers le nord",,"ste-jalle2.jpg"
 "Bevons_1",Bevons_1,FR,4410.333N,00553.717E,490m,3,073,340.0m,,,"A l'Est de Noyers sur Jabron",,"bevons1.jpg"
 "Bevons_2",Bevons_2,FR,4410.100N,00552.783E,490m,3,073,340.0m,,,"A l'Est de Noyers sur Jabron",,"bevons2.jpg"
+"Boege",Boege,FR,4612.069N,00623.900E,720.0m,3,42,280.0m,30.0m,,"Très difficile - impressionnant - a eviter si possible",,"boege.jpg"
+"Cervens",LF7470,FR,4617.583N,00626.800E,610.0m,2,54,310.0m,,"123.5","123.5",,"LF7470.jpg"
+"Alex",Alex,FR,4553.250N,00613.100E,570.0m,3,197,300.0m,30.0m,,"monte 4% vers le Sud - Choisir en fonction des cultures - Attention chemin entre les 2 champs.",,"alex.jpg"
+"La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,,,"la_tour.jpg"
+"Thône CV",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"tres bien - preferer QFU SW",,"thone.jpg"
+"Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W",,abondnce.jpg"
 -----Related Tasks-----
