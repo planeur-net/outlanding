@@ -100,11 +100,11 @@ jobs:
       run: |
         echo "### Create ZIP to be copied to XCSoar folder"
         cd ./outlanding
-        zip guide_aires_securite.xcsoar.zip guide_aires_securite.cup guide_aires_securite_details.txt Pics/
+        zip guide_aires_securite.xcsoar.zip guide_aires_securite.cup guide_aires_securite_details.txt Pics/*
 
         echo "### Create combined_guide+champs ZIP file"
         cp Pics_champs_des_alpes/* Pics/
-        zip combined_guide+champs.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt Pics/
+        zip combined_guide+champs.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt Pics/*
 
         # Save commit message for future push
         echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- champs_des_alpes.cup`" >> $GITHUB_OUTPUT
