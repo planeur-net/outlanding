@@ -68,7 +68,7 @@
 <name>Landouts</name>
 <Placemark>
 <name>#10 LFNE Salon Eyguieres</name>
-<description>015/33 {aerodrome}</description>
+<description>150/330 + 090/270 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.01305, 43.65833333333333</coordinates>
@@ -76,7 +76,7 @@
 </Placemark>
 <Placemark>
 <name>#12 LFJE La Motte Chalancon</name>
-<description>Altiport {altiport}</description>
+<description>030/210 Altiport {altiport}</description>
 <styleUrl>#{altiport}</styleUrl>
 <Point>
 <coordinates>5.402783333333334, 44.499716666666664</coordinates>
@@ -84,7 +84,7 @@
 </Placemark>
 <Placemark>
 <name>#14 Cereste LF8421</name>
-<description>08/26 Terrain prive. Piste balisee. Hangar. {terrain}</description>
+<description>080/260 Terrain prive. Piste balisee. Hangar. {terrain}</description>
 <styleUrl>#{terrain}</styleUrl>
 <Point>
 <coordinates>5.54945, 43.852783333333335</coordinates>
@@ -92,7 +92,7 @@
 </Placemark>
 <Placemark>
 <name>#16 LFNF Vinon</name>
-<description>02/30 + 100/280 + 160/340 {aerodrome}</description>
+<description>020/200 + 100/280 + 160/340 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.783616666666667, 43.73778333333333</coordinates>
@@ -108,7 +108,7 @@
 </Placemark>
 <Placemark>
 <name>#20 LFTP Puimoisson</name>
-<description>07/25 + 16/34 {aerodrome}</description>
+<description>070/250 + 160/340 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.164166666666667, 43.87028333333333</coordinates>
@@ -116,7 +116,7 @@
 </Placemark>
 <Placemark>
 <name>#22 LFMF Fayence</name>
-<description>10R/28L + 10L/28R + 32 {aerodrome}</description>
+<description>100R/280L + 100L/280R + 320 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.69695, 43.61055</coordinates>
@@ -124,7 +124,7 @@
 </Placemark>
 <Placemark>
 <name>#24 LFNJ Aspres Sur Buech</name>
-<description>18/36 + 10/28 {aerodrome}</description>
+<description>180/360 + 10/28 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.73555, 44.51833333333333</coordinates>
@@ -132,7 +132,7 @@
 </Placemark>
 <Placemark>
 <name>#26 LFTM Serres La Batie</name>
-<description>18/36 {aerodrome}</description>
+<description>180/360 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.727783333333333, 44.458333333333336</coordinates>
@@ -140,7 +140,7 @@
 </Placemark>
 <Placemark>
 <name>#28 LFNA Gap Tallard</name>
-<description>02/20 {aerodrome}</description>
+<description>020/200 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.037216666666667, 44.455</coordinates>
@@ -148,7 +148,7 @@
 </Placemark>
 <Placemark>
 <name>#32 LFNS Sisteron</name>
-<description>17/35 {aerodrome}</description>
+<description>170/350 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.929716666666667, 44.2875</coordinates>
@@ -164,7 +164,7 @@
 </Placemark>
 <Placemark>
 <name>#36 LFMX St Auban</name>
-<description>{aerodrome}</description>
+<description>030/150{aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.990833333333334, 44.06</coordinates>
@@ -180,7 +180,7 @@
 </Placemark>
 <Placemark>
 <name>#4 LFHD Pierrelatte</name>
-<description>18/36 {aerodrome}</description>
+<description>180/360 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>4.7175, 44.39888333333333</coordinates>
@@ -188,7 +188,7 @@
 </Placemark>
 <Placemark>
 <name>#40 LFNC St Crepin</name>
-<description>16/34 + 16L 34R {aerodrome}</description>
+<description>160/340 + 160L/340R {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.599716666666667, 44.70166666666667</coordinates>
@@ -196,7 +196,7 @@
 </Placemark>
 <Placemark>
 <name>#42 LFMR Barcelonnette</name>
-<description>09/27 {aerodrome}</description>
+<description>090/270 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.6097166666666665, 44.388333333333335</coordinates>
@@ -212,7 +212,7 @@
 </Placemark>
 <Placemark>
 <name>#46 LFHE Romans</name>
-<description>06R/24L {aerodrome}</description>
+<description>060R/240L {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.102783333333333, 45.066116666666666</coordinates>
@@ -220,7 +220,7 @@
 </Placemark>
 <Placemark>
 <name>#48 LFKE St Jean en Royans</name>
-<description>14/32 {aerodrome}</description>
+<description>140/320 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.31, 45.02778333333333</coordinates>
@@ -228,7 +228,7 @@
 </Placemark>
 <Placemark>
 <name>#50 LFLU Valence Chabeuil</name>
-<description>01/19 {aerodrome}</description>
+<description>010/190 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>4.968616666666667, 44.91555</coordinates>
@@ -236,7 +236,7 @@
 </Placemark>
 <Placemark>
 <name>#52 LFJF Aubenasson</name>
-<description>09/27 Terrain prive. Vent Arriere au Sud. {aerodrome}</description>
+<description>090/270 Terrain prive. Vent Arriere au Sud. {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.15055, 44.695</coordinates>
@@ -252,7 +252,7 @@
 </Placemark>
 <Placemark>
 <name>#56 LFLI Annemasse</name>
-<description>12/30 {aerodrome}</description>
+<description>120/300 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.268883333333333, 46.19195</coordinates>
@@ -268,7 +268,7 @@
 </Placemark>
 <Placemark>
 <name>#58 LFLP Annecy</name>
-<description>04/22 {aerodrome}</description>
+<description>040/220 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.1063833333333335, 45.93083333333333</coordinates>
@@ -276,7 +276,7 @@
 </Placemark>
 <Placemark>
 <name>#6 LFNV Valreas Visan</name>
-<description>02/20 {aerodrome}`</description>
+<description>020/200 {aerodrome}`</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>4.90695, 44.33583333333333</coordinates>
@@ -284,7 +284,7 @@
 </Placemark>
 <Placemark>
 <name>#60 LFLB Chambery Aix Les Bains</name>
-<description>18/36 {aerodrome}</description>
+<description>180/360 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.88, 45.63916666666667</coordinates>
@@ -292,7 +292,7 @@
 </Placemark>
 <Placemark>
 <name>#62 LFLE Challes les eaux</name>
-<description>14/32 {aerodrome}</description>
+<description>140/320 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.976383333333334, 45.56138333333333</coordinates>
@@ -300,7 +300,7 @@
 </Placemark>
 <Placemark>
 <name>#64 LFLG Grenoble Versoud</name>
-<description>04/22 {aerodrome}</description>
+<description>040/220 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.849166666666667, 45.219166666666666</coordinates>
@@ -308,7 +308,7 @@
 </Placemark>
 <Placemark>
 <name>#66 LFKA Albertville</name>
-<description>05/23 {aerodrome}</description>
+<description>050/230 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.329166666666667, 45.62721666666667</coordinates>
@@ -316,7 +316,7 @@
 </Placemark>
 <Placemark>
 <name>#68 LFKD Sollieres Sardieres</name>
-<description>01/19 {aerodrome}</description>
+<description>010/190 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.80055, 45.25445</coordinates>
@@ -324,7 +324,7 @@
 </Placemark>
 <Placemark>
 <name>#7 LFNH Carpentras</name>
-<description>13/31 {aerodrome}</description>
+<description>130/310 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.090283333333334, 44.02333333333333</coordinates>
@@ -332,7 +332,7 @@
 </Placemark>
 <Placemark>
 <name>#70 LFKR St Remy de Maurienne</name>
-<description>16/34 {aerodrome}</description>
+<description>160/340 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>6.28195, 45.36945</coordinates>
@@ -340,7 +340,7 @@
 </Placemark>
 <Placemark>
 <name>#72 Prealpi-Musine</name>
-<description>Terrain prive. Piste en herbe balisee. {facile}</description>
+<description>030/210 Terrain prive. Piste en herbe balisee. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
 <coordinates>7.521833333333333, 45.12433333333333</coordinates>
@@ -372,7 +372,7 @@
 </Placemark>
 <Placemark>
 <name>#76 LIMW Aoste</name>
-<description>09/27 Frequence VV=123.375 {aerodrome}</description>
+<description>090/270 Frequence VV=123.375 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>7.3675, 45.73833333333333</coordinates>
@@ -388,7 +388,7 @@
 </Placemark>
 <Placemark>
 <name>#78 LSGS Sion</name>
-<description>07/25 Frequence Approche=126.825 Frequence VV=123.67 {aerodrome}</description>
+<description>070/250 Frequence Approche=126.825 Frequence VV=123.67 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>7.328883333333334, 46.22</coordinates>
@@ -396,7 +396,7 @@
 </Placemark>
 <Placemark>
 <name>#8 LFNT Avignon</name>
-<description>16R/34L + 12/30 {aerodrome}</description>
+<description>160R/340L + 12/30 {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>4.75445, 43.996116666666666</coordinates>
@@ -404,7 +404,7 @@
 </Placemark>
 <Placemark>
 <name>#9 LFNZ St Remy</name>
-<description>18/36 Le Mazet de Romanin. {aerodrome}</description>
+<description>180/360 Le Mazet de Romanin. {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>4.89305, 43.768883333333335</coordinates>
