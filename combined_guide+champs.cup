@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]7a26b6b 2024-01-03T16:33:15+00:00 + [champs_des_alpes]7a26b6b 2024-01-03T16:33:15+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]83275af 2024-01-03T18:35:19+01:00 + [champs_des_alpes]83275af 2024-01-03T18:35:19+01:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -139,16 +139,22 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Arvieux",Arvieux,FR,4446.301N,00644.160E,1580.0m,3,0,300.0m,,,,,"arvieux.jpg"
 "Crots_2",Crots_2,FR,4431.836N,00626.016E,800.0m,3,90,300.0m,40.0m,,"090 / 270 Vent  arriere face au Nord. Monte vers E. Atterissage Face a l'est",,"crots2.jpg"
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
-"Fugieres",Fugieres,FR,4457.333N,00547.833E,1030.0m,3,34,430.0m,,,"Sommet de monticule. Monte vers le ",,"fugieres.jpg"
+"Fugieres",Fugieres,FR,4457.333N,00547.833E,1030.0m,3,340,430.0m,,,"Sommet de monticule. Monte vers le Nord",,"fugieres.jpg"
 "La Javie",Javie,FR,4410.250N,00620.100E,800.0m,3,0,250.0m,,,"ZA Choisir en fct cultures.",,"la_javie.jpg"
 "La Javie_2",LaJavie2,FR,4410.132N,00619.789E,800.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
-"Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,"130.000","16/34 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable après fortes pluies. Fossé de part et d'autre de la piste, balisé par cônes rouges. Contact tel obligatoire: 0680528747",,"lesche.jpg"
+"Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,"130.000","160/340 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable. Fosses de part et d'autre de la piste balises par cones rouges. Contact obligatoire: 0680528747 {terrain}",,"lesche.jpg"
 "Oex-Sallanches 2",SallaOex,FR,4558.682N,00637.943E,535.0m,5,0,0.0m,,,"Piste en travers de la vallee.Deux zones de 400m utilisables dans axe de la vallee.Attention cabane entre deux zones. Partie ouest piste ULM est montante et le sol est plan dans toute la plaine.",,
 "Richardiere",Richrdr,FR,4448.774N,00534.275E,0.0m,3,0,0.0m,,,"La Richardiere",,"richardiere.jpg"
 "Envie Aero",Enviaero,IT,4441.733N,00724.150E,0.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
 "Valenty_2",valenty2,FR,4422.500N,00556.000E,568.0m,3,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
-"LIMA-Torino Aeritalia",LIMA,IT,4505.067N,00736.183E,288.0m,5,0,500.0m,,"119.800","10R/28R https://vfr-pilote.fr/aerodrome/lima/",,"LIMA.jpg;LIMA2.jpg"
-"LIMZ-Cuneo Levaldigi",LIMZCigi,IT,4432.850N,00737.383E,387.0m,5,3,2110.0m,,"121.100","03/21",,"LIMZ.jpg;LIMZ2.jpg"
+"LIMA-Torino Aeritalia",LIMA,IT,4505.067N,00736.183E,288.0m,5,0,500.0m,,"119.800","100R/280R https://vfr-pilote.fr/aerodrome/lima/",,"LIMA.jpg;LIMA2.jpg"
+"LIMZ-Cuneo Levaldigi",LIMZCigi,IT,4432.850N,00737.383E,387.0m,5,30,2110.0m,,"121.100","030/210",,"LIMZ.jpg;LIMZ2.jpg"
 "Ste-Jalle_2",Ste-Jalle_2,FR,4420.483N,00518.650E,490M,3,008,300.0m,,,"En montée 4% vers le nord",,"ste-jalle2.jpg"
 "Bevons_1",Bevons_1,FR,4410.333N,00553.717E,490m,3,073,340.0m,,,"A l'Est de Noyers sur Jabron",,"bevons1.jpg"
 "Bevons_2",Bevons_2,FR,4410.100N,00552.783E,490m,3,073,340.0m,,,"A l'Est de Noyers sur Jabron",,"bevons2.jpg"
+"Boege",Boege,FR,4612.069N,00623.900E,720.0m,3,42,280.0m,30.0m,,"A eviter si possible {tres_difficile}",,"boege.jpg"
+"Cervens-ULM",LF7470,FR,4617.583N,00626.800E,620.0m,2,60,310.0m,30.0m,"125.335","060/240 Autorisation avant premiere visite. Terrain sensible interdit dimanche JF et Samedi entre 12h et 14h30 {terrain} ,,"LF7470.jpg"
+"Alex",Alex,FR,4553.250N,00613.100E,570.0m,3,197,300.0m,30.0m,,"Monte 4% vers le Sud. Choisir en fonction des cultures. Attention chemin entre les 2 champs {normal}",,"alex.jpg"
+"La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,"{facile}",,"la_tour.jpg"
+"Thone",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW" {facile},,"thone.jpg"
+"Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,abondnce.jpg"
