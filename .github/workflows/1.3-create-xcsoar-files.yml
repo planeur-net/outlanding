@@ -70,6 +70,7 @@ jobs:
     - name: Combine guide_aires_securite + champs_des_alpes
       id: combine_guide_champs
       run: |
+        cd ./outlanding
         echo "Combine guide_aires_securite + champs_des_alpes"
         sed '/-----Related Tasks-----/d' guide_aires_securite.cup > part1.cup
         sed '/-----Related Tasks-----/d' champs_des_alpes.cup > part2.cup
