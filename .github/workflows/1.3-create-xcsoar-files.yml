@@ -48,10 +48,11 @@ jobs:
       run: |
         echo "### Create guide_aires_securite_details.txt"
         cd ./cup2xcsoar
-        node ./cupToXCSoar.js ../outlanding/guide_aires_securite.cup
+        node ./cupToXCSoar.js ../outlanding/guide_aires_securite.cup ../outlanding/champs_des_alpes.cup
 
         echo "### Copy _details to outlanding repo location"
         cp ./guide_aires_securite_details.txt ../outlanding/
+        cp ./combined_guide+champs_details.txt ../outlanding/
 
 
     - name: Set version
@@ -66,7 +67,29 @@ jobs:
         # Add version information
         sed -i "2i $versionInfo" ./guide_aires_securite_details.txt
 
+    - name: Combine guide_aires_securite + champs_des_alpes
+      id: combine_guide_champs
+      run: |
+        echo "Combine guide_aires_securite + champs_des_alpes"
+        sed '/-----Related Tasks-----/d' guide_aires_securite.cup > part1.cup
+        sed '/-----Related Tasks-----/d' champs_des_alpes.cup > part2.cup
+        
+        # Remove versionInfo
+        sed -i "$((grep -nm1 \"version= ./part1.cup || echo 1000000000:) | cut -f 1 -d:) d" ./part1.cup
+        sed -i "$((grep -nm1 \"version= ./part2.cup || echo 1000000000:) | cut -f 1 -d:) d" ./part2.cup
 
+        # Remove header
+        sed -i '1d' part2.cup
+
+        # Concatenate files
+        cat part1.cup part2.cup > combined_guide+champs.cup
+
+        # Add versionInfo
+        echo versionInfo=[guide_aires_securite]$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup) + [champs_des_alpes]$(git log --pretty="%h %cI" -n1 -- champs_des_alpes.cup)
+        sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./combined_guide+champs.cup
+
+        # Cleanup
+        rm part1.cup part2.cup
         
     - name: Create ZIP for XCSoar folder
       id: create_zip
@@ -74,6 +97,10 @@ jobs:
         echo "### Create ZIP to be copied to XCSoar folder"
         cd ./outlanding
         zip guide_aires_securite.xcsoar.zip guide_aires_securite.cup guide_aires_securite_details.txt Pics/
+
+        echo "### Create combined_guide+champs ZIP file"
+        cp Pics_champs_des_alpes/* Pics/
+        zip combined_guide+champs.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt Pics/
 
         # Save commit message for future push
         echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- champs_des_alpes.cup`" >> $GITHUB_OUTPUT
@@ -83,6 +110,7 @@ jobs:
       with:
         repository: ./outlanding
         commit_message: ${{ steps.create_zip.outputs.LAST_COMMIT_MESSSAGE }}
+        file_pattern: 'guide_aires_securite_details.txt guide_aires_securite.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt combined_guide+champs.zip'
 
 
     - name: Trigger event for github pages update
