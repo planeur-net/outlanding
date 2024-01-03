@@ -21,5 +21,5 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Alex",Alex,FR,4553.250N,00613.100E,570.0m,3,197,300.0m,30.0m,,"Monte 4% vers le Sud. Choisir en fonction des cultures. Attention chemin entre les 2 champs {normal}",,"alex.jpg"
 "La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,"{facile}",,"la_tour.jpg"
 "Thone",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW" {facile},,"thone.jpg"
-"Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,abondnce.jpg"
+"Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
 -----Related Tasks-----
