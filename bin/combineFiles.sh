@@ -14,7 +14,10 @@ sed -i '1d' part2.cup
 cat part1.cup part2.cup > combined_guide+champs.cup
 
 # Add versionInfo
-echo versionInfo=[guide_aires_securite]$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup) + [champs_des_alpes]$(git log --pretty="%h %cI" -n1 -- champs_des_alpes.cup)
+export v1=$(git log --pretty="%h %cI" -n1 -- guide_aires_securite.cup)
+export v2=$(git log --pretty="%h %cI" -n1 -- champs_des_alpes.cup)
+export versionInfo=`echo [guide_aires_securite]$v1 + [champs_des_alpes]$v2`
+echo $versionInfo
 sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./combined_guide+champs.cup
 
 # Cleanup
