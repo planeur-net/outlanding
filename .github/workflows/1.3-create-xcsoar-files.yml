@@ -111,7 +111,7 @@ jobs:
       with:
         repository: ./outlanding
         commit_message: ${{ steps.create_zip.outputs.LAST_COMMIT_MESSSAGE }}
-        file_pattern: 'guide_aires_securite_details.txt guide_aires_securite.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt combined_guide+champs.zip'
+        file_pattern: 'guide_aires_securite_details.txt guide_aires_securite.xcsoar.zip combined_guide+champs.cup combined_guide+champs_details.txt combined_guide+champs.xcsoar.zip'
 
 
     - name: Trigger event for github pages update
