@@ -1,5 +1,5 @@
 [version]
-2024-01-03T17:35:50.364Z
+2024-01-04T13:21:37.537Z
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
 [LFJE]
@@ -242,7 +242,7 @@ image=Pics/crots2.jpg
 [Entreaux]
 image=Pics/entreveaux.jpg
 [Fugieres]
-image=Pics/fugieres.jpg
+image=Pics/fugieres1.jpg
 [Javie]
 image=Pics/la_javie.jpg
 [LaJavie2]
@@ -257,9 +257,9 @@ image=Pics/envie.jpg
 [valenty2]
 image=Pics/valenty2.jpg
 [LIMA]
-image=Pics/LIMA.jpg;LIMA2.jpg
+image=Pics/LIMA.jpg
 [LIMZCigi]
-image=Pics/LIMZ.jpg;LIMZ2.jpg
+image=Pics/LIMZ.jpg
 [Ste-Jalle_2]
 image=Pics/ste-jalle2.jpg
 [Bevons_1]
