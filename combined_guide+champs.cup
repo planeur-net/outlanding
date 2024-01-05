@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]44a32f6 2024-01-05T17:09:46+00:00 + [champs_des_alpes]44a32f6 2024-01-05T17:09:46+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]3557db5 2024-01-05T17:12:32+00:00 + [champs_des_alpes]3557db5 2024-01-05T17:12:32+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -157,4 +157,4 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,"{facile}",,"la_tour.jpg"
 "Thone",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW {facile}",,"thone.jpg"
 "Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
-"Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. {facile}",,"recoubeau.jpg
+"Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. {facile}",,"recoubeau.jpg"
