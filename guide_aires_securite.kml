@@ -444,7 +444,7 @@
 </Placemark>
 <Placemark>
 <name>114 Orgon-Cheval Blanc</name>
-<description>50/230 Prairie. Culture possible. Posable dans 2 sens. {normal}</description>
+<description>050/230 Prairie. Culture possible. Posable dans 2 sens. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
 <Point>
 <coordinates>5.06525, 43.78875</coordinates>
@@ -532,7 +532,7 @@
 </Placemark>
 <Placemark>
 <name>135 Methamis</name>
-<description>65/245 Prairie. Cultures possibles. Posable dans les 2 sens. {difficile}</description>
+<description>065/245 Prairie. Cultures possibles. Posable dans les 2 sens. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
 <coordinates>5.183333333333334, 44.00666666666667</coordinates>
