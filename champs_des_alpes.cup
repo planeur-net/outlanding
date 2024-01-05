@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"92ace7e 2024-01-05T17:10:03+01:00",,
+"version=",,,,,,,,,,,"22a63cc 2024-01-05T17:20:33+01:00",,
 "Arvieux",Arvieux,FR,4446.301N,00644.160E,1580.0m,3,0,300.0m,,,,,"arvieux.jpg"
 "Crots_2",Crots_2,FR,4431.836N,00626.016E,800.0m,3,90,300.0m,40.0m,,"090 / 270 Vent  arriere face au Nord. Monte vers E. Atterissage Face a l'est",,"crots2.jpg"
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
@@ -8,7 +8,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "La Javie_2",LaJavie2,FR,4410.132N,00619.789E,800.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
 "Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,130.000,"160/340 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable. Fosses de part et d'autre de la piste balises par cones rouges. Contact obligatoire: 0680528747 {terrain}",,"lesche.jpg"
 "Oex-Sallanches 2",SallaOex,FR,4558.682N,00637.943E,535.0m,5,0,0.0m,,,"Piste en travers de la vallee.Deux zones de 400m utilisables dans axe de la vallee.Attention cabane entre deux zones. Partie ouest piste ULM est montante et le sol est plan dans toute la plaine.",,
-"Richardiere",Richrdr,FR,4448.774N,00534.275E,0.0m,3,0,0.0m,,,"La Richardiere",,"richardiere.jpg"
+"Richardiere",Richrdr,FR,4449.235N,00533.589E,1000.0m,3,270,300.0m,,,"La Richardiere. En montee vers W",,"richardiere.jpg;richardiere2.jpg"
 "Envie Aero",Enviaero,IT,4441.733N,00724.150E,0.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
 "Valenty_2",valenty2,FR,4422.500N,00556.000E,568.0m,3,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
 "LIMA-Torino Aeritalia",LIMA,IT,4505.067N,00736.183E,288.0m,5,0,500.0m,,119.800,"100R/280R https://vfr-pilote.fr/aerodrome/lima/",,"LIMA.jpg;LIMA2.jpg"
