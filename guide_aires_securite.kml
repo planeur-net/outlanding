@@ -1124,7 +1124,7 @@
 </Placemark>
 <Placemark>
 <name>721 Landry</name>
-<description>240/060 Travaux en cours: Imposable !240/060 Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}</description>
+<description>240/060 Travaux en cours: Imposable ! Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}</description>
 <styleUrl>#{tres_difficile}</styleUrl>
 <Point>
 <coordinates>6.734166666666667, 45.57305</coordinates>
