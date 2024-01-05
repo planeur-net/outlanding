@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"021d0fb 2023-12-29T17:29:50+01:00",,
+"version=",,,,,,,,,,,"deb9323 2024-01-05T06:48:47+00:00",,
 "Achen-Kogel",Achengel,AT,4714.400N,01253.900E,2260.0m,7,,,,,,,
 "Acherkogel",Achergel,AT,4711.316N,01057.383E,3008.0m,7,,,,,,,
 "Ach-Kogel",Ach-Kgel,AT,4712.716N,01212.750E,2311.0m,7,,,,,,,
@@ -2489,8 +2489,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Pic d`Escreins",PIC D`ES,FR,4438.570N,00643.262E,2706.0m,7,,,,,,,
 "Pic d`Escreins",PIC D`ES,FR,4438.570N,00643.262E,2706.0m,7,,,,,,,
 "Pic de Bernadez",Picdedez,FR,4421.983N,00624.966E,2430.0m,7,,,,,,,
-"Pic de Bonvoisin",PIC DE B,FR,4449.406N,00620.777E,3308.0m,7,,,,,,,
-"Pic de Bure",Picdeure,FR,4437.783N,00553.883E,2709.0m,7,,,,,,,
+"Pic de Bonvoisin",PicBonv,FR,4449.406N,00620.777E,3308.0m,7,,,,,,,
+"Pic de Bure",PicBure,FR,4437.583N,00555.933E,2600.0m,7,,,,,,,
 "Pic de Chabrieres",Picderes,FR,4434.316N,00638.700E,2727.0m,7,,,,,,,
 "Pic de Chabrieres",Picderes,FR,4434.988N,00619.889E,2403.0m,7,,,,,,,
 "Pic de Chamatte",Picdette,FR,4355.783N,00636.116E,1878.0m,7,,,,,,,
