@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"3383ff2 2023-12-27T12:11:05+01:00",,
+"version=",,,,,,,,,,,"fcdbef9 2024-01-05T17:12:27+01:00",,
 "C-Cine",,--,4407.000N,00624.000E,1505.0m,6,,,,,"{col} cine",,
 "C-Cisa",,--,4428.500N,00956.333E,1039.0m,6,,,,,"{col} passo della cisa",,
 "C-Couleau",,--,4441.500N,00628.000E,2787.0m,6,,,,,"{col} couleau",,
@@ -98,7 +98,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-Nivolet",,FR,4529.400N,00708.700E,2612.0m,6,,,,,"{col} nivolet",,
 "C-Pelouse",C-Peluse,FR,4508.550N,00645.000E,2798.0m,6,,,,,"{col} pelouse",,
 "C-Perty",C-Perty,FR,4417.000N,00534.000E,1302.0m,6,,,,,"{col} perty",,
-"C-Picbure",,FR,4437.583N,00555.933E,2600.0m,6,,,,,"{col} pic de bure",,
 "C-Pinbouchain",C-Pinain,FR,4555.133N,00420.800E,399.0m,6,,,,,"{col} pin bouchain",,
 "C-Placette",,FR,4522.100N,00540.900E,400.0m,6,,,,,"{col} de la placette",,
 "C-Ponsoniere",,FR,4503.650N,00627.300E,2541.0m,6,,,,,"{col} de la Ponsoniere",,
@@ -125,4 +124,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-Stilfs",C-Stilfs,IT,4631.716N,01027.183E,2750.0m,6,,,,,"{col} stilfserjoch",,
 "C-Stjorio",C-Stjrio,IT,4609.983N,00909.566E,2014.0m,6,,,,,"{col} st jorio",,
 "C-Tonale",C-Tonale,IT,4615.500N,01035.166E,1883.0m,6,,,,,"{col} passo del tonale",,
------Related Tasks-----

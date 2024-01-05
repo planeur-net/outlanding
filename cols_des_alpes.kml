@@ -854,14 +854,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Picbure</name>
-<description>{col} pic de bure</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.932216666666667, 44.62638333333334</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>C-Pinbouchain</name>
 <description>{col} pin bouchain</description>
 <styleUrl>#{col}</styleUrl>
