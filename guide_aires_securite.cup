@@ -85,7 +85,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "316 Domaine de Malcor",316,FR,4428.500N,00606.233E,620.0m,3,270,250.0m,,,"270/90 Prairie. {normal}",,"316_Domaine_de_malcor.jpg"
 "317 Espinasse",317,FR,4427.633N,00613.100E,650.0m,3,270,350.0m,,,"270/90 Cultures fouragere attero delicat a partir debut juin. {difficile}",,"317_Espinasse.jpg"
 "318 Montgardin",318,FR,4432.983N,00612.817E,800.0m,3,330,230.0m,,,"330 Atterro face NW. Bumpy. Ne pas utiliser les champs au S. {normal}",,"318_Montgardin.jpg"
-"320 Bayons",320,FR,4420.150N,00609.800E,860.0m,3,215,220.0m,,,"SW/NE Prairie. Reco a pied indispensable. {tres_difficile}",,"320_Bayons.jpg"
+"320 Bayons",320,FR,4420.150N,00609.800E,860.0m,3,215,260.0m,,,"SW/NE Prairie. Reco a pied indispensable. {tres_difficile}",,"320_Bayons.jpg"
 "321 Noyer sur Jabron",321,FR,4410.200N,00550.500E,560.0m,3,340,280.0m,,,"340 uniquement. Reco a pied indispensable. {difficile}",,"321_Noyer_sur_Jabron.jpg"
 "322 Volonne",322,FR,4406.100N,00600.000E,490.0m,3,0,250.0m,,,"ZA Cultures possibles. {facile}",,"322_Volonne.jpg"
 "323 Salignac",323,FR,4408.300N,00558.800E,500.0m,3,160,500.0m,,,"160/340 Cultures. {facile}",,"323_Salignac.jpg"
