@@ -13,7 +13,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#32 LFNS Sisteron",LFNS,FR,4417.250N,00555.783E,540.0m,5,170,1170.0m,,120.050,"170/350 {aerodrome}",,"LFNS_Sisteron_These.jpg"
 "#34 Motte du Caire LF0431",#34,FR,4419.517N,00601.850E,650.0m,4,180,1170.0m,,122.5,"360/180 Velisurface treuil. Piste non balisee. Vent arriere cote E. Atterro preferentiel face au N. {velisurface}",,"La_motte_du_caire.jpg"
 "#36 LFMX St Auban",LFMX,FR,4403.600N,00559.450E,460.0m,4,030,1200.0m,,122.300,"030/150{aerodrome}",,"LFMX_St_Auban.jpg"
-"#38 Seyne LF0430",#38,FR,4420.533N,00622.367E,1200.0m,4,130,900.0m,,118.45,"130/310 Terrain prive. Treuil. Contact radio imperatif. TDP main droite. En 13 toucher apres la bosse a mi piste. Par brise NW marquee se poser court en 31 {velisurface}",,"Seyne.jpg",,
+"#38 Seyne LF0430",#38,FR,4420.533N,00622.367E,1200.0m,4,130,900.0m,,118.45,"130/310 Terrain prive. Treuil. Contact radio imperatif. TDP main droite. En 13 toucher apres la bosse a mi piste. Par brise NW marquee se poser court en 31 {velisurface}",,"Seyne.jpg"
 "#4 LFHD Pierrelatte",LFHD,FR,4423.933N,00443.050E,61.0m,4,180,1200.0m,,118.975,"180/360 {aerodrome}",,"LFHD_Pierrelatte.jpg"
 "#40 LFNC St Crepin",LFNC,FR,4442.100N,00635.983E,902.0m,5,160,860.0m,,123.500,"160/340 + 160L/340R {aerodrome}",,"LFNC_St_Crepin.jpg"
 "#42 LFMR Barcelonnette",LFMR,FR,4423.300N,00636.583E,1131.0m,5,090,800.0m,,123.500,"090/270 {aerodrome}",,"LFMR_Barcelonnette.jpg"
@@ -65,7 +65,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "213 Aups",213,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. Pb possible avec prorietaire. {facile}",,"213_Aups.jpg"
 "214 Trets ULM",214,FR,4328.833N,00542.683E,240.0m,3,120,400.0m,,123.45,"120/300 Terrain ULM. Piste balisee. Seuil decale en 30 (280m). {facile}",,"214_Trets_ULM.jpg"
 "220 Thorame Haute",220,FR,4405.717N,00633.617E,1100.0m,3,310,300.0m,,,"310 Pente se poser face NW. Tdp main gauche. Base le long de la montagne. Rotors par Vent NW. {tres_difficile}",,
-"221 Thorame basse",221,FR,4404.617N,00628.417E,1100.0m,3,310,300.0m,,,"310 Poser face NW dans moitie droite du champs. Talus en entree et fosse extremite NW. Vent arriere cote NE. Rotors par NW. {normal}",,221_Thorame_basse.jpg"
+"221 Thorame basse",221,FR,4404.617N,00628.417E,1100.0m,3,310,300.0m,,,"310 Poser face NW dans moitie droite du champs. Talus en entree et fosse extremite NW. Vent arriere cote NE. Rotors par NW. {normal}",,"221_Thorame_basse.jpg"
 "222 La Mure",222,FR,4358.917N,00631.867E,930.0m,3,040,300.0m,,,"040/220 La Mure Prairie. Arbre cote SW. Utiliser partie encadree dans photo. {normal}",,"222_La_Mure.jpg"
 "223 Soleihas",223,FR,4351.217N,00638.817E,1120.0m,3,300,250.0m,,,"300 En pente. Atterro face au NW uniquement. Route 50cm plus haut. {difficile}",,"223_Soleihas.jpg"
 "224 Mousteiret",224,FR,4347.917N,00638.100E,1080.0m,3,0,400.0m,,,"ZA Attentions selon axe: collines a survoler ou longer. Probleme possible avec proprietaire. {normal}",,"224_Mousteiret.jpg"
@@ -136,4 +136,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "721 Landry Les Ilettes",721_2,FR,4535.300N,00645.040E,750.0m,3,020,280.0m,,,"020/200 Activite parapente. {tres_difficile}",,"721_2_LandryLI.jpg"
 "722 La Bathie",722,FR,4537.533N,00626.617E,375.0m,3,165,200.0m,,,"165/345 Atterro sur axe parallele a la nationale. Toucher et rouler dans la largeur d'un seul champs. {facile}",,
 "723 Aiton",723,FR,4533.417N,00613.667E,300.0m,3,0,250.0m,,,"ZA Vaste ZA. Attention au mais. Vent variable. Ligne HT. {facile}",,
------Related Tasks-----
