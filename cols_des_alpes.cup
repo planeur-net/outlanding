@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"633e567 2024-01-05T07:47:41+01:00",,
+"version=",,,,,,,,,,,"fcdbef9 2024-01-05T17:12:27+01:00",,
 "C-Cine",,--,4407.000N,00624.000E,1505.0m,6,,,,,"{col} cine",,
 "C-Cisa",,--,4428.500N,00956.333E,1039.0m,6,,,,,"{col} passo della cisa",,
 "C-Couleau",,--,4441.500N,00628.000E,2787.0m,6,,,,,"{col} couleau",,
