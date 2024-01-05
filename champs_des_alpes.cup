@@ -22,4 +22,4 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,"{facile}",,"la_tour.jpg"
 "Thone",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW {facile}",,"thone.jpg"
 "Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
-"Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. {facile}",,"recoubeau.jpg
+"Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. {facile}",,"recoubeau.jpg"
