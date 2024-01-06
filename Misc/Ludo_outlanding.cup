@@ -6,7 +6,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Boisan3",,FR,4505.368N,00600.820E,720.0m,3,0,0.0m,,,"Champ",,
 "Boisan4",,FR,4506.544N,00556.410E,720.0m,3,0,0.0m,,,"Champ",,
 "Boisan5",,FR,4503.772N,00551.962E,720.0m,3,0,0.0m,,,"Champ",,
-"Castillon",,FR,4351.040N,00532.961E,330.0m,3,0,0.0m,,,"Champ Castillon",,
 "Cheyla",,FR,4522.200N,00558.750E,250.0m,3,0,0.0m,,,"Champ Mais",,
 "Houche",,FR,4553.900N,00649.200E,950.0m,3,0,0.0m,,,"Champ",,
 "Langon",,FR,4536.500N,00627.300E,375.0m,3,0,0.0m,,,"Champ",,
