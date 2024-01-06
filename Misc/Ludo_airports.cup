@@ -290,7 +290,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Novi Ligure Gld",,IT,4446.767N,00847.200E,186.0m,4,180,1050.0m,,"122.500",,,
 "Nus-AeroClub Corrado Gex",,IT,4544.500N,00726.583E,500.0m,2,280,400.0m,,,"Landing=280.TakeOff=100 only.Entre Riviere et echangeur routier / grosse bute.",,
 "Ozzano Aeroporto",,IT,4428.200N,01132.500E,10.0m,4,0,0.0m,,"128.450",,,
-"Ozzano Aeroporto",,IT,4428.200N,01132.500E,10.0m,4,0,0.0m,,"128.450",,,
 "Padova",,IT,4523.767N,01150.883E,12.0m,5,40,1110.0m,,"123.250",,,
 "Parma",,IT,4449.333N,01017.717E,49.0m,5,20,1780.0m,,"118.450",,,
 "Pavullo",,IT,4419.300N,01049.917E,683.0m,2,90,800.0m,,,,,
@@ -339,4 +338,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Vizzola Aeropor",,IT,4537.833N,00842.467E,232.0m,4,170,200.0m,,"119.000",,,
 "Vizzola Aeropor",,IT,4537.833N,00842.467E,232.0m,4,170,200.0m,,"119.000",,,
 "Voghera Rivanazz",,IT,4457.583N,00900.600E,128.0m,5,160,980.0m,,"119.650",,,
------Related Tasks-----
