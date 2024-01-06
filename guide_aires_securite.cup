@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",4.1,,,,,,,,,,"812c262 2024-01-05T18:44:55+01:00",,
+"version=",4.1,,,,,,,,,,"f393d7e 2024-01-06T11:32:23+01:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -91,8 +91,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "323 Salignac",323,FR,4408.300N,00558.800E,500.0m,3,160,500.0m,,,"160/340 Cultures. {facile}",,"323_Salignac.jpg"
 "324 Thoard",324,FR,4407.050N,00607.700E,670.0m,3,0,250.0m,,,"ZA Reco a pied indispensable. Cultures possible. {difficile}",,"324_Thouard.jpg"
 "325 Malmoisson",325,FR,4401.800N,00605.000E,460.0m,3,0,300.0m,,,"ZA Cultures possibles. {facile}",,"325_Mallemoisson.jpg"
-"330 Selonnet 1",330_1,FR,4422.100N,00618.600E,1080.0m,3,0,250.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet.jpg"
-"330 Selonnet 2",330_2,FR,4420.800N,00619.900E,1150.0m,3,0,250.0m,,,"ZA Culture possibles. {normal}",,
+"330 Selonnet 1",330_1,FR,4422.100N,00618.600E,1100.0m,3,230,300.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet.jpg"
+"330 Selonnet 2",330_2,FR,4420.800N,00619.900E,1150.0m,3,160,390.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet2.jpg"
 "331 Marcoux",331_2,FR,4408.833N,00616.867E,700.0m,3,130,250.0m,,,"130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}",,"331_Marcoux.jpg"
 "332 Barreme",332,FR,4359.550N,00623.200E,780.0m,3,010,300.0m,,,"010/190 Champ difficile avec fosses. Vent arriere cote E. Atterro preferentiel face au N. {difficile}",,"332_Barreme.jpg"
 "410 Oulx",410,FR,4502.500N,00650.333E,1050.0m,3,090,250.0m,,,"E/W Reco a pied indispensable. Prairie. {difficile}",,"410_Oulx.jpg"
