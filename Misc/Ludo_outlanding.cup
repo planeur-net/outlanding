@@ -11,10 +11,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Langon",,FR,4536.500N,00627.300E,375.0m,3,0,0.0m,,,"Champ",,
 "Montbrun",,FR,4410.150N,00525.383E,562.0m,3,240,300.0m,,,"Descente vers QFU 240",,
 "PrazChamonix",,FR,4556.650N,00654.150E,1100.0m,3,0,0.0m,,,"Praz de Chamonix",,
-"Recoubeau",,FR,4439.600N,00524.550E,504.0m,3,350,400.0m,,,"Legere descente vers N",,
-"Richardiere",,FR,4448.774N,00534.275E,0.0m,3,0,0.0m,,,"La Richardiere",,
 "Savoulx",,FR,4502.533N,00647.267E,1100.0m,3,0,0.0m,,,"Champ Savoulx",,
-"SeyneZA",,FR,4420.850N,00620.883E,1200.0m,3,0,0.0m,,,"ZA",,
 "StLions",,FR,4359.545N,00623.206E,780.0m,3,0,0.0m,,,"Champ",,
 "Fuldera",Fuldera,IT,4636.850N,01021.717E,1640.0m,3,0,0.0m,,,"Fuldera",,
 "Livigno1",Livigno1,IT,4632.617N,01008.583E,1810.0m,3,0,0.0m,,,"Livigno 1",,
@@ -24,4 +21,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Schluderns",Schlurns,IT,4639.700N,01034.517E,920.0m,3,0,0.0m,,,"Schluderns",,
 "Vezza_Olgio",Vezzagio,IT,4614.200N,01024.167E,1040.0m,3,0,0.0m,,,"Vezza_Olgio",,
 "Zuoz_S-chanf",Zuoz_anf,IT,4635.950N,00958.050E,1660.0m,3,0,0.0m,,,"Champ_CH_47",,
------Related Tasks-----
