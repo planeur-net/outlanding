@@ -107,8 +107,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"
 "513 Luc en Diois",513,FR,4435.550N,00528.433E,630.0m,3,315,0.0m,,,"ZA Choisir en fct cultures. Autre ZA 3Km au SE. {facile}",,
 "515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
-"520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,
-"521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,030,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,
+"520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,"520_vif.jpg"
+"521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,030,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,"521_vizille.jpg"
 "522 Grisail",522,FR,4457.000N,00537.500E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
 "523 St Jean Herans",523,FR,4451.167N,00546.350E,825.0m,3,0,300.0m,,,"ZA Point haut= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}",,
 "524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,
