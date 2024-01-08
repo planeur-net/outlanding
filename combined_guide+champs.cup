@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]86db48f 2024-01-07T16:04:58+00:00 + [champs_des_alpes]86db48f 2024-01-07T16:04:58+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]54f4b48 2024-01-08T16:26:17+00:00 + [champs_des_alpes]54f4b48 2024-01-08T16:26:17+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -143,7 +143,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "La Javie",Javie,FR,4410.250N,00620.100E,800.0m,3,0,250.0m,,,"ZA Choisir en fct cultures.",,"la_javie.jpg"
 "La Javie_2",LaJavie2,FR,4410.132N,00619.789E,800.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
 "Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,130.000,"160/340 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable. Fosses de part et d'autre de la piste balises par cones rouges. Contact obligatoire: 0680528747 {terrain}",,"lesche.jpg"
-"Oex-Sallanches 2",SallaOex,FR,4558.682N,00637.943E,535.0m,5,0,0.0m,,,"Piste en travers de la vallee.Deux zones de 400m utilisables dans axe de la vallee.Attention cabane entre deux zones. Partie ouest piste ULM est montante et le sol est plan dans toute la plaine.",,
+"Oex-ULM",SallaOex,FR,4558.682N,00637.943E,535.0m,5,360,200m,,,"Deux zones de 400m utilisables dans axe de la vallee. Attention cabane entre deux zones. Partie W piste ULM montante. Sol plan dans toute la plaine. Piste en gravier 200m etroite: collision avec manche a air.",,"oex.jpg;oex2.jpg"
 "Richardiere",Richrdr,FR,4449.235N,00533.589E,1000.0m,3,270,300.0m,,,"La Richardiere. En montee vers W",,"richardiere.jpg;richardiere2.jpg"
 "Envie Aero",Enviaero,IT,4441.733N,00724.150E,0.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
 "Valenty_2",valenty2,FR,4422.500N,00556.000E,568.0m,3,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
