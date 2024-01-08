@@ -21,7 +21,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#46 LFHE Romans",LFHE,FR,4503.967N,00506.167E,180.0m,4,060,740.0m,,118.800,"060R/240L {aerodrome}",,"LFHE_Romans.jpg"
 "#48 LFKE St Jean en Royans",LFKE,FR,4501.667N,00518.600E,264.0m,2,140,0.0m,,123.5,"140/320 {aerodrome}",,"LFKE_St_Jean_Royan.jpg"
 "#50 LFLU Valence Chabeuil",LFLU,FR,4454.933N,00458.117E,162.0m,5,010,2080.0m,,120.100,"010/190 {aerodrome}",,"LFLU_Valence.jpg"
-"#52 LFJF Aubenasson",LFJF,FR,4441.700N,00509.033E,240.0m,2,090,700.0m,,123.5,"090/270 Terrain prive. Vent Arriere au Sud. En courte finale 31 turbulences possibles toucher au niveau de la manche a air {aerodrome}",,"LFJF_Aubenasson.jpg"
+"#52 LFJF Aubenasson",LFJF,FR,4441.700N,00509.033E,240.0m,2,090,700.0m,,123.5,"090/270 Terrain prive. Vent Arriere au Sud. En courte finale 27 turbulences possibles toucher au niveau de la manche a air {aerodrome}",,"LFJF_Aubenasson.jpg"
 "#54 Aix en Diois",#54,FR,4441.350N,00524.550E,500.0m,3,160,300.0m,,,"160/340 Piste prive. {terrain}",,"Aix_en_Diois.jpg"
 "#56 LFLI Annemasse",LFLI,FR,4611.517N,00616.133E,494.0m,5,120,1290.0m,,120.800,"120/300 {aerodrome}",,"LFLI_Annemasse.jpg"
 "#57 Habere Poche LF7469",#57,FR,4616.183N,00627.800E,1113.0m,2,014,980.0m,,122.5,"014/194 Piste non balisee. Vent arriere bordure Est plateau. Pas de verticale=treuil. Attention parapentes. Atterro possible Terrain ULM Cervens dans le 320 pour 2Km (alt 600m). {velisurface}",,"Habere_poche.jpg"
