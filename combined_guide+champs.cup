@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]6354ff2 2024-01-08T16:37:33+00:00 + [champs_des_alpes]6354ff2 2024-01-08T16:37:33+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]e69276c 2024-01-08T16:49:14+00:00 + [champs_des_alpes]e69276c 2024-01-08T16:49:14+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -128,8 +128,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,
 "630 Les Echelles",630,FR,4525.817N,00545.867E,400.0m,3,0,300.0m,,,"ZA Attention petite ligne electrique. Foin haut. Paturage. Cereales. {facile}",,
 "631 St Laurent du Pont",631,FR,4524.033N,00543.850E,400.0m,3,0,350.0m,,,"ZA Attention petite lignes electriques. Foin haut. Paturage. Cereales. {facile}",,
+"633 Voreppe",633,FR,4516.217N,00537.933E,200.0m,3,360,400.0m,,,"360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}",,"633_voreppe.jpg"
 "632 St Vincent de Mercuze",632,FR,4522.283N,00558.217E,260.0m,3,020,300.0m,,,"020/200 Champ en fonction du ven. ZA. {facile}",,"632_st_vincent_mercuze.jpg"
-"633 Voreppe",633,FR,4516.217N,00537.933E,200.0m,3,360,400.0m,,,"360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}",,
 "710 Passy",710,FR,4555.467N,00643.200E,590.0m,3,160,600.0m,,,"160/340 Deniveles possibles en limite de parcelle. Atterro conseille vers le S et dans la partie la moins ondulee a W de la zone. {facile}",,"710_passy.jpg"
 "720 Marthod",720,FR,4543.400N,00624.567E,380.0m,3,210,320.0m,,,"210/030 Prairie. Reco a pied conseillee. {normal}",,"720_marthod.jpg"
 "721 Landry",721,FR,4534.383N,00644.050E,750.0m,3,240,300.0m,,,"240/060 Travaux en cours: Imposable ! Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}",,
