@@ -236,7 +236,7 @@
 </Placemark>
 <Placemark>
 <name>#52 LFJF Aubenasson</name>
-<description>090/270 Terrain prive. Vent Arriere au Sud. {aerodrome}</description>
+<description>090/270 Terrain prive. Vent Arriere au Sud. En courte finale 27 turbulences possibles toucher au niveau de la manche a air. {aerodrome}</description>
 <styleUrl>#{aerodrome}</styleUrl>
 <Point>
 <coordinates>5.15055, 44.695</coordinates>
