@@ -948,7 +948,7 @@
 </Placemark>
 <Placemark>
 <name>523 St Jean Herans</name>
-<description>ZA Point haut= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}</description>
+<description>ZA Point haut E= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
 <coordinates>5.7725, 44.852783333333335</coordinates>
