@@ -20,7 +20,10 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml)
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz)
 ||||
-| Montagnes des Alpes | cup | [montagnes_des_alpes.cup](https://planeur-net.github.io/outlanding/montagnes_des_alpes.cup) 
+| Montagnes des Alpes | cup | [mountain_peaks_FR.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR.cup) | France
+| | |  [mountain_peaks_CH.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Suisse
+| | |  [mountain_peaks_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Italie
+| | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Pyrenees
 
 ### Mise a jour des fichiers sur Android
 <table>
@@ -38,14 +41,13 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 </tr>
 </table>
 
-
 ## Fichiers de champs "vachables" pour les Alpes
 | Fichier  | Commentaire  |
 |---|---|
 |Guide des Aires de securite| Reprend les aerodromes et champs définis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liées aux corrections apportées par les contributeurs (altitude, position exacte, ...). [Fiabilité: bonne].
 | Champs des Alpes | Autres champs définis par des contributeurs. [Fiabilité: moyenne]
 |Cols des Alpes | Cols intéressants dans les Alpes
-|Montagnes des Alpes | Noms de montagnes dans les Alpes. :warning: Certains noms peuvent être erronés ou fantaisistes. Merci de participer aux corrections. (Source initiale du fichier a retrouver...)
+|mountain_peaks_ | Noms des sommets en France, Suisse, Italie, Autriche et Pyrénées. :warning: Le fichier FR est en cours de simplification (densité des noms, noms vélivoles, ...). Source: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)
 
 
 ### Les formats suivants sont maintenus:
