@@ -1,5 +1,5 @@
 [version]
-6be0147 2024-01-09T14:46:54+00:00
+2f877aa 2024-01-10T12:38:20+00:00
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -232,15 +232,18 @@ image=Pics/525_Montmeilleur.jpg
 [526]
 image=Pics/526_Prebois.jpg
 [527]
-image=Pics/
+image=Pics/527_bourg_oisans_1.jpg
+image=Pics/527_bourg_oisans_2.jpg
 [529]
 image=Pics/
 [610]
-image=Pics/
+image=Pics/610_bernex_1.jpg
+image=Pics/610_bernex_2.jpg
 [611]
 image=Pics/
 [612]
-image=Pics/
+image=Pics/612_st_jeoire_1.jpg
+image=Pics/612_st_jeoire_2.jpg
 [613]
 image=Pics/
 [614]
@@ -254,11 +257,12 @@ image=Pics/
 [623]
 image=Pics/
 [624]
-image=Pics/
+image=Pics/624_francin_1.jpg
+image=Pics/624_francin_2.jpg
 [630]
-image=Pics/
+image=Pics/630_les_echelles.jpg
 [631]
-image=Pics/
+image=Pics/631_st_laurent_du_pont.jpg
 [633]
 image=Pics/633_voreppe.jpg
 [632]
@@ -272,6 +276,8 @@ image=Pics/
 [721_2]
 image=Pics/721_2_LandryLI.jpg
 [722]
-image=Pics/
+image=Pics/722_la_bathie_1.jpg
+image=Pics/722_la_bathie_2.jpg
 [723]
-image=Pics/
+image=Pics/723_aiton_1.jpg
+image=Pics/723_aiton_2.jpg
