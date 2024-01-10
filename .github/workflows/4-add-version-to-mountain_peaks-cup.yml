@@ -46,8 +46,3 @@ jobs:
         with:
           commit_message: ${{ steps.set_version.outputs.LAST_COMMIT_MESSSAGE }}
           file_pattern: 'mountain_peaks_FR.cup'
-
-      - name: Trigger event for github pages update
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          event-type: update-pages-event
