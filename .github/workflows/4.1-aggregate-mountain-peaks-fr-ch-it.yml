@@ -49,6 +49,9 @@ jobs:
         rm ch.cup
         rm it.cup
 
+        # Remove first line if applicable
+        sed -i "$((grep -nm1 \"version= ./mountain_peaks_FR.cup || echo 1000000000:) | cut -f 1 -d:) d" ./mountain_peaks_FR.cup
+        
         # Add versionInfo
         export v1=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_FR.cup)
         export v2=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_CH.cup)
