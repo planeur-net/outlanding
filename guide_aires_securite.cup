@@ -125,7 +125,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,
 "622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,
 "623 Ecole en bauges",623,FR,4538.500N,00610.000E,750.0m,3,020,450.0m,,,"020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}",,
-"624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,
+"624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,"624_francin_1.jpg;624_francin_2.jpg"
 "630 Les Echelles",630,FR,4525.817N,00545.867E,400.0m,3,0,300.0m,,,"ZA Attention petite ligne electrique. Foin haut. Paturage. Cereales. {facile}",,
 "631 St Laurent du Pont",631,FR,4524.033N,00543.850E,400.0m,3,0,350.0m,,,"ZA Attention petite lignes electriques. Foin haut. Paturage. Cereales. {facile}",,
 "633 Voreppe",633,FR,4516.217N,00537.933E,200.0m,3,360,400.0m,,,"360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}",,"633_voreppe.jpg"
