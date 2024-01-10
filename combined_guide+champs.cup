@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]e64fdec 2024-01-10T12:21:31+00:00 + [champs_des_alpes]e64fdec 2024-01-10T12:21:31+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]5087b0e 2024-01-10T12:25:52+00:00 + [champs_des_alpes]5087b0e 2024-01-10T12:25:52+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -118,7 +118,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "529 Chauffayer",529,FR,4444.830N,00600.440E,910.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
 "610 Bernex",610,FR,4621.533N,00638.850E,880.0m,3,080,400.0m,,,"080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}",,"610_bernex_1.jpg;610_bernex_2.jpg"
 "611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,
-"612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,
+"612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,
 "614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
 "615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,
