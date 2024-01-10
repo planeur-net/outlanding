@@ -10,7 +10,7 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | _details.txt | [guide_aires_securite_details.txt](https://planeur-net.github.io/outlanding/guide_aires_securite_details.txt) | XCSoar: Description des images | :heavy_check_mark:
 | | | [combined_guide+champs_details.txt](https://planeur-net.github.io/outlanding/combined_guide+champs_details.txt) | XCSoar: Guide + Champs des Alpes | :heavy_check_mark:
 | | zip | [guide_aires_securite.xcsoar.zip](https://planeur-net.github.io/outlanding/guide_aires_securite.xcsoar.zip) | [XCSoar: Tous les fichiers nécessaires](doc/xcsoar_waypoint_details.md) |:heavy_check_mark:
-| | | [combined_guide+champs.xcsoar.zip](https://planeur-net.github.io/outlanding/combined_guide+champs.xcsoar.zip) | XCSoar: Guide + Champs des Alpes | | :heavy_check_mark:
+| | | [combined_guide+champs.xcsoar.zip](https://planeur-net.github.io/outlanding/combined_guide+champs.xcsoar.zip) | XCSoar: Guide + Champs des Alpes | :heavy_check_mark:
 ||||
 | Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup)
 | | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx) | | :heavy_check_mark:
