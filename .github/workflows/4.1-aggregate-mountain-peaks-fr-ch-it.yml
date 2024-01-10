@@ -16,9 +16,9 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
-  convert-to-xcsoar:
+  aggregate_mountain_peaks:
     if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
-    name: create xcsoar details
+    name: Aggregate_moutain_peaks
     runs-on: ubuntu-latest
     steps:
 
@@ -57,11 +57,14 @@ jobs:
         echo $versionInfo
         sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./mountain_peaks_FR_CH_IT.cup
 
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- mountain_peaks_FR.cup`" >> $GITHUB_OUTPUT
+
     - name: ⚙️ Push to repo
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         repository: ./outlanding
-        commit_message: ${{ steps.create_zip.outputs.LAST_COMMIT_MESSSAGE }}
+        commit_message: ${{ steps.combine_guide_champs.outputs.LAST_COMMIT_MESSSAGE }}
         file_pattern: 'mountain_peaks_FR_CH_IT.cup'
 
 
