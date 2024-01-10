@@ -1,5 +1,5 @@
 [version]
-2f877aa 2024-01-10T12:38:20+00:00
+f3dbbcf 2024-01-10T12:44:35+00:00
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -255,7 +255,8 @@ image=Pics/
 [622]
 image=Pics/
 [623]
-image=Pics/
+image=Pics/623_ecole_en_bauges_1.jpg
+image=Pics/623_ecole_en_bauges_2.jpg
 [624]
 image=Pics/624_francin_1.jpg
 image=Pics/624_francin_2.jpg
