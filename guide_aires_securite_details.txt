@@ -1,5 +1,5 @@
 [version]
-6be0147 2024-01-09T14:46:54+00:00
+e64fdec 2024-01-10T12:21:31+00:00
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -232,11 +232,13 @@ image=Pics/525_Montmeilleur.jpg
 [526]
 image=Pics/526_Prebois.jpg
 [527]
-image=Pics/
+image=Pics/527_bourg_oisans_1.jpg
+image=Pics/527_bourg_oisans_2.jpg
 [529]
 image=Pics/
 [610]
-image=Pics/
+image=Pics/610_bernex_1.jpg
+image=Pics/610_bernex_2.jpg
 [611]
 image=Pics/
 [612]
