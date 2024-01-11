@@ -109,7 +109,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,"515_lus_la_croix_haute_1.jpg;515_lus_la_croix_haute_2.jpg"
 "520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,"520_vif.jpg"
 "521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,030,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,"521_vizille.jpg"
-"522 Grisail",522,FR,4457.000N,00537.500E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
+"522 Grisail",522,FR,4456.410N,00537.257E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,"522_grisail_1.jpg;522_grisail_2.jpg"
 "523 St Jean Herans",523,FR,4451.167N,00546.350E,825.0m,3,0,300.0m,,,"ZA Point haut E= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}",,"523_st_jean_herans_1.jpg;523_st_jean_herans_2.jpg"
 "524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,"524_pellafol_1.jpg;524_pellafol_2.jpg"
 "525 Montmeilleur",525,FR,4447.600N,00545.800E,880.0m,3,085,550.0m,,130.00,"085 Piste privee. Herbe. Atterro face a E. Tdp Main droite. Pente 10%. {facile}",,"525_Montmeilleur.jpg"
