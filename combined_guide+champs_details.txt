@@ -1,5 +1,5 @@
 [version]
-2024-01-11T10:54:01.149Z
+2024-01-11T12:36:17.773Z
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -260,7 +260,8 @@ image=Pics/615_bonneville_2.jpg
 [620]
 image=Pics/620_doussard.jpg
 [622]
-image=Pics/
+image=Pics/622_motte_en_bauges_1.jpg
+image=Pics/622_motte_en_bauges_2.jpg
 [623]
 image=Pics/623_ecole_en_bauges_1.jpg
 image=Pics/623_ecole_en_bauges_2.jpg
