@@ -1,5 +1,5 @@
 [version]
-4cef842 2024-01-11T10:26:15+00:00
+d3055fc 2024-01-11T10:34:45+00:00
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -217,7 +217,8 @@ image=Pics/511_DieZA.jpg
 image=Pics/513_luc_en_diois_1.jpg
 image=Pics/513_luc_en_diois_2.jpg
 [515]
-image=Pics/
+image=Pics/515_lus_la_croix_haute_1.jpg
+image=Pics/515_lus_la_croix_haute_2.jpg
 [520]
 image=Pics/520_vif.jpg
 [521]
@@ -228,7 +229,8 @@ image=Pics/
 image=Pics/523_st_jean_herans_1.jpg
 image=Pics/523_st_jean_herans_2.jpg
 [524]
-image=Pics/
+image=Pics/524_pellafol_1.jpg
+image=Pics/524_pellafol_2.jpg
 [525]
 image=Pics/525_Montmeilleur.jpg
 [526]

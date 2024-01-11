@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]4cef842 2024-01-11T10:26:15+00:00 + [champs_des_alpes]4cef842 2024-01-11T10:26:15+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]d3055fc 2024-01-11T10:34:45+00:00 + [champs_des_alpes]d3055fc 2024-01-11T10:34:45+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -106,12 +106,12 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,290,460.0m,,,"ZA Choisir en fct cultures. {facile}",,"510_Saou.jpg"
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"
 "513 Luc en Diois",513,FR,4435.550N,00528.433E,630.0m,3,315,0.0m,,,"ZA Choisir en fct cultures. Autre ZA 3Km au SE. {facile}",,"513_luc_en_diois_1.jpg;513_luc_en_diois_2.jpg"
-"515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
+"515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,"515_lus_la_croix_haute_1.jpg;515_lus_la_croix_haute_2.jpg"
 "520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,"520_vif.jpg"
 "521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,030,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,"521_vizille.jpg"
 "522 Grisail",522,FR,4457.000N,00537.500E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
 "523 St Jean Herans",523,FR,4451.167N,00546.350E,825.0m,3,0,300.0m,,,"ZA Point haut E= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}",,"523_st_jean_herans_1.jpg;523_st_jean_herans_2.jpg"
-"524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,
+"524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,"524_pellafol_1.jpg;524_pellafol_2.jpg"
 "525 Montmeilleur",525,FR,4447.600N,00545.800E,880.0m,3,085,550.0m,,130.00,"085 Piste privee. Herbe. Atterro face a E. Tdp Main droite. Pente 10%. {facile}",,"525_Montmeilleur.jpg"
 "526 Prebois",526,FR,4447.450N,00541.317E,760.0m,3,065,250.0m,,,"E Remonte vers E. Atterro face a E imperativement. Choisir en fct cultures. {normal}",,"526_Prebois.jpg"
 "527 Bourg Oisans",527,FR,4503.850N,00601.917E,720.0m,3,340,350.0m,,,"340 Vent arriere a W du champ. En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique. {normal}",,"527_bourg_oisans_1.jpg;527_bourg_oisans_2.jpg"
