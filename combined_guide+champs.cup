@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]07c8800 2024-01-11T10:42:18+00:00 + [champs_des_alpes]07c8800 2024-01-11T10:42:18+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]ec8c574 2024-01-11T10:53:40+00:00 + [champs_des_alpes]ec8c574 2024-01-11T10:53:40+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -121,8 +121,8 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,"613_taninges_1.jpg;613_taninges_2.jpg"
 "614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
-"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,
-"620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,
+"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,"615_bonneville_1.jpg;615_bonneville_2.jpg"
+"620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,"620_doussard.jpg"
 "622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,
 "623 Ecole en bauges",623,FR,4538.500N,00610.000E,750.0m,3,020,450.0m,,,"020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}",,"623_ecole_en_bauges_1.jpg;623_ecole_en_bauges_2.jpg"
 "624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,"624_francin_1.jpg;624_francin_2.jpg"
