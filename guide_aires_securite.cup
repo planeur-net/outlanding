@@ -117,7 +117,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "527 Bourg Oisans",527,FR,4503.850N,00601.917E,720.0m,3,340,350.0m,,,"340 Vent arriere a W du champ. En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique. {normal}",,"527_bourg_oisans_1.jpg;527_bourg_oisans_2.jpg"
 "529 Chauffayer",529,FR,4444.830N,00600.440E,910.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
 "610 Bernex",610,FR,4621.533N,00638.850E,880.0m,3,080,400.0m,,,"080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}",,"610_bernex_1.jpg;610_bernex_2.jpg"
-"611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,
+"611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,"611_megevette_1.jpg;611_megevette_2.jpg"
 "612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,
 "614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
