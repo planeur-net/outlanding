@@ -121,7 +121,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,
 "614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
-"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,
+"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,"615_bonneville_1.jpg;615_bonneville_2.jpg"
 "620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,
 "622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,
 "623 Ecole en bauges",623,FR,4538.500N,00610.000E,750.0m,3,020,450.0m,,,"020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}",,"623_ecole_en_bauges_1.jpg;623_ecole_en_bauges_2.jpg"
