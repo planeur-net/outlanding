@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": ["./test.cup", 3, "output.cup", 2, 0 ],
+            "args": ["../mountain_peaks_FR.cup", 3, "output.cup"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
@@ -17,11 +17,6 @@
                 {
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ],

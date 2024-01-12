@@ -31,7 +31,7 @@ char* getfield(char* line, int num){
 
 /// @brief Count occurences of a given character in a string
 /// @param s input string
-/// @param letter the char to find
+/// @param c the char to find
 /// @return number of occurences of the given char within the string
 int countChars(char *s, char c) {
     return *s == '\0'
@@ -129,7 +129,7 @@ int main(int argc, char *argv[]){
       else {
         int lineCommaCount = countChars(current->line, ',');
         if (lineCommaCount != csvHeaderCommaCount) {            // We've found the first line that is not respecting the header format
-          footer_length = numberoflines = i;
+          footer_length = (footer_length == 0) ? numberoflines - i : footer_length;
         }
       }
       current = current->next;
@@ -137,6 +137,7 @@ int main(int argc, char *argv[]){
   }
   
   numberofpoints=numberoflines-header_length-footer_length;
+  printf("Number of points= %i\n", numberofpoints);
 
   /*set pointers before the first point and on last point*/
   lastheader=begin;
@@ -224,12 +225,12 @@ int main(int argc, char *argv[]){
       moving=current->next;
     }/*if*/
   }/*while*/
+  current->next = NULL;// This is needed to prevent an exception on windows.
 
   /*write the CUP file*/
   current=begin;
   moving=begin;
   do{
-    printf("%s", &current->line);
     fprintf(Out, "%s", &current->line);
     current=current->next;
     free(moving);
