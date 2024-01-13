@@ -1,5 +1,5 @@
 [version]
-2024-01-11T16:21:45.931Z
+2024-01-13T09:22:14.459Z
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -202,7 +202,8 @@ image=Pics/412_Saint_Blaise.jpg
 [413]
 image=Pics/413_Le_rosier.jpg
 [420]
-image=Pics/
+image=Pics/420_roche_de_rame_1.jpg
+image=Pics/420_roche_de_rame_2.jpg
 [421]
 image=Pics/421_Chateauroux.jpg
 [422]
@@ -255,7 +256,8 @@ image=Pics/612_st_jeoire_2.jpg
 image=Pics/613_taninges_1.jpg
 image=Pics/613_taninges_2.jpg
 [614]
-image=Pics/
+image=Pics/614_samoens_1.jpg
+image=Pics/614_samoens_2.jpg
 [615]
 image=Pics/615_bonneville_1.jpg
 image=Pics/615_bonneville_2.jpg
