@@ -1,0 +1,78 @@
+# Copy file to planeur.net FTP server
+
+name: 4.1 Aggregate mountain_peaks FR + CH + IT
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow After the version has been added
+  workflow_run:
+    workflows: ["4 - Add version to mountain_peaks_FR.cup"]
+    types:
+      - completed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# see: https://github.com/marketplace/actions/ftp-deployment
+jobs:
+  aggregate_mountain_peaks:
+    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
+    name: Aggregate_moutain_peaks
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: 🚚 Get latest code for outlanding
+      uses: actions/checkout@v3
+      with:
+        path: ./outlanding
+
+    - name: ⚙️ Combine mountain_peaks_ FR + CH + IT
+      id: combine_guide_champs
+      run: |
+        cd ./outlanding
+        echo "Combine mountain_peaks_ FR + CH + IT"
+        #Remove Task line
+        sed '/-----Related Tasks-----/d' mountain_peaks_FR.cup > fr.cup
+        sed '/-----Related Tasks-----/d' mountain_peaks_CH.cup > ch.cup
+        sed '/-----Related Tasks-----/d' mountain_peaks_IT.cup > it.cup
+
+        # Remove first header line
+        sed -i '1d' ch.cup
+        sed -i '1d' it.cup
+
+        # Concatenate files
+        cat fr.cup <(echo) ch.cup <(echo) it.cup > mountain_peaks_FR_CH_IT.cup
+
+        # Clean up
+        rm fr.cup
+        rm ch.cup
+        rm it.cup
+
+        # Remove first line if applicable
+        sed -i "$((grep -nm1 \"version= ./mountain_peaks_FR_CH_IT.cup || echo 1000000000:) | cut -f 1 -d:) d" ./mountain_peaks_FR_CH_IT.cup
+
+        # Add versionInfo
+        export v1=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_FR.cup)
+        export v2=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_CH.cup)
+        export v3=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_IT.cup)
+        export versionInfo=`echo [mountain_peaks_FR]$v1 + [mountain_peaks_CH]$v2 + [mountain_peaks_IT]$v3`
+        echo $versionInfo
+        sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./mountain_peaks_FR_CH_IT.cup
+
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- mountain_peaks_FR.cup`" >> $GITHUB_OUTPUT
+
+    - name: ⚙️ Push to repo
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        repository: ./outlanding
+        commit_message: ${{ steps.combine_guide_champs.outputs.LAST_COMMIT_MESSSAGE }}
+        file_pattern: 'mountain_peaks_FR_CH_IT.cup'
+
+
+    - name: Trigger event for github pages update
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        event-type: update-pages-event
+

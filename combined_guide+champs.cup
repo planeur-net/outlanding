@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]6be0147 2024-01-09T14:46:54+00:00 + [champs_des_alpes]6be0147 2024-01-09T14:46:54+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]fdde267 2024-01-13T09:37:53+00:00 + [champs_des_alpes]fdde267 2024-01-13T09:37:53+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -64,7 +64,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "212 Bauden",212,FR,4341.500N,00612.550E,710.0m,3,130,500.0m,,,"130/310 Choisir champ en fct cultures. {facile}",,"212_Bauden.jpg"
 "213 Aups",213,FR,4337.517N,00610.983E,450.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. Pb possible avec prorietaire. {facile}",,"213_Aups.jpg"
 "214 Trets ULM",214,FR,4328.833N,00542.683E,240.0m,3,120,400.0m,,123.45,"120/300 Terrain ULM. Piste balisee. Seuil decale en 30 (280m). {facile}",,"214_Trets_ULM.jpg"
-"220 Thorame Haute",220,FR,4405.717N,00633.617E,1100.0m,3,310,300.0m,,,"310 Pente se poser face NW. Tdp main gauche. Base le long de la montagne. Rotors par Vent NW. {tres_difficile}",,
+"220 Thorame Haute",220,FR,4405.717N,00633.617E,1100.0m,3,310,300.0m,,,"310 Pente se poser face NW. Tdp main gauche. Base le long de la montagne. Rotors par Vent NW. {tres_difficile}",,"220_thorame_haute_1.jpg;220_thorame_haute_2.jpg"
 "221 Thorame basse",221,FR,4404.617N,00628.417E,1100.0m,3,310,300.0m,,,"310 Poser face NW dans moitie droite du champs. Talus en entree et fosse extremite NW. Vent arriere cote NE. Rotors par NW. {normal}",,"221_Thorame_basse.jpg"
 "222 La Mure",222,FR,4358.917N,00631.867E,930.0m,3,040,300.0m,,,"040/220 La Mure Prairie. Arbre cote SW. Utiliser partie encadree dans photo. {normal}",,"222_La_Mure.jpg"
 "223 Soleihas",223,FR,4351.217N,00638.817E,1120.0m,3,300,250.0m,,,"300 En pente. Atterro face au NW uniquement. Route 50cm plus haut. {difficile}",,"223_Soleihas.jpg"
@@ -76,7 +76,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "229 Palue Verdon",229,FR,4346.783N,00621.183E,890.0m,3,135,300.0m,,,"135/315 Reco a pied recommandee. Praire. {difficile}",,"229_La_palud_sur_Verdon.jpg"
 "231 Ampus",231,FR,4337.017N,00620.933E,625.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"231_Ampus.jpg"
 "232 Flayosc - ULM",232,FR,4332.283N,00619.067E,365.0m,2,020,500.0m,20.0m,123.500,"020/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200). {facile}",,"232_Flayosc_ULM.jpg"
-"310 La Faurie",310,FR,4433.817N,00545.533E,820.0m,3,300,300.0m,,,"300/120 Reco a pied indispensable=delicat. Atterro face SE conseille. {tres_difficile}",,
+"310 La Faurie",310,FR,4433.817N,00545.533E,820.0m,3,300,300.0m,,,"300/120 Reco a pied indispensable=delicat. Atterro face SE conseille. {tres_difficile}",,"310_la_faurie_1.jpg;310_la_faurie_2.jpg"
 "311 Montmaur",311,FR,4433.633N,00551.433E,900.0m,3,0,400.0m,,,"ZA Attention arroseurs. {facile}",,"311_Montmaur.jpg"
 "312 Valenty",312,FR,4421.600N,00555.800E,570.0m,3,215,400.0m,,,"215 Bordure plateau. Risque turbulence en courte. {normal}",,"312_Valenty.jpg"
 "313 Laragne ULM",313,FR,4419.233N,00547.517E,570.0m,3,130,480.0m,,,"130/310 ULM. Tdp au NE. {facile}",,"313_-Laragne_-ULM.jpg"
@@ -99,43 +99,43 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "411 Le Casset",411,FR,4458.967N,00629.633E,1500.0m,3,105,500.0m,,,"105/285 Vent arriere cote S du champ. Zone frequentee par promeneurs. {facile}",,"411_Le_Casset.jpg"
 "412 St Blaise",412,FR,4452.367N,00636.600E,1200.0m,3,050,300.0m,,,"050/230 Champ tres difficile. 3 fosses qui limitent la longueur utilisable. Au 230 passer sous la ligne HT. {difficile}",,"412_Saint_Blaise.jpg"
 "413 Le Rosier",413,FR,4456.117N,00640.850E,1400.0m,3,180,400.0m,,,"N/S Champ difficile. Fosses buse au milieu du champ. Approche sur le 1er champ et se poser sur le 2. Reco a pied indispensable. {difficile}",,"413_Le_rosier.jpg"
-"420 Roche de Rame",420,FR,4444.600N,00634.500E,920.0m,3,360,150.0m,,,"N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}",,
+"420 Roche de Rame",420,FR,4444.600N,00634.500E,920.0m,3,360,150.0m,,,"N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}",,"420_roche_de_rame_1.jpg;420_roche_de_rame_2.jpg"
 "421 Chateauroux",421,FR,4436.050N,00631.900E,860.0m,3,0,200.0m,,,"ZA Reco a pied indispensable. Ligne THT en cours de construction. {difficile}",,"421_Chateauroux.jpg"
 "422 Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,,123.5,"060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}",,"422_Les_crots.jpg"
 "423 Pruniere",423,FR,4432.050N,00621.800E,860.0m,3,310,450.0m,,,"310 Vent arriere cote S du champ. Prairie. {facile}",,"423_Prunieres.jpg"
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,290,460.0m,,,"ZA Choisir en fct cultures. {facile}",,"510_Saou.jpg"
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"
 "513 Luc en Diois",513,FR,4435.550N,00528.433E,630.0m,3,315,0.0m,,,"ZA Choisir en fct cultures. Autre ZA 3Km au SE. {facile}",,"513_luc_en_diois_1.jpg;513_luc_en_diois_2.jpg"
-"515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
+"515 Lus la croix haute",515,FR,4439.660N,00542.750E,1000.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,"515_lus_la_croix_haute_1.jpg;515_lus_la_croix_haute_2.jpg"
 "520 Vif",520,FR,4504.600N,00540.900E,280.0m,3,0,350.0m,,,"ZA Champ Cereales. Attention lignes electriques. {facile}",,"520_vif.jpg"
 "521 Vizille",521,FR,4504.800N,00546.650E,280.0m,3,030,350.0m,,,"030 Atterro face au 030. Cereales. Attention ligne HT. {normal}",,"521_vizille.jpg"
-"522 Grisail",522,FR,4457.000N,00537.500E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,
+"522 Grisail",522,FR,4456.410N,00537.257E,800.0m,3,0,350.0m,,,"ZA Bon etat a W du champ contrairement apparences. Leger devers. Approche degagee. {normal}",,"522_grisail_1.jpg;522_grisail_2.jpg"
 "523 St Jean Herans",523,FR,4451.167N,00546.350E,825.0m,3,0,300.0m,,,"ZA Point haut E= Route E/W qui passe dans St Jean. Champs redescendent faiblement au N et au S. Ligne HT bien visible n'est pas un obstacle. {facile}",,"523_st_jean_herans_1.jpg;523_st_jean_herans_2.jpg"
-"524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,
+"524 Pellafol",524,FR,4448.183N,00554.283E,915.0m,3,225,250.0m,,,"ZA Choisir en fct cultures. Attention ligne HT et eoliennes (h=100m). Reco a pied conseillee. {normal}",,"524_pellafol_1.jpg;524_pellafol_2.jpg"
 "525 Montmeilleur",525,FR,4447.600N,00545.800E,880.0m,3,085,550.0m,,130.00,"085 Piste privee. Herbe. Atterro face a E. Tdp Main droite. Pente 10%. {facile}",,"525_Montmeilleur.jpg"
 "526 Prebois",526,FR,4447.450N,00541.317E,760.0m,3,065,250.0m,,,"E Remonte vers E. Atterro face a E imperativement. Choisir en fct cultures. {normal}",,"526_Prebois.jpg"
-"527 Bourg Oisans",527,FR,4503.850N,00601.917E,720.0m,3,340,350.0m,,,"340 Vent arriere a W du champ. En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique. {normal}",,
-"529 Chauffayer",529,FR,4444.830N,00600.440E,910.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,
-"610 Bernex",610,FR,4621.533N,00638.850E,880.0m,3,080,400.0m,,,"080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}",,
-"611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,
-"612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,
-"613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,
-"614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,
-"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,
-"620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,
-"622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,
-"623 Ecole en bauges",623,FR,4538.500N,00610.000E,750.0m,3,020,450.0m,,,"020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}",,
-"624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,
-"630 Les Echelles",630,FR,4525.817N,00545.867E,400.0m,3,0,300.0m,,,"ZA Attention petite ligne electrique. Foin haut. Paturage. Cereales. {facile}",,
-"631 St Laurent du Pont",631,FR,4524.033N,00543.850E,400.0m,3,0,350.0m,,,"ZA Attention petite lignes electriques. Foin haut. Paturage. Cereales. {facile}",,
+"527 Bourg Oisans",527,FR,4503.850N,00601.917E,720.0m,3,340,350.0m,,,"340 Vent arriere a W du champ. En finale s'aligner sur la haie d'arbres mediane qui separe les champs pour garantir le survol de la ligne electrique. {normal}",,"527_bourg_oisans_1.jpg;527_bourg_oisans_2.jpg"
+"529 Chauffayer",529,FR,4444.830N,00600.440E,910.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,"529_chauffayer_1.jpg;529_chauffayer_2.jpg"
+"610 Bernex",610,FR,4621.533N,00638.850E,880.0m,3,080,400.0m,,,"080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}",,"610_bernex_1.jpg;610_bernex_2.jpg"
+"611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,"611_megevette_1.jpg;611_megevette_2.jpg"
+"612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
+"613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,"613_taninges_1.jpg;613_taninges_2.jpg"
+"614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,"614_samoens_1.jpg;614_samoens_2.jpg"
+"615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,"615_bonneville_1.jpg;615_bonneville_2.jpg"
+"620 Doussard",620,FR,4546.600N,00613.350E,460.0m,3,0,350.0m,,,"ZA Facile / Attention parapentes / ZA s'etend au S vers Faverge. {facile}",,"620_doussard.jpg"
+"622 Motte en Bauges",622,FR,4542.500N,00607.300E,710.0m,3,150,600.0m,,,"150/330 Passage sous ligne electrique au roulage a mi-champ. Bien garder le milieu du champ. Petite murette en pierre cote E pres des arbres et du poteau. Approche possible dans les deux sens. Face au S ne pas utiliser le debut du cham: presence fosse. {normal}",,"622_motte_en_bauges_1.jpg;622_motte_en_bauges_2.jpg"
+"623 Ecole en bauges",623,FR,4538.500N,00610.000E,750.0m,3,020,450.0m,,,"020/200 Plat. Pas de devers cote route. Approche possible dans les deux sens. Se poser cote route pour eviter le devers. Foin. {normal}",,"623_ecole_en_bauges_1.jpg;623_ecole_en_bauges_2.jpg"
+"624 Francin-Montmelian",624,FR,4529.400N,00602.300E,260.0m,3,150,400.0m,,,"150/330 Attention moutons maintenus en enclos sur une partie de la largeur du champs. Eventuellement posable a l'E et W. {facile}",,"624_francin_1.jpg;624_francin_2.jpg"
+"630 Les Echelles",630,FR,4525.817N,00545.867E,400.0m,3,0,300.0m,,,"ZA Attention petite ligne electrique. Foin haut. Paturage. Cereales. {facile}",,"630_les_echelles.jpg"
+"631 St Laurent du Pont",631,FR,4524.033N,00543.850E,400.0m,3,0,350.0m,,,"ZA Attention petite lignes electriques. Foin haut. Paturage. Cereales. {facile}",,"631_st_laurent_du_pont.jpg"
 "633 Voreppe",633,FR,4516.217N,00537.933E,200.0m,3,360,400.0m,,,"360/180 Champ Novotel. Attention lignes electriques. Cereales+Mais. Choisir en fct des cultures. {facile}",,"633_voreppe.jpg"
 "632 St Vincent de Mercuze",632,FR,4522.283N,00558.217E,260.0m,3,020,300.0m,,,"020/200 Champ en fonction du ven. ZA. {facile}",,"632_st_vincent_mercuze.jpg"
 "710 Passy",710,FR,4555.467N,00643.200E,590.0m,3,160,600.0m,,,"160/340 Deniveles possibles en limite de parcelle. Atterro conseille vers le S et dans la partie la moins ondulee a W de la zone. {facile}",,"710_passy.jpg"
 "720 Marthod",720,FR,4543.400N,00624.567E,380.0m,3,210,320.0m,,,"210/030 Prairie. Reco a pied conseillee. {normal}",,"720_marthod.jpg"
 "721 Landry",721,FR,4534.383N,00644.050E,750.0m,3,240,300.0m,,,"240/060 Travaux en cours: Imposable ! Champs tres delicat. Reco a pied indispensable. Activite parapente pres du champ #2. Attero face E ou S. Foin. {tres_difficile}",,
 "721 Landry Les Ilettes",721_2,FR,4535.300N,00645.040E,750.0m,3,020,280.0m,,,"020/200 Activite parapente. {tres_difficile}",,"721_2_LandryLI.jpg"
-"722 La Bathie",722,FR,4537.533N,00626.617E,375.0m,3,165,200.0m,,,"165/345 Atterro sur axe parallele a la nationale. Toucher et rouler dans la largeur d'un seul champs. {facile}",,
-"723 Aiton",723,FR,4533.417N,00613.667E,300.0m,3,0,250.0m,,,"ZA Vaste ZA. Attention au mais. Vent variable. Ligne HT. {facile}",,
+"722 La Bathie",722,FR,4537.533N,00626.617E,375.0m,3,165,200.0m,,,"165/345 Atterro sur axe parallele a la nationale. Toucher et rouler dans la largeur d'un seul champs. {facile}",,"722_la_bathie_1.jpg;722_la_bathie_2.jpg"
+"723 Aiton",723,FR,4533.417N,00613.667E,300.0m,3,0,250.0m,,,"ZA Vaste ZA. Attention au mais. Vent variable. Ligne HT. {facile}",,"723_aiton_1.jpg;723_aiton_2.jpg"
 "Arvieux",Arvieux,FR,4446.301N,00644.160E,1580.0m,3,0,300.0m,,,,,"arvieux.jpg"
 "Crots_2",Crots_2,FR,4431.836N,00626.016E,800.0m,3,90,300.0m,40.0m,,"090 / 270 Vent  arriere face au Nord. Monte vers E. Atterissage Face a l'est",,"crots2.jpg"
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
