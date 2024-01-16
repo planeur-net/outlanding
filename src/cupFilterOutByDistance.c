@@ -18,7 +18,7 @@
 typedef signed short int OUTDATA_TYPE;
 #define MAXLENGTHLINE 1000 /*maximum length for a line of characters*/
 
-static char *version = "cupFilterOutByDistance - 2024-01-12";
+static char *version = "cupFilterOutByDistance - 2024-01-16";
 
 char* getfield(char* line, int num){
   char* tok;
@@ -95,13 +95,13 @@ int main(int argc, char *argv[]){
   // Open input and output files
   In=fopen(filename_in, "r");
   if(In==NULL){
-    fprintf(stderr,"\n%s: problem opening the input file\n");
+    fprintf(stderr,"\n%s: problem opening the input file\n", filename_in);
     exit(EXIT_FAILURE);
   }/*if*/
 
   Out=fopen(filename_out, "w");
   if(Out==NULL){
-    fprintf(stderr,"\n%s: problem opening the output file\n");
+    fprintf(stderr,"\n%s: problem opening the output file\n", filename_out);
     exit(EXIT_FAILURE);
   }/*if*/
 
