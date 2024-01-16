@@ -112,7 +112,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Savines",,FR,4431.550N,00624.267E,81.0m,1,,,,,,,
 "Semnoz",Semnoz,FR,4547.850N,00606.150E,1700.0m,1,,,,,,,
 "St Andreol",,FR,4358.200N,00630.383E,920.0m,1,,,,,,,
-"St Eynard",,FR,4514.200N,00545.700E,1300.0m,1,,,,,,,
+"St Eynard",StEynard,FR,4514.211N,00545.639E,1349.0m,1,,,,,"#landmark",,
 "St Gingolf",,FR,4623.600N,00648.067E,410.0m,1,,,,,,,
 "St Veran",,FR,4441.950N,00652.050E,2050.0m,1,,,,,,,
 "St Victoire",,FR,4332.433N,00532.217E,355.0m,1,,,,,,,
