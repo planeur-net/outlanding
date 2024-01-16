@@ -21,3 +21,4 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Schluderns",Schlurns,IT,4639.700N,01034.517E,920.0m,3,0,0.0m,,,"Schluderns",,
 "Vezza_Olgio",Vezzagio,IT,4614.200N,01024.167E,1040.0m,3,0,0.0m,,,"Vezza_Olgio",,
 "Zuoz_S-chanf",Zuoz_anf,IT,4635.950N,00958.050E,1660.0m,3,0,0.0m,,,"Champ_CH_47",,
+-----Related Tasks-----
