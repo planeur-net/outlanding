@@ -1333,7 +1333,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Le Mont de Musièges",LeM.deMu,FR,4601.164N,00558.059E,700.0m,7,,,,,,,
 "Le Mont Pelé",LeM.Pelé,FR,4700.452N,00620.694E,1045.0m,7,,,,,,,
 "Le Montaigu",LeMontai,FR,4505.817N,00407.659E,1245.0m,7,,,,,,,
-"Montdenier",Montdeni,FR,4353.873N,00615.299E,1751.0m,7,,,,,,,"#landmark"
+"Serre de Montdenier",SerMontD,FR,4353.873N,00615.299E,1751.0m,7,,,,,,,"#landmark"
 "Le Morclan",LeMorcla,FR,4616.614N,00651.465E,1970.0m,7,,,,,,,
 "Le Morgonnet",LeMorgon,FR,4429.368N,00622.540E,1754.0m,7,,,,,,,
 "Le Moriond",LeMorion,FR,4523.217N,00645.488E,2297.0m,7,,,,,,,
