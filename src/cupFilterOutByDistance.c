@@ -13,6 +13,7 @@
 #include <string.h>
 #include <limits.h>
 #include <math.h>
+#include <stdbool.h>
 
 typedef signed short int OUTDATA_TYPE;
 #define MAXLENGTHLINE 1000 /*maximum length for a line of characters*/
@@ -27,6 +28,16 @@ char* getfield(char* line, int num){
   }
   return NULL;
 }/*getfield*/
+
+/// @brief Count occurences of a given character in a string
+/// @param s input string
+/// @param c the char to find
+/// @return number of occurences of the given char within the string
+int countChars(char *s, char c) {
+    return *s == '\0'
+              ? 0
+              : countChars( s + 1, c ) + (*s == c);
+}
 
 int main(int argc, char *argv[]){
   char filename_in[FILENAME_MAX], filename_out[FILENAME_MAX];
@@ -57,24 +68,31 @@ int main(int argc, char *argv[]){
   char direction[MAXLENGTHLINE];
   double distance;
   double maxdistance;
-  int header_length;
-  int footer_length;
+  int header_length = 0;
+  int footer_length = 0;
   int numberoflines;
   int numberofpoints;
   int i;
+  int csvHeaderCommaCount = 0;
+  bool isHeaderAutoDetection = (argc == 4) ? true : false;
 
-  if(argc != 6){
+
+  // Parse CLI arguments
+  if(!isHeaderAutoDetection && argc != 6){
     fprintf(stderr, "\t%s\n", version);
-    fprintf(stderr, "\tSyntax : %s input.cup header_length footer_length dist_km output.cup \n", argv[0]);
+    fprintf(stderr, "\tSyntax : %s input.cup dist_km output.cup <header_length footer_length> \n", argv[0]);
     exit(EXIT_FAILURE);
   }/*if*/
 
+  if (!isHeaderAutoDetection) {
+    header_length= atoi(argv[4]);
+    footer_length= atoi(argv[5]);
+  }
   strcpy(filename_in,  argv[1]);
-  header_length= atoi(argv[2]);
-  footer_length= atoi(argv[3]);
-  maxdistance= atof(argv[4]);
-  strcpy(filename_out, argv[5]);
+  maxdistance= atof(argv[2]);
+  strcpy(filename_out, argv[3]);
   
+  // Open input and output files
   In=fopen(filename_in, "r");
   if(In==NULL){
     fprintf(stderr,"\n%s: problem opening the input file\n");
@@ -100,7 +118,26 @@ int main(int argc, char *argv[]){
   numberoflines++;
   }
 
+  // Header and footer auto detection
+  if (isHeaderAutoDetection) {
+    current = begin;
+    for(i=0; i<numberoflines; i++){
+      if ( strstr(current->line, "name,code,country") != NULL || (strstr(current->line, "version=") != NULL) ) {
+        csvHeaderCommaCount = countChars(current->line, ',');
+      header_length++;
+      }
+      else {
+        int lineCommaCount = countChars(current->line, ',');
+        if (lineCommaCount != csvHeaderCommaCount) {            // We've found the first line that is not respecting the header format
+          footer_length = (footer_length == 0) ? numberoflines - i : footer_length;
+        }
+      }
+      current = current->next;
+    }
+  }
+  
   numberofpoints=numberoflines-header_length-footer_length;
+  printf("Number of points= %i\n", numberofpoints);
 
   /*set pointers before the first point and on last point*/
   lastheader=begin;
@@ -188,6 +225,7 @@ int main(int argc, char *argv[]){
       moving=current->next;
     }/*if*/
   }/*while*/
+  current->next = NULL;// This is needed to prevent an exception on windows.
 
   /*write the CUP file*/
   current=begin;
