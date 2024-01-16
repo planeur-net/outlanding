@@ -1,9 +1,9 @@
 # Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilité des contributeurs et encore moins celle des propriétaires des champs.
 ## Download
-| Fichier  | Format  | Lien | Commentaire | Gen. Auto. | Download depuis ![xcsoar](doc/images/xcsoar.png)|
+| Fichier  | Format  | Lien | Commentaire | Gen. Auto. | [Download depuis ![xcsoar](doc/images/xcsoar.png)](#download-depuis-xcsoar)|
 |---|---|---|---|---|---|
-| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | |
+| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :hourglass_flowing_sand: |
 | | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx) | | :heavy_check_mark:
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
@@ -20,9 +20,9 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml) | | :heavy_check_mark:
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz) | | :heavy_check_mark:
 ||||
-| Montagnes des Alpes | cup | [mountain_peaks_FR.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR.cup) | France | :pencil2: | |
-| | |  [mountain_peaks_CH.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Suisse | :pencil2: | |
-| | |  [mountain_peaks_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_IT.cup) | Italie | :pencil2: | |
+| Montagnes des Alpes | cup | [mountain_peaks_FR.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR.cup) | France | :pencil2: | :heavy_check_mark: |
+| | |  [mountain_peaks_CH.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Suisse | :pencil2: | :heavy_check_mark: |
+| | |  [mountain_peaks_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_IT.cup) | Italie | :pencil2: | :heavy_check_mark: |
 | | |  [mountain_peaks_FR_CH_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR_CH_IT.cup) | France + Suisse + Italie | :heavy_check_mark:
 | | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Pyrenees | :pencil2: |
 
@@ -57,9 +57,14 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup
 - [XCSoar _details.txt](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement
 - [guide_aires_securite.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Sécurité.  
-- [combined_guide+champs.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Securite + Champs des Alpes. 
+- [combined_guide+champs.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Sécurité + Champs des Alpes. 
   
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
+
+### Download depuis XCSoar
+Dans le tableau des fichiers a télécharger, les fichiers marqués d'un :heavy_check_mark: dans la colonne Download depuis ![xcsoar](doc/images/xcsoar.png) sont...téléchargeables directement depuis XCSoar.  
+
+![Download XCSoar](doc/images/xcsoar_download.jpg)
 
 ### Fichier _details.txt pour XCSoar
 Fichier généré automatiquement:  
@@ -98,7 +103,9 @@ Les "tag" sont:
 |  {tres_difficile} | Champ tres difficile, a utiliser qu'en ultime recours, casse probable...  | Noir | ![](doc/images/marker_black.png)|
 |||||
 |  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
+| #landmark | Montagne ou col bien connu des vélivoles. Le nom de la montagne peut être purement vélivole (i.e. Authon, ...)
 
 ## Copyrights - Droits - Remerciements
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
-Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)
+Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   
+[XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) pour le telechargement directe depuis XCSoar de certains fichiers.
