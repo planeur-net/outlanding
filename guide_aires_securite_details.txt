@@ -191,6 +191,7 @@ image=Pics/330_Selonnet.jpg
 image=Pics/330_Selonnet2.jpg
 [331_2]
 image=Pics/331_Marcoux.jpg
+image=Pics/331_Marcoux_2.jpg
 [332]
 image=Pics/332_Barreme.jpg
 [410]
