@@ -63,7 +63,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Colmars",,FR,4410.783N,00637.600E,1250.0m,1,,,,,,,
 "Contamines",,FR,4549.333N,00643.733E,1165.0m,1,,,,,,,
 "C-Tour",C-Tour,FR,4600.300N,00656.700E,1750.0m,1,,,,,"Col du Tour",,
-"Dent de Crolles",,FR,4518.550N,00551.567E,1602.0m,1,,,,,,,
 "DEPART Colombier",,FR,4538.967N,00606.867E,1575.0m,1,,,,,,,
 "Dignes",,FR,4405.250N,00613.333E,585.0m,1,,,,,,,
 "Dormillouse",,FR,4424.450N,00623.300E,2505.0m,1,,,,,,,
