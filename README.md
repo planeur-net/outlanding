@@ -3,7 +3,7 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 ## Download
 | Fichier  | Format  | Lien | Commentaire | Gen. Auto. | [Download depuis ![xcsoar](doc/images/xcsoar.png)](#download-depuis-xcsoar)|
 |---|---|---|---|---|---|
-| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :hourglass_flowing_sand: |
+| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :heavy_check_mark: |
 | | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx) | | :heavy_check_mark:
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
