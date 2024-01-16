@@ -1,5 +1,5 @@
 [version]
-fdde267 2024-01-13T09:37:53+00:00
+2a8605e 2024-01-16T14:20:24+00:00
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -243,6 +243,7 @@ image=Pics/527_bourg_oisans_2.jpg
 [529]
 image=Pics/529_chauffayer_1.jpg
 image=Pics/529_chauffayer_2.jpg
+image=Pics/529_chauffayer_3.jpg
 [610]
 image=Pics/610_bernex_1.jpg
 image=Pics/610_bernex_2.jpg
