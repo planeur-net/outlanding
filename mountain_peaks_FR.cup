@@ -2153,6 +2153,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Ouillon des Arcellins",Ouillond,FR,4515.841N,00655.169E,2665.0m,7,,,,,,,
 "Oulle",Oulle,FR,4424.609N,00505.349E,789.0m,7,,,,,,,
 "P.tes de la Lombarde",P.tesdel,FR,4515.781N,00706.010E,3164.0m,7,,,,,,,
+"Paillon",Paillon,,4454.100N,00627.817E,2770.0m,7,,,,,"#landmark",,
 "Pain de munition",Paindemu,FR,4332.698N,00544.557E,611.0m,7,,,,,,,
 "Pain de Sucre",PaindeSu,FR,4358.870N,00345.263E,792.0m,7,,,,,,,
 "Pain de sucre du Mont Tondu",Paindesu,FR,4546.020N,00645.373E,3169.0m,7,,,,,,,
