@@ -101,7 +101,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "413 Le Rosier",413,FR,4456.117N,00640.850E,1400.0m,3,180,400.0m,,,"N/S Champ difficile. Fosses buse au milieu du champ. Approche sur le 1er champ et se poser sur le 2. Reco a pied indispensable. {difficile}",,"413_Le_rosier.jpg"
 "420 Roche de Rame",420,FR,4444.600N,00634.500E,920.0m,3,360,150.0m,,,"N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}",,"420_roche_de_rame_1.jpg;420_roche_de_rame_2.jpg"
 "421 Chateauroux",421,FR,4436.050N,00631.900E,860.0m,3,0,200.0m,,,"ZA Reco a pied indispensable. Ligne THT en cours de construction. {difficile}",,"421_Chateauroux.jpg"
-"422 Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,,123.5,"060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}",,"422_Les_crots.jpg"
+"422 Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,40.0m,123.5,"060/240 ULM en gravier. Piste non balisee. Talus cote Nord. Attention kite surf et promeneurs. {difficile}",,"422_Les_crots.jpg;422_crots_2.jpg"
 "423 Pruniere",423,FR,4432.050N,00621.800E,860.0m,3,310,450.0m,,,"310 Vent arriere cote S du champ. Prairie. {facile}",,"423_Prunieres.jpg"
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,290,460.0m,,,"ZA Choisir en fct cultures. {facile}",,"510_Saou.jpg"
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"
