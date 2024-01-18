@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"27926e0 2024-01-17T14:15:50+01:00",,
+"version=",,,,,,,,,,,"8605dfe 2024-01-18T10:31:58+01:00",,
 "Aiguille d’Arves",Arves,FR,4507.573N,00620.160E,3514.0m,7,,,,,"#landmark",,
 "Aiguille Centrale de la Saussaz",A.Centra,FR,4506.820N,00619.164E,3361.0m,7,,,,,,,
 "Aiguille Centrale du Soreiller",A.Centra,FR,4458.013N,00614.503E,3338.0m,7,,,,,,,
