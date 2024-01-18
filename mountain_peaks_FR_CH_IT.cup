@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[mountain_peaks_FR]c0096c5 2024-01-18T09:32:13+00:00 + [mountain_peaks_CH]c0096c5 2024-01-18T09:32:13+00:00 + [mountain_peaks_IT]c0096c5 2024-01-18T09:32:13+00:00",,
+"version=",,,,,,,,,,,"[mountain_peaks_FR]79850fd 2024-01-18T13:36:31+00:00 + [mountain_peaks_CH]79850fd 2024-01-18T13:36:31+00:00 + [mountain_peaks_IT]79850fd 2024-01-18T13:36:31+00:00",,
 "Aiguille d’Arves",Arves,FR,4507.573N,00620.160E,3514.0m,7,,,,,"#landmark",,
 "Aiguille Centrale de la Saussaz",A.Centra,FR,4506.820N,00619.164E,3361.0m,7,,,,,,,
 "Aiguille Centrale du Soreiller",A.Centra,FR,4458.013N,00614.503E,3338.0m,7,,,,,,,
@@ -4197,6 +4197,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Les Mées",LesMées,FR,4401.854N,00559.404E,601.0m,7,,,,,"#landmark",,
 "Crêtes de Liman",CrtLiman,FR,4409.700N,00615.759E,1313.0m,7,,,,,"#landmark",,
 "Montagne de Coupe",MtgCoupe,FR,4403.280N,00619.795E,1685.0m,7,,,,,"#landmark",,
+"Micheline",Michline,FR,4419.750N,00625.517E,1977.0m,7,,,,,"#landmark",,
 
 "(Les Otanes)","LesOtane",CH,4559.820N,00718.493E,2880.0m,7,,,,,,,
 "1014m","1014m",CH,4722.587N,00743.253E,1016.0m,7,,,,,,,
