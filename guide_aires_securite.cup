@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",4.1,,,,,,,,,,"260777f 2024-01-16T16:23:26+01:00",,
+"version=",4.1,,,,,,,,,,"6cb1e8a 2024-01-18T08:34:18+01:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -93,7 +93,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "325 Malmoisson",325,FR,4401.800N,00605.000E,460.0m,3,0,300.0m,,,"ZA Cultures possibles. {facile}",,"325_Mallemoisson.jpg"
 "330 Selonnet 1",330_1,FR,4422.100N,00618.600E,1100.0m,3,230,300.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet.jpg"
 "330 Selonnet 2",330_2,FR,4420.800N,00619.900E,1150.0m,3,160,390.0m,,,"ZA Culture possibles. {normal}",,"330_Selonnet2.jpg"
-"331 Marcoux",331_2,FR,4408.833N,00616.867E,700.0m,3,130,250.0m,,,"130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}",,"331_Marcoux.jpg"
+"331 Marcoux",331_2,FR,4408.833N,00616.867E,700.0m,3,190,250.0m,,,"010/190 Piste balisee. Attention lignes electriques. Ne pas utiliser #1. {normal}",,"331_Marcoux.jpg;331_marcoux_2.jpg"
 "332 Barreme",332,FR,4359.550N,00623.200E,780.0m,3,010,300.0m,,,"010/190 Champ difficile avec fosses. Vent arriere cote E. Atterro preferentiel face au N. {difficile}",,"332_Barreme.jpg"
 "410 Oulx",410,FR,4502.500N,00650.333E,1050.0m,3,090,250.0m,,,"E/W Reco a pied indispensable. Prairie. {difficile}",,"410_Oulx.jpg"
 "411 Le Casset",411,FR,4458.967N,00629.633E,1500.0m,3,105,500.0m,,,"105/285 Vent arriere cote S du champ. Zone frequentee par promeneurs. {facile}",,"411_Le_Casset.jpg"
@@ -101,7 +101,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "413 Le Rosier",413,FR,4456.117N,00640.850E,1400.0m,3,180,400.0m,,,"N/S Champ difficile. Fosses buse au milieu du champ. Approche sur le 1er champ et se poser sur le 2. Reco a pied indispensable. {difficile}",,"413_Le_rosier.jpg"
 "420 Roche de Rame",420,FR,4444.600N,00634.500E,920.0m,3,360,150.0m,,,"N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}",,"420_roche_de_rame_1.jpg;420_roche_de_rame_2.jpg"
 "421 Chateauroux",421,FR,4436.050N,00631.900E,860.0m,3,0,200.0m,,,"ZA Reco a pied indispensable. Ligne THT en cours de construction. {difficile}",,"421_Chateauroux.jpg"
-"422 Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,,123.5,"060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}",,"422_Les_crots.jpg"
+"422 Crots",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,40.0m,123.5,"060/240 ex-ULM en gravier. Piste non balisee. Haut tas de cailloux cote Nord. Attention kite surf et promeneurs. {difficile}",,"422_Les_crots.jpg;422_crots_2.jpg"
 "423 Pruniere",423,FR,4432.050N,00621.800E,860.0m,3,310,450.0m,,,"310 Vent arriere cote S du champ. Prairie. {facile}",,"423_Prunieres.jpg"
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,290,460.0m,,,"ZA Choisir en fct cultures. {facile}",,"510_Saou.jpg"
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"

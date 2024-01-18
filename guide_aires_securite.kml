@@ -812,7 +812,7 @@
 </Placemark>
 <Placemark>
 <name>331 Marcoux</name>
-<description>130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
+<description>010/190 Piste balisee. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
 <Point>
 <coordinates>6.281116666666667, 44.147216666666665</coordinates>
@@ -875,9 +875,9 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>422 Crots ULM</name>
-<description>060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}</description>
-<styleUrl>#{facile}</styleUrl>
+<name>422 Crots</name>
+<description>060/240 ex-ULM en gravier. Piste non balisee. Haut tas de cailloux cote Nord. Attention kite surf et promeneurs. {difficile}</description>
+<styleUrl>#{difficile}</styleUrl>
 <Point>
 <coordinates>6.4336166666666665, 44.535833333333336</coordinates>
 </Point>
