@@ -812,7 +812,7 @@
 </Placemark>
 <Placemark>
 <name>331 Marcoux</name>
-<description>130/310 Piste balisee. Choisir en fct cultures. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
+<description>010/190 Piste balisee. Attention lignes electriques. Ne pas utiliser #1. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
 <Point>
 <coordinates>6.281116666666667, 44.147216666666665</coordinates>
