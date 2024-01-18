@@ -627,7 +627,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>226 Caile</name>
+<name>226 Caille</name>
 <description>270 Prairies. Detrempe au printemps. Se poser dans la montee. Possibilite cloture electriques le long des parcelles ou de la route. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
@@ -651,7 +651,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>229 Palue Verdon</name>
+<name>229 Palud Verdon</name>
 <description>135/315 Reco a pied recommandee. Praire. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
@@ -731,7 +731,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>317 Espinasse</name>
+<name>317 Espinasses</name>
 <description>270/90 Cultures fouragere attero delicat a partir debut juin. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
@@ -787,7 +787,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>325 Malmoisson</name>
+<name>325 Mallemoisson</name>
 <description>ZA Cultures possibles. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
@@ -883,7 +883,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>423 Pruniere</name>
+<name>423 Prunieres</name>
 <description>310 Vent arriere cote S du champ. Prairie. {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
