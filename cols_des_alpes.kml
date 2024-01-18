@@ -550,14 +550,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>C-2Soeurs</name>
-<description>{col} des deux soeurs</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.583333333333333, 45.0136</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>C-Agnel</name>
 <description>{col} agnel</description>
 <styleUrl>#{col}</styleUrl>
@@ -862,14 +854,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Placette</name>
-<description>{col} de la placette</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.681666666666667, 45.36833333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>C-Ponsoniere</name>
 <description>{col} de la Ponsoniere</description>
 <styleUrl>#{col}</styleUrl>
@@ -1059,6 +1043,22 @@
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>10.5861, 46.25833333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C-Coche</name>
+<description>{col} Pas de la Coche</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.029483333333333, 45.2176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>C-CroixFer</name>
+<description>{col} de la Croix de Fer</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.202916666666667, 45.22768333333333</coordinates>
 </Point>
 </Placemark>
 </Folder>
