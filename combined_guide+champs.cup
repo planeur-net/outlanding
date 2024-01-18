@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]25ced5f 2024-01-18T07:27:44+00:00 + [champs_des_alpes]25ced5f 2024-01-18T07:27:44+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]fa07c3a 2024-01-18T07:35:11+00:00 + [champs_des_alpes]fa07c3a 2024-01-18T07:35:11+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -101,7 +101,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "413 Le Rosier",413,FR,4456.117N,00640.850E,1400.0m,3,180,400.0m,,,"N/S Champ difficile. Fosses buse au milieu du champ. Approche sur le 1er champ et se poser sur le 2. Reco a pied indispensable. {difficile}",,"413_Le_rosier.jpg"
 "420 Roche de Rame",420,FR,4444.600N,00634.500E,920.0m,3,360,150.0m,,,"N/S Tres delicat. Reco a pied indispensable. Beaucoup de fosses. {tres_difficile}",,"420_roche_de_rame_1.jpg;420_roche_de_rame_2.jpg"
 "421 Chateauroux",421,FR,4436.050N,00631.900E,860.0m,3,0,200.0m,,,"ZA Reco a pied indispensable. Ligne THT en cours de construction. {difficile}",,"421_Chateauroux.jpg"
-"422 Crots ULM",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,,123.5,"060/240 ULM en gravier. Piste non balisee. Largeur 40m. Attention kite surf. {facile}",,"422_Les_crots.jpg"
+"422 Crots",422,FR,4432.150N,00626.017E,780.0m,3,060,250.0m,40.0m,123.5,"060/240 ex-ULM en gravier. Piste non balisee. Haut tas de cailloux cote Nord. Attention kite surf et promeneurs. {difficile}",,"422_Les_crots.jpg;422_crots_2.jpg"
 "423 Pruniere",423,FR,4432.050N,00621.800E,860.0m,3,310,450.0m,,,"310 Vent arriere cote S du champ. Prairie. {facile}",,"423_Prunieres.jpg"
 "510 Saou",510,FR,4438.200N,00503.767E,300.0m,3,290,460.0m,,,"ZA Choisir en fct cultures. {facile}",,"510_Saou.jpg"
 "511 Die ZA",511,FR,4446.100N,00521.200E,400.0m,3,50,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"511_DieZA.jpg"
