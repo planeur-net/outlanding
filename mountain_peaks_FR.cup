@@ -3668,7 +3668,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Sommet de la Frema",Sommetde,FR,4409.109N,00641.896E,2747.0m,7,,,,,,,
 "Sommet de la Fumée",Sommetde,FR,4353.264N,00628.106E,1483.0m,7,,,,,,,
 "Sommet de la Gourre",Sommetde,FR,4352.952N,00637.279E,1878.0m,7,,,,,,,
-"Ubac",Ubac,FR,4415.645N,00624.810E,2010.0m,7,,,,,"#landmark",,
+"Grisonnière",Grisonni,FR,4415.645N,00624.810E,2010.0m,7,,,,,"#landmark",,
 "Sommet de la Mole",Sommetde,FR,4407.515N,00641.009E,2534.0m,7,,,,,,,
 "Sommet de la Montagne de Buègue",Sommetde,FR,4426.991N,00520.018E,1222.0m,7,,,,,,,
 "Sommet de la Nunda",Sommetde,FR,4515.704N,00656.361E,3023.0m,7,,,,,,,
