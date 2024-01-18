@@ -60,7 +60,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-Rawil",C-Rawil,CH,4622.950N,00726.533E,2420.0m,6,,,,,"{col} rawil",,
 "C-Susten",C-Susten,CH,4643.733N,00826.850E,2224.0m,6,,,,,"{col} susten",,
 "C-Theodule",C-Theule,CH,4556.600N,00742.533E,3317.0m,6,,,,,"{col}",,
-"C-2Soeurs",,FR,4500.816N,00535.000E,2056.0m,6,,,,,"{col} des deux soeurs",,
 "C-Agnel",,FR,4441.200N,00658.550E,2744.0m,6,,,,,"{col} agnel",,
 "C-Allos",,FR,4417.883N,00635.700E,2247.0m,6,,,,,"{col} d allos",,
 "C-Aravis",,FR,4552.950N,00627.900E,1490.0m,6,,,,,"{col} aravis",,"aravis1.jpg;aravis2.jpg"
@@ -99,7 +98,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-Pelouse",C-Peluse,FR,4508.550N,00645.000E,2798.0m,6,,,,,"{col} pelouse",,
 "C-Perty",C-Perty,FR,4417.000N,00534.000E,1302.0m,6,,,,,"{col} perty",,
 "C-Pinbouchain",C-Pinain,FR,4555.133N,00420.800E,399.0m,6,,,,,"{col} pin bouchain",,
-"C-Placette",,FR,4522.100N,00540.900E,400.0m,6,,,,,"{col} de la placette",,
 "C-Ponsoniere",,FR,4503.650N,00627.300E,2541.0m,6,,,,,"{col} de la Ponsoniere",,
 "C-Ptstbernar",,FR,4540.716N,00653.000E,2188.0m,6,,,,,"{col} pt st bernard",,
 "C-Rochilles",,FR,4505.500N,00628.500E,2493.0m,6,,,,,"{col} rochilles",,
@@ -124,3 +122,5 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "C-Stilfs",C-Stilfs,IT,4631.716N,01027.183E,2750.0m,6,,,,,"{col} stilfserjoch",,
 "C-Stjorio",C-Stjrio,IT,4609.983N,00909.566E,2014.0m,6,,,,,"{col} st jorio",,
 "C-Tonale",C-Tonale,IT,4615.500N,01035.166E,1883.0m,6,,,,,"{col} passo del tonale",,
+"C-Coche",C-Coche,IT,4513.056N,00601.769E,1989.0m,6,,,,,"{col} Pas de la Coche",,
+"C-CroixFer",C-CxFer,IT,4513.661N,00612.175E,2065.0m,6,,,,,"{col} de la Croix de Fer",,
