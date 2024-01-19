@@ -70,559 +70,39 @@
 <Folder>
 <name>Mountain Passes</name>
 <Placemark>
-<name>C-Cine</name>
-<description>{col} cine</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.4, 44.11666666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Cisa</name>
-<description>{col} passo della cisa</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.938883333333333, 44.475</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Couleau</name>
-<description>{col} couleau</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.466666666666667, 44.69166666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Eusche</name>
-<description>{col}  euschelspass res</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.28555, 46.6325</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Falzarego</name>
-<description>{col} falzarego</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>12.016666666666667, 46.516666666666666</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Fluela</name>
-<description>{col} fluelapass hospi</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.947216666666666, 46.749716666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Furka</name>
-<description>{col} furkapass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.41555, 46.58221666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Greina</name>
-<description>{col} greinapass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.96, 46.61</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Grimsel</name>
-<description>{col} grimsel</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.336666666666666, 46.56055</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Latourne</name>
-<description>{col} la tourne</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.778883333333333, 46.98305</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Lavazz</name>
-<description>{col} lavazze</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.483333333333333, 46.35</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Libr</name>
-<description>{col} libr depart</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.307766666666667, 48.14055</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Lin</name>
-<description>{col} du lin</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.159433333333333, 46.11026666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Longet</name>
-<description>{col} longet</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.95, 44.64443333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Lukmanier</name>
-<description>{col} lukmanier</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.801383333333334, 46.562216666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Marchairu</name>
-<description>{col} du marchairu</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.25055, 46.5525</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Mendel</name>
-<description>{col} mendelpass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.21, 46.41805</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Molendruz</name>
-<description>{col} de molendruz</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.366383333333333, 46.65026666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Montgenev</name>
-<description>{col} du montgenev</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.730266666666667, 44.93</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Mosses</name>
-<description>{col} des mosses</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.102766666666667, 46.399433333333334</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Nor</name>
-<description>{col} nord usine s</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.370833333333334, 48.1925</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Nufenen</name>
-<description>{col} nufenenpass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.3875, 46.47638333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Oberalp</name>
-<description>{col} oberalppass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.6711, 46.65805</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Ofen</name>
-<description>{col} ofenpass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>10.292766666666667, 46.639433333333336</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Roches</name>
-<description>{col} des roches</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.72055, 47.05</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Roselend</name>
-<description>{col} roselend</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.66805, 45.69388333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Sagiacomo</name>
-<description>{col} san giacomo pass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.4525, 46.458333333333336</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Sanbernardi</name>
-<description>{col} san bernardi pas</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.1711, 46.49555</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Sanetsch</name>
-<description>{col} sanetsch passhoe</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.286383333333333, 46.33083333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Schallemberg</name>
-<description>{col} schallenberg</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.796383333333333, 46.825266666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Seigno</name>
-<description>{col} d seigno</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.806666666666667, 45.75083333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Sempio</name>
-<description>{col} passo del sempio</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.034433333333334, 46.25026666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Septimer</name>
-<description>{col} septimer</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.637216666666667, 46.417766666666665</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Serenne</name>
-<description>{col} serenne</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.758333333333333, 44.56666666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Spluegen</name>
-<description>{col} spluegen</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.330833333333333, 46.505</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Staffelegg</name>
-<description>{col} staffelegg</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.060833333333333, 47.4336</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Stan</name>
-<description>{col} stan depart</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.3036, 48.10443333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Sud</name>
-<description>{col} sud usine ri</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.33055, 48.05</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Talonc</name>
-<description>{col} talon</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.666383333333333, 44.297216666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Theodul</name>
-<description>{col} theodule</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.7088833333333335, 45.943333333333335</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Tourettes</name>
-<description>{col} tourettes</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.433333333333334, 44.65</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Trecro</name>
-<description>{col} tre croci</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>12.201933333333333, 46.558883333333334</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Valfer</name>
-<description>{col} valferricre</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.7283333333333335, 43.751666666666665</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Viamagg</name>
-<description>{col} passo di viamagg</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>12.11805, 43.67555</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Voze</name>
-<description>{col} de voze bf</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.7611, 45.8761</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Aecher</name>
-<description>{col} aecherli</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.343333333333334, 46.91028333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Albis</name>
-<description>{col} albispass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.521666666666667, 47.27555</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Albrun</name>
-<description>{col} albrun</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.295833333333333, 46.370266666666666</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Balmbe</name>
-<description>{col} balmberg</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.53945, 47.26555</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Bruenig</name>
-<description>{col} bruenig</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.138333333333334, 46.7575</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Chasseral</name>
-<description>{col} chasseral</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.031933333333333, 47.11943333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Gottard</name>
+<name>Col Agnel</name>
 <description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.567783333333333, 46.55388333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Loetsc</name>
-<description>{col} loetschenhuette</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.96055, 46.474716666666666</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Luzien</name>
-<description>{col} luziensteig</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.5286, 47.02888333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Pertuis</name>
-<description>{col} pertuis</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.1936, 47.20916666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Pillon</name>
-<description>{col} du pillon pa</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.203333333333333, 46.3511</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Pragel</name>
-<description>{col} pragelpass</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.869433333333333, 46.99888333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Rawil</name>
-<description>{col} rawil</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.442216666666667, 46.3825</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Susten</name>
-<description>{col} susten</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>8.4475, 46.728883333333336</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Theodule</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.7088833333333335, 45.943333333333335</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Agnel</name>
-<description>{col} agnel</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.975833333333333, 44.68666666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Allos</name>
-<description>{col} d allos</description>
+<name>Col d'Allos</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.595, 44.29805</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Aravis</name>
-<description>{col} aravis</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.465, 45.8825</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Arche</name>
-<description>{col} arche</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.9, 44.425</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Balme</name>
-<description>{col} de balme</description>
+<name>Col de Balme</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.97, 46.02583333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Basmont</name>
-<description>{col} de basmon</description>
+<name>Col de Basmont</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.388883333333333, 45.552216666666666</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Batail</name>
-<description>{col} de la batail</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.2316666666666665, 44.9</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Bonhomme</name>
-<description>{col} du bonhomme</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.707216666666667, 45.73583333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Bussang</name>
-<description>{col} bussang</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.895, 47.889433333333336</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Cabre</name>
+<name>Col de Cabre</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -630,183 +110,151 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Caduc</name>
-<description>{col} du caduc</description>
+<name>Col de Couleau</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.54055, 44.2411</coordinates>
+<coordinates>6.466666666666667, 44.69166666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Carro</name>
-<description>{col} du carro</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.126383333333333, 45.43</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Cavale</name>
-<description>{col} cavale</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.35805, 44.772216666666665</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Cayol</name>
-<description>{col} cayolle</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.742766666666666, 44.25971666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Cenis</name>
-<description>{col} cenis</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.9, 45.25666666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-CroixHt</name>
-<description>{col} croix haute</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.676116666666667, 44.72388333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Echelle</name>
-<description>{col} echelle</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.662766666666666, 45.02943333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Encombre</name>
-<description>{col} des encombre</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.464166666666666, 45.29388333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Etache</name>
-<description>{col} d etache</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.8133333333333335, 45.15</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Faucil</name>
-<description>{col} de la faucil</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.0186, 46.36943333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Festre</name>
-<description>{col} festre</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.858333333333333, 44.666666666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Forcla</name>
-<description>{col} de la forcla</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.000283333333333, 46.05555</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Freissiniere</name>
-<description>{col} de freissini</description>
+<name>Col de Freissinieres</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.3561, 44.73943333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Frejus</name>
-<description>{col} frejus</description>
+<name>Col de la Bataille</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.676116666666667, 45.123333333333335</coordinates>
+<coordinates>5.2316666666666665, 44.9</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Galibier</name>
-<description>{col} du galibier</description>
+<name>Col de la Cayolle</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.406666666666666, 45.06471666666667</coordinates>
+<coordinates>6.742766666666666, 44.25971666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Glandon</name>
-<description>{col} du glandon</description>
+<name>Col de la Cine</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.175833333333333, 45.24</coordinates>
+<coordinates>6.4, 44.11666666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Granon</name>
-<description>{col} granon</description>
+<name>Col de la Croix de Fer</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.608333333333333, 44.96666666666667</coordinates>
+<coordinates>6.202916666666667, 45.22768333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Iseran</name>
-<description>{col} iseran</description>
+<name>Col de la Croix Haute</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.029716666666666, 45.417766666666665</coordinates>
+<coordinates>5.676116666666667, 44.72388333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Izoard</name>
-<description>{col} de l izoard</description>
+<name>Col de la Faucille</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.733883333333333, 44.82</coordinates>
+<coordinates>6.0186, 46.36943333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Lautaret</name>
-<description>{col} du lautaret</description>
+<name>Col de la Forclaz</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.403883333333333, 45.035833333333336</coordinates>
+<coordinates>7.000283333333333, 46.05555</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Limouch</name>
-<description>{col} limouche</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.153883333333333, 44.88471666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-madeleine</name>
-<description>{col} Madeleine</description>
+<name>Col de la Madeleine</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.38195, 45.435</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Menee</name>
+<name>Col de la Ponsoniere</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.455, 45.060833333333335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Seigne</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.806666666666667, 45.75083333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Vallee Etroite</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.608616666666666, 45.121116666666666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Larche</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.9, 44.425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de l'Echelle</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.662766666666666, 45.02943333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de l'Iseran</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.029716666666666, 45.417766666666665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de l'Izoard</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.733883333333333, 44.82</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Longet</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.95, 44.64443333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Menee</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -814,251 +262,659 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Montets</name>
-<description>{col} des montets</description>
+<name>Col de Montgenevre</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.9225, 46.00443333333333</coordinates>
+<coordinates>6.730266666666667, 44.93</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Nivolet</name>
-<description>{col} nivolet</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>7.145, 45.49</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Pelouse</name>
-<description>{col} pelouse</description>
+<name>Col de Pelouse</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.75, 45.1425</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Perty</name>
-<description>{col} perty</description>
+<name>Col de Roselend</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.566666666666666, 44.28333333333333</coordinates>
+<coordinates>6.66805, 45.69388333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Pinbouchain</name>
-<description>{col} pin bouchain</description>
+<name>Col de Serenne</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>4.346666666666667, 45.91888333333333</coordinates>
+<coordinates>6.758333333333333, 44.56666666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Ponsoniere</name>
-<description>{col} de la Ponsoniere</description>
+<name>Col de Valferriere</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.455, 45.060833333333335</coordinates>
+<coordinates>6.7283333333333335, 43.751666666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Ptstbernar</name>
-<description>{col} pt st bernard</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.883333333333333, 45.6786</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Rochilles</name>
-<description>{col} rochilles</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.475, 45.09166666666667</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Rousset</name>
-<description>{col} du Rousset</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.40555, 44.84</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Saisie</name>
-<description>{col} des saisiers</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.526933333333333, 45.770266666666664</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-TerBlanche</name>
-<description>{col} des terres blanches</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.434166666666667, 44.6861</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Tour</name>
-<description>{col} du Tour</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.945, 46.005</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Tourni</name>
-<description>{col} tourniol</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>5.187216666666667, 44.92055</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-ValEtroite</name>
-<description>{col} de la vallee</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.608616666666666, 45.121116666666666</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Vars</name>
-<description>{col} de vars</description>
+<name>Col de Vars</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.701666666666666, 44.539433333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Vert</name>
-<description>{col} vert</description>
+<name>Col de Voza</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.589716666666667, 45.05388333333333</coordinates>
+<coordinates>6.7611, 45.8761</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Albula</name>
-<description>{col} albulapass hospi</description>
+<name>Col des Aravis</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.8375, 46.58195</coordinates>
+<coordinates>6.465, 45.8825</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Aprica</name>
-<description>{col} aprica</description>
+<name>Col des Encombres</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.159166666666668, 46.15528333333334</coordinates>
+<coordinates>6.464166666666666, 45.29388333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Corgella</name>
-<description>{col} corgella</description>
+<name>Col des Montets</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.031933333333333, 46.14638333333333</coordinates>
+<coordinates>6.9225, 46.00443333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Ferret</name>
-<description>{col} ferret</description>
+<name>Col des Rochilles</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.0777833333333335, 45.88805</coordinates>
+<coordinates>6.475, 45.09166666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-For{col}</name>
-<description>{col} for{col}</description>
-<styleUrl>#undefined</styleUrl>
-<Point>
-<coordinates>9.296933333333333, 46.3236</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>C-Gaviao</name>
-<description>{col} passo di gaviao</description>
+<name>Col des Saisies</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.490266666666667, 46.34305</coordinates>
+<coordinates>6.526933333333333, 45.770266666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Maloja</name>
-<description>{col} maloja</description>
+<name>Col des Terres Blanches</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.695, 46.3975</coordinates>
+<coordinates>6.434166666666667, 44.6861</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Palade</name>
-<description>{col} palade</description>
+<name>Col des Tourettes</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>11.113883333333334, 46.53333333333333</coordinates>
+<coordinates>6.433333333333334, 44.65</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Presolana</name>
-<description>{col} presolana</description>
+<name>Col d'Etache</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.1, 45.916666666666664</coordinates>
+<coordinates>6.8133333333333335, 45.15</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-StBernhard</name>
-<description>{col} st bernhard</description>
+<name>Col du Bonhomme</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.170833333333333, 45.86833333333333</coordinates>
+<coordinates>6.707216666666667, 45.73583333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Stilfs</name>
-<description>{col} stilfserjoch</description>
+<name>Col du Caduc</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.45305, 46.5286</coordinates>
+<coordinates>6.54055, 44.2411</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Stjorio</name>
-<description>{col} st jorio</description>
+<name>Col du Carro</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.159433333333334, 46.166383333333336</coordinates>
+<coordinates>7.126383333333333, 45.43</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Tonale</name>
-<description>{col} passo del tonale</description>
+<name>Col du Festre</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.5861, 46.25833333333333</coordinates>
+<coordinates>5.858333333333333, 44.666666666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-Coche</name>
-<description>{col} Pas de la Coche</description>
+<name>Col du Frejus</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.676116666666667, 45.123333333333335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Galibier</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.406666666666666, 45.06471666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Glandon</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.175833333333333, 45.24</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Granon</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.608333333333333, 44.96666666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Lautaret</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.403883333333333, 45.035833333333336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Limouche</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.153883333333333, 44.88471666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Mont Cenis</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.9, 45.25666666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Petit St Bernard</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.883333333333333, 45.6786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Rousset</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.40555, 44.84</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Talon</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.666383333333333, 44.297216666666664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Tour</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.945, 46.005</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Tourniol</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.187216666666667, 44.92055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Pas de la Cavale</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.35805, 44.772216666666665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Pas de la Coche</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.029483333333333, 45.2176</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>C-CroixFer</name>
-<description>{col} de la Croix de Fer</description>
+<name>Col Vert</name>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.202916666666667, 45.22768333333333</coordinates>
+<coordinates>5.589716666666667, 45.05388333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Aecherli</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.343333333333334, 46.91028333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Albrun</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.295833333333333, 46.370266666666666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Balmberg</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.53945, 47.26555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Chasseral</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.031933333333333, 47.11943333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Greina</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.96, 46.61</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Fluela</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.947216666666666, 46.749716666666664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Furka</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.41555, 46.58221666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de La Tourne</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.778883333333333, 46.98305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Lotschenlucke</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.96055, 46.474716666666666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Oberalp</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.6711, 46.65805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Susten</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.4475, 46.728883333333336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col deBruenig</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.138333333333334, 46.7575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col des Mosses</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.102766666666667, 46.399433333333334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col des Roches</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.72055, 47.05</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Gotthard</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.567783333333333, 46.55388333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Grimsel</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.336666666666666, 46.56055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Lin</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.159433333333333, 46.11026666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Lukmanier</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.801383333333334, 46.562216666666664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Marchairuz</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.25055, 46.5525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Molendruz</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.366383333333333, 46.65026666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Nufenen</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.3875, 46.47638333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du PierrePertuis</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.1936, 47.20916666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Pillon</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.203333333333333, 46.3511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Rawil</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.442216666666667, 46.3825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Sanetsch</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.286383333333333, 46.33083333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Septimer</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.637216666666667, 46.417766666666665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Simplon</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.034433333333334, 46.25026666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Theodul</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.7088833333333335, 45.943333333333335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Euschels</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.28555, 46.6325</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Ofen</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>10.292766666666667, 46.639433333333336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Pragel</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.869433333333333, 46.99888333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Schallenberg</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.796383333333333, 46.825266666666664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Spluegen</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.330833333333333, 46.505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Albula</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.8375, 46.58195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Corgella</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.031933333333333, 46.14638333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Gavia</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>10.490266666666667, 46.34305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Maloja</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.695, 46.3975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Mendel</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>11.21, 46.41805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Palade</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>11.113883333333334, 46.53333333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Grand St Bernard</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.170833333333333, 45.86833333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Nivolet</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.145, 45.49</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du San Bernardino</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.1711, 46.49555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Falzarego</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>12.016666666666667, 46.516666666666666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Ferret</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>7.0777833333333335, 45.88805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Forcola</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.296933333333333, 46.3236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col Lavazze</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>11.483333333333333, 46.35</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col San Giacomo</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>8.4525, 46.458333333333336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col San Jorio</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>9.159433333333334, 46.166383333333336</coordinates>
 </Point>
 </Placemark>
 </Folder>
