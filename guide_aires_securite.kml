@@ -652,7 +652,7 @@
 </Placemark>
 <Placemark>
 <name>229 Palud Verdon</name>
-<description>135/315 Reco a pied recommandee. Praire. {difficile}</description>
+<description>100/280 Reco a pied recommandee. Prairie. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
 <coordinates>6.35305, 43.779716666666666</coordinates>
