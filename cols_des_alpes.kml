@@ -590,6 +590,14 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col de la Bonette</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.8074, 44.326633333333334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col de la Fluela</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
@@ -606,11 +614,19 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de La Tourne</name>
+<name>Col de la Tourne</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>6.778883333333333, 46.98305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Vanoise</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.7942, 45.3911</coordinates>
 </Point>
 </Placemark>
 <Placemark>
