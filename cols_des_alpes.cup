@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"8650d6c 2024-01-19T10:30:12+01:00",,
+"version=",,,,,,,,,,,"35d9dcc 2024-01-19T17:06:42+01:00",,
 "Col Agnel",C-Agnel,FR,4441.200N,00658.550E,2744.0m,6,,,,,"{col}",,
 "Col d'Allos",C-Allos,FR,4417.883N,00635.700E,2247.0m,6,,,,,"{col}",,
 "Col de Balme",C-Balme,FR,4601.550N,00658.200E,2204.0m,6,,,,,"{col}",,
