@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]4837565 2024-01-18T16:36:27+00:00 + [champs_des_alpes]4837565 2024-01-18T16:36:27+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]7e67f7a 2024-01-19T10:07:55+00:00 + [champs_des_alpes]7e67f7a 2024-01-19T10:07:55+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.983N,00524.167E,881.0m,2,030,590.0m,,130.000,"030/210 Altiport {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -73,7 +73,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "226 Caille",226,FR,4346.883N,00644.183E,1080.0m,3,270,350.0m,,,"270 Prairies. Detrempe au printemps. Se poser dans la montee. Possibilite cloture electriques le long des parcelles ou de la route. {facile}",,"226_Caille.jpg"
 "227 La chapelle",227,FR,4346.183N,00641.500E,1065.0m,3,090,350.0m,,,"090/270 Atterro dans les 2 sens. Attention piquets. Face W: ne pas se poser juste apres le chemin: mauvais terrain. {normal}",,"227_la_Chapelle.jpg"
 "228 Trigance",228,FR,4345.267N,00627.333E,740.0m,3,125,300.0m,,,"125/305 Reco a pied recommandee. Prairie. {normal}",,"228_Trigance.jpg"
-"229 Palud Verdon",229,FR,4346.783N,00621.183E,890.0m,3,135,300.0m,,,"135/315 Reco a pied recommandee. Praire. {difficile}",,"229_La_palud_sur_Verdon.jpg"
+"229 Palud Verdon",229,FR,4346.783N,00621.183E,890.0m,3,135,240.0m,,,"100/280 Reco a pied recommandee. Prairie. {difficile}",,"229_La_palud_sur_Verdon.jpg;229_la_palud_2.jpg"
 "231 Ampus",231,FR,4337.017N,00620.933E,625.0m,3,0,300.0m,,,"ZA Choisir en fct cultures. {facile}",,"231_Ampus.jpg"
 "232 Flayosc - ULM",232,FR,4332.283N,00619.067E,365.0m,2,020,500.0m,20.0m,123.500,"020/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200). {facile}",,"232_Flayosc_ULM.jpg"
 "310 La Faurie",310,FR,4433.817N,00545.533E,820.0m,3,300,300.0m,,,"300/120 Reco a pied indispensable=delicat. Atterro face SE conseille. {tres_difficile}",,"310_la_faurie_1.jpg;310_la_faurie_2.jpg"
