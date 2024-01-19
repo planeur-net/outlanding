@@ -278,6 +278,14 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col de Porte</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.76695, 45.28998333333333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col de Roselend</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
@@ -510,7 +518,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col Pas de la Cavale</name>
+<name>Pas de la Cavale</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -518,7 +526,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col Pas de la Coche</name>
+<name>Pas de la Coche</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -571,6 +579,14 @@
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>8.96, 46.61</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de Jouere</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.096283333333333, 44.25633333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
