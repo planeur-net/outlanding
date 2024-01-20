@@ -33,9 +33,9 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de Vars",C-Vars,FR,4432.331N,00642.159E,2109.0m,6,,,,,"{col}",,
 "Col de Voza",C-Voza,FR,4552.566N,00645.666E,1653.0m,6,,,,,"{col}",,
 "Col des Aravis",C-Aravis,FR,4552.351N,00627.896E,1490.0m,6,,,,,"{col}",,"aravis1.jpg;aravis2.jpg"
-"Col des Encombres",C-Encobr,FR,4517.658N,00627.726E,2325.0m,6,,,,,"{col}",,
+"Col des Encombres",C-Encobr,FR,4517.658N,00627.726E,2325.0m,6,,,,,"Petit {col} des Encombres",,
 "Col des Montets",C-Montet,FR,4600.236N,00655.417E,1461.0m,6,,,,,"{col}",,
-"Col des Rochilles",C-Rochil,FR,4505.377N,00628.622E,2525.0m,6,,,,,"{col}",,
+"Col des Rochilles",C-Rochil,FR,4505.377N,00628.622E,2525.0m,6,,,,,"{col} de la Plagnette",,
 "Col des Saisies",C-Saisie,FR,4545.521N,00631.741E,1631.0m,6,,,,,"{col}",,
 "Col des Terres Blanches",C-TrBlan,FR,4441.291N,00626.174E,2720.0m,6,,,,,"{col}",,
 "Col des Tourettes",C-Touret,FR,4439.000N,00626.000E,2582.0m,6,,,,,"{col}",,
