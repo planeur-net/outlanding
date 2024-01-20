@@ -538,7 +538,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.597183333333334, 45.0529</coordinates>
+<coordinates>5.589716666666667, 45.05388333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -546,7 +546,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.343333333333334, 46.91028333333333</coordinates>
+<coordinates>8.34185, 46.91028333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -578,7 +578,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.96, 46.61</coordinates>
+<coordinates>8.9603, 46.61201666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -586,7 +586,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.096283333333333, 44.25633333333333</coordinates>
+<coordinates>6.097333333333333, 44.25438333333334</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -610,7 +610,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.41555, 46.58221666666667</coordinates>
+<coordinates>8.41595, 46.572316666666666</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -634,7 +634,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.96055, 46.474716666666666</coordinates>
+<coordinates>7.963633333333333, 46.47485</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -650,11 +650,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.4475, 46.728883333333336</coordinates>
+<coordinates>8.44885, 46.72861666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col deBruenig</name>
+<name>Col de Bruenig</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -682,7 +682,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.567783333333333, 46.55388333333333</coordinates>
+<coordinates>8.561183333333334, 46.559</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -734,7 +734,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du PierrePertuis</name>
+<name>Col du Pierre Pertuis</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -746,7 +746,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.203333333333333, 46.3511</coordinates>
+<coordinates>7.20445, 46.35365</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -778,11 +778,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.034433333333334, 46.25026666666667</coordinates>
+<coordinates>8.032116666666667, 46.250233333333334</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du Theodul</name>
+<name>Col du Théodul</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -794,7 +794,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.28555, 46.6325</coordinates>
+<coordinates>7.2843333333333335, 46.6317</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -850,7 +850,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.490266666666667, 46.34305</coordinates>
+<coordinates>10.4877, 46.343466666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -858,23 +858,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.695, 46.3975</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>Col de Mendel</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.21, 46.41805</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>Col de Palade</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.113883333333334, 46.53333333333333</coordinates>
+<coordinates>9.6956, 46.40135</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -890,7 +874,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.145, 45.49</coordinates>
+<coordinates>7.11455, 45.48435</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -906,7 +890,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>12.016666666666667, 46.516666666666666</coordinates>
+<coordinates>12.009433333333334, 46.518683333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -930,7 +914,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>11.483333333333333, 46.35</coordinates>
+<coordinates>11.491483333333333, 46.3546</coordinates>
 </Point>
 </Placemark>
 <Placemark>
