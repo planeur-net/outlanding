@@ -74,7 +74,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.975833333333333, 44.68666666666667</coordinates>
+<coordinates>6.979216666666667, 44.68383333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -82,7 +82,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.595, 44.29805</coordinates>
+<coordinates>6.594133333333334, 44.297266666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -114,15 +114,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.466666666666667, 44.69166666666667</coordinates>
+<coordinates>6.46, 44.691066666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de Freissinieres</name>
+<name>Col de Freissinières</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.3561, 44.73943333333333</coordinates>
+<coordinates>6.353683333333334, 44.73728333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -130,7 +130,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.2316666666666665, 44.9</coordinates>
+<coordinates>5.2338000000000005, 44.89811666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -138,7 +138,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.742766666666666, 44.25971666666667</coordinates>
+<coordinates>6.74385, 44.25918333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -146,7 +146,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.4, 44.11666666666667</coordinates>
+<coordinates>6.398633333333334, 44.11005</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -162,7 +162,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.676116666666667, 44.72388333333333</coordinates>
+<coordinates>5.677416666666667, 44.72388333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -178,7 +178,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.000283333333333, 46.05555</coordinates>
+<coordinates>7.001366666666667, 46.05781666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -186,15 +186,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.38195, 45.435</coordinates>
+<coordinates>6.375466666666667, 45.43501666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de la Ponsoniere</name>
+<name>Col de la Ponsonière</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.455, 45.060833333333335</coordinates>
+<coordinates>6.465933333333333, 45.054633333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -206,11 +206,11 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de la Vallee Etroite</name>
+<name>Col de la Vallée Étroite</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.608616666666666, 45.121116666666666</coordinates>
+<coordinates>6.60695, 45.12008333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -218,15 +218,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.9, 44.425</coordinates>
+<coordinates>6.898383333333333, 44.4222</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de l'Echelle</name>
+<name>Col de l'Échelle</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.662766666666666, 45.02943333333333</coordinates>
+<coordinates>6.656983333333333, 45.0265</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -250,23 +250,23 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.95, 44.64443333333333</coordinates>
+<coordinates>6.956733333333333, 44.642916666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de Menee</name>
+<name>Col de Menée</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.59195, 44.76166666666667</coordinates>
+<coordinates>5.6034, 44.75796666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de Montgenevre</name>
+<name>Col de Montgenèvre</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.730266666666667, 44.93</coordinates>
+<coordinates>6.725866666666667, 44.93148333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -290,7 +290,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.66805, 45.69388333333333</coordinates>
+<coordinates>6.690666666666667, 45.69155</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -298,15 +298,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.758333333333333, 44.56666666666667</coordinates>
+<coordinates>6.75475, 44.571666666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de Valferriere</name>
+<name>Col de Valferrière</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.7283333333333335, 43.751666666666665</coordinates>
+<coordinates>6.730216666666667, 43.751016666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -314,7 +314,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.701666666666666, 44.539433333333335</coordinates>
+<coordinates>6.70265, 44.53885</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -330,15 +330,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.465, 45.8825</coordinates>
+<coordinates>6.464933333333334, 45.87251666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>Col des Encombres</name>
-<description>{col}</description>
+<description>Petit {col} des Encombres</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.464166666666666, 45.29388333333333</coordinates>
+<coordinates>6.4621, 45.2943</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -346,15 +346,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.9225, 46.00443333333333</coordinates>
+<coordinates>6.923616666666667, 46.003933333333336</coordinates>
 </Point>
 </Placemark>
 <Placemark>
 <name>Col des Rochilles</name>
-<description>{col}</description>
+<description>{col} de la Plagnette</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.475, 45.09166666666667</coordinates>
+<coordinates>6.477033333333333, 45.089616666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -362,7 +362,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.526933333333333, 45.770266666666664</coordinates>
+<coordinates>6.529016666666667, 45.75868333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -370,7 +370,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.434166666666667, 44.6861</coordinates>
+<coordinates>6.436233333333333, 44.688183333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -382,11 +382,11 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col d'Etache</name>
+<name>Col d'Étache</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.8133333333333335, 45.15</coordinates>
+<coordinates>6.812516666666666, 45.14893333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -402,7 +402,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.54055, 44.2411</coordinates>
+<coordinates>6.544583333333334, 44.243116666666666</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -410,7 +410,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.126383333333333, 45.43</coordinates>
+<coordinates>7.1304, 45.42771666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -418,15 +418,15 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.858333333333333, 44.666666666666664</coordinates>
+<coordinates>5.8552, 44.66505</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du Frejus</name>
+<name>Col du Fréjus</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.676116666666667, 45.123333333333335</coordinates>
+<coordinates>6.6745, 45.13025</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -434,7 +434,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.406666666666666, 45.06471666666667</coordinates>
+<coordinates>6.40815, 45.06421666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -442,7 +442,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.175833333333333, 45.24</coordinates>
+<coordinates>6.175666666666666, 45.23948333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -450,7 +450,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.608333333333333, 44.96666666666667</coordinates>
+<coordinates>6.6109333333333336, 44.963</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -458,11 +458,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.403883333333333, 45.035833333333336</coordinates>
+<coordinates>6.405116666666666, 45.035333333333334</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du Limouche</name>
+<name>Col des Limouches</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -474,7 +474,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.9, 45.25666666666667</coordinates>
+<coordinates>6.900966666666667, 45.26</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -490,7 +490,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.40555, 44.84</coordinates>
+<coordinates>5.401883333333333, 44.83756666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -498,7 +498,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.666383333333333, 44.297216666666664</coordinates>
+<coordinates>6.667033333333333, 44.29476666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -506,7 +506,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.945, 46.005</coordinates>
+<coordinates>7.016366666666666, 45.985866666666666</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -514,7 +514,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.187216666666667, 44.92055</coordinates>
+<coordinates>5.184383333333333, 44.91865</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -522,7 +522,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.35805, 44.772216666666665</coordinates>
+<coordinates>6.354166666666667, 44.768366666666665</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -546,7 +546,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.343333333333334, 46.91028333333333</coordinates>
+<coordinates>8.34185, 46.91028333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -578,15 +578,23 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.96, 46.61</coordinates>
+<coordinates>8.9603, 46.61201666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de Jouere</name>
+<name>Col de Jouère</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.096283333333333, 44.25633333333333</coordinates>
+<coordinates>6.097333333333333, 44.25438333333334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de la Bonette</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.8074, 44.326633333333334</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -602,11 +610,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.41555, 46.58221666666667</coordinates>
+<coordinates>8.41595, 46.572316666666666</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col de La Tourne</name>
+<name>Col de la Tourne</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -614,11 +622,19 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col de la Vanoise</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.7942, 45.3911</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col de Lotschenlucke</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.96055, 46.474716666666666</coordinates>
+<coordinates>7.963633333333333, 46.47485</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -634,11 +650,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.4475, 46.728883333333336</coordinates>
+<coordinates>8.44885, 46.72861666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col deBruenig</name>
+<name>Col de Bruenig</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -666,7 +682,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.567783333333333, 46.55388333333333</coordinates>
+<coordinates>8.561183333333334, 46.559</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -718,7 +734,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du PierrePertuis</name>
+<name>Col du Pierre Pertuis</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -730,7 +746,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.203333333333333, 46.3511</coordinates>
+<coordinates>7.20445, 46.35365</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -762,11 +778,11 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>8.034433333333334, 46.25026666666667</coordinates>
+<coordinates>8.032116666666667, 46.250233333333334</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du Theodul</name>
+<name>Col du Théodul</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
@@ -778,7 +794,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.28555, 46.6325</coordinates>
+<coordinates>7.2843333333333335, 46.6317</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -834,7 +850,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>10.490266666666667, 46.34305</coordinates>
+<coordinates>10.4877, 46.343466666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -842,23 +858,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>9.695, 46.3975</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>Col de Mendel</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.21, 46.41805</coordinates>
-</Point>
-</Placemark>
-<Placemark>
-<name>Col de Palade</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>11.113883333333334, 46.53333333333333</coordinates>
+<coordinates>9.6956, 46.40135</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -874,7 +874,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.145, 45.49</coordinates>
+<coordinates>7.11455, 45.48435</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -890,7 +890,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>12.016666666666667, 46.516666666666666</coordinates>
+<coordinates>12.009433333333334, 46.518683333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -914,7 +914,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>11.483333333333333, 46.35</coordinates>
+<coordinates>11.491483333333333, 46.3546</coordinates>
 </Point>
 </Placemark>
 <Placemark>
