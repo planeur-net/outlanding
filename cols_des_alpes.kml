@@ -287,10 +287,10 @@
 </Placemark>
 <Placemark>
 <name>Col de Roselend</name>
-<description>{col}</description>
+<description>{col} Cormet de Roselend</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.690666666666667, 45.69155</coordinates>
+<coordinates>6.6907, 45.691266666666664</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -351,10 +351,10 @@
 </Placemark>
 <Placemark>
 <name>Col des Rochilles</name>
-<description>{col} de la Plagnette</description>
+<description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.477033333333333, 45.089616666666664</coordinates>
+<coordinates>6.470883333333333, 45.0854</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -378,7 +378,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>6.433333333333334, 44.65</coordinates>
+<coordinates>6.424483333333334, 44.65903333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -398,19 +398,19 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col du Caduc</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>6.544583333333334, 44.243116666666666</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>Col du Carro</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
 <coordinates>7.1304, 45.42771666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col du Cruq des Aiguilles</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.343366666666666, 45.08598333333333</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -478,6 +478,14 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col du Mourre Gros</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>6.5446333333333335, 44.242983333333335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col du Petit St Bernard</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
@@ -538,7 +546,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>5.589716666666667, 45.05388333333333</coordinates>
+<coordinates>5.597166666666666, 45.0528</coordinates>
 </Point>
 </Placemark>
 <Placemark>
@@ -838,14 +846,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>Col Corgella</name>
-<description>{col}</description>
-<styleUrl>#{col}</styleUrl>
-<Point>
-<coordinates>9.031933333333333, 46.14638333333333</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>Col de Gavia</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
@@ -866,7 +866,7 @@
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
 <Point>
-<coordinates>7.170833333333333, 45.86833333333333</coordinates>
+<coordinates>7.16515, 45.868633333333335</coordinates>
 </Point>
 </Placemark>
 <Placemark>
