@@ -76,10 +76,10 @@
 </Placemark>
 <Placemark>
 <name>#12 LFJE La Motte Chalancon</name>
-<description>030/210 Altiport {altiport}</description>
+<description>030/210 Altiport. Bas-Haut= 821-878m. {altiport}</description>
 <styleUrl>#{altiport}</styleUrl>
 <Point>
-<coordinates>5.402783333333334, 44.499716666666664</coordinates>
+<coordinates>5.403333333333333, 44.49666666666667</coordinates>
 </Point>
 </Placemark>
 <Placemark>
