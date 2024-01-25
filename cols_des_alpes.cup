@@ -7,7 +7,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de Cabre",C-Cabre,FR,4432.983N,00535.917E,1180.0m,6,,,,,"{col}",,
 "Col de Couleau",C-Coulea,FR,4441.464N,00627.600E,2787.0m,6,,,,,"{col}",,
 "Col de Freissinières",C-Fresin,FR,4444.237N,00621.221E,2782.0m,6,,,,,"{col}",,
-"Col de Grimone",C-Grmone,FR,4441.500N,00539.250E,1319.0m,6,,,,,"{col},,
+"Col de Grimone",C-Grmone,FR,4441.500N,00539.250E,1319.0m,6,,,,,"{col}",,
 "Col de la Bataille",C-Batail,FR,4453.887N,00514.028E,1313.0m,6,,,,,"{col}",,
 "Col de la Cayolle",C-Cayol,FR,4415.551N,00644.631E,2326.0m,6,,,,,"{col}",,
 "Col de la Cine",C-Cine,FR,4406.603N,00623.918E,1505.0m,6,,,,,"{col}",,
