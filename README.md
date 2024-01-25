@@ -1,3 +1,4 @@
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/planeur-net/outlanding)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 # Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilité des contributeurs et encore moins celle des propriétaires des champs.

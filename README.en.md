@@ -1,4 +1,4 @@
-[![fr](https://img.shields.io/badge/lang-fr-red.svg)](https://github.com/planeur-net/outlanding)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/planeur-net/outlanding)
 # Outlanding
 The data and information provided in this repository is for information use only. In no way could the authors or the land-owners be liable in case of accident.
 ## Download
