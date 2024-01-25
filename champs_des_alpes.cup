@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"9dd1557 2024-01-13T09:35:41+00:00",,
+"version=",,,,,,,,,,,"fc26e24 2024-01-25T11:08:08+01:00",,
 "Arvieux",Arvieux,FR,4446.301N,00644.160E,1580.0m,3,0,300.0m,,,,,"arvieux.jpg"
 "Crots_2",Crots_2,FR,4431.836N,00626.016E,800.0m,3,90,300.0m,40.0m,,"090 / 270 Vent  arriere face au Nord. Monte vers E. Atterissage Face a l'est",,"crots2.jpg"
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
@@ -24,3 +24,4 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
 "Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. Legere descente vers N. {facile}",,"recoubeau.jpg"
 "St Martin Castillon-ULM",LF8421,FR,4351.183N,00533.017E,330.0m,2,80,800.0m,75.0m,123.500,"080/260 Terrain Prive. Contact radio obligatoire.TDP 26 main gauche. TDP 08 main droite. http://www.aeroclubdupaysdapt.com",,"castillon1.jpg;castillon2.jpg"
+"Chorges",Chorges,FR,4432.583N,00617.430E,908m,3,75,215.0m,,,"075 uniquement. 1km a l'Est de Chorges. Toucher apres le chemin. Reconnaissance a pied recommandee. Approche degagee {normal}",,"chorges.jpg;chorges_2.jpg"
