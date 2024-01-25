@@ -102,7 +102,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de Gavia",C-Gavia,IT,4620.608N,01029.262E,2620.0m,6,,,,,"{col}",,
 "Col de Maloja",C-Maloja,IT,4624.081N,00941.736E,1815.0m,6,,,,,"{col}",,
 "Col du Grand St Bernard",C-GrdBer,IT,4552.118N,00709.909E,2469.0m,6,,,,,"{col}",,
-"Col du Nivolet",C-Nivlt,IT,4529.061N,00706.873E,2567.0m,6,,,,,"{col}",,
+"Col du Nivolet",C-Nivlt,IT,4528.855N,00708.448E,2567.0m,6,,,,,"{col}",,
 "Col du San Bernardino",C-Brndno,IT,4629.733N,00910.266E,2065.0m,6,,,,,"{col}",,
 "Col Falzarego",C-Flzargo,IT,4631.121N,01200.566E,2110.0m,6,,,,,"{col}",,
 "Col Ferret",C-Ferret,IT,4553.283N,00704.667E,2537.0m,6,,,,,"{col}",,
