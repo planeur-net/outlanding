@@ -126,6 +126,14 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col de Grimone</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.654166666666667, 44.69166666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col de la Bataille</name>
 <description>{col}</description>
 <styleUrl>#{col}</styleUrl>
