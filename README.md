@@ -1,9 +1,10 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 # Outlanding
 Les renseignements fournis le sont a titre indicatif et ne sauraient engager la responsabilité des contributeurs et encore moins celle des propriétaires des champs.
 ## Download
-| Fichier  | Format  | Lien | Commentaire | Gen. Auto. | [Download depuis ![xcsoar](doc/images/xcsoar.png)](#download-depuis-xcsoar)|
+| File  | Format  | Link | Comment | Auto. Gen.| [Download depuis ![xcsoar](doc/images/xcsoar.png)](#download-depuis-xcsoar)|
 |---|---|---|---|---|---|
-| Guide des Aires de securite | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :heavy_check_mark: [FR-WPT-...](## "FR-WPT-guide-des-aires-de-securite-Alps.cup") |
+| Outlanding sites booklet | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :heavy_check_mark: [FR-WPT-...](## "FR-WPT-guide-des-aires-de-securite-Alps.cup") |
 | | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx) | | :heavy_check_mark:
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
