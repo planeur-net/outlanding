@@ -63,7 +63,7 @@ An Android application [GithubDownloader](https://github.com/llauner/AirspaceDow
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
 ### Download from XCSaor
-In the above table, files marked with a :heavy_check_mark: in the ![xcsoar](doc/images/xcsoar.png) can be downbloaded from XCSoar directly.
+In the above table, files marked with a :heavy_check_mark: in the ![xcsoar](doc/images/xcsoar.png) column can be downloaded directly grom XCSoar.
 
 ![Download XCSoar](doc/images/xcsoar_download.jpg)
 
