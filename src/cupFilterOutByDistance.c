@@ -197,13 +197,19 @@ int main(int argc, char *argv[]){
   current=lastheader->next; /* = first point of the list*/
   moving_previous=current;
   moving=current->next; /* = second point of the list*/
+  
   while((current!=lastpoint)&&(current_previous!=lastpoint)){
+    bool isModeForwardNeeded = true;                              // true if we need have the moving point go forward = no deletion done
     /*calculate distance*/
     distance=sqrt(pow(current->longitude - moving->longitude,2)+pow(current->latitude - moving->latitude,2)); /*in degrees*/
     distance=distance*111.0; /*in km  (1° = 111 km)*/
-    if(distance<maxdistance && !current->isLandmark){ 
+
+    if(distance<maxdistance){ 
       /*Find and remove the lowest point between current and moving*/
-      if(moving->altitude < current->altitude && !moving->isLandmark){    // Moving point is lowest -> delete
+      bool isMovingPointToBeDeleted = moving->altitude < current->altitude;
+      bool isCurrentPointToBeDeleted = !isMovingPointToBeDeleted;
+
+      if( isMovingPointToBeDeleted && !moving->isLandmark){    // Moving point is lowest -> delete
         if(moving==lastpoint){
           lastpoint=moving_previous;
         }
@@ -211,20 +217,24 @@ int main(int argc, char *argv[]){
         moving=moving->next;
         moving_previous->next=moving;
         free(delete);
+        isModeForwardNeeded = false;
       }
-      else if (!current->isLandmark) {    // Current point is lowest -> delete
-        delete=current;                 
-        current=current->next;
-        current_previous->next=current;
-        free(delete);
-        moving_previous=current;
-        moving=current->next;
-      }/*else*/
+      else 
+        if (isCurrentPointToBeDeleted && !current->isLandmark) {    // Current point is lowest -> delete
+          delete=current;                 
+          current=current->next;
+          current_previous->next=current;
+          free(delete);
+          moving_previous=current;
+          moving=current->next;
+          isModeForwardNeeded = false;
+        }
     }
-    else{/*move to the following point*/
+    // Move forward if not already done while deleting a point
+    if (isModeForwardNeeded) {
       moving_previous=moving;
       moving=moving->next;
-    }/*else*/
+    }
 
     if(moving==lastpoint->next){ /*moving has reach the end of the list of points ; start over with a new current point*/
       current_previous=current;
