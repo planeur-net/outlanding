@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,0000.000N,00000.000E,0.0m,1,,,,,"52bd38c 2024-01-26T09:40:28+01:00",,
+"version=",,,,,,,,,,,"d6cce8d 2024-01-26T13:32:51+01:00",,
 "3 Évêchés",3évéchés,FR,4417.349N,00632.046E,2818.0m,7,,,,,"#landmark",,
 "Aiguille Centrale de la Saussaz",A.Centra,FR,4506.820N,00619.164E,3361.0m,7,,,,,,,
 "Aiguille Centrale du Soreiller",A.Centra,FR,4458.013N,00614.503E,3338.0m,7,,,,,,,
