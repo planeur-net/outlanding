@@ -1,4 +1,4 @@
-/*Takes a CUP file. Filter out the points by distance, keeping only the highest one in a given radius. Write a CUP file*/
+/*Takes a CUP file. Filter out the points by distance, keeping only the highest one in a given radius it it's not tagged as LANDMARK. Write a CUP file*/
 /*Compilation: gcc cupFilterOutByDistance.c -lm -o cupFilterOutByDistance*/
 
 /*cupFilterOutByDistance © 2024 by MLEP is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)*/
@@ -19,6 +19,7 @@ typedef signed short int OUTDATA_TYPE;
 #define MAXLENGTHLINE 1000 /*maximum length for a line of characters*/
 
 static char *version = "cupFilterOutByDistance - 2024-01-16";
+static const char *LANDMARK = "#landmark";
 
 char* getfield(char* line, int num){
   char* tok;
@@ -47,6 +48,7 @@ int main(int argc, char *argv[]){
     double longitude;
     double latitude;
     double altitude;
+    bool isLandmark;
 	struct point* next;
   };
 
@@ -152,6 +154,9 @@ int main(int argc, char *argv[]){
   /*for each point, stores longitude, latitude & altitude as decimals*/ 
   current=lastheader->next; /* = first point*/
   for(i=0; i<numberofpoints; i++){
+    // Populate isLandmark
+    current->isLandmark = strstr(current->line, LANDMARK)!=NULL ? true : false; 
+
     /*extract latitude*/
     strcpy(stringcoord,current->line);
     strcpy(stringcoord, getfield(stringcoord, 4));
@@ -192,32 +197,45 @@ int main(int argc, char *argv[]){
   current=lastheader->next; /* = first point of the list*/
   moving_previous=current;
   moving=current->next; /* = second point of the list*/
+  
   while((current!=lastpoint)&&(current_previous!=lastpoint)){
+    bool isModeForwardNeeded = true;                              // true if we need have the moving point go forward = no deletion done
     /*calculate distance*/
     distance=sqrt(pow(current->longitude - moving->longitude,2)+pow(current->latitude - moving->latitude,2)); /*in degrees*/
     distance=distance*111.0; /*in km  (1° = 111 km)*/
+
     if(distance<maxdistance){ 
-      /*remove the lowest point*/
-      if(moving->altitude < current->altitude){
+      /*Find and remove the lowest point between current and moving*/
+      bool isMovingPointToBeDeleted = moving->altitude < current->altitude;
+      bool isCurrentPointToBeDeleted = !isMovingPointToBeDeleted;
+
+      if( isMovingPointToBeDeleted && !moving->isLandmark){    // Moving point is lowest -> delete
         if(moving==lastpoint){
           lastpoint=moving_previous;
         }
-        delete=moving;
+        delete=moving;                    
         moving=moving->next;
         moving_previous->next=moving;
         free(delete);
-      }else{/*start with a new current point*/
-        delete=current;
-        current=current->next;
-        current_previous->next=current;
-        free(delete);
-        moving_previous=current;
-        moving=current->next;
-      }/*else*/
-    }else{/*move to the following point*/
+        isModeForwardNeeded = false;
+      }
+      else 
+        if (isCurrentPointToBeDeleted && !current->isLandmark) {    // Current point is lowest -> delete
+          delete=current;                 
+          current=current->next;
+          current_previous->next=current;
+          free(delete);
+          moving_previous=current;
+          moving=current->next;
+          isModeForwardNeeded = false;
+        }
+    }
+    // Move forward if not already done while deleting a point
+    if (isModeForwardNeeded) {
       moving_previous=moving;
       moving=moving->next;
-    }/*else*/
+    }
+
     if(moving==lastpoint->next){ /*moving has reach the end of the list of points ; start over with a new current point*/
       current_previous=current;
       current=current->next;
