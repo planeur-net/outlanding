@@ -19,6 +19,7 @@ typedef signed short int OUTDATA_TYPE;
 #define MAXLENGTHLINE 1000 /*maximum length for a line of characters*/
 
 static char *version = "cupFilterOutByDistance - 2024-01-16";
+static const char *LANDMARK = "#landmark";
 
 char* getfield(char* line, int num){
   char* tok;
@@ -47,6 +48,7 @@ int main(int argc, char *argv[]){
     double longitude;
     double latitude;
     double altitude;
+    bool isLandmark;
 	struct point* next;
   };
 
@@ -152,6 +154,9 @@ int main(int argc, char *argv[]){
   /*for each point, stores longitude, latitude & altitude as decimals*/ 
   current=lastheader->next; /* = first point*/
   for(i=0; i<numberofpoints; i++){
+    // Populate isLandmark
+    current->isLandmark = strstr(current->line, LANDMARK)!=NULL ? true : false; 
+
     /*extract latitude*/
     strcpy(stringcoord,current->line);
     strcpy(stringcoord, getfield(stringcoord, 4));
@@ -196,7 +201,7 @@ int main(int argc, char *argv[]){
     /*calculate distance*/
     distance=sqrt(pow(current->longitude - moving->longitude,2)+pow(current->latitude - moving->latitude,2)); /*in degrees*/
     distance=distance*111.0; /*in km  (1° = 111 km)*/
-    if(distance<maxdistance){ 
+    if(distance<maxdistance && !current->isLandmark && !moving->isLandmark){ 
       /*remove the lowest point*/
       if(moving->altitude < current->altitude){
         if(moving==lastpoint){
