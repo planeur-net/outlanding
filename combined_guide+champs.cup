@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]628c3f8 2024-01-25T10:09:04+00:00 + [champs_des_alpes]628c3f8 2024-01-25T10:09:04+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]e0eb21d 2024-01-26T07:05:45+00:00 + [champs_des_alpes]e0eb21d 2024-01-26T07:05:45+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.800N,00524.200E,881.0m,2,30,534.0m,,"130.000","030/210 Altiport. Bas-Haut= 821-878m. {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -156,7 +156,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Cervens-ULM",LF7470,FR,4617.583N,00626.800E,620.0m,2,60,310.0m,30.0m,125.335,"060/240 Autorisation avant premiere visite. Terrain sensible interdit dimanche JF et Samedi entre 12h et 14h30 {terrain}",,"LF7470.jpg"
 "Alex",Alex,FR,4553.250N,00613.100E,570.0m,3,197,300.0m,30.0m,,"Monte 4% vers le Sud. Choisir en fonction des cultures. Attention chemin entre les 2 champs {normal}",,"alex.jpg"
 "La Tour",La_tour,FR,4607.995N,00625.460E,625.0m,3,360,330.0m,30.0m,,"{facile}",,"la_tour.jpg"
-"Thone",Thone,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW {facile}",,"thone.jpg"
+"Thones",Thones,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW {facile}",,"thones.jpg"
 "Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
 "Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. Legere descente vers N. {facile}",,"recoubeau.jpg"
 "St Martin Castillon-ULM",LF8421,FR,4351.183N,00533.017E,330.0m,2,80,800.0m,75.0m,123.500,"080/260 Terrain Prive. Contact radio obligatoire.TDP 26 main gauche. TDP 08 main droite. http://www.aeroclubdupaysdapt.com",,"castillon1.jpg;castillon2.jpg"
