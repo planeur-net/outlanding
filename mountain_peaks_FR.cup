@@ -3520,7 +3520,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Royou",Royou,FR,4442.926N,00530.277E,1787.0m,7,,,,,,,
 "Ruth du Couchant",RuthduCo,FR,4405.937N,00604.135E,1056.0m,7,,,,,,,
 "Saint-Abdon",Saint-Ab,FR,4427.127N,00603.137E,739.0m,7,,,,,,,
-"Saint-Apôtre",Saint-Ap,FR,4432.451N,00544.670E,1491.0m,7,,,,,,,
+"Les Apôtres",Saint-Ap,FR,4432.451N,00544.670E,1491.0m,7,,,,,"#landmark",,
 "Sainte-Madeleine",Sainte-M,FR,4409.466N,00609.810E,1139.0m,7,,,,,,,
 "Sainte-Marguerite",Sainte-M,FR,4441.272N,00418.803E,985.0m,7,,,,,,,
 "Sainte-Victoire",StVictoi,FR,4331.765N,00535.355E,966.0m,7,,,,,"#landmark",,
