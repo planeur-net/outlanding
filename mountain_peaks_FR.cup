@@ -384,7 +384,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Cime de Peïrabroc",C.dePeïr,FR,4407.133N,00724.852E,2947.0m,7,,,,,,,
 "Cime de Pelousette",C.dePelo,FR,4420.581N,00651.350E,2757.0m,7,,,,,,,
 "Cime de Pepin",C.dePepi,FR,4408.761N,00736.068E,2335.0m,7,,,,,,,
-"Cime de Peyrassin,Peyrssin,FR,4425.350N,00655.500,2730m,,,,,"#landmark",,
+"Cime de Peyrassin",Peyrssin,FR,4425.350N,00655.500,2730m,,,,,"#landmark",,
 "Cime de Piagu",C.dePiag,FR,4405.916N,00717.435E,2338.0m,7,,,,,,,
 "Cîme de Pignerole",CîmedePi,FR,4434.070N,00550.470E,1427.0m,7,,,,,,,
 "Cime de Raibaut",C.deRaib,FR,4405.883N,00718.129E,2185.0m,7,,,,,,,
