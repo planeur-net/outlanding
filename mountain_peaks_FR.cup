@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,0000.000N,00000.000E,0.0m,1,,,,,"92c692b 2024-01-30T20:39:10+01:00",,
+"version=",,,,,,,,,,,"c996290 2024-01-31T20:23:53+01:00",,
 "3 Évêchés",3évéchés,FR,4417.349N,00632.046E,2818.0m,7,,,,,"#landmark",,
 "Aiguille Barseni",A.deBars,FR,4428.200N,00654.133E,2683.0m,7,,,,,,,
 "Aiguille Centrale de la Saussaz",A.Centra,FR,4506.820N,00619.164E,3361.0m,7,,,,,,,
