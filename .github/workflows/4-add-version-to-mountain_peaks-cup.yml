@@ -33,6 +33,7 @@ jobs:
           versionInfo=$(git log --pretty="%h %cI" -n1 -- mountain_peaks_FR.cup)
           # Remove first line if applicable
           sed -i "$((grep -nm1 \"version= ./mountain_peaks_FR.cup || echo 1000000000:) | cut -f 1 -d:) d" ./mountain_peaks_FR.cup
+          sed -i "$((grep -nm2 \"version= ./mountain_peaks_FR.cup || echo 1000000000:) | cut -f 1 -d:) d" ./mountain_peaks_FR.cup
           # Add version information
           sed -i "2i \"version=\",,,,,,,,,,,\"$versionInfo\",," ./mountain_peaks_FR.cup
 
