@@ -1639,7 +1639,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Mont Chalon",M.Chalon,FR,4623.661N,00644.177E,1052.0m,7,,,,,,,
 "Mont Chanis",M.Chanis,FR,4503.505N,00405.154E,1232.0m,7,,,,,,,
 "Mont Charvaz",M.Charva,FR,4543.910N,00549.426E,1158.0m,7,,,,,,,
-"Mont Charvet",M.Charve,FR,4538.750N,00655.850E,2809.0m,7,,,,,,,
 "Mont Charvet",M.Charve,FR,4533.699N,00605.616E,1576.0m,7,,,,,"#landmark",,
 "Mont Charvin",M.Charvi,FR,4548.146N,00625.209E,2409.0m,7,,,,,"#landmark",,
 "Mont Chatard",M.Chatar,FR,4556.743N,00429.585E,696.0m,7,,,,,,,
