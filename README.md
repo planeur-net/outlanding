@@ -26,7 +26,7 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | |  [mountain_peaks_CH.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Suisse | :pencil2: | :heavy_check_mark: [CH-WPT-...](## "CH-WPT-mountain-peaks-Alps-PlaneurNet.cup") |
 | | |  [mountain_peaks_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_IT.cup) | Italie | :pencil2: | :heavy_check_mark: [IT-WPT-...](## "IT-WPT-mountain-peaks-Alps-PlaneurNet.cup") |
 | | |  [mountain_peaks_FR_CH_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR_CH_IT.cup) | France + Suisse + Italie | :heavy_check_mark:
-| | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_CH.cup) | Pyrenees | :pencil2: |
+| | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_Pyrenees.cup) | Pyrenees | :pencil2: |
 
 ### Mise a jour des fichiers sur Android
 <table>
