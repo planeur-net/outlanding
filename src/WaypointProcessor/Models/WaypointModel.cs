@@ -13,6 +13,9 @@ using System.Threading.Tasks;
 
 namespace WaypointProcessor.Models
 {
+    /// <summary>
+    /// Partial model for a Waypoint
+    /// </summary>
     internal class WaypointModel
     {
         private Coordinate _coordinate = null;
@@ -92,7 +95,7 @@ namespace WaypointProcessor.Models
         }
 
         /// <summary>
-        /// 
+        /// Convert from Coordinate to cup string format
         /// </summary>
         /// <param name="coord"></param>
         /// <returns></returns>

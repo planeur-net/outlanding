@@ -14,6 +14,9 @@ namespace QuickStart
 
             [Option('c', "comparedFileName", Required = true, HelpText = "Compared file name")]
             public string? ComparedFileName { get; set; }
+
+            [Option('d', "distance", Required = false, HelpText = "Max distance to consider waypoints equal")]
+            public int Distance { get; set; } = 300;
         }
 
 
@@ -31,7 +34,7 @@ namespace QuickStart
 
         private void RemoveDuplicates(DuplicatesOptions options)
         {
-            var duplicatesFinderSercice = new DuplicatesFinderService(options.BaseFileName, options.ComparedFileName);
+            var duplicatesFinderSercice = new DuplicatesFinderService(options.BaseFileName, options.ComparedFileName, options.Distance);
             duplicatesFinderSercice.RemoveDuplicates();
 
         }
