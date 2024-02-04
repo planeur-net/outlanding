@@ -18,7 +18,7 @@ namespace WaypointProcessor.Services
     {
         private List<WaypointModel> _waypoints;
 
-        public void parseFile(string filename)
+        public List<WaypointModel> ParseFile(string filename)
         {
             _waypoints = new List<WaypointModel>();
 
@@ -28,10 +28,8 @@ namespace WaypointProcessor.Services
                 MissingFieldFound = null,
                 HasHeaderRecord = true,
                 Delimiter = ",",
-                ShouldSkipRecord = args => args.Row[0].Contains("version=")
+                ShouldSkipRecord = args => args.Row[0].Contains("version=") || args.Row[0].Contains("-----Related Tasks")
             };
-
-
 
             using (var reader = new StreamReader(filename))
             using (var csv = new CsvReader(reader, config))
@@ -39,6 +37,7 @@ namespace WaypointProcessor.Services
                 csv.Context.RegisterClassMap<WaypointModelMap>();
                 _waypoints = csv.GetRecords<WaypointModel>().ToList();
             }
+            return _waypoints;
         }
     }
 }

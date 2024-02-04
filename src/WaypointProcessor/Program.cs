@@ -29,12 +29,10 @@ namespace QuickStart
         {
         }
 
-
-
         private void RemoveDuplicates(DuplicatesOptions options)
         {
-            var parser = new CsvFileParser();
-            parser.parseFile(options.BaseFileName);
+            var duplicatesFinderSercice = new DuplicatesFinderService(options.BaseFileName, options.ComparedFileName);
+            duplicatesFinderSercice.RemoveDuplicates();
 
         }
 

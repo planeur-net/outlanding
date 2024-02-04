@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="CoordinateSharp" Version="2.21.1.1" />
     <PackageReference Include="CsvHelper" Version="30.1.0" />
   </ItemGroup>
 
