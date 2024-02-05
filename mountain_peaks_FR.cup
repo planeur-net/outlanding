@@ -2488,7 +2488,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Pointe de Faule",P.deFaul,FR,4356.804N,00720.600E,1212.0m,7,,,,,,,
 "Pointe de Fleurendon",P.deFleu,FR,4436.769N,00617.366E,2497.0m,7,,,,,,,
 "Pointe de Fornet",P.deForn,FR,4609.774N,00647.500E,2300.0m,7,,,,,,,
-"Pointe de Frébouze - Alberico",P.deFréb,FR,4552.617N,00659.917E,3480.0m,7,,,,,"Alberico - altitude corrigee",,
+"Pointe de Frébouze - Alberico",P.deFréb,FR,4552.617N,00659.917E,3480.0m,7,,,,,"Alberico",,
 "Pointe de Frébouze - Antoldi",P.deFréb,FR,4552.717N,00659.907E,3530.0m,7,,,,,,,
 "Pointe de Frébouze - Borgna",P.deFréb,FR,4552.751N,00659.974E,3526.0m,7,,,,,,,
 "Pointe de Fresse",P.deFres,FR,4526.881N,00655.578E,2694.0m,7,,,,,,,
