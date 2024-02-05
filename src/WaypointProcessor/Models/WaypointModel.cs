@@ -42,10 +42,11 @@ namespace WaypointProcessor.Models
             }
             set { _coordinate = value; }
         }
+        public string? Altitude { get; set; }
 
         public override string ToString()
         {
-            return $"{Name},{Code},{Country},{CoordConverter<CoordinatePart>.DegresDecimalMinuteToCupCoord(Coordinate)} ";
+            return $"{Name},{Code},{Country},{CoordConverter<CoordinatePart>.DegresDecimalMinuteToCupCoord(Coordinate)}, {Altitude} ";
         }
     }
 
@@ -59,6 +60,7 @@ namespace WaypointProcessor.Models
             Map(m => m.Country).Name("country");
             Map(m => m.Lat).Name("lat").TypeConverter<CoordConverter<CoordinatePart>>();
             Map(m => m.Lon).Name("lon").TypeConverter<CoordConverter<CoordinatePart>>();
+            Map(m => m.Altitude).Name("elev");
         }
     }
 

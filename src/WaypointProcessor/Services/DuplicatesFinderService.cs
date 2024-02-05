@@ -40,7 +40,8 @@ namespace WaypointProcessor.Services
                 {
                     var dist = new Distance(wpBase.Coordinate, wpComp.Coordinate);
 
-                    if (dist.Meters < _distance)
+                    var isSamePoint = wpBase.Name == wpComp.Name && wpBase.Country == wpComp.Country;
+                    if (!isSamePoint && dist.Meters < _distance)
                     {
                         Console.WriteLine(wpBase.ToString());
                         Console.WriteLine(wpComp.ToString());
