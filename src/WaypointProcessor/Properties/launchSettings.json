@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WaypointProcessor": {
+      "commandName": "Project",
+      "commandLineArgs": "singleFileDuplicates -b C:\\llauner\\src\\outlanding\\mountain_peaks_FR.cup"
+    }
+  }
+}
