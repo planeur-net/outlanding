@@ -2,7 +2,7 @@
   "profiles": {
     "WaypointProcessor": {
       "commandName": "Project",
-      "commandLineArgs": "duplicates -b C:\\llauner\\src\\outlanding\\mountain_peaks_FR.cup -c C:\\llauner\\src\\outlanding\\mountain_peaks_CH.cup"
+      "commandLineArgs": "singleFileDuplicates -b C:\\llauner\\src\\outlanding\\mountain_peaks_FR.cup"
     }
   }
 }

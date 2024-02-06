@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using WaypointProcessor.Models;
@@ -14,10 +15,10 @@ namespace WaypointProcessor.Services
     internal class DuplicatesFinderService
     {
         private string _baseFilename;
-        private string _comparedFileName;
+        private string? _comparedFileName;
         private int _distance;
 
-        public DuplicatesFinderService(string baseFileName, string comparedFilename, int distance) 
+        public DuplicatesFinderService(string baseFileName, int distance, string? comparedFilename = null) 
         {
             _baseFilename = baseFileName;
             _comparedFileName = comparedFilename;   
@@ -43,14 +44,51 @@ namespace WaypointProcessor.Services
                     var isSamePoint = wpBase.Name == wpComp.Name && wpBase.Country == wpComp.Country;
                     if (!isSamePoint && dist.Meters < _distance)
                     {
-                        Console.WriteLine(wpBase.ToString());
-                        Console.WriteLine(wpComp.ToString());
-                        Console.WriteLine($"dist (m)= {dist.Meters}");
-                        Console.WriteLine($"-------------");
+                        OutputPoints(wpBase, wpComp, dist);
                     }
                 }
             }
+        }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public void RemoveSingleFileDuplicates()
+        {
+            // Load waypoints
+            var parser = new CsvFileParser();
+            var waypointsBase = parser.ParseFile(_baseFilename);
+
+            for (int i=0;i< waypointsBase.Count; i++)
+            {
+                var current = i + 1;            // Index of current point in the list
+                for (var j = current; j < waypointsBase.Count; j++)
+                {
+                    var wpBase = waypointsBase[i];
+                    var wpComp = waypointsBase[j];
+                    var dist = new Distance(wpBase.Coordinate, wpComp.Coordinate);
+
+                    var isSamePoint = wpBase.Name == wpComp.Name && wpBase.Country == wpComp.Country;
+                    if (!isSamePoint && dist.Meters < _distance)
+                    {
+                        OutputPoints(wpBase, wpComp, dist);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Displays 2 duplicate waypoints
+        /// </summary>
+        /// <param name="point1"></param>
+        /// <param name="point2"></param>
+        /// <param name="dist"></param>
+        private void OutputPoints(WaypointModel point1, WaypointModel point2, Distance dist)
+        {
+            Console.WriteLine(point1.ToString());
+            Console.WriteLine(point2.ToString());
+            Console.WriteLine($"dist (m)= {dist.Meters}");
+            Console.WriteLine($"-------------");
         }
     }
 }
