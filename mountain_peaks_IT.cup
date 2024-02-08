@@ -7942,7 +7942,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Dente Meridionale del Broglio",DenteMer,IT,4528.755N,00713.911E,3454.0m,7,,,,,,,
 "Dente Rotto",DenteRot,IT,4544.871N,01110.700E,1835.0m,7,,,,,,,
 "Denti del Giovo",Dentidel,IT,4407.789N,01011.177E,1580.0m,7,,,,,,,
-"Denti della Foscala",Dentidel,IT,4546.105N,00808.358E,1713.0m,7,,,,,,,,
+"Denti della Foscala",Dentidel,IT,4546.105N,00808.358E,1713.0m,7,,,,,,,
 "Denti di Folletto",DentidiF,IT,4607.700N,01035.238E,3290.0m,7,,,,,,,
 "Denti di San Valentino",DentidiS,IT,4604.384N,01035.040E,2765.0m,7,,,,,,,
 "Denti di Valmala",DentidiV,IT,4546.584N,00810.039E,1763.0m,7,,,,,,,
@@ -31662,4 +31662,3 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Zwölferspitz - Cima Dodici",Zwölfers,IT,4652.238N,01150.672E,2351.0m,7,,,,,,,
 "Zwölferspitz - Cima Dodici",Zwölfers,IT,4656.681N,01136.146E,2690.0m,7,,,,,,,
 "Ёur de Bredles",ЁurdeBre,IT,4636.502N,01143.231E,2158.0m,7,,,,,,,
------Related Tasks-----
