@@ -18,14 +18,14 @@ namespace WaypointProcessor.Models
     /// </summary>
     internal class WaypointModel
     {
-        private Coordinate _coordinate = null;
+        private Coordinate? _coordinate = null;
 
-        public string? Name { get; set; }
+        public required string Name { get; set; }
         public string? Code { get; set; }
         public string? Country { get; set; }
-        public CoordinatePart? Lat { get; set; }
-        public CoordinatePart? Lon { get; set; }
-        public Coordinate? Coordinate
+        public required CoordinatePart Lat { get; set; }
+        public required CoordinatePart Lon { get; set; }
+        public Coordinate Coordinate
         {
             get
             {
@@ -42,7 +42,7 @@ namespace WaypointProcessor.Models
             }
             set { _coordinate = value; }
         }
-        public int? Altitude { get; set; }
+        public int Altitude { get; set; }
 
         public override string ToString()
         {
@@ -79,7 +79,7 @@ namespace WaypointProcessor.Models
     {
         public override object ConvertFromString(string text, IReaderRow row, MemberMapData memberMapData)
         {
-            var coordPart = CupCoordToDegresDecimalMinute(text);
+            var coordPart = CoordConverter<T>.CupCoordToDegresDecimalMinute(text);
             return coordPart;
         }
         /// <summary>
@@ -87,7 +87,7 @@ namespace WaypointProcessor.Models
         /// </summary>
         /// <param name="cupCoord"></param>
         /// <returns>CoordinatePart corresponding to the lat or lon</returns>
-        private CoordinatePart CupCoordToDegresDecimalMinute(string cupCoord)
+        private static CoordinatePart CupCoordToDegresDecimalMinute(string cupCoord)
         {
             // 4417.349N
             var decimalPosition = cupCoord.IndexOf('.');

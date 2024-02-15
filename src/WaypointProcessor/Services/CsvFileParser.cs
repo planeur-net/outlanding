@@ -16,11 +16,11 @@ namespace WaypointProcessor.Services
     /// </summary>
     internal class CsvFileParser
     {
-        private List<WaypointModel> _waypoints;
+        private List<WaypointModel> _waypoints = [];
 
         public List<WaypointModel> ParseFile(string filename)
         {
-            _waypoints = new List<WaypointModel>();
+            _waypoints = [];
 
             // Configure CSV parser
             var config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture)

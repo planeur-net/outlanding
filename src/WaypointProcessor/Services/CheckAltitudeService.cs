@@ -14,25 +14,18 @@ namespace WaypointProcessor.Services
     /// <summary>
     /// Finds duplicate points between two cup files
     /// </summary>
-    internal class CheckAltitudeService
+    internal class CheckAltitudeService(string baseFileName, int distance, string outputFilename)
     {
-        private string _baseFilename;
-        private int _distance;
-        private string _outputFilename;
+        private readonly string _baseFilename = baseFileName;
+        private readonly int _distance = distance;
+        private readonly string _outputFilename = outputFilename;
 
-        private List<AltitudeCheckModel> listAltitudeChecks = new List<AltitudeCheckModel>();
-
-        public CheckAltitudeService(string baseFileName, int distance, string outputFilename)
-        {
-            _baseFilename = baseFileName;
-            _distance = distance;
-            _outputFilename = outputFilename;
-        }
+        private List<AltitudeCheckModel> listAltitudeChecks = [];
 
         /// <summary>
         /// List duplicates when distance between 2 points <= distance
         /// </summary>
-        public async void CheckAltitudes()
+        public void CheckAltitudes()
         {
             // Load waypoints
             var parser = new CsvFileParser();
@@ -52,29 +45,30 @@ namespace WaypointProcessor.Services
 
 
             const string url = "https://wxs.ign.fr/calcul/alti/rest/elevation.json";
-            var param = new Dictionary<string, string>() { {"lat", latParam }, { "lon", lonParam }, { "zonly", "true" } };
+            var param = new Dictionary<string, string?>() { {"lat", latParam }, { "lon", lonParam }, { "zonly", "true" } };
 
-            var newUrl = new Uri(QueryHelpers.AddQueryString(url, param));
+            var newUrl = new Uri(QueryHelpers.AddQueryString(url, queryString: param));
 
-            HttpClient client = new HttpClient();
+            var client = new HttpClient();
             var response = client.GetStringAsync(newUrl).GetAwaiter().GetResult();
             var responseModel = JsonSerializer.Deserialize<ElevationResponseModel>(response);
 
-            ComputeDelta(waypointsBase, responseModel);
+            if (responseModel != null)
+                ComputeDelta(waypointsBase, responseModel);
         }
 
         private void ComputeDelta(List<WaypointModel> waypointsBase, ElevationResponseModel responseModel)
         {
             for (int i = 0; i< waypointsBase.Count; i++)
             {
-                var currentPoint = waypointsBase[i];
+                WaypointModel currentPoint = waypointsBase[i];
                 var altBase = currentPoint.Altitude;
                 var altApi = responseModel.elevations[i];
                 var delta = altBase - altApi;
 
-                //if (Math.Abs((double)delta) > 50)
+                //if (Math.Abs((double)delta) > _distance)
                 //{
-                    listAltitudeChecks.Add(new AltitudeCheckModel
+                listAltitudeChecks.Add(new AltitudeCheckModel
                     {
                         Nom = currentPoint.Name,
                         AltiCup = (int)currentPoint.Altitude,
@@ -89,10 +83,11 @@ namespace WaypointProcessor.Services
 
         private void OutputToFile()
         {
+            Console.WriteLine($"Writing outpout to: {_outputFilename}");
             var header = "| Nom | Alti .cup | Alti API | Delta |";
             var header2 = "|---|---|---|---|";
 
-            using (StreamWriter outputFile = new StreamWriter(_outputFilename))
+            using (var outputFile = new StreamWriter(_outputFilename))
             {
                 outputFile.WriteLine(header);
                 outputFile.WriteLine(header2);
@@ -106,20 +101,6 @@ namespace WaypointProcessor.Services
 
         }
 
-
-        /// <summary>
-        /// Displays 2 duplicate waypoints
-        /// </summary>
-        /// <param name="point1"></param>
-        /// <param name="point2"></param>
-        /// <param name="dist"></param>
-        private void OutputPoints(WaypointModel point1, WaypointModel point2, Distance dist)
-        {
-            Console.WriteLine(point1.ToString());
-            Console.WriteLine(point2.ToString());
-            Console.WriteLine($"dist (m)= {dist.Meters}");
-            Console.WriteLine($"-------------");
-        }
 
     }
 }

@@ -10,10 +10,10 @@ namespace QuickStart
         class DuplicatesOptions
         {
             [Option('b', "baseFileName", Required = true, HelpText = "Base file name")]
-            public string BaseFileName { get; set; }
+            public required string BaseFileName { get; set; }
 
             [Option('c', "comparedFileName", Required = true, HelpText = "Compared file name")]
-            public string? ComparedFileName { get; set; }
+            public required string ComparedFileName { get; set; }
 
             [Option('d', "distance", Required = false, HelpText = "Max distance to consider waypoints equal")]
             public int Distance { get; set; } = 300;
@@ -23,7 +23,7 @@ namespace QuickStart
         class SingelFileDuplicatesOptions
         {
             [Option('b', "baseFileName", Required = true, HelpText = "Base file name")]
-            public string BaseFileName { get; set; }
+            public required string BaseFileName { get; set; }
 
             [Option('d', "distance", Required = false, HelpText = "Max distance to consider waypoints equal")]
             public int Distance { get; set; } = 300;
@@ -33,13 +33,13 @@ namespace QuickStart
         class CheckAltitudesOptions
         {
             [Option('b', "baseFileName", Required = true, HelpText = "Base file name")]
-            public string BaseFileName { get; set; }
+            public required string BaseFileName { get; set; }
 
             [Option('d', "distance", Required = false, HelpText = "Max altitude difference to report an error")]
             public int Distance { get; set; } = 50;
 
             [Option('o', "output", Required = true, HelpText = "MarkDown file output path")]
-            public string OutputFileName { get; set; }
+            public required string OutputFileName { get; set; }
         }
 
 

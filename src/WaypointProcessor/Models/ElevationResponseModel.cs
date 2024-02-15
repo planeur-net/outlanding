@@ -8,6 +8,8 @@ namespace WaypointProcessor.Models
 {
     internal class ElevationResponseModel
     {
-        public List<double> elevations { get; set; }
+#pragma warning disable IDE1006 // Naming Styles
+        public List<double> elevations { get; set; } = [];
+#pragma warning restore IDE1006 // Naming Styles
     }
 }

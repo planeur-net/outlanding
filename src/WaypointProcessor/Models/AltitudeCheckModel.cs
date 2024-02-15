@@ -8,7 +8,7 @@ namespace WaypointProcessor.Models
 {
     internal class AltitudeCheckModel
     {
-        public string Nom {  get; set; }
+        public required string Nom {  get; set; }
         public int AltiCup { get;set; }
         public int AltiTopo { get; set; }
         public int Delta { get; set; }
