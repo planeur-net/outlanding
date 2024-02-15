@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"1f1b5ef 2024-01-26T08:04:47+01:00",,
+"version=",,,,,,,,,,,"e96b393 2024-02-15T10:14:46+01:00",,
 "Arvieux",Arvieux,FR,4446.301N,00644.160E,1580.0m,3,0,300.0m,,,,,"arvieux.jpg"
 "Crots_2",Crots_2,FR,4431.836N,00626.016E,800.0m,3,90,300.0m,40.0m,,"090 / 270 Vent  arriere face au Nord. Monte vers E. Atterissage Face a l'est",,"crots2.jpg"
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
