@@ -1,32 +1,32 @@
 ` ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../mountain_peaks_FR.cup --md ../doc-reports/Altitude_Check-mountain_peaks_FR.md`
 | Nom | Alti .cup | Alti topo | Delta | Erreur/Warning |
 | --- | --- | --- | --- | --- |
-|3 Évechés|2818|2706|112|ERR|
+|3 EvechEs|2818|2706|112|ERR|
 |Aiguille Barseni|2683|2395|288|ERR|
 |Aiguille Centrale de la Saussaz|3361|2896|465|ERR|
 |Aiguille Centrale du Soreiller|3338|3089|249|ERR|
 |Aiguille Chenavier|3799|3433|366|ERR|
 |Aiguille Croche|2487|2202|285|ERR|
-|Aiguille d'Août|2555|2502|53|ERR|
+|Aiguille d'Aout|2555|2502|53|ERR|
 |Aiguille d'Arbour / Guglia d'Arbour|2803|2265|538|ERR|
 |Aiguille d'Argentière|3901|3573|328|ERR|
 |Aiguille d'Arves|3514|3149|365|ERR|
 |Aiguille d'Aujon|2389|2082|307|ERR|
 |Aiguille de Bacque|2647|2455|192|ERR|
 |Aiguille de Baroz|2905|2633|272|ERR|
-|Aiguille de Bérard|2663|2496|167|ERR|
+|Aiguille de BErard|2663|2496|167|ERR|
 |Aiguille de Bertin|2774|2619|155|ERR|
 |Aiguille de Blaitière|3522|3190|332|ERR|
 |Aiguille de Borderan|2492|2206|286|ERR|
 |Aiguille de Braitaz|1910|1742|168|ERR|
-|Aiguille de Cédéra|2908|2746|162|ERR|
+|Aiguille de CEdEra|2908|2746|162|ERR|
 |Aiguille de Chalais|1089|731|358|ERR|
 |Aiguille de Chambeyron|3412|2955|457|ERR|
 |Aiguille de Chanrossa|3028|2781|247|ERR|
 |Aiguille de Chardonnet|3824|3466|358|ERR|
 |Aiguille de Clapouse|2882|2767|115|ERR|
 |Aiguille de Coste Rouge|3252|3068|184|ERR|
-|Aiguille de la Bérangère|3425|3268|157|ERR|
+|Aiguille de la BErangère|3425|3268|157|ERR|
 |Aiguille de la Charlanon|2549|2327|222|ERR|
 |Aiguille de la Flachère|2700|2583|117|ERR|
 |Aiguille de la Floria|2888|2665|223|ERR|
@@ -35,20 +35,20 @@
 |Aiguille de la Grande Sassière|3747|3552|195|ERR|
 |Aiguille de la Nova|2893|2558|335|ERR|
 |Aiguille de la Petite Sassière|3672|3513|159|ERR|
-|Aiguille de la République|3305|2662|643|ERR|
+|Aiguille de la REpublique|3305|2662|643|ERR|
 |Aiguille de la Tete Plate|2944|2624|320|ERR|
 |Aiguille de la Vanoise|2796|2398|398|ERR|
 |Aiguille de Laisse|2879|2795|84|ERR|
-|Aiguille de L'Amône|3584|3271|313|ERR|
-|Aiguille de l'Éboulement|3599|3342|257|ERR|
-|Aiguille de l'Épéna|3421|2752|669|ERR|
+|Aiguille de L'Amone|3584|3271|313|ERR|
+|Aiguille de l'Eboulement|3599|3342|257|ERR|
+|Aiguille de l'EpEna|3421|2752|669|ERR|
 |Aiguille de l'Ermite / Aiguille dell|2998|2805|193|ERR|
 |Aiguille de Leschaux|3759|3196|563|ERR|
 |Aiguille de l'M|2844|2558|286|ERR|
-|Aiguille de Méan Martin|3278|3086|192|ERR|
+|Aiguille de MEan Martin|3278|3086|192|ERR|
 |Aiguille de Mey|2845|2486|359|ERR|
 |Aiguille de Morges|2986|2628|358|ERR|
-|Aiguille de Péclet|3561|3320|241|ERR|
+|Aiguille de PEclet|3561|3320|241|ERR|
 |Aiguille de Pertuis|1808|1455|353|ERR|
 |Aiguille de Polset|3528|3295|233|ERR|
 |Aiguille de Praz-Torrent|2573|2228|345|ERR|
@@ -60,10 +60,10 @@
 |Aiguille de Savine|3370|3016|354|ERR|
 |Aiguille de Scolette / Pierre Menue|3506|3039|467|ERR|
 |Aiguille de Talèfre|3730|3498|232|ERR|
-|Aiguille de Tré-la-Tete Centrale No|3908|3732|176|ERR|
+|Aiguille de TrE-la-Tete Centrale No|3908|3732|176|ERR|
 |Aiguille de Triolet|3870|3421|449|ERR|
 |Aiguille de Varan|2544|2485|59|ERR|
-|Aiguille de Vénosc|2830|2505|325|ERR|
+|Aiguille de VEnosc|2830|2505|325|ERR|
 |Aiguille d'Entre-Pierroux|3290|2984|306|ERR|
 |Aiguille d'Entrèves|3604|3360|244|ERR|
 |Aiguille des 2 Aigles - Secteur du P|3392|3106|286|ERR|
@@ -74,13 +74,13 @@
 |Aiguille des Grands Montets|3296|3052|244|ERR|
 |Aiguille des Lanchettes|3073|2731|342|ERR|
 |Aiguille des Marmes|3057|2742|315|ERR|
-|Aiguille des Péous|2825|2494|331|ERR|
+|Aiguille des PEous|2825|2494|331|ERR|
 |Aiguille des Saffres|3135|2996|139|ERR|
 |Aiguille Dibona|3131|3021|110|ERR|
 |Aiguille d'Olan|3383|3001|382|ERR|
 |Aiguille d'Olle|2885|2636|249|ERR|
 |Aiguille Doran|3040|2898|142|ERR|
-|Aiguille du Belvédère|2965|2724|241|ERR|
+|Aiguille du BelvEdère|2965|2724|241|ERR|
 |Aiguille du Bochor|2885|2785|100|ERR|
 |Aiguille du Bouchet|2132|1792|340|ERR|
 |Aiguille du Canard|3266|3021|245|ERR|
@@ -90,11 +90,11 @@
 |Aiguille du Fou|3501|3250|251|ERR|
 |Aiguille du Franchet|2801|2553|248|ERR|
 |Aiguille du Fruit|3048|2724|324|ERR|
-|Aiguille du Génépi|3265|3109|156|ERR|
-|Aiguille du Goléon|3427|3166|261|ERR|
-|Aiguille du Goûter|3863|3707|156|ERR|
+|Aiguille du GEnEpi|3265|3109|156|ERR|
+|Aiguille du GolEon|3427|3166|261|ERR|
+|Aiguille du Gouter|3863|3707|156|ERR|
 |Aiguille du Grand Fond|2920|2589|331|ERR|
-|Aiguille du Grépon|3482|3053|429|ERR|
+|Aiguille du GrEpon|3482|3053|429|ERR|
 |Aiguille du Jardin|4035|3311|724|ERR|
 |Aiguille du Midi|2742|2473|269|ERR|
 |Aiguille du Midi (Oisans)|3842|3481|361|ERR|
@@ -109,9 +109,9 @@
 |Aiguille du Van|2578|2179|399|ERR|
 |Aiguille du Veyre|2833|2548|285|ERR|
 |Aiguille Grive|2732|2517|215|ERR|
-|Aiguille Inférieure de la Floria|2850|2724|126|ERR|
+|Aiguille InfErieure de la Floria|2850|2724|126|ERR|
 |Aiguille Martin|2887|2614|273|ERR|
-|Aiguille Méridionale d'Arves|3514|3209|305|ERR|
+|Aiguille MEridionale d'Arves|3514|3209|305|ERR|
 |Aiguille Michel|2915|2645|270|ERR|
 |Aiguille Motte|2627|2370|257|ERR|
 |Aiguille Noire (Tarentaise)|2869|2733|136|ERR|
@@ -122,9 +122,9 @@
 |Aiguille Occidentale du Soreiller|3208|2885|323|ERR|
 |Aiguille Orientale de la Saussaz|3323|3039|284|ERR|
 |Aiguille Orientale du Soreiller|3380|2988|392|ERR|
-|Aiguille Percée|3437|3137|300|ERR|
+|Aiguille PercEe|3437|3137|300|ERR|
 |Aiguille Pers|3386|3072|314|ERR|
-|Aiguille Pierre André|2813|2566|247|ERR|
+|Aiguille Pierre AndrE|2813|2566|247|ERR|
 |Aiguille Pourrie|2511|2402|109|ERR|
 |Aiguille Purtscheller|3478|3390|88|ERR|
 |Aiguille qui Remue|3742|3442|300|ERR|
@@ -150,7 +150,7 @@
 |Aretes de la Bruyère|2611|2410|201|ERR|
 |Arpille|1686|1590|96|ERR|
 |Aujour|1834|1654|180|ERR|
-|Aup de Véran|2437|2229|208|ERR|
+|Aup de VEran|2437|2229|208|ERR|
 |Auribeau|1880|1792|88|ERR|
 |Authon|1709|1548|161|ERR|
 |Bachais|1074|1017|57|ERR|
@@ -164,7 +164,7 @@
 |Baou des Noirs|640|500|140|ERR|
 |Baracuchet|952|889|63|ERR|
 |Baraton|967|876|91|ERR|
-|Barre des Écrins|4102|3798|304|ERR|
+|Barre des Ecrins|4102|3798|304|ERR|
 |Barre Noire|3751|3367|384|ERR|
 |Bauroux|1645|1478|167|ERR|
 |Baus de la Frema|2246|2175|71|ERR|
@@ -187,7 +187,7 @@
 |Bella Valletta|2811|2634|177|ERR|
 |Belle Pierre|1104|1048|56|ERR|
 |Bellevue|1801|1605|196|ERR|
-|Belvédère de l'Homme de Pierre|2374|2282|92|ERR|
+|BelvEdère de l'Homme de Pierre|2374|2282|92|ERR|
 |Bessanese / Bessanèse|3593|3234|359|ERR|
 |Beynes|1600|1521|79|ERR|
 |Blayeul|2189|2006|183|ERR|
@@ -202,7 +202,7 @@
 |Brec de Chambeyron|3389|3094|295|ERR|
 |Brec de l'Homme / Tete de l'Homme|3202|2934|268|ERR|
 |Brec Premier|2560|2231|329|ERR|
-|Brèche du Dérochoir|2171|2062|109|ERR|
+|Brèche du DErochoir|2171|2062|109|ERR|
 |Bric Bouchet|2997|2821|176|ERR|
 |Bric de Rubren|3340|3028|312|ERR|
 |Bric Froid|3302|3093|209|ERR|
@@ -213,9 +213,9 @@
 |But Sapiau|1619|1551|68|ERR|
 |Butte de Suin|600|524|76|ERR|
 |Caduc|2650|2453|197|ERR|
-|Caïre de l'Escandail|2295|2107|188|ERR|
-|Caïre Gros|2087|1880|207|ERR|
-|Caïre Nicolaù|2237|1990|247|ERR|
+|Caire de l'Escandail|2295|2107|188|ERR|
+|Caire Gros|2087|1880|207|ERR|
+|Caire Nicolaù|2237|1990|247|ERR|
 |Cairn|3178|3094|84|ERR|
 |Carton|2123|1902|221|ERR|
 |Casse Massion|2428|2253|175|ERR|
@@ -223,7 +223,7 @@
 |Castello delle Aquile|2513|2017|496|ERR|
 |Cayre Autier|2676|2468|208|ERR|
 |Cayres Barel|2625|2386|239|ERR|
-|Céüse|2016|1837|179|ERR|
+|CEüse|2016|1837|179|ERR|
 |Chaberton|3131|2904|227|ERR|
 |Chabre|1393|1266|127|ERR|
 |Chabrière|2851|2664|187|ERR|
@@ -263,28 +263,28 @@
 |Cime Borgonio|2930|2757|173|ERR|
 |Cime Chamineye|2921|2686|235|ERR|
 |Cime d'Anelle|1824|1706|118|ERR|
-|Cime d'Auriéras|1174|1005|169|ERR|
+|Cime d'AuriEras|1174|1005|169|ERR|
 |Cime de Barbin|1560|1491|69|ERR|
 |Cime de Barchenzane|2410|2216|194|ERR|
 |Cime de Bard|3168|2694|474|ERR|
 |Cime de Baudon|1265|1058|207|ERR|
 |Cime de Belletz|2610|2403|207|ERR|
-|Cime de Bolofré|2816|2730|86|ERR|
+|Cime de BolofrE|2816|2730|86|ERR|
 |Cime de Bonvillars|1376|1129|247|ERR|
-|Cime de Boséglia|1286|1156|130|ERR|
+|Cime de BosEglia|1286|1156|130|ERR|
 |Cime de Bouchiet|2202|2107|95|ERR|
 |Cime de Campbel|1396|1202|194|ERR|
 |Cime de Caron|3195|2958|237|ERR|
 |Cime de Chafrion|3073|2767|306|ERR|
-|Cime de Chanvrairée|2361|2149|212|ERR|
+|Cime de ChanvrairEe|2361|2149|212|ERR|
 |Cime de Clot Châtel|3575|3379|196|ERR|
 |Cime de Colla Bassa|1415|1343|72|ERR|
 |Cime de Corvo|1525|1408|117|ERR|
 |Cime de Coss|1680|1604|76|ERR|
-|Cime de Crémo|1501|1379|122|ERR|
+|Cime de CrEmo|1501|1379|122|ERR|
 |Cime de Durasca|1458|1374|84|ERR|
 |Cime de Durmiose|2438|2211|227|ERR|
-|Cime de Février|2056|1775|281|ERR|
+|Cime de FEvrier|2056|1775|281|ERR|
 |Cime de Fournier|2424|2274|150|ERR|
 |Cime de Fuont Freja|2360|2215|145|ERR|
 |Cime de Gariglian|1108|954|154|ERR|
@@ -317,10 +317,10 @@
 |Cime de l'Eschillon|2709|2627|82|ERR|
 |Cime de l'Eveque|2238|2046|192|ERR|
 |Cime de Marta|2137|2031|106|ERR|
-|Cime de Méné|2477|2223|254|ERR|
+|Cime de MEnE|2477|2223|254|ERR|
 |Cime de Merlier|2575|2351|224|ERR|
 |Cime de Pal|2818|2596|222|ERR|
-|Cime de Peïrabroc|2947|2524|423|ERR|
+|Cime de Peirabroc|2947|2524|423|ERR|
 |Cime de Pelousette|2757|2558|199|ERR|
 |Cime de Pepin|2335|2262|73|ERR|
 |Cime de Peyrassin|2730|2575|155|ERR|
@@ -332,7 +332,7 @@
 |Cime de Raus|2160|2092|68|ERR|
 |Cime de Roccassiera|1501|1387|114|ERR|
 |Cime de Roche Garbière|2608|2487|121|ERR|
-|Cime de Rogué|2705|2544|161|ERR|
+|Cime de RoguE|2705|2544|161|ERR|
 |Cime de Rugec|1962|1904|58|ERR|
 |Cime de Sespoul|2486|2377|109|ERR|
 |Cime de Sistron|2603|2441|162|ERR|
@@ -357,7 +357,7 @@
 |Cime du Diamant|1181|987|194|ERR|
 |Cime du Farguet|1187|1085|102|ERR|
 |Cime du Fort|2034|1850|184|ERR|
-|Cime du Gélas / Monte Gelàs|3143|2865|278|ERR|
+|Cime du GElas / Monte Gelàs|3143|2865|278|ERR|
 |Cime du Grand Braus|1332|1253|79|ERR|
 |Cime du Grand Vallon|3087|2875|212|ERR|
 |Cime du Laro|2881|2702|179|ERR|
@@ -381,20 +381,20 @@
 |Cimes de la Barbarate|3291|3095|196|ERR|
 |Cimes de la Cochette|3232|3091|141|ERR|
 |Cimes des Planettes|2966|2761|205|ERR|
-|Claî Inférieur|2590|2514|76|ERR|
-|Claï Supérieur|2983|2757|226|ERR|
+|Claî InfErieur|2590|2514|76|ERR|
+|Clai SupErieur|2983|2757|226|ERR|
 |Cloche de Barles|1887|1690|197|ERR|
-|Clocher des Écrins|3808|3527|281|ERR|
+|Clocher des Ecrins|3808|3527|281|ERR|
 |Clocheret|2390|2293|97|ERR|
 |Clochers de l'Alpe|3504|3158|346|ERR|
 |Clochers des Pères|2368|2096|272|ERR|
 |Clos Ginoux|2112|1955|157|ERR|
-|Clot la Cime - antécime ouest|2732|2485|247|ERR|
+|Clot la Cime - antEcime ouest|2732|2485|247|ERR|
 |Collet Barris|1460|1376|84|ERR|
 |Collet des Mouches|1038|981|57|ERR|
 |Collet du Midi|1541|1343|198|ERR|
 |Collet du Paradis|603|503|100|ERR|
-|Collet St André|750|447|303|ERR|
+|Collet St AndrE|750|447|303|ERR|
 |Colline des Châteaux d'Allinges|714|596|118|ERR|
 |Colombier|2045|1893|152|ERR|
 |Colombis|1734|1662|72|ERR|
@@ -406,13 +406,13 @@
 |Corne au Taureau|2630|2395|235|ERR|
 |Corne des Chamois|3305|2906|399|ERR|
 |Cornebois|2200|2130|70|ERR|
-|Cornes de Pié Bérarde|3012|2539|473|ERR|
+|Cornes de PiE BErarde|3012|2539|473|ERR|
 |Cornes du Chamois|2562|2642|-80|ERR|
 |Coste Folle|2044|1857|187|ERR|
 |Cote Belle|2027|1802|225|ERR|
-|Côte Belle|2395|2231|164|ERR|
-|Cote Belle Antécime sud|2844|2758|86|ERR|
-|Côte Rouge|2015|1936|79|ERR|
+|Cote Belle|2395|2231|164|ERR|
+|Cote Belle AntEcime sud|2844|2758|86|ERR|
+|Cote Rouge|2015|1936|79|ERR|
 |Coteau d'Artets|600|482|118|ERR|
 |Coteau de la Combre|1038|909|129|ERR|
 |Cougoir|1214|1011|203|ERR|
@@ -455,7 +455,7 @@
 |Cret Lognan|2696|2578|118|ERR|
 |Cret Luisard|1803|1719|84|ERR|
 |Cret Mathieu|1281|1220|61|ERR|
-|Cret Pélerat|852|756|96|ERR|
+|Cret PElerat|852|756|96|ERR|
 |Cret Poncin|754|651|103|ERR|
 |Cret Pujin|1367|1296|71|ERR|
 |Cret Saint-Georges|817|719|98|ERR|
@@ -471,7 +471,7 @@
 |Crete de soleil boeuf|2200|2251|-51|ERR|
 |Crete de Vars|2600|2353|247|ERR|
 |Crete des Chasures|2187|2251|-64|ERR|
-|Crete des Prénetz|2836|2706|130|ERR|
+|Crete des PrEnetz|2836|2706|130|ERR|
 |Crete des Sarrasins|2938|2866|72|ERR|
 |Crete du Chardonnet|2713|2638|75|ERR|
 |Crete du Fioc|2076|1990|86|ERR|
@@ -479,7 +479,7 @@
 |Crete du Lauzet|2353|2234|119|ERR|
 |Crete du Rocher Blanc|2503|2310|193|ERR|
 |Cretes de Liman|1313|1256|57|ERR|
-|Cret-Féchet|630|558|72|ERR|
+|Cret-FEchet|630|558|72|ERR|
 |Crève-Tete|2342|2240|102|ERR|
 |Crey Aigu|2332|2113|219|ERR|
 |Crey du Quart|2534|2405|129|ERR|
@@ -500,14 +500,14 @@
 |Croix de Provence|946|819|127|ERR|
 |Croix de Rougny|2259|2035|224|ERR|
 |Croix de Sainte-Marguerite|2551|2304|247|ERR|
-|Croix de Sécheron|2306|2202|104|ERR|
+|Croix de SEcheron|2306|2202|104|ERR|
 |Croix des Enfers|2525|2409|116|ERR|
 |Croix d'Outray|2335|2168|167|ERR|
 |Croix du Cuchet|2095|1868|227|ERR|
 |Croix du Nivolet|1547|1489|58|ERR|
 |Croix du Ratier|2613|2530|83|ERR|
 |Croix du Sapet|1821|1709|112|ERR|
-|Croix Léat|1829|1691|138|ERR|
+|Croix LEat|1829|1691|138|ERR|
 |Croix-d'Agy|1280|1112|168|ERR|
 |Cuchon|2002|1905|97|ERR|
 |Denjuan|2401|2271|130|ERR|
@@ -526,19 +526,19 @@
 |Dent de Verreu|1901|1836|65|ERR|
 |Dent des Portes|1926|1780|146|ERR|
 |Dent d'Oche|2221|1886|335|ERR|
-|Dent du Caïman|3554|3130|424|ERR|
+|Dent du Caiman|3554|3130|424|ERR|
 |Dent du Chat|1389|1133|256|ERR|
 |Dent du Châtelet|2356|1981|375|ERR|
 |Dent du Cruet|1833|1514|319|ERR|
 |Dent du Diable|2869|2580|289|ERR|
-|Dent du Géant / Pointe Graham|4013|3445|568|ERR|
+|Dent du GEant / Pointe Graham|4013|3445|568|ERR|
 |Dent du Passet|1182|1123|59|ERR|
 |Dent du Pra|2625|2441|184|ERR|
 |Dent du Ratier|2660|2428|232|ERR|
 |Dent du Requin|3422|2868|554|ERR|
 |Dent du Rocher|2817|2693|124|ERR|
 |Dent du Villard|2284|2021|263|ERR|
-|Dent Parrachée|3697|3507|190|ERR|
+|Dent ParrachEe|3697|3507|190|ERR|
 |Dente dell'Agnello|2850|2756|94|ERR|
 |Denti del Collerin / Dents du Coleri|3321|2984|337|ERR|
 |Dents Blanches Occidentales|2709|2408|301|ERR|
@@ -549,28 +549,28 @@
 |Doigt d'Assaly|2971|2813|158|ERR|
 |Doigt de Dieu|3973|3626|347|ERR|
 |Doigt de Rochefort|3931|3662|269|ERR|
-|Dôme de Barrot|2135|2051|84|ERR|
-|Dôme de Bellefont|1975|1870|105|ERR|
-|Dôme de Chasseforet|3586|3406|180|ERR|
-|Dôme de la Cochette|3041|2919|122|ERR|
-|Dôme de la Gandolière|3495|3206|289|ERR|
+|Dome de Barrot|2135|2051|84|ERR|
+|Dome de Bellefont|1975|1870|105|ERR|
+|Dome de Chasseforet|3586|3406|180|ERR|
+|Dome de la Cochette|3041|2919|122|ERR|
+|Dome de la Gandolière|3495|3206|289|ERR|
 |Dome de la Girotte|1920|1841|79|ERR|
-|Dôme de la Sache|3595|3463|132|ERR|
-|Dôme de l'Arpont|3601|3452|149|ERR|
-|Dôme de Monetier|3320|3248|72|ERR|
-|Dôme de Neige des Écrins|4015|3718|297|ERR|
-|Dôme de Pramecou|3081|2812|269|ERR|
-|Dôme de Rochefort|4015|3836|179|ERR|
-|Dôme de Vaugelaz|2215|2159|56|ERR|
+|Dome de la Sache|3595|3463|132|ERR|
+|Dome de l'Arpont|3601|3452|149|ERR|
+|Dome de Monetier|3320|3248|72|ERR|
+|Dome de Neige des Ecrins|4015|3718|297|ERR|
+|Dome de Pramecou|3081|2812|269|ERR|
+|Dome de Rochefort|4015|3836|179|ERR|
+|Dome de Vaugelaz|2215|2159|56|ERR|
 |Dome des Oudis|2124|1967|157|ERR|
-|Dôme des Petites Rousses|2810|2699|111|ERR|
-|Dôme des Pichères|3315|3033|282|ERR|
-|Dôme des Platières|3474|3290|184|ERR|
-|Dôme des Sonnailles|3361|3283|78|ERR|
-|Dôme du Goûter|4304|4245|59|ERR|
-|Dôme du Grand Fond|3460|3281|179|ERR|
-|Dôme Sud|3567|3465|102|ERR|
-|Dômes de Miage|3673|3332|341|ERR|
+|Dome des Petites Rousses|2810|2699|111|ERR|
+|Dome des Pichères|3315|3033|282|ERR|
+|Dome des Platières|3474|3290|184|ERR|
+|Dome des Sonnailles|3361|3283|78|ERR|
+|Dome du Gouter|4304|4245|59|ERR|
+|Dome du Grand Fond|3460|3281|179|ERR|
+|Dome Sud|3567|3465|102|ERR|
+|Domes de Miage|3673|3332|341|ERR|
 |Dormillouse|2510|2260|250|ERR|
 |Dos de Cret Voland|2090|1976|114|ERR|
 |Dos Rond|2340|2240|100|ERR|
@@ -579,7 +579,7 @@
 |Durbonas|2086|1932|154|ERR|
 |Enciastraia / Tete de l'Enchastraye|2954|2808|146|ERR|
 |Entre Piniers|3044|2925|119|ERR|
-|Épaule Nord Ouest des Bans|3475|3137|338|ERR|
+|Epaule Nord Ouest des Bans|3475|3137|338|ERR|
 |Escalinade|3087|2776|311|ERR|
 |Eychauda|3216|3110|106|ERR|
 |Faux Gros Villan  sommet Ouest|2642|2432|210|ERR|
@@ -598,7 +598,7 @@
 |Gourras|1352|1196|156|ERR|
 |Goutaroux|1543|1445|98|ERR|
 |Gran Bagna|3083|2809|274|ERR|
-|Grand Aréa|2869|2645|224|ERR|
+|Grand ArEa|2869|2645|224|ERR|
 |Grand Assaly|3173|2848|325|ERR|
 |Grand Bargy|2301|2037|264|ERR|
 |Grand Brisou|1674|1532|142|ERR|
@@ -640,7 +640,7 @@
 |Grand Sorbier|2526|2428|98|ERR|
 |Grand Veymont|2341|2053|288|ERR|
 |Grande Aiguille|2181|1864|317|ERR|
-|Grande Aiguille de la Bérarde|3417|3013|404|ERR|
+|Grande Aiguille de la BErarde|3417|3013|404|ERR|
 |Grande Aiguille de l'Arcelin|2759|2514|245|ERR|
 |Grande Aiguille Rousse|3482|3194|288|ERR|
 |Grande Autane|2782|2578|204|ERR|
@@ -652,14 +652,14 @@
 |Grande Lauzière|2741|2604|137|ERR|
 |Grande Montagne|681|620|61|ERR|
 |Grande Motte|3653|3458|195|ERR|
-|Grande Pointe des Journées|1720|1490|230|ERR|
+|Grande Pointe des JournEes|1720|1490|230|ERR|
 |Grande Roche de la Muzelle|3465|3226|239|ERR|
 |Grande Roche de Thiervoz|2345|2061|284|ERR|
 |Grande Rochette|2508|2324|184|ERR|
-|Grande Séolane|2909|2749|160|ERR|
-|Grande Séolane Tete Sud|2892|2732|160|ERR|
+|Grande SEolane|2909|2749|160|ERR|
+|Grande SEolane Tete Sud|2892|2732|160|ERR|
 |Grande Sure|1920|1866|54|ERR|
-|Grande Sûre|2486|2323|163|ERR|
+|Grande Sure|2486|2323|163|ERR|
 |Grande Tete|662|537|125|ERR|
 |Grandes Buffes|2164|2072|92|ERR|
 |Grandes Jorasses / Pointe Walker|4208|3638|570|ERR|
@@ -693,7 +693,7 @@
 |Jalinier|1466|1286|180|ERR|
 |Jambe Route|2617|2384|233|ERR|
 |Jas des Lièvres|2325|2195|130|ERR|
-|Jérusalem|1768|1657|111|ERR|
+|JErusalem|1768|1657|111|ERR|
 |Jocou|2051|1875|176|ERR|
 |Jouc de l'Aigle|1148|903|245|ERR|
 |Jouère|1886|1797|89|ERR|
@@ -701,7 +701,7 @@
 |La Bau|1756|1596|160|ERR|
 |La Beaume|1147|927|220|ERR|
 |La Belle Etoile|2649|2511|138|ERR|
-|La Belle Étoile|1841|1720|121|ERR|
+|La Belle Etoile|1841|1720|121|ERR|
 |La Belle Plinier|3086|2936|150|ERR|
 |La Benoîte|2807|2745|62|ERR|
 |La Bigue|1652|1464|188|ERR|
@@ -710,7 +710,7 @@
 |La Bosse|2722|2471|251|ERR|
 |La Botte|2248|2068|180|ERR|
 |La Buffe|1623|1303|320|ERR|
-|La Cathédrale|2531|2347|184|ERR|
+|La CathEdrale|2531|2347|184|ERR|
 |La Chal|1856|1804|52|ERR|
 |La Chalanche|2948|2875|73|ERR|
 |La Château de Concourdet|1061|896|165|ERR|
@@ -723,7 +723,7 @@
 |La Colle de Rougiès|1336|1254|82|ERR|
 |La Colle Vieille|729|653|76|ERR|
 |La Conche|915|791|124|ERR|
-|La Côte|1682|1614|68|ERR|
+|La Cote|1682|1614|68|ERR|
 |La Coupa|2628|2449|179|ERR|
 |La Crapon|1113|939|174|ERR|
 |La Croix aux Filles|1504|1385|119|ERR|
@@ -748,7 +748,7 @@
 |la Gande-Croix|2368|2138|230|ERR|
 |La Gardiole|2753|2593|160|ERR|
 |La Gardiole de l'Alpe|2786|2514|272|ERR|
-|La Gélinasse|2854|2635|219|ERR|
+|La GElinasse|2854|2635|219|ERR|
 |La Goenne|2174|1936|238|ERR|
 |La Gomberge|1490|1319|171|ERR|
 |La Grande Balmaz|2616|2366|250|ERR|
@@ -771,19 +771,19 @@
 |La Grande Torchère|2521|2295|226|ERR|
 |La Grande Tour|2745|2407|338|ERR|
 |La Gratte|2638|2516|122|ERR|
-|La Grésière|1493|1349|144|ERR|
+|La GrEsière|1493|1349|144|ERR|
 |La Grosse Roche|1543|1449|94|ERR|
 |La Groupatassière|782|713|69|ERR|
-|La Haute Paré|2372|2068|304|ERR|
+|La Haute ParE|2372|2068|304|ERR|
 |La Joux de la Tete|1699|1602|97|ERR|
 |La Lauze|2866|2530|336|ERR|
 |La Lauzière|2576|2379|197|ERR|
-|La Légette|1865|1779|86|ERR|
-|La Légette du Grand Mont|2366|2115|251|ERR|
+|La LEgette|1865|1779|86|ERR|
+|La LEgette du Grand Mont|2366|2115|251|ERR|
 |La Lette|1517|1303|214|ERR|
 |La Longeagne|1564|1498|66|ERR|
 |La Loube|830|680|150|ERR|
-|La Louche Percée|2434|2297|137|ERR|
+|La Louche PercEe|2434|2297|137|ERR|
 |La Main de Dieu|2934|2618|316|ERR|
 |La Mait d'Amunt|2804|2514|290|ERR|
 |La Maladière|754|636|118|ERR|
@@ -808,7 +808,7 @@
 |La Pendine|2748|2536|212|ERR|
 |La Perrière|1278|1222|56|ERR|
 |La Petite Buffe|2683|2617|66|ERR|
-|La petite Céüse|1681|1508|173|ERR|
+|La petite CEüse|1681|1508|173|ERR|
 |La Petite Cournouse|1161|1215|-54|ERR|
 |La Petite Cuche|1656|1481|175|ERR|
 |La Petite Moucherolle|2156|2082|74|ERR|
@@ -820,7 +820,7 @@
 |La Petite Vache|1735|1561|174|ERR|
 |La Peyrouse|1711|1618|93|ERR|
 |La Pigne|1022|948|74|ERR|
-|La Pinéa|1771|1552|219|ERR|
+|La PinEa|1771|1552|219|ERR|
 |La Plane du Pin|1863|1687|176|ERR|
 |La Platte|1483|1338|145|ERR|
 |La Poipe|1320|1128|192|ERR|
@@ -828,12 +828,12 @@
 |La Pyramide|2915|2678|237|ERR|
 |La Quille de la Taoule|767|698|69|ERR|
 |La Recula|2548|2322|226|ERR|
-|La Résinière|2427|2252|175|ERR|
+|La REsinière|2427|2252|175|ERR|
 |La Rochaille|2721|2308|413|ERR|
-|La Roche Brisée|2086|1980|106|ERR|
+|La Roche BrisEe|2086|1980|106|ERR|
 |La Roche Brune|2724|2624|100|ERR|
 |La Roche de Gourdon|1054|945|109|ERR|
-|La Roche Forée|2090|2009|81|ERR|
+|La Roche ForEe|2090|2009|81|ERR|
 |La Roche Jaune|2421|2110|311|ERR|
 |La Roche Noire|3134|2976|158|ERR|
 |La Roche Violette|2619|2417|202|ERR|
@@ -847,7 +847,7 @@
 |La Scia|1791|1735|56|ERR|
 |La Sea|2200|2146|54|ERR|
 |La Servelle|1613|1528|85|ERR|
-|La Sétaz des Prés|2548|2318|230|ERR|
+|La SEtaz des PrEs|2548|2318|230|ERR|
 |La Tallias|1591|1463|128|ERR|
 |La tatie|1321|1095|226|ERR|
 |La Tendraiche|2338|1488|850|ERR|
@@ -858,7 +858,7 @@
 |La Tete Dure|2629|2373|256|ERR|
 |La Tome ou le Peyron|2744|2464|280|ERR|
 |La Tour de L'Angle Est|1562|1370|192|ERR|
-|La Tour des Ébats|1470|1246|224|ERR|
+|La Tour des Ebats|1470|1246|224|ERR|
 |La Tour Ronde|3792|3376|416|ERR|
 |La Tour Rouge|2920|2615|305|ERR|
 |La Tournette|2351|2181|170|ERR|
@@ -871,7 +871,7 @@
 |L'Agra|1523|1391|132|ERR|
 |L'Aigle des Cugulons|982|873|109|ERR|
 |L'Aiguille des Etages|2774|2459|315|ERR|
-|L'Aiguille Percée|2748|2612|136|ERR|
+|L'Aiguille PercEe|2748|2612|136|ERR|
 |L'Aiguillon|3489|3229|260|ERR|
 |L'Albaron|3638|3210|428|ERR|
 |L'Alpe|2512|2342|170|ERR|
@@ -904,10 +904,10 @@
 |Le Barrio|2537|2433|104|ERR|
 |Le Barry|2272|2019|253|ERR|
 |Le Bec Roux|3013|2636|377|ERR|
-|Le Bellachat ou Pointe du Mont du F�|2822|2594|228|ERR|
+|Le Bellachat ou Pointe du Mont du|2822|2594|228|ERR|
 |Le Bissard|1232|1120|112|ERR|
 |Le Brec d'Utelle|1604|1327|277|ERR|
-|Le Brévent|2525|2393|132|ERR|
+|Le BrEvent|2525|2393|132|ERR|
 |Le Brion ou Bec d'Aigle|1609|1145|464|ERR|
 |Le Brunet|2615|2452|163|ERR|
 |Le Bry|1613|1535|78|ERR|
@@ -918,7 +918,7 @@
 |Le Castel de la Tour|2778|2630|148|ERR|
 |Le Castellaras de Thorenc|1400|1195|205|ERR|
 |le Castillon|988|904|84|ERR|
-|Le Cébet|932|857|75|ERR|
+|Le CEbet|932|857|75|ERR|
 |Le Chamoux|2198|1889|309|ERR|
 |Le Chapeau|2372|2174|198|ERR|
 |Le Chaperon|2748|2567|181|ERR|
@@ -948,7 +948,7 @@
 |Le Courradour|2157|2036|121|ERR|
 |Le Cousson|1512|1384|128|ERR|
 |Le Crachet|2920|2772|148|ERR|
-|Le Cret des Fées|876|799|77|ERR|
+|Le Cret des FEes|876|799|77|ERR|
 |Le Cret du Rey|2633|2422|211|ERR|
 |Le Cret Pela|1495|1437|58|ERR|
 |Le Cret Pointu|1881|1683|198|ERR|
@@ -976,7 +976,7 @@
 |Le Grand Argentier|3042|2964|78|ERR|
 |Le Grand Armet|2792|2641|151|ERR|
 |Le Grand Bec|3399|3250|149|ERR|
-|Le Grand Bérard|3048|2835|213|ERR|
+|Le Grand BErard|3048|2835|213|ERR|
 |Le Grand Brion|926|873|53|ERR|
 |le Grand Brouis|1585|1525|60|ERR|
 |Le grand Caire|2923|2843|80|ERR|
@@ -1002,7 +1002,7 @@
 |Le Grand Meyret|2516|2370|146|ERR|
 |Le Grand Miceau|2631|2376|255|ERR|
 |Le Grand Mont|2686|2478|208|ERR|
-|Le Grand Morétan|2775|2361|414|ERR|
+|Le Grand MorEtan|2775|2361|414|ERR|
 |Le Grand Mourre|1898|1662|236|ERR|
 |Le Grand Parpaillon|2990|2767|223|ERR|
 |Le Grand Parra|2012|1772|240|ERR|
@@ -1018,7 +1018,7 @@
 |Le Grand Truc|2209|2040|169|ERR|
 |Le Grignas|1028|966|62|ERR|
 |Le Gros Ane|2505|2310|195|ERR|
-|Le Gros Béchard|2582|2222|360|ERR|
+|Le Gros BEchard|2582|2222|360|ERR|
 |Le Gros Crey|2595|2453|142|ERR|
 |Le Gros Ferrant|2401|2223|178|ERR|
 |Le Gros Grenier|2909|2729|180|ERR|
@@ -1046,7 +1046,7 @@
 |le Massour|3215|2847|368|ERR|
 |Le Mathieu|1756|1563|193|ERR|
 |Le Merlu|1606|1381|225|ERR|
-|Le Môle|1863|1601|262|ERR|
+|Le Mole|1863|1601|262|ERR|
 |Le Mollard des Boeufs|2761|2480|281|ERR|
 |Le Mont de Musièges|700|553|147|ERR|
 |Le Mont d'Ilonse|1792|1453|339|ERR|
@@ -1068,20 +1068,20 @@
 |Le Pas du Roc|975|917|58|ERR|
 |Le Pave|3831|3354|477|ERR|
 |Le Pavillon|1625|1554|71|ERR|
-|Le Pécloz|2197|1970|227|ERR|
-|Le Péguiéou|2479|2326|153|ERR|
+|Le PEcloz|2197|1970|227|ERR|
+|Le PEguiEou|2479|2326|153|ERR|
 |Le Peissièou|2406|2066|340|ERR|
 |Le Pella|1383|1264|119|ERR|
 |Le Penas|2363|2152|211|ERR|
 |Le Pennas - Le Grand|1532|1277|255|ERR|
 |Le Peouvou|3232|2990|242|ERR|
-|Le Pestré|1284|1181|103|ERR|
+|Le PestrE|1284|1181|103|ERR|
 |Le Petit Adret|2738|2669|69|ERR|
 |Le Petit Agnelin|2717|2526|191|ERR|
 |Le Petit Arc|2365|2162|203|ERR|
-|Le Petit Aréa|2487|2382|105|ERR|
+|Le Petit ArEa|2487|2382|105|ERR|
 |Le Petit Argentier|2572|2316|256|ERR|
-|Le Petit Béchard|2150|1837|313|ERR|
+|Le Petit BEchard|2150|1837|313|ERR|
 |Le Petit Chaillol|2777|2486|291|ERR|
 |Le Petit Château|2458|2312|146|ERR|
 |Le Petit Cheval de Bois|2754|2439|315|ERR|
@@ -1118,7 +1118,7 @@
 |Le Pommier Blanc|2513|2270|243|ERR|
 |Le Pouzenc|2898|2660|238|ERR|
 |Le Prarion|1969|1807|162|ERR|
-|Le Pré d'haut|1274|1214|60|ERR|
+|Le PrE d'haut|1274|1214|60|ERR|
 |Le Quermoz|2296|2196|100|ERR|
 |Le Queyrellet|2776|2587|189|ERR|
 |Le Rabel|2539|2415|124|ERR|
@@ -1142,7 +1142,7 @@
 |Le Sapey|1100|1036|64|ERR|
 |Le Serre de Mourgue|985|905|80|ERR|
 |Le Serre Gros|1778|1709|69|ERR|
-|Le Signal du Génie|2525|2419|106|ERR|
+|Le Signal du GEnie|2525|2419|106|ERR|
 |Le Simous|2008|1906|102|ERR|
 |Le Sirac|3441|3031|410|ERR|
 |Le Sommet Rouge|2845|2354|491|ERR|
@@ -1151,13 +1151,13 @@
 |Le Suillet|1324|1194|130|ERR|
 |Le Taillefer|932|813|119|ERR|
 |Le Testasson|2349|1940|409|ERR|
-|Le Téton|2969|2659|310|ERR|
+|Le TEton|2969|2659|310|ERR|
 |Le Teurre|2364|2143|221|ERR|
 |Le Toit|2835|2669|166|ERR|
 |Le Touret|1520|1451|69|ERR|
 |Le Tourtoureau|2025|1854|171|ERR|
 |Le Tralus|705|635|70|ERR|
-|Le Trélod|2181|1986|195|ERR|
+|Le TrElod|2181|1986|195|ERR|
 |Le Trou de l'Aigle|2961|2849|112|ERR|
 |Le Tuba|3008|2893|115|ERR|
 |Le Turc|2795|2707|88|ERR|
@@ -1166,8 +1166,8 @@
 |Le Veyou|1589|1391|198|ERR|
 |Le Volamont|1216|1139|77|ERR|
 |Le Voray|1815|1539|276|ERR|
-|L'Écoutoux|1407|1267|140|ERR|
-|Légette du Mirantin|2353|2078|275|ERR|
+|L'Ecoutoux|1407|1267|140|ERR|
+|LEgette du Mirantin|2353|2078|275|ERR|
 |L'Enclause / Monte Ventasuso|2712|2536|176|ERR|
 |L'Enclave|1593|1377|216|ERR|
 |Les 2 Sœurs|2194|2063|131|ERR|
@@ -1175,7 +1175,7 @@
 |Les Agneaux|3664|3394|270|ERR|
 |Les Aiguilles|1362|1182|180|ERR|
 |Les Aiguillettes de Vaujany|2540|2447|93|ERR|
-|Les Apôtres|1491|1387|104|ERR|
+|Les Apotres|1491|1387|104|ERR|
 |Les Aurus|2608|2472|136|ERR|
 |Les Bans|3669|3229|440|ERR|
 |Les Berches|3050|2667|383|ERR|
@@ -1187,7 +1187,7 @@
 |Les Contamines|1565|1458|107|ERR|
 |Les Cornettes de Bise|2432|2247|185|ERR|
 |Les Courtes|3856|3425|431|ERR|
-|Les Défends|663|575|88|ERR|
+|Les DEfends|663|575|88|ERR|
 |Les Dents Rouges|2925|2749|176|ERR|
 |Les Droites|4000|3340|660|ERR|
 |Les Druzes|1480|1362|118|ERR|
@@ -1198,8 +1198,8 @@
 |Les Grands Vans|2208|2139|69|ERR|
 |Les Hauts Forts|2466|2214|252|ERR|
 |Les Mayes|2695|2479|216|ERR|
-|Les Mées|601|474|127|ERR|
-|Les Mées de l'Estrop|2502|2353|149|ERR|
+|Les MEes|601|474|127|ERR|
+|Les MEes de l'Estrop|2502|2353|149|ERR|
 |Les Monges|2115|2029|86|ERR|
 |Les Mottets|1994|1847|147|ERR|
 |Les Oeillasses|2721|2557|164|ERR|
@@ -1208,7 +1208,7 @@
 |Les Pales|2435|2276|159|ERR|
 |Les Parias|2512|2361|151|ERR|
 |Les Parrossaz|2556|2275|281|ERR|
-|Les Périades|3503|3288|215|ERR|
+|Les PEriades|3503|3288|215|ERR|
 |Les Plagnes|2078|1822|256|ERR|
 |Les Plastres|2686|2600|86|ERR|
 |Les Pointes Longues|2451|2222|229|ERR|
@@ -1226,16 +1226,16 @@
 |Les Tunes|1255|1149|106|ERR|
 |Les Verdets|2385|2277|108|ERR|
 |L'Esquillère|1892|1826|66|ERR|
-|L'Étale|2484|2180|304|ERR|
+|L'Etale|2484|2180|304|ERR|
 |L'Etoile|3066|2808|258|ERR|
-|L'Étoile|650|548|102|ERR|
+|L'Etoile|650|548|102|ERR|
 |Levanna Centrale|3619|3156|463|ERR|
 |Levanna Occidentale|3594|3132|462|ERR|
 |Levanna Orientale|3555|3190|365|ERR|
 |L'Eychauda|2659|2483|176|ERR|
 |l'Eypiol|2551|2356|195|ERR|
 |L'Hergues|1426|1307|119|ERR|
-|L'Héritière|2906|2797|109|ERR|
+|L'HEritière|2906|2797|109|ERR|
 |L'Homme|2873|2629|244|ERR|
 |Lo Grand Barbeiròl|809|745|64|ERR|
 |L'Olan|3564|3102|462|ERR|
@@ -1248,13 +1248,13 @@
 |Malaval|2080|1959|121|ERR|
 |Malivers|731|609|122|ERR|
 |Mangiabo|1821|1706|115|ERR|
-|Maouné|1973|1917|56|ERR|
+|MaounE|1973|1917|56|ERR|
 |Martignon|1430|1238|192|ERR|
 |Mauvais Cret|1223|1157|66|ERR|
-|Méale|2426|2276|150|ERR|
+|MEale|2426|2276|150|ERR|
 |Meije Orientale|3891|3621|270|ERR|
-|Mélina|2207|2102|105|ERR|
-|Ménil|1270|1044|226|ERR|
+|MElina|2207|2102|105|ERR|
+|MEnil|1270|1044|226|ERR|
 |Micheline|1977|1836|141|ERR|
 |Mille Fourches|2045|1975|70|ERR|
 |Molard Grandjean|767|711|56|ERR|
@@ -1267,11 +1267,11 @@
 |Mongiron|964|852|112|ERR|
 |Mont Aiga|2832|2723|109|ERR|
 |Mont Aiguille|2087|1618|469|ERR|
-|Mont Arbancié|2706|2524|182|ERR|
+|Mont ArbanciE|2706|2524|182|ERR|
 |Mont Archas|2526|2394|132|ERR|
 |Mont au Pin|696|607|89|ERR|
 |Mont Aunos|2510|2370|140|ERR|
-|Mont Aurélien|879|666|213|ERR|
+|Mont AurElien|879|666|213|ERR|
 |Mont Autcellier|2204|2133|71|ERR|
 |Mont Avril|3212|3090|122|ERR|
 |Mont Balvay|602|487|115|ERR|
@@ -1283,7 +1283,7 @@
 |Mont Bego|2872|2574|298|ERR|
 |Mont Begon|630|0|630|ERR|
 |Mont Bellacha|2484|2205|279|ERR|
-|Mont Belvédère|2641|2477|164|ERR|
+|Mont BelvEdère|2641|2477|164|ERR|
 |Mont Bergiorin|1676|1602|74|ERR|
 |Mont Bertrand / Monte Bertrand|2482|2287|195|ERR|
 |Mont Billiat|1894|1565|329|ERR|
@@ -1291,16 +1291,16 @@
 |Mont Blanc|4808|4586|222|ERR|
 |Mont Blanc du Tacul|4248|3892|356|ERR|
 |Mont Boussuivre|1004|890|114|ERR|
-|Mont Bréquin|3131|2960|171|ERR|
+|Mont BrEquin|3131|2960|171|ERR|
 |Mont Brune|1518|1302|216|ERR|
 |Mont Brussière|1955|1853|102|ERR|
 |Mont Buet|3096|2849|247|ERR|
-|Mont Capelet Inférieur|2419|2250|169|ERR|
-|Mont Capelet Supérieur|2598|2499|99|ERR|
+|Mont Capelet InfErieur|2419|2250|169|ERR|
+|Mont Capelet SupErieur|2598|2499|99|ERR|
 |Mont Carpiagne|646|526|120|ERR|
 |Mont Caume|801|704|97|ERR|
-|Mont Cériane|2027|1950|77|ERR|
-|Mont Céty|1426|1268|158|ERR|
+|Mont CEriane|2027|1950|77|ERR|
+|Mont CEty|1426|1268|158|ERR|
 |Mont Chabert|1475|1403|72|ERR|
 |Mont Chaffaron|854|788|66|ERR|
 |Mont Chaix|1254|1161|93|ERR|
@@ -1310,10 +1310,10 @@
 |Mont Charvaz|1158|1052|106|ERR|
 |Mont Charvin|2409|2115|294|ERR|
 |Mont Chatard|696|618|78|ERR|
-|Mont Chauffé|2093|1675|418|ERR|
+|Mont ChauffE|2093|1675|418|ERR|
 |Mont Chauve d'Aspremont|870|768|102|ERR|
 |Mont Chauve de Tourrette|774|629|145|ERR|
-|Mont Chéry|1826|1578|248|ERR|
+|Mont ChEry|1826|1578|248|ERR|
 |Mont Chetail|696|621|75|ERR|
 |Mont Chiniac|1128|1076|52|ERR|
 |Mont Chonay|760|708|52|ERR|
@@ -1324,7 +1324,7 @@
 |Mont Cornet|837|767|70|ERR|
 |Mont Coudon|702|461|241|ERR|
 |Mont Court|1719|1589|130|ERR|
-|Mont Cruyé|2675|2728|-53|ERR|
+|Mont CruyE|2675|2728|-53|ERR|
 |Mont Cuinat|2078|1858|220|ERR|
 |Mont d'Ambin / Rocca d'Ambin|3378|3219|159|ERR|
 |Mont d'Arbois|1839|1712|127|ERR|
@@ -1333,7 +1333,7 @@
 |Mont de Colle Ardente / Monte Collar|1777|1627|150|ERR|
 |Mont de Fourclaz / Mont di Fourclaz|2966|2684|282|ERR|
 |Mont de Gars|1193|957|236|ERR|
-|Mont de Gébroulaz|3511|3403|108|ERR|
+|Mont de GEbroulaz|3511|3403|108|ERR|
 |Mont de Grange|2432|2066|366|ERR|
 |Mont de la Buffaz|1660|1572|88|ERR|
 |Mont De La Challe|2573|2451|122|ERR|
@@ -1344,12 +1344,12 @@
 |Mont de l'Âne|2400|2284|116|ERR|
 |Mont de l'Herba|1303|1242|61|ERR|
 |Mont de Lieuche|1756|1612|144|ERR|
-|Mont de Mandé|600|541|59|ERR|
+|Mont de MandE|600|541|59|ERR|
 |Mont de Maniglia / Monte Maniglia|3177|2899|278|ERR|
-|Mont de Ménil|1594|1345|249|ERR|
+|Mont de MEnil|1594|1345|249|ERR|
 |Mont de Rousse|1877|1750|127|ERR|
 |Mont de Vouan|978|922|56|ERR|
-|Mont Démant - Pointe Blanche|2473|2376|97|ERR|
+|Mont DEmant - Pointe Blanche|2473|2376|97|ERR|
 |Mont des Granges|1725|1587|138|ERR|
 |Mont des Moulines|2083|1971|112|ERR|
 |Mont d'Hermone|1413|1283|130|ERR|
@@ -1364,7 +1364,7 @@
 |Mont du Vallon|2933|2715|218|ERR|
 |Mont Falcon|2621|2431|190|ERR|
 |Mont Falourde|1306|1071|235|ERR|
-|Mont Férion|1412|1336|76|ERR|
+|Mont FErion|1412|1336|76|ERR|
 |Mont Fier|1282|1058|224|ERR|
 |Mont Fleuri|2511|2278|233|ERR|
 |Mont Follet|773|712|61|ERR|
@@ -1404,11 +1404,11 @@
 |Mont Margeriaz|1843|1635|208|ERR|
 |Mont Maudit / Monte Maudit|4465|4169|296|ERR|
 |Mont Mayen|1499|1284|215|ERR|
-|Mont Mézenc|1753|1695|58|ERR|
+|Mont MEzenc|1753|1695|58|ERR|
 |Mont Mirantin|2463|2156|307|ERR|
 |Mont Miravidi|3066|2956|110|ERR|
 |Mont Monnet|782|728|54|ERR|
-|Mont Morbié|1547|1461|86|ERR|
+|Mont MorbiE|1547|1461|86|ERR|
 |Mont Mounier|2817|2666|151|ERR|
 |Mont Myon|662|596|66|ERR|
 |Mont Olympe|819|659|160|ERR|
@@ -1418,16 +1418,16 @@
 |Mont Ours|1239|1129|110|ERR|
 |Mont Ouzon|1880|1722|158|ERR|
 |Mont Panard|1054|914|140|ERR|
-|Mont Péaiaux|2958|2780|178|ERR|
-|Mont Peïrevieille / Monte Pietravec|2039|1917|122|ERR|
-|Mont Pélago|2768|2503|265|ERR|
+|Mont PEaiaux|2958|2780|178|ERR|
+|Mont Peirevieille / Monte Pietravec|2039|1917|122|ERR|
+|Mont PElago|2768|2503|265|ERR|
 |Mont Pelat|3050|2730|320|ERR|
-|Mont Pelé|837|669|168|ERR|
+|Mont PelE|837|669|168|ERR|
 |Mont Pellard|2868|2801|67|ERR|
 |Mont Pelvoux Pointe Durand|3932|3715|217|ERR|
 |Mont Pelvoux Pointe Puiseux|3943|3532|411|ERR|
-|Mont Pépoiri|2674|2563|111|ERR|
-|Mont Pétoumier|2604|2526|78|ERR|
+|Mont PEpoiri|2674|2563|111|ERR|
+|Mont PEtoumier|2604|2526|78|ERR|
 |Mont Pezard|717|629|88|ERR|
 |Mont Pierre Châtel|2766|2502|264|ERR|
 |Mont Pinay|883|806|77|ERR|
@@ -1456,14 +1456,14 @@
 |Mont Segrin|676|620|56|ERR|
 |Mont Serein|1450|1288|162|ERR|
 |Mont Servier|1069|1008|61|ERR|
-|Mont Séti|3153|2768|385|ERR|
+|Mont SEti|3153|2768|385|ERR|
 |Mont Signon|1455|1374|81|ERR|
 |Mont Tailland|2938|2699|239|ERR|
-|Mont Ténibre / Monte Tenibres|3031|2782|249|ERR|
+|Mont TEnibre / Monte Tenibres|3031|2782|249|ERR|
 |Mont Tondu|3192|3062|130|ERR|
 |Mont Tour / Punta Marmottere|3385|3081|304|ERR|
 |Mont Tournairet|2086|1896|190|ERR|
-|Mont Tourvéon|944|836|108|ERR|
+|Mont TourvEon|944|836|108|ERR|
 |Mont Touvet|2687|2412|275|ERR|
 |Mont Truc|1811|1593|218|ERR|
 |Mont Turia|3646|3289|357|ERR|
@@ -1516,7 +1516,7 @@
 |Montagne de Mare|1603|1485|118|ERR|
 |Montagne de Mielandre|1451|1233|218|ERR|
 |Montagne de Montlaud|983|782|201|ERR|
-|Montagne de Mourréen|2057|1879|178|ERR|
+|Montagne de MourrEen|2057|1879|178|ERR|
 |Montagne de Palle|1484|1314|170|ERR|
 |Montagne de Pertuis|1892|1697|195|ERR|
 |Montagne de Rachas|2748|2576|172|ERR|
@@ -1549,7 +1549,7 @@
 |Monte Collerin / Pointe du Colerin|3475|3366|109|ERR|
 |Monte Custassa / Praroussin|2675|2521|154|ERR|
 |Monte di Ciabriera / Tete du Roure|2964|2757|207|ERR|
-|Monte Fréduaz Centrale / Pointe de|2939|2666|273|ERR|
+|Monte FrEduaz Centrale / Pointe de|2939|2666|273|ERR|
 |Monte Losetta / Pointe Joanne|3054|2711|343|ERR|
 |Monte Niblè / Pointe Ferrand|3365|3276|89|ERR|
 |Monte Scarassan|1265|1145|120|ERR|
@@ -1562,7 +1562,7 @@
 |Montoisey|1680|1563|117|ERR|
 |Montrond|1140|1073|67|ERR|
 |Monts d'Ain|1127|985|142|ERR|
-|Montsérieux|1696|1487|209|ERR|
+|MontsErieux|1696|1487|209|ERR|
 |Montzard|2107|1902|205|ERR|
 |Morgon|2324|2195|129|ERR|
 |Moucherotte|1901|1616|285|ERR|
@@ -1576,16 +1576,16 @@
 |Napremont|2185|2031|154|ERR|
 |Narmont|1367|1293|74|ERR|
 |Neillière|2459|2232|227|ERR|
-|Néron|1298|1084|214|ERR|
+|NEron|1298|1084|214|ERR|
 |Notre-Dame des Neiges|1445|1334|111|ERR|
 |Obiou|2789|2461|328|ERR|
 |Ormelune / Pointe d'Archeboc|3277|3043|234|ERR|
-|Ouille Allégra|3131|2892|239|ERR|
-|Ouille d'Arbéron / Punta d'Arnas|3554|3307|247|ERR|
+|Ouille AllEgra|3131|2892|239|ERR|
+|Ouille d'ArbEron / Punta d'Arnas|3554|3307|247|ERR|
 |Ouille de Gontière|3181|3031|150|ERR|
 |Ouille des Pariotes|3123|3007|116|ERR|
 |Ouille des Reys|3081|2814|267|ERR|
-|Ouille des Trétetes|2943|2860|83|ERR|
+|Ouille des TrEtetes|2943|2860|83|ERR|
 |Ouille du Favre|3415|3166|249|ERR|
 |Ouille du Midi|3042|2803|239|ERR|
 |Ouille Mouta|3565|3383|182|ERR|
@@ -1593,19 +1593,19 @@
 |Oulle|789|656|133|ERR|
 |P.tes de la Lombarde|3164|2866|298|ERR|
 |Pain de munition|611|483|128|ERR|
-|Paré de Joux|2167|1844|323|ERR|
+|ParE de Joux|2167|1844|323|ERR|
 |Paroi du Midi|2564|2388|176|ERR|
 |Pas de Chavanette|2200|2103|97|ERR|
 |Pas de la Cula|3085|2959|126|ERR|
 |Pas de la Frache|1585|1442|143|ERR|
 |Pas de la Masse|3013|2951|62|ERR|
 |Pas de la Tovière|2695|2538|157|ERR|
-|Pas de l'Échelle|1758|1563|195|ERR|
+|Pas de l'Echelle|1758|1563|195|ERR|
 |Pas de Vouerca|2094|1970|124|ERR|
 |Passage des Vans|2014|1922|92|ERR|
 |Pater Noster|1111|1051|60|ERR|
 |Pel Brun|2795|2571|224|ERR|
-|Pélaou Blanc|3129|2978|151|ERR|
+|PElaou Blanc|3129|2978|151|ERR|
 |Pelvas de Chabrière / Pelvo di Ciab|3157|2885|272|ERR|
 |Pensier Occidental|1612|1554|58|ERR|
 |Petit Armet|2717|2591|126|ERR|
@@ -1613,13 +1613,13 @@
 |Petit Badon|2688|2468|220|ERR|
 |Petit Bargy|2098|1947|151|ERR|
 |Petit Bessillon|669|501|168|ERR|
-|Petit Caïre|2413|2197|216|ERR|
+|Petit Caire|2413|2197|216|ERR|
 |Petit Chamousset|1700|1416|284|ERR|
 |Petit Chapelet|2298|2011|287|ERR|
 |Petit Charnier|2181|1955|226|ERR|
 |Petit Croisse Baulet|2009|1915|94|ERR|
 |Petit Crozet|2749|2485|264|ERR|
-|Petit Dôme|2884|2746|138|ERR|
+|Petit Dome|2884|2746|138|ERR|
 |Petit Ferrand|2724|2327|397|ERR|
 |Petit Galibier Ouest|2826|2628|198|ERR|
 |Petit Jet|2579|2301|278|ERR|
@@ -1648,7 +1648,7 @@
 |Petite Fourche|3512|3278|234|ERR|
 |Petite Lance du Crozet|2355|2062|293|ERR|
 |Petite Pointe de Combe Bronsin|2426|2219|207|ERR|
-|Petite Séolane|2854|2595|259|ERR|
+|Petite SEolane|2854|2595|259|ERR|
 |Petites Jorasses|3650|3422|228|ERR|
 |Petites Monges|1056|944|112|ERR|
 |Petit-Pomerolle|822|538|284|ERR|
@@ -1660,7 +1660,7 @@
 |Piberon|648|553|95|ERR|
 |Pic Bayle|3465|3363|102|ERR|
 |Pic Blanc du Galibier|2954|2736|218|ERR|
-|Pic Boré|1974|1811|163|ERR|
+|Pic BorE|1974|1811|163|ERR|
 |Pic Bourcet|3697|3323|374|ERR|
 |Pic Brusalana|3170|2993|177|ERR|
 |Pic Bunard|2560|2425|135|ERR|
@@ -1695,16 +1695,16 @@
 |Pic de Disdier|2561|2263|298|ERR|
 |Pic de Dormillouse|3410|3252|158|ERR|
 |Pic de Fond Queyras|2863|2659|204|ERR|
-|Pic de Foréant|3081|2948|133|ERR|
+|Pic de ForEant|3081|2948|133|ERR|
 |Pic de Fourneby|1607|1338|269|ERR|
 |Pic de Garuche|1089|963|126|ERR|
 |Pic de Gleize|2161|2059|102|ERR|
 |Pic de Jallouvre|2408|2157|251|ERR|
-|Pic de la Belle Étoile|2718|2537|181|ERR|
+|Pic de la Belle Etoile|2718|2537|181|ERR|
 |Pic de la Cavale|2985|2789|196|ERR|
 |Pic de la Corne|2084|1794|290|ERR|
 |Pic de la Fare|2138|2005|133|ERR|
-|Pic de la Farnéiréta|3133|2866|267|ERR|
+|Pic de la FarnEirEta|3133|2866|267|ERR|
 |Pic de la Feste|3430|3316|114|ERR|
 |Pic de la Grave|3669|3450|219|ERR|
 |Pic de la Greysinière|1881|1746|135|ERR|
@@ -1720,7 +1720,7 @@
 |Pic de l'apparence|2714|2471|243|ERR|
 |Pic de l'Aupillon|2507|2383|124|ERR|
 |Pic de Lauzin|2773|2559|214|ERR|
-|Pic de l'Étendard|3464|3145|319|ERR|
+|Pic de l'Etendard|3464|3145|319|ERR|
 |Pic de l'Herpie|3012|2887|125|ERR|
 |Pic de l'Huile|926|871|55|ERR|
 |Pic de l'Œilly|1545|1354|191|ERR|
@@ -1734,7 +1734,7 @@
 |Pic de Neige Cordier|3613|3209|404|ERR|
 |Pic de Panestrel|3258|3038|220|ERR|
 |Pic de Parières|3076|2776|300|ERR|
-|Pic de Pétarel|2618|2505|113|ERR|
+|Pic de PEtarel|2618|2505|113|ERR|
 |Pic de Pian|2826|2466|360|ERR|
 |Pic de Pied Brun|2690|2568|122|ERR|
 |Pic de Roche Motte|2548|2279|269|ERR|
@@ -1758,16 +1758,16 @@
 |Pic des Houerts ou Pointe Jean Rosta|3235|2983|252|ERR|
 |Pic des Hts Moulins|2559|2380|179|ERR|
 |Pic des Mouches|1011|867|144|ERR|
-|Pic des Pavéous|3384|3305|79|ERR|
-|Pic des Prés les Fonts|3358|3111|247|ERR|
+|Pic des PavEous|3384|3305|79|ERR|
+|Pic des PrEs les Fonts|3358|3111|247|ERR|
 |Pic des ruines de Luvie|1865|1652|213|ERR|
 |Pic des Souffles|3099|2686|413|ERR|
 |Pic des Tetes|2662|2516|146|ERR|
-|Pic des Trois Évechés|3116|2939|177|ERR|
+|Pic des Trois EvechEs|3116|2939|177|ERR|
 |Pic d'Escreins|2734|2543|191|ERR|
 |Pic d'Oise|1140|987|153|ERR|
 |Pic d'Oliferne|807|756|51|ERR|
-|Pic du Beal Céveilhan|2895|2568|327|ERR|
+|Pic du Beal CEveilhan|2895|2568|327|ERR|
 |Pic du Clapier du Peyron|3169|2874|295|ERR|
 |Pic du Clocher|2472|2260|212|ERR|
 |Pic du Col d'Ornon|2872|2642|230|ERR|
@@ -1778,7 +1778,7 @@
 |Pic du Frene|2807|2571|236|ERR|
 |Pic du Gazon|2744|2528|216|ERR|
 |Pic du Glacier Blanc|3525|3168|357|ERR|
-|Pic du Grand Doménon|2802|2556|246|ERR|
+|Pic du Grand DomEnon|2802|2556|246|ERR|
 |Pic du Haut Mouriare|2808|2582|226|ERR|
 |Pic du Jaillon|2720|2411|309|ERR|
 |Pic du Lac de Combeynot|3088|2796|292|ERR|
@@ -1794,18 +1794,18 @@
 |Pic du Rognolet|2659|2421|238|ERR|
 |Pic du Rondet|2838|2584|254|ERR|
 |Pic du Sommarel|2385|2232|153|ERR|
-|Pic du Taoumé|669|588|81|ERR|
+|Pic du TaoumE|669|588|81|ERR|
 |Pic du Thabor|3207|2890|317|ERR|
 |Pic du Tourond|2743|2629|114|ERR|
 |Pic du Vacivier|2631|2502|129|ERR|
 |Pic du Vallon Crouzet|2728|2503|225|ERR|
-|Pic duBéal Traversier|2910|2694|216|ERR|
+|Pic duBEal Traversier|2910|2694|216|ERR|
 |Pic Est de Combeynot|3145|2838|307|ERR|
-|Pic Est de la Côte Belle|2914|2666|248|ERR|
+|Pic Est de la Cote Belle|2914|2666|248|ERR|
 |Pic Est de Vaccivier|3266|2906|360|ERR|
 |Pic Gardiner|3440|3170|270|ERR|
 |Pic Gaspard|3882|3313|569|ERR|
-|Pic Gény|3435|3132|303|ERR|
+|Pic GEny|3435|3132|303|ERR|
 |Pic Jean Gauthier|3389|3257|132|ERR|
 |Pic Lombard|2975|2612|363|ERR|
 |Pic Maître|3728|3199|529|ERR|
@@ -1822,10 +1822,10 @@
 |Pic Ponsin|2335|2006|329|ERR|
 |Pic Queyrel|2435|2293|142|ERR|
 |Pic Regaud|3232|2808|424|ERR|
-|Pic Saint-André|2864|2593|271|ERR|
+|Pic Saint-AndrE|2864|2593|271|ERR|
 |Pic Saint-Michel|1966|1621|345|ERR|
 |Pic Sans Nom|3913|3548|365|ERR|
-|Pic Ségure|2990|2864|126|ERR|
+|Pic SEgure|2990|2864|126|ERR|
 |Pic Sud de Berlanche|2244|2034|210|ERR|
 |Pic Sud de la Buffe d'en haut|2878|2774|104|ERR|
 |Pic Traverse|2991|2642|349|ERR|
@@ -1841,32 +1841,32 @@
 |Pics du Casset|3113|2705|408|ERR|
 |Pics du Loup|3245|3069|176|ERR|
 |Pics du Says|3409|3226|183|ERR|
-|Pié Cabrier|720|587|133|ERR|
-|Pié Lafont|723|661|62|ERR|
+|PiE Cabrier|720|587|133|ERR|
+|PiE Lafont|723|661|62|ERR|
 |Pied Moutet|2338|1929|409|ERR|
-|Piégros|1250|1113|137|ERR|
+|PiEgros|1250|1113|137|ERR|
 |Piegu|618|457|161|ERR|
 |Pierra Menta|2714|2466|248|ERR|
 |Pierre Amion|1449|1393|56|ERR|
 |Pierre Arnoux|1303|1151|152|ERR|
 |Pierre du Turc|2305|2153|152|ERR|
 |Pierre Minieu|3242|2999|243|ERR|
-|Pierre Plantée|1560|1427|133|ERR|
+|Pierre PlantEe|1560|1427|133|ERR|
 |Pilon du Roi|710|539|171|ERR|
-|Pilon Saint-Clément|705|532|173|ERR|
+|Pilon Saint-ClEment|705|532|173|ERR|
 |Pin Pourri|1826|1774|52|ERR|
 |Piolit|2464|2234|230|ERR|
 |Piquet de Nantes|2214|2123|91|ERR|
 |Piton de la Viaclose|3010|2616|394|ERR|
-|Plan de Chésery|2036|1920|116|ERR|
+|Plan de ChEsery|2036|1920|116|ERR|
 |Plan de l'Aigle|1676|1313|363|ERR|
-|Plan des Mûres|1895|1816|79|ERR|
+|Plan des Mures|1895|1816|79|ERR|
 |Plan du Col|1957|1762|195|ERR|
 |Platary|1586|1417|169|ERR|
 |Plein Voir|1184|1113|71|ERR|
 |Point de l'Arcelle|3493|3304|189|ERR|
 |Point des Fonds|3021|2888|133|ERR|
-|Pointe André|2611|2428|183|ERR|
+|Pointe AndrE|2611|2428|183|ERR|
 |Pointe Ariande|2622|2370|252|ERR|
 |Pointe Balthazar / Punta Baldassarre|3158|2942|216|ERR|
 |Pointe Basse de Mary|3126|2861|265|ERR|
@@ -1880,7 +1880,7 @@
 |Pointe Claire|3368|3175|193|ERR|
 |Pointe Clavarini|3261|3029|232|ERR|
 |Pointe Costans / Punta Costan|3305|3068|237|ERR|
-|Pointe Côte de l'Âne|2916|2609|307|ERR|
+|Pointe Cote de l'Âne|2916|2609|307|ERR|
 |Pointe d'Almet|2232|1939|293|ERR|
 |Pointe d'Andey|1877|1585|292|ERR|
 |Pointe d'Angolon|2090|1839|251|ERR|
@@ -1898,7 +1898,7 @@
 |Pointe de Beauregard|1647|1499|148|ERR|
 |Pointe de Bella Cha|2511|2261|250|ERR|
 |Pointe de Bellecombe|2755|2584|171|ERR|
-|Pointe de Bellecôte|3140|3040|100|ERR|
+|Pointe de Bellecote|3140|3040|100|ERR|
 |Pointe de Bellegarde|2514|1811|703|ERR|
 |Pointe de Boccor|2203|2016|187|ERR|
 |Pointe de Bonne Pierre|3683|3389|294|ERR|
@@ -1912,7 +1912,7 @@
 |Pointe de Cercle|1805|1636|169|ERR|
 |Pointe de Cerdosse|2565|2355|210|ERR|
 |Pointe de Chaborgne|2754|2425|329|ERR|
-|Pointe de Chabournéou|3250|2964|286|ERR|
+|Pointe de ChabournEou|3250|2964|286|ERR|
 |Pointe de Chalanson|3466|3354|112|ERR|
 |Pointe de Chalune|2116|1975|141|ERR|
 |Pointe de Chamossière|1889|1808|81|ERR|
@@ -1925,7 +1925,7 @@
 |Pointe de Chavanette|1707|1558|149|ERR|
 |Pointe de Chavasse|2012|1752|260|ERR|
 |Pointe de Chenevier|1303|1178|125|ERR|
-|Pointe de Chésery|2251|2118|133|ERR|
+|Pointe de ChEsery|2251|2118|133|ERR|
 |Pointe de Chevran|1222|1099|123|ERR|
 |Pointe de Chombas|2468|2256|212|ERR|
 |Pointe de Clapouse|2988|2629|359|ERR|
@@ -1934,7 +1934,7 @@
 |Pointe de Cloutzau / Punta Clotesse|2872|2536|336|ERR|
 |Pointe de Colomban|2455|2312|143|ERR|
 |Pointe de Colombart|2642|2483|159|ERR|
-|Pointe de Combe Bénite|2575|2434|141|ERR|
+|Pointe de Combe BEnite|2575|2434|141|ERR|
 |Pointe de Combe Bronsin|2499|2351|148|ERR|
 |Pointe de Comberousse|2866|2556|310|ERR|
 |Pointe de Comborsier|2534|2308|226|ERR|
@@ -1946,8 +1946,8 @@
 |Pointe de Faule|1212|996|216|ERR|
 |Pointe de Fleurendon|2497|2337|160|ERR|
 |Pointe de Fornet|2300|2188|112|ERR|
-|Pointe de Frébouze - Alberico|3480|3378|102|ERR|
-|Pointe de Frébouze - Antoldi|3530|3416|114|ERR|
+|Pointe de FrEbouze - Alberico|3480|3378|102|ERR|
+|Pointe de FrEbouze - Antoldi|3530|3416|114|ERR|
 |Pointe de Fresse|2694|2599|95|ERR|
 |Pointe de Freydon|2442|2369|73|ERR|
 |Pointe de Friolin|2679|2497|182|ERR|
@@ -1960,7 +1960,7 @@
 |Pointe de la Balme|1858|1701|157|ERR|
 |Pointe de la Beccaz|2041|1879|162|ERR|
 |Pointe de la Blonnière|2369|2060|309|ERR|
-|Pointe de la Bornée|1507|1402|105|ERR|
+|Pointe de la BornEe|1507|1402|105|ERR|
 |Pointe de la Bosse|1946|1799|147|ERR|
 |Pointe de la Botte|1807|1585|222|ERR|
 |Pointe de la Chalp|2730|2644|86|ERR|
@@ -1969,7 +1969,7 @@
 |Pointe de la Couennasse|1980|1844|136|ERR|
 |Pointe de la Croix|1815|1528|287|ERR|
 |Pointe de la Dent|1593|1239|354|ERR|
-|Pointe de la Diablée|2928|2819|109|ERR|
+|Pointe de la DiablEe|2928|2819|109|ERR|
 |Pointe de la Douche|2230|2141|89|ERR|
 |Pointe de la Fenetre|2268|2089|179|ERR|
 |Pointe de la Figulière|1642|1456|186|ERR|
@@ -1986,7 +1986,7 @@
 |Pointe de la Gorma|3396|3242|154|ERR|
 |Pointe de la Grande Combe|2678|2537|141|ERR|
 |Pointe de la Grande Glière|3392|2851|541|ERR|
-|Pointe de la Grande Journée|2460|2287|173|ERR|
+|Pointe de la Grande JournEe|2460|2287|173|ERR|
 |Pointe de la Haie|3452|3287|165|ERR|
 |Pointe de la Kerne|1766|1587|179|ERR|
 |Pointe de la Lanche|1669|1506|163|ERR|
@@ -2008,7 +2008,7 @@
 |Pointe de la Portiala|2799|2728|71|ERR|
 |Pointe de la Pourrachière|2216|2060|156|ERR|
 |Pointe de la Ratelière|2708|2618|90|ERR|
-|Pointe de la Réchasse|3212|2948|264|ERR|
+|Pointe de la REchasse|3212|2948|264|ERR|
 |Pointe de la Reculaye|2775|2336|439|ERR|
 |Pointe de la Reyna|2909|2646|263|ERR|
 |Pointe de la Rochachille|2797|2563|234|ERR|
@@ -2020,7 +2020,7 @@
 |Pointe de la Scia|2475|2272|203|ERR|
 |Pointe de la Selle|2745|2421|324|ERR|
 |Pointe de la Sitre|2195|1932|263|ERR|
-|Pointe de la Tépiaz|2694|2552|142|ERR|
+|Pointe de la TEpiaz|2694|2552|142|ERR|
 |Pointe de la Terrasse|2734|2520|214|ERR|
 |Pointe de la Tete Noire ou de la Man|2842|2686|156|ERR|
 |Pointe de la Traversière|3337|3102|235|ERR|
@@ -2035,7 +2035,7 @@
 |Pointe de Lapaz|2313|2206|107|ERR|
 |Pointe de l'Arbaron|1953|1828|125|ERR|
 |Pointe de l'Arbenne|2446|2278|168|ERR|
-|Pointe de l'Armélaz|1840|1730|110|ERR|
+|Pointe de l'ArmElaz|1840|1730|110|ERR|
 |Pointe de l'Armet|2780|2705|75|ERR|
 |Pointe de l'Arselle|3110|2929|181|ERR|
 |Pointe de l'Aup du Pont|2713|2533|180|ERR|
@@ -2047,10 +2047,10 @@
 |Pointe de Lens|1827|1708|119|ERR|
 |Pointe de l'Escaillon|2734|2574|160|ERR|
 |Pointe de Leschaux|2653|2431|222|ERR|
-|Pointe de l'Étendard|2981|2735|246|ERR|
+|Pointe de l'Etendard|2981|2735|246|ERR|
 |Pointe de l'Eyssina|2837|2490|347|ERR|
 |Pointe de Lignas|1680|1476|204|ERR|
-|Pointe de Longe Côte|3104|2872|232|ERR|
+|Pointe de Longe Cote|3104|2872|232|ERR|
 |Pointe de L'Ouillon|2432|2342|90|ERR|
 |Pointe de l'Ovine|1832|1695|137|ERR|
 |Pointe de Lugo|1929|1642|287|ERR|
@@ -2058,37 +2058,37 @@
 |Pointe de Mandallaz|2277|2149|128|ERR|
 |Pointe de Marcelly|1999|1760|239|ERR|
 |Pointe de Marte / Rocce Fourioun|3153|2851|302|ERR|
-|Pointe de Méan-Martin|3330|3046|284|ERR|
+|Pointe de MEan-Martin|3330|3046|284|ERR|
 |Pointe de Merdassier|2313|2035|278|ERR|
-|Pointe de Méribel|2830|2589|241|ERR|
+|Pointe de MEribel|2830|2589|241|ERR|
 |Pointe de Miribel|1581|1421|160|ERR|
 |Pointe de Mouet|1934|1637|297|ERR|
 |Pointe de Nantaux|2170|1894|276|ERR|
-|Pointe de Névache|2892|2651|241|ERR|
+|Pointe de NEvache|2892|2651|241|ERR|
 |Pointe de Novalèse|3319|3171|148|ERR|
 |Pointe de Nyon|2019|1818|201|ERR|
 |Pointe de Pastourlet|2657|2445|212|ERR|
 |Pointe de Peaumont|3171|2942|229|ERR|
-|Pointe de Pécé|2733|2512|221|ERR|
-|Pointe de Pémian|2560|2383|177|ERR|
+|Pointe de PEcE|2733|2512|221|ERR|
+|Pointe de PEmian|2560|2383|177|ERR|
 |Pointe de Perret|1941|1864|77|ERR|
 |Pointe de Peyrefique / Punta di Peir|2661|2494|167|ERR|
 |Pointe de Picheru|2954|2804|150|ERR|
-|Pointe de Pié Bérarde|3188|2733|455|ERR|
+|Pointe de PiE BErarde|3188|2733|455|ERR|
 |Pointe de Pierre Fendue|3037|2785|252|ERR|
 |Pointe de Plan Contaz|2638|2443|195|ERR|
-|Pointe de Platé|2554|2344|210|ERR|
+|Pointe de PlatE|2554|2344|210|ERR|
 |Pointe de Pralognan|2663|2409|254|ERR|
 |Pointe de Pramecou|3009|2729|280|ERR|
-|Pointe de Praz Bégnay|2421|2252|169|ERR|
-|Pointe de Pré de Bar Est|3658|3280|378|ERR|
+|Pointe de Praz BEgnay|2421|2252|169|ERR|
+|Pointe de PrE de Bar Est|3658|3280|378|ERR|
 |Pointe de Presset|2858|2643|215|ERR|
 |Pointe de Puvat|1909|1737|172|ERR|
 |Pointe de Queblette|1915|1758|157|ERR|
 |Pointe de Rasis|2844|2743|101|ERR|
 |Pointe de Ratti|1923|1600|323|ERR|
 |Pointe de Razis|2575|2499|76|ERR|
-|Pointe de Réssachaux|2173|1721|452|ERR|
+|Pointe de REssachaux|2173|1721|452|ERR|
 |Pointe de Ressassat|2220|1914|306|ERR|
 |Pointe de Roche Noire|2151|2047|104|ERR|
 |Pointe de Rognier|2341|2166|175|ERR|
@@ -2100,7 +2100,7 @@
 |Pointe de Sales|2497|1951|546|ERR|
 |Pointe de Sangaris|2423|2108|315|ERR|
 |Pointe de Saugeon|1445|1275|170|ERR|
-|Pointe de Séa|3213|3129|84|ERR|
+|Pointe de SEa|3213|3129|84|ERR|
 |Pointe de Serru|3227|3021|206|ERR|
 |Pointe de Siruol|2018|1950|68|ERR|
 |Pointe de Soliet|2944|2682|262|ERR|
@@ -2109,7 +2109,7 @@
 |Pointe de Terre Rouge|3080|3007|73|ERR|
 |Pointe de Thorens|3262|3075|187|ERR|
 |Pointe de Tierce|2973|2772|201|ERR|
-|Pointe de Tréchauffé|1627|1374|253|ERR|
+|Pointe de TrEchauffE|1627|1374|253|ERR|
 |Pointe de Valbuche|2623|2542|81|ERR|
 |Pointe de Vaudaine|2482|2384|98|ERR|
 |Pointe de Velan|1784|1650|134|ERR|
@@ -2119,7 +2119,7 @@
 |Pointe de Vergou|1914|1770|144|ERR|
 |Pointe de Vorlaz|2346|2137|209|ERR|
 |Pointe de Vouilloz|2672|2508|164|ERR|
-|Pointe d'Émy|2797|2555|242|ERR|
+|Pointe d'Emy|2797|2555|242|ERR|
 |Pointe d'Entre Deux Pertuis|2175|1878|297|ERR|
 |Pointe des Adrets|2406|2229|177|ERR|
 |Pointe des Adus|2325|2148|177|ERR|
@@ -2133,7 +2133,7 @@
 |Pointe des Avers|3089|2813|276|ERR|
 |Pointe des Avoudrues|2666|2189|477|ERR|
 |Pointe des Balmettes|2473|2334|139|ERR|
-|Pointe des Béraudes|2837|2528|309|ERR|
+|Pointe des BEraudes|2837|2528|309|ERR|
 |Pointe des Blanchets|2953|2637|316|ERR|
 |Pointe des Boeufs Rouges|3516|3208|308|ERR|
 |Pointe des Bouchiers|3101|2997|104|ERR|
@@ -2158,7 +2158,7 @@
 |Pointe des Lacs Verdet|2967|2662|305|ERR|
 |Pointe des Lauses Noires / Punta Los|3371|3208|163|ERR|
 |Pointe des Lauzettes|3053|2749|304|ERR|
-|Pointe des Léchours|3248|3046|202|ERR|
+|Pointe des LEchours|3248|3046|202|ERR|
 |Pointe des Lessières|3043|2833|210|ERR|
 |Pointe des Marmottes Noires|2339|2235|104|ERR|
 |Pointe des Mines|3420|3242|178|ERR|
@@ -2203,29 +2203,29 @@
 |Pointe du Châtel|2202|1930|272|ERR|
 |Pointe du Châtelret|2431|2233|198|ERR|
 |Pointe du Clocher|1492|1372|120|ERR|
-|Pointe du Clôte|2941|2701|240|ERR|
+|Pointe du Clote|2941|2701|240|ERR|
 |Pointe du Corbier|2265|2164|101|ERR|
 |Pointe du Creux Noir|3154|2886|268|ERR|
 |Pointe du Cuchet|1679|1517|162|ERR|
 |Pointe du Demi|2817|2607|210|ERR|
-|Pointe du Dérochoir|2411|2087|324|ERR|
+|Pointe du DErochoir|2411|2087|324|ERR|
 |Pointe du Domino / Punta del Domino|3648|3166|482|ERR|
-|Pointe du Dzonfié|2455|2369|86|ERR|
+|Pointe du DzonfiE|2455|2369|86|ERR|
 |Pointe du Fond Blanc|2480|2269|211|ERR|
 |Pointe du Fond de Roure|3181|3061|120|ERR|
 |Pointe du Fond d'Orset|3415|3355|60|ERR|
 |Pointe du Fond Vert|2859|2578|281|ERR|
 |Pointe du Four|2469|2181|288|ERR|
-|Pointe du Fréjus / Punta del Frejus|2934|2765|169|ERR|
+|Pointe du FrEjus / Punta del Frejus|2934|2765|169|ERR|
 |Pointe du Front|2950|2883|67|ERR|
 |Pointe du Frou|1160|780|380|ERR|
-|Pointe du Géfret|3149|2901|248|ERR|
-|Pointe du Génépi|3551|3467|84|ERR|
-|Pointe du Génévrier|2870|2713|157|ERR|
+|Pointe du GEfret|3149|2901|248|ERR|
+|Pointe du GEnEpi|3551|3467|84|ERR|
+|Pointe du GEnEvrier|2870|2713|157|ERR|
 |Pointe du Gleyzin|2692|2485|207|ERR|
-|Pointe du Grand Méan|3253|3119|134|ERR|
+|Pointe du Grand MEan|3253|3119|134|ERR|
 |Pointe du Grand Nielard|2544|2187|357|ERR|
-|Pointe du Grand Pré|3047|2918|129|ERR|
+|Pointe du Grand PrE|3047|2918|129|ERR|
 |Pointe du Griffon|2310|2198|112|ERR|
 |Pointe du Gros Caval|3285|3025|260|ERR|
 |Pointe du Lamet|3504|3394|110|ERR|
@@ -2242,14 +2242,14 @@
 |Pointe du Quart|2700|2458|242|ERR|
 |Pointe du Queyre|3259|3046|213|ERR|
 |Pointe du Rascrouset|3082|2861|221|ERR|
-|Pointe du Réou d'Arsine|2764|2573|191|ERR|
+|Pointe du REou d'Arsine|2764|2573|191|ERR|
 |Pointe du Ribon|3529|3253|276|ERR|
 |Pointe du Riondet|2357|2176|181|ERR|
 |Pointe du Riou Blanc|2784|2498|286|ERR|
 |Pointe du Rocher Blanc|3023|2861|162|ERR|
 |Pointe du Rozet|2580|2343|237|ERR|
 |Pointe du Sciallet|2312|2109|203|ERR|
-|Pointe du Sélé|3556|3262|294|ERR|
+|Pointe du SElE|3556|3262|294|ERR|
 |Pointe du Tougne|2709|2553|156|ERR|
 |Pointe du Trapechet|1903|1714|189|ERR|
 |Pointe du Trou de l'Ane|2876|2603|273|ERR|
@@ -2261,7 +2261,7 @@
 |Pointe du Villonet|2727|2536|191|ERR|
 |Pointe d'Uble|1963|1698|265|ERR|
 |Pointe Durier|3997|3798|199|ERR|
-|Pointe Dzérat|2278|2002|276|ERR|
+|Pointe DzErat|2278|2002|276|ERR|
 |Pointe Est de la Condamine|3443|3332|111|ERR|
 |Pointe Est du Grand Fond|3420|3262|158|ERR|
 |Pointe Feuillette|1881|1785|96|ERR|
@@ -2277,11 +2277,11 @@
 |Pointe Guyard|3461|3257|204|ERR|
 |Pointe Haute de Mary|3206|2830|376|ERR|
 |Pointe Helbronner|3462|3345|117|ERR|
-|Pointe Inférieure|2830|2581|249|ERR|
+|Pointe InfErieure|2830|2581|249|ERR|
 |Pointe Isabelle Nord / Punta Isabell|3761|3670|91|ERR|
 |Pointe Jeanne|3245|3039|206|ERR|
 |Pointe Lachenal|3613|3453|160|ERR|
-|Pointe Léchaud / Punta Lechaud|3127|2989|138|ERR|
+|Pointe LEchaud / Punta Lechaud|3127|2989|138|ERR|
 |Pointe Lemercier|3170|2994|176|ERR|
 |Pointe Madeleine|3627|3318|309|ERR|
 |Pointe Marguerite|4065|3587|478|ERR|
@@ -2293,19 +2293,19 @@
 |Pointe Mieulet|4287|3964|323|ERR|
 |Pointe Motte|2718|2486|232|ERR|
 |Pointe NE du Chatelard|3434|3270|164|ERR|
-|Pointe Nérot|3537|3117|420|ERR|
+|Pointe NErot|3537|3117|420|ERR|
 |Pointe Noire de Pormenaz|2323|2188|135|ERR|
 |Pointe Nord de la Grande Felouse|3478|3251|227|ERR|
 |Pointe Nord de la Selle|3295|3194|101|ERR|
 |Pointe Nord du Couart Dessus|3489|3264|225|ERR|
-|Pointe Orientale de l'Épéna|3348|2798|550|ERR|
+|Pointe Orientale de l'EpEna|3348|2798|550|ERR|
 |Pointe Ouest|3384|3116|268|ERR|
 |Pointe Ouest de la Condamine|3405|3155|250|ERR|
 |Pointe Ouest du Mont Pelve|3261|3078|183|ERR|
-|Pointe Percée|2750|2457|293|ERR|
+|Pointe PercEe|2750|2457|293|ERR|
 |Pointe Perfia|1973|1857|116|ERR|
 |Pointe Rasin|2974|2832|142|ERR|
-|Pointe Rénod|3380|3234|146|ERR|
+|Pointe REnod|3380|3234|146|ERR|
 |Pointe Richardson|3350|3107|243|ERR|
 |Pointe Saint Michel / Punta San Mich|3252|3061|191|ERR|
 |Pointe Salvador|3202|3046|156|ERR|
@@ -2313,12 +2313,12 @@
 |Pointe SO du Chatelard|3479|3320|159|ERR|
 |Pointe Sommeiller / Punta Sommeiller|3332|3095|237|ERR|
 |Pointe St-Jean|2254|2028|226|ERR|
-|Pointe Sud de Bézin|3059|2915|144|ERR|
+|Pointe Sud de BEzin|3059|2915|144|ERR|
 |Pointe Sud de l'Eissassa|2971|2819|152|ERR|
 |Pointe Sud des Lorès|2948|2843|105|ERR|
 |Pointe Sud du Couart Dessus|3469|3240|229|ERR|
 |Pointe Sud du Grand Fond|3528|3317|211|ERR|
-|Pointe Supérieure|3221|2814|407|ERR|
+|Pointe SupErieure|3221|2814|407|ERR|
 |Pointe Swan|3300|2931|369|ERR|
 |Pointe Terrasse|2881|2639|242|ERR|
 |Pointe Tonini|3330|3061|269|ERR|
@@ -2335,12 +2335,12 @@
 |Pointes des Arpettes|2976|2790|186|ERR|
 |Pointes d'Orient|2942|2723|219|ERR|
 |Ponte des Volnets|3247|2912|335|ERR|
-|Portes de Montmélian|2459|2350|109|ERR|
-|Pra Brûlé|1986|1848|138|ERR|
+|Portes de MontmElian|2459|2350|109|ERR|
+|Pra BrulE|1986|1848|138|ERR|
 |Prachaval|2463|2246|217|ERR|
 |Pravena|737|654|83|ERR|
 |Pravouta|1760|1690|70|ERR|
-|Prégentil|1938|1808|130|ERR|
+|PrEgentil|1938|1808|130|ERR|
 |Punta dell'Alp|3031|2846|185|ERR|
 |Punta Nera cime nord-ouest|3047|2825|222|ERR|
 |Punta Nera cime sud-est|3041|2862|179|ERR|
@@ -2369,7 +2369,7 @@
 |Roc d'Argent|1275|839|436|ERR|
 |Roc d'Arguille|1768|1673|95|ERR|
 |Roc de Bellaface|2858|2661|197|ERR|
-|Roc de Brételaire|1698|1566|132|ERR|
+|Roc de BrEtelaire|1698|1566|132|ERR|
 |Roc de Cey|864|746|118|ERR|
 |Roc de Charmieux|1877|1720|157|ERR|
 |Roc De Fer|2291|2203|88|ERR|
@@ -2378,7 +2378,7 @@
 |Roc de la Charbonnière|2738|2560|178|ERR|
 |Roc de la Lune|1885|1749|136|ERR|
 |Roc de la Montagnolle|2828|2496|332|ERR|
-|Roc de l'Orméa|1132|1055|77|ERR|
+|Roc de l'OrmEa|1132|1055|77|ERR|
 |Roc de Nantbellet|1030|970|60|ERR|
 |Roc de Pendet|2342|2136|206|ERR|
 |Roc de Peyrolle|2016|1919|97|ERR|
@@ -2400,7 +2400,7 @@
 |Roc des Tours|1994|1773|221|ERR|
 |Roc des Verdons|2502|2353|149|ERR|
 |Roc Diolon|3071|2787|284|ERR|
-|Roc du Bécoin|2594|2328|266|ERR|
+|Roc du BEcoin|2594|2328|266|ERR|
 |Roc du Biolley|1964|1731|233|ERR|
 |Roc du Blanchon|2747|2595|152|ERR|
 |Roc du Chateau|1792|1648|144|ERR|
@@ -2419,7 +2419,7 @@
 |Rocca dell'Abisso Cima sud / Roche d|2750|2480|270|ERR|
 |Rocca Rossa|3190|2963|227|ERR|
 |Rocca Rossa / Roche Rousse|2996|2665|331|ERR|
-|Roche Bénite|2297|2159|138|ERR|
+|Roche BEnite|2297|2159|138|ERR|
 |Roche Bernard|2680|2486|194|ERR|
 |Roche Blanche|3193|2852|341|ERR|
 |Roche Campane|1471|1256|215|ERR|
@@ -2430,17 +2430,17 @@
 |Roche Colombe|2832|2619|213|ERR|
 |Roche Courbe|2905|2801|104|ERR|
 |Roche d'Ajoux|970|887|83|ERR|
-|Roche d'Arié|1619|1524|95|ERR|
+|Roche d'AriE|1619|1524|95|ERR|
 |Roche de Jabel|3570|3208|362|ERR|
 |Roche de la Pelle|2993|2761|232|ERR|
 |Roche de Marapa|2881|2568|313|ERR|
-|Roche de Méaudre|1628|1548|80|ERR|
+|Roche de MEaudre|1628|1548|80|ERR|
 |Roche de Mio|2739|2567|172|ERR|
 |Roche de Rey|1030|817|213|ERR|
 |Roche des Agneaux|2925|2639|286|ERR|
-|Roche des Béraudes|2895|2630|265|ERR|
+|Roche des BEraudes|2895|2630|265|ERR|
 |Roche des Marches|2919|2715|204|ERR|
-|Roche des Prés|2888|2513|375|ERR|
+|Roche des PrEs|2888|2513|375|ERR|
 |Roche d'Etache|3088|2809|279|ERR|
 |Roche du Bonhomme|2891|2709|182|ERR|
 |Roche du Chardonnet|2950|2770|180|ERR|
@@ -2450,18 +2450,18 @@
 |Roche Grande|2721|2553|168|ERR|
 |Roche Malotte|2675|2774|-99|ERR|
 |Roche Mantel|3052|2920|132|ERR|
-|Roche Méane|3712|3205|507|ERR|
+|Roche MEane|3712|3205|507|ERR|
 |Roche Michel|3404|3043|361|ERR|
 |Roche Moutche|2699|2526|173|ERR|
-|Roche Olvéra  sommet nord|2662|2454|208|ERR|
-|Roche Olvéra  sommet sud|2651|2399|252|ERR|
+|Roche OlvEra  sommet nord|2662|2454|208|ERR|
+|Roche OlvEra  sommet sud|2651|2399|252|ERR|
 |Roche Paillon|3636|3449|187|ERR|
 |Roche Parnal|1896|1574|322|ERR|
 |Roche Parstire|2108|1977|131|ERR|
 |Roche Perfia|2499|2296|203|ERR|
 |Roche Pertuse|2686|2513|173|ERR|
 |Roche Plane|2166|1905|261|ERR|
-|Roche Pompée|3164|3058|106|ERR|
+|Roche PompEe|3164|3058|106|ERR|
 |Roche Risso|2937|2814|123|ERR|
 |Roche Veyrand|1429|1373|56|ERR|
 |Rochebrune|3320|2955|365|ERR|
@@ -2489,8 +2489,8 @@
 |Rocher de la Tete Noire|1688|1623|65|ERR|
 |Rocher de la Trancha|1170|975|195|ERR|
 |Rocher de l'Aiguillon|1616|1333|283|ERR|
-|Rocher de l'Église|1300|1199|101|ERR|
-|Rocher de l'Éperrimont|1441|1308|133|ERR|
+|Rocher de l'Eglise|1300|1199|101|ERR|
+|Rocher de l'Eperrimont|1441|1308|133|ERR|
 |Rocher de l'Yret|2830|2694|136|ERR|
 |Rocher de Neuf Heures|892|745|147|ERR|
 |Rocher de Pialoux|1314|1236|78|ERR|
@@ -2498,7 +2498,7 @@
 |Rocher de Sarvatan|2510|2438|72|ERR|
 |Rocher de Soutron|1140|1022|118|ERR|
 |Rocher des Baux|1433|1330|103|ERR|
-|Rocher des fées|635|471|164|ERR|
+|Rocher des fEes|635|471|164|ERR|
 |Rocher des Lauzes|2609|2538|71|ERR|
 |Rocher des Merveilles|2659|2437|222|ERR|
 |Rocher des Trois Doigts|2577|2485|92|ERR|
@@ -2507,7 +2507,7 @@
 |Rocher du Charvet|2856|2560|296|ERR|
 |Rocher du Chatelard|1201|1031|170|ERR|
 |Rocher du Cire|872|541|331|ERR|
-|Rocher du Cléton|1669|1507|162|ERR|
+|Rocher du ClEton|1669|1507|162|ERR|
 |Rocher du Corbeley|1420|1282|138|ERR|
 |Rocher du Fayard|933|809|124|ERR|
 |Rocher du Grand Jet|2678|2552|126|ERR|
@@ -2526,7 +2526,7 @@
 |Rocher rond|2453|2264|189|ERR|
 |Rocher Rouge|2331|2182|149|ERR|
 |Rocher Saint-Loup|726|637|89|ERR|
-|rocher Siéroux|1200|1040|160|ERR|
+|rocher SiEroux|1200|1040|160|ERR|
 |Rocherine|1010|944|66|ERR|
 |Rochers de Brise Tourte|1017|673|344|ERR|
 |Rochers de Chalves|1845|1790|55|ERR|
@@ -2534,7 +2534,7 @@
 |Rochers de la Grande Balme|2882|2544|338|ERR|
 |Rochers de la Salla|2217|1877|340|ERR|
 |Rochers de l'Aigle|2943|2708|235|ERR|
-|Rochers de l'Évèque|2203|1817|386|ERR|
+|Rochers de l'Evèque|2203|1817|386|ERR|
 |Rochers de l'Ours|2038|1913|125|ERR|
 |Rochers de Plautret|1827|1537|290|ERR|
 |Rochers de Savine|2726|2487|239|ERR|
@@ -2542,7 +2542,7 @@
 |Rochers des Mais|1413|1344|69|ERR|
 |Rochers Rouges|3003|2718|285|ERR|
 |Rochers Saint-Michel|1246|1090|156|ERR|
-|Roches de Borée|1318|1190|128|ERR|
+|Roches de BorEe|1318|1190|128|ERR|
 |Rochessous|984|921|63|ERR|
 |Rognosa d'Etache / Rognosa d'Etiache|3373|2986|387|ERR|
 |Roudelau|1421|1302|119|ERR|
@@ -2561,8 +2561,8 @@
 |Sangraure|2559|2367|192|ERR|
 |Sanguinerette|2855|2630|225|ERR|
 |Saulire|2738|2584|154|ERR|
-|Sénépy|1769|1576|193|ERR|
-|Séolane des Besses|2402|1996|406|ERR|
+|SEnEpy|1769|1576|193|ERR|
+|SEolane des Besses|2402|1996|406|ERR|
 |Serre Antoine|823|715|108|ERR|
 |Serre Chauvet|843|906|-63|ERR|
 |Serre Chevalier|2491|2380|111|ERR|
@@ -2587,8 +2587,8 @@
 |Serre le Tetes|1710|1567|143|ERR|
 |Serre Merville|1341|1027|314|ERR|
 |Serre Orel|2137|1973|164|ERR|
-|Serre Piégu|1150|927|223|ERR|
-|Serre Plumé|1573|1508|65|ERR|
+|Serre PiEgu|1150|927|223|ERR|
+|Serre PlumE|1573|1508|65|ERR|
 |Serre Thibaud|2550|2311|239|ERR|
 |Signal de la Mère Boitier|758|672|86|ERR|
 |Signal de la Sainte-Baume|1147|790|357|ERR|
@@ -2598,7 +2598,7 @@
 |Signal de Nave|1609|1542|67|ERR|
 |Signal de Saint-Bonnet|690|587|103|ERR|
 |Signal de Saint-Michel|1422|1329|93|ERR|
-|Signal des Béguines|1148|872|276|ERR|
+|Signal des BEguines|1148|872|276|ERR|
 |Signal des Voirons|1480|1393|87|ERR|
 |Signal du Lamet|3480|3345|135|ERR|
 |Signal du Lauvitel|2901|2652|249|ERR|
@@ -2610,7 +2610,7 @@
 |Sommet de Barley|1285|1187|98|ERR|
 |Sommet de Batailler|2748|2539|209|ERR|
 |Sommet de Belle Valette|1734|1623|111|ERR|
-|Sommet de Bellecôte|3417|2991|426|ERR|
+|Sommet de Bellecote|3417|2991|426|ERR|
 |Sommet de Calern|1458|1398|60|ERR|
 |Sommet de Canaux|1437|1323|114|ERR|
 |Sommet de Chappe|1667|1529|138|ERR|
@@ -2621,7 +2621,7 @@
 |Sommet de Cluchemet|1766|1551|215|ERR|
 |Sommet de Combe Chauve|2483|2275|208|ERR|
 |Sommet de Coudiol|1073|943|130|ERR|
-|Sommet de Crémon|1761|1644|117|ERR|
+|Sommet de CrEmon|1761|1644|117|ERR|
 |Sommet de Cucuyon|1886|1647|239|ERR|
 |Sommet de Destourbes|1543|1369|174|ERR|
 |Sommet de Gialorgues|2761|2536|225|ERR|
@@ -2634,7 +2634,7 @@
 |Sommet de la Crete des Granges|2835|2494|341|ERR|
 |Sommet de la Croix|1770|1602|168|ERR|
 |Sommet de la Frema|2747|2559|188|ERR|
-|Sommet de la Fumée|1483|1322|161|ERR|
+|Sommet de la FumEe|1483|1322|161|ERR|
 |Sommet de la Gourre|1878|1809|69|ERR|
 |Sommet de la Mole|2534|2364|170|ERR|
 |Sommet de la Montagne de Buègue|1222|1123|99|ERR|
@@ -2643,7 +2643,7 @@
 |Sommet de la Quarlie|2322|2198|124|ERR|
 |Sommet de La Reynière|1749|1535|214|ERR|
 |Sommet de la Sapet|1701|1394|307|ERR|
-|Sommet de la Serréa|1126|1052|74|ERR|
+|Sommet de la SerrEa|1126|1052|74|ERR|
 |Sommet de l'Allier|1790|1705|85|ERR|
 |Sommet de l'Aup|1796|1606|190|ERR|
 |Sommet de l'Homme|1637|1436|201|ERR|
@@ -2658,19 +2658,19 @@
 |Sommet de Pompe|1724|1567|157|ERR|
 |Sommet de Pourtalas|1788|1927|-139|ERR|
 |Sommet de Prat Berland|831|716|115|ERR|
-|Sommet de Pré Chauvin|1740|1623|117|ERR|
+|Sommet de PrE Chauvin|1740|1623|117|ERR|
 |Sommet de Prelles|2953|2671|282|ERR|
 |Sommet de Raz de Bec|2385|2171|214|ERR|
 |Sommet de Restefond|2795|2678|117|ERR|
 |Sommet de Salomon|988|909|79|ERR|
-|Sommet de Séoune|1694|1547|147|ERR|
+|Sommet de SEoune|1694|1547|147|ERR|
 |Sommet de Thiey|1553|1460|93|ERR|
 |Sommet de Tigne|794|662|132|ERR|
 |Sommet de Triey|1493|1315|178|ERR|
 |Sommet de Tronchet|2590|2484|106|ERR|
 |Sommet de Valdemars|2559|2411|148|ERR|
 |Sommet de Vescagne|991|805|186|ERR|
-|Sommet de Viériou|1395|1254|141|ERR|
+|Sommet de ViEriou|1395|1254|141|ERR|
 |Sommet des Anges|2459|2366|93|ERR|
 |Sommet des Blaches|1310|1243|67|ERR|
 |Sommet des Clottous|2527|2409|118|ERR|
@@ -2708,7 +2708,7 @@
 |Suc de Lestelle|1034|932|102|ERR|
 |Suc de Mirabel|1161|1100|61|ERR|
 |Suc de Monteilles|1128|1032|96|ERR|
-|Suc de Négossi|1443|1291|152|ERR|
+|Suc de NEgossi|1443|1291|152|ERR|
 |Suc de Pradou|1344|1227|117|ERR|
 |Suc de Touron|1382|1195|187|ERR|
 |Suc d'Huesti|1164|1034|130|ERR|
@@ -2717,7 +2717,7 @@
 |Sur Cou|1809|1630|179|ERR|
 |Sur le Poingt|975|917|58|ERR|
 |Sur les Saix|1553|1357|196|ERR|
-|Sur-Gémet|1741|1568|173|ERR|
+|Sur-GEmet|1741|1568|173|ERR|
 |Tabor|2389|2205|184|ERR|
 |Taillefer|2857|2602|255|ERR|
 |Tardevant|2501|2082|419|ERR|
@@ -2733,7 +2733,7 @@
 |Tete centrale des Cos|2581|2264|317|ERR|
 |Tete Chevalière|1951|1717|234|ERR|
 |Tete Coste Belle|2552|2275|277|ERR|
-|Tete d'Albéras|1474|1245|229|ERR|
+|Tete d'AlbEras|1474|1245|229|ERR|
 |Tete d'Albiez-le-Vieux|2470|2271|199|ERR|
 |Tete d'Alpe|1587|1509|78|ERR|
 |Tete d'Amont|2814|2581|233|ERR|
@@ -2754,7 +2754,7 @@
 |Tete de Cassoun|2565|2369|196|ERR|
 |Tete de Chamia|2016|1837|179|ERR|
 |Tete de Charnaye|1972|1869|103|ERR|
-|Tete de Chéret|3159|2907|252|ERR|
+|Tete de ChEret|3159|2907|252|ERR|
 |Tete de Cinant|2342|2160|182|ERR|
 |Tete de Claudel|2563|2272|291|ERR|
 |Tete de Cloifret|2562|2447|115|ERR|
@@ -2825,7 +2825,7 @@
 |Tete de la Petite Part|3144|2813|331|ERR|
 |Tete de la Poudrière|2051|1852|199|ERR|
 |Tete de la Rame|2644|2429|215|ERR|
-|Tete de la Réméouse|2292|2033|259|ERR|
+|Tete de la REmEouse|2292|2033|259|ERR|
 |Tete de la Rochaille|1944|1738|206|ERR|
 |Tete de la Rosse|1052|996|56|ERR|
 |Tete de la Roubine|2423|2263|160|ERR|
@@ -2852,12 +2852,12 @@
 |Tete de l'Autaret|3015|2873|142|ERR|
 |Tete de Lauzon|2278|2208|70|ERR|
 |Tete de l'Avalanche|1854|1717|137|ERR|
-|Tete de l'écutieux|1627|1456|171|ERR|
+|Tete de l'Ecutieux|1627|1456|171|ERR|
 |Tete de l'Encombrette|2682|2483|199|ERR|
 |Tete de l'Ermitat|2713|2547|166|ERR|
 |Tete de l'Essylloun|2896|2663|233|ERR|
 |Tete de l'Estrop|2962|2794|168|ERR|
-|Tete de l'Étret|3563|3129|434|ERR|
+|Tete de l'Etret|3563|3129|434|ERR|
 |Tete de l'Eva|2790|2681|109|ERR|
 |Tete de l'Hivernet|2823|2647|176|ERR|
 |Tete de l'Homme|2504|2390|114|ERR|
@@ -2872,18 +2872,18 @@
 |Tete de Lucy|2764|2689|75|ERR|
 |Tete de Malacombe|3124|2817|307|ERR|
 |Tete de Malacoste|3212|3096|116|ERR|
-|Tete de Mantégas|1766|1715|51|ERR|
+|Tete de MantEgas|1766|1715|51|ERR|
 |Tete de Maralouches|2888|2783|105|ERR|
 |Tete de Meric|2048|1961|87|ERR|
 |Tete de Merlant|2002|1899|103|ERR|
-|Tete de Moïse|3104|2744|360|ERR|
+|Tete de Moise|3104|2744|360|ERR|
 |Tete de Molines|2805|2576|229|ERR|
 |Tete de Paccaly|2467|2276|191|ERR|
 |Tete de Paneyron|2785|2659|126|ERR|
 |Tete de Parassac|2777|2643|134|ERR|
 |Tete de Pelouse|2922|2730|192|ERR|
 |Tete de Pelvas|2929|2667|262|ERR|
-|Tete de Pérail|2016|1906|110|ERR|
+|Tete de PErail|2016|1906|110|ERR|
 |Tete de Peyandre|1712|1587|125|ERR|
 |Tete de Pibossan|1621|1418|203|ERR|
 |Tete de Pied Gros|2305|2141|164|ERR|
@@ -2904,19 +2904,19 @@
 |Tete de Travers|2160|2032|128|ERR|
 |Tete de Troto|1375|1254|121|ERR|
 |Tete de Vachères|2402|2169|233|ERR|
-|Tete de Valliéra|1454|1278|176|ERR|
+|Tete de ValliEra|1454|1278|176|ERR|
 |Tete de Vallon Claous|2945|2699|246|ERR|
 |Tete de Vallon Pierra|2512|2395|117|ERR|
 |Tete de Vautisse|3156|2977|179|ERR|
-|Tete de Véret|2309|2099|210|ERR|
+|Tete de VEret|2309|2099|210|ERR|
 |Tete de Vermeille|2732|2585|147|ERR|
 |Tete de Villadel|2727|2462|265|ERR|
 |Tete de Villy|2481|2176|305|ERR|
 |Tete de Vinaigre|2395|2265|130|ERR|
 |Tete des Arpettes|2385|2244|141|ERR|
-|Tete des Bécus|1907|1755|152|ERR|
+|Tete des BEcus|1907|1755|152|ERR|
 |Tete des Blaves|2726|2486|240|ERR|
-|Tete des Bréquets|3079|2842|237|ERR|
+|Tete des BrEquets|3079|2842|237|ERR|
 |Tete des Brottey|1302|1238|64|ERR|
 |Tete des Challanchas|2978|2788|190|ERR|
 |Tete des Chanaux|1889|1810|79|ERR|
@@ -2924,8 +2924,8 @@
 |Tete des Chaudières|2029|1813|216|ERR|
 |Tete des Corridors|3734|3489|245|ERR|
 |Tete des Cudres|1516|1405|111|ERR|
-|Tete des Éguilles|1878|1742|136|ERR|
-|Tete des Fétoules|3465|3023|442|ERR|
+|Tete des Eguilles|1878|1742|136|ERR|
+|Tete des FEtoules|3465|3023|442|ERR|
 |Tete des Filons|2396|2203|193|ERR|
 |Tete des Fumeis|1670|1530|140|ERR|
 |Tete des Lauzieres|2680|2456|224|ERR|
@@ -2944,24 +2944,24 @@
 |Tete des Travers|2860|2640|220|ERR|
 |Tete des Verdets|2389|2022|367|ERR|
 |Tete des Verds|2128|2053|75|ERR|
-|Tete d'Oréac|2090|1966|124|ERR|
+|Tete d'OrEac|2090|1966|124|ERR|
 |Tete d'OX|2565|2487|78|ERR|
 |Tete du Brec|2566|2493|73|ERR|
 |Tete du Char|1249|1174|75|ERR|
 |Tete du Château|2288|2202|86|ERR|
 |Tete du Clot|3074|2952|122|ERR|
 |Tete du Clot des Morts|2662|2482|180|ERR|
-|Tete du Clôtonnet|2835|2599|236|ERR|
+|Tete du Clotonnet|2835|2599|236|ERR|
 |Tete du Collier|2568|2233|335|ERR|
 |Tete du Colombier|2789|2670|119|ERR|
 |Tete du Colonney|2692|2505|187|ERR|
 |Tete du Couvercle|2735|2834|-99|ERR|
 |Tete du Fornelet|1972|1820|152|ERR|
 |Tete du Garnier|1906|1790|116|ERR|
-|Tete du Géant|2228|1987|241|ERR|
+|Tete du GEant|2228|1987|241|ERR|
 |Tete du Grand Bois|2773|2446|327|ERR|
 |Tete du Grand Clot|2658|2437|221|ERR|
-|Tete du Grand Pré|2600|2476|124|ERR|
+|Tete du Grand PrE|2600|2476|124|ERR|
 |Tete du Grand Puech|773|687|86|ERR|
 |Tete du Graou|3168|3000|168|ERR|
 |Tete du Grenairon|2734|2533|201|ERR|
@@ -2978,11 +2978,11 @@
 |Tete du Pis|655|569|86|ERR|
 |Tete du Planay|1830|1646|184|ERR|
 |Tete du Pommier|1913|1843|70|ERR|
-|Tete du Pré des Saix|2120|1927|193|ERR|
+|Tete du PrE des Saix|2120|1927|193|ERR|
 |Tete du Puy|1002|879|123|ERR|
 |Tete du Puy|2532|2286|246|ERR|
 |Tete du Rif de l'Are|1863|1664|199|ERR|
-|Tete du Roucher Troué|1775|1703|72|ERR|
+|Tete du Roucher TrouE|1775|1703|72|ERR|
 |Tete du Sapet|1852|1713|139|ERR|
 |Tete du Seigneur|2352|2252|100|ERR|
 |Tete du Tissap|2688|2574|114|ERR|
@@ -2990,7 +2990,7 @@
 |Tete du Tourneau|1906|1787|119|ERR|
 |Tete du Travers|1904|1833|71|ERR|
 |Tete du Tronchet|1913|1804|109|ERR|
-|Tete du Véleray|2445|2262|183|ERR|
+|Tete du VEleray|2445|2262|183|ERR|
 |Tete du Villard|1217|1103|114|ERR|
 |Tete du Vuargne|1825|1701|124|ERR|
 |Tete Dure|2694|2613|81|ERR|
@@ -3004,7 +3004,7 @@
 |Tete Nord de la Somme|3310|3146|164|ERR|
 |Tete Nord des Fours|2756|2591|165|ERR|
 |Tete Nord du Replat|3442|3205|237|ERR|
-|Tete sud de la Crete de la Pierre é|2713|2648|65|ERR|
+|Tete sud de la Crete de la Pierre E|2713|2648|65|ERR|
 |Tete Sud de la Somme|3389|2974|415|ERR|
 |Tete Sud des Fours|2664|2550|114|ERR|
 |Tete Sud du Replat|3428|3275|153|ERR|
@@ -3020,16 +3020,16 @@
 |Tour de Prazon|2929|2619|310|ERR|
 |Tour des Rousses|2921|2690|231|ERR|
 |Tour des Sagnes|2364|2211|153|ERR|
-|Tour du Géant|3618|3195|423|ERR|
+|Tour du GEant|3618|3195|423|ERR|
 |Tour du Merle|1973|1854|119|ERR|
 |Tour Germaine|2189|2381|-192|ERR|
-|Tour Noire ou Tour Carrée|2672|2487|185|ERR|
+|Tour Noire ou Tour CarrEe|2672|2487|185|ERR|
 |Tour Tatra|3624|3699|-75|ERR|
 |Tourdeaux|877|763|114|ERR|
 |Tours de Boverjat|3064|2880|184|ERR|
 |Tours de Notre-Dame|2648|2450|198|ERR|
 |Tours du Vallon|2809|2670|139|ERR|
-|Tours Vallée Étroite|2711|2464|247|ERR|
+|Tours VallEe Etroite|2711|2464|247|ERR|
 |Tourte-Barreaux|1876|1735|141|ERR|
 |Tourtourel|2035|1829|206|ERR|
 |Trainon|1654|1587|67|ERR|
