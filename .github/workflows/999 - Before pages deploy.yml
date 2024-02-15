@@ -1,4 +1,4 @@
-name: 999 - Post Github pages deploy
+name: 999 - Before Github pages deploy
 
 # Controls when the workflow will run
 on:
