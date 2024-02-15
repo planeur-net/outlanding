@@ -49,7 +49,7 @@ jobs:
         id: check_altitude_waypoint_processor
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.1'
+          dotnet-version: '8.x'
       - name: Install and Run
         run: |
           cd ./src/WaypointProcessor
