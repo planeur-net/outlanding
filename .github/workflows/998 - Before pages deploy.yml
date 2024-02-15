@@ -54,7 +54,7 @@ jobs:
         run: |
           cd ./src/WaypointProcessor
           dotnet build
-          dotnet run -- -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
+          dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
 
       # Push changes to repo    
       - name: Push changes into repo
