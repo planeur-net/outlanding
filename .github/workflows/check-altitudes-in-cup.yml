@@ -7,13 +7,14 @@ on:
     branches:
       - main
     paths:
-      - 'guide_aires_securite.cup'
+      - '*.cup'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   check-altitude:
+    # if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -35,9 +36,21 @@ jobs:
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-guide_aires_securite.md
           set return_code_1 = %ERRORLEVEL%
 
+          ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../champs_des_alpes.cup --md ../doc-reports/Altitude_Check-champs_des_alpes.md
+          set return_code_2 = %ERRORLEVEL%
+
+          ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../cols_des_alpes.cup --md ../doc-reports/Altitude_Check-cols_des_alpes.md
+          set return_code_3 = %ERRORLEVEL%
+
+          ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../mountain_peaks_FR.cup --md ../doc-reports/Altitude_Check-mountain_peaks_FR.md
+          set return_code_4 = %ERRORLEVEL%
+
           echo %return_code%
-          IF NOT return_code_1 == 2 || (
+          IF NOT return_code_1 == 2 || return_code_2 == 2 || return_code_3 == 2 || return_code_4 == 2 (
             exit 0
+          )
+          ELSE (
+            exit 1
           )   
 
       # Push changes to repo    
