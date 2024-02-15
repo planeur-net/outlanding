@@ -904,7 +904,7 @@
 |Le Barrio|2537|2433|104|ERR|
 |Le Barry|2272|2019|253|ERR|
 |Le Bec Roux|3013|2636|377|ERR|
-|Le Bellachat ou Pointe du Mont du F√|2822|2594|228|ERR|
+|Le Bellachat ou Pointe du Mont du Fu|2822|2594|228|ERR|
 |Le Bissard|1232|1120|112|ERR|
 |Le Brec d'Utelle|1604|1327|277|ERR|
 |Le Br√©vent|2525|2393|132|ERR|
