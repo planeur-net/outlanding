@@ -107,7 +107,11 @@ Les "tag" sont:
 |  {col} | Col de montagne  |  | ![](doc/images/mountain_pass.png)|
 | #landmark | Montagne ou col bien connu des vélivoles. Le nom de la montagne peut être purement vélivole (i.e. Authon, ...)
 
+## Rapports auto générés
+
+
 ## Copyrights - Droits - Remerciements
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
 Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   
-[XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) pour le téléchargement direct depuis XCSoar de certains fichiers.
+[XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) pour le téléchargement direct depuis XCSoar de certains fichiers.  
+Marc Till : VerifAlti = Outil de vérification des altitudes par rapport a un fichier Terrain.
