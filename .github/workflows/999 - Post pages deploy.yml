@@ -1,0 +1,21 @@
+name: 999 - Post Github pages deploy
+
+# Controls when the workflow will run
+on:
+  workflow_run:
+    workflows: ["Deploy Jekyll with GitHub Pages dependencies preinstalled"]
+    types:
+      - completed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+   # Launch Altitude Checks
+   custom_jit_jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger event for Altitude Check
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: check-altitudes-event
