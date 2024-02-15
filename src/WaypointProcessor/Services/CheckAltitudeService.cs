@@ -81,18 +81,19 @@ namespace WaypointProcessor.Services
                 var altBase = currentPoint.Altitude;
                 var altApi = responseModel.elevations[i];
                 var delta = altBase - altApi;
+                var error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta);
 
-                //if (Math.Abs((double)delta) > _distance)
-                //{
+                if (!string.IsNullOrEmpty(error))
+                {
                 listAltitudeChecks.Add(new AltitudeCheckModel
                     {
                         Nom = currentPoint.Name,
                         AltiCup = (int)currentPoint.Altitude,
                         AltiTopo = (int)altApi,
                         Delta = (int)delta,
-                        Error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta)
+                        Error = error
                 });
-                //}
+                }
             }
 
             OutputToFile();
