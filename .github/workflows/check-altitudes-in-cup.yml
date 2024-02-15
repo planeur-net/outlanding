@@ -14,7 +14,6 @@ on:
 
 jobs:
   check-altitude:
-    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -32,7 +31,7 @@ jobs:
           cd ./bin
           chmod a+x ./VerifAlti
           set +e
-          
+
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-guide_aires_securite.md
           set return_code_1 = %ERRORLEVEL%
 
