@@ -3,7 +3,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   repository_dispatch:
-    types: [update-pages-event]
+    types: [final-update-pages-event]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

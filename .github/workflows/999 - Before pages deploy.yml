@@ -1,22 +1,17 @@
-name: Check Altitudes in .cup
+name: 999 - Post Github pages deploy
 
 # Controls when the workflow will run
 on:
   repository_dispatch:
-    types: [check-altitudes-event]
-
-  # # Triggers the workflow on push or pull request events but only for the "master" branch
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - '*.cup'
+    types: [update-pages-event]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  check-altitude:
+   # Launch Altitude Checks
+
+   check-altitude:
     if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -56,3 +51,9 @@ jobs:
         with:
           commit_message: 'Auto Generated'
           file_pattern: './doc-reports/*.md'
+
+      # Update Github Pages
+      - name: Trigger event for github pages update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: final-update-pages-event
