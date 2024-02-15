@@ -14,6 +14,7 @@ jobs:
    check-altitudes:
     #if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
+    name: check_altitude_verif_alti
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -43,20 +44,9 @@ jobs:
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../mountain_peaks_FR.cup --md ../doc-reports/Altitude_Check-mountain_peaks_FR.md
           set return_code_3 = %ERRORLEVEL%
 
-          exit 0
+          git pull
 
-      - name: Check Altitude .net
-        id: check_altitude_waypoint_processor
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.x'
-      - name: Install and Run
-        run: |
-          cd ./src/WaypointProcessor
-          dotnet build
-          dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
-          dotnet run -- checkAltitudes -b ../../champs_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-champs_des_alpes.md
-          dotnet run -- checkAltitudes -b ../../cols_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-cols_des_alpes.md
+          exit 0
 
       # Push changes to repo    
       - name: Push changes into repo
@@ -70,3 +60,56 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: final-update-pages-event
+
+   check-altitudes-waypointProcessor:
+      #if: github.ref == 'refs/heads/main'
+      # The type of runner that the job will run on
+      name: check-altitude-waypoint-processor
+      runs-on: ubuntu-latest
+
+      # Steps represent a sequence of tasks that will be executed as part of the job
+      steps:
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        - name: Clone this repo
+          uses: actions/checkout@v3
+            
+        - name: Check Altitude .net
+          id: check_altitude_waypoint_processor
+          uses: actions/setup-dotnet@v3
+          with:
+            dotnet-version: '8.x'
+        - name: Install and Run
+          run: |
+            cd ./src/WaypointProcessor
+            dotnet build
+            dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
+            dotnet run -- checkAltitudes -b ../../champs_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-champs_des_alpes.md
+            dotnet run -- checkAltitudes -b ../../cols_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-cols_des_alpes.md
+
+            git pull
+
+        # Push changes to repo    
+        - name: Push changes into repo
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: 'Auto Generated'
+            file_pattern: './doc-reports/*.md'
+
+        # Update Github Pages
+        - name: Trigger event for github pages update
+          uses: peter-evans/repository-dispatch@v2
+          with:
+            event-type: final-update-pages-event
+
+   publish_github_pages:
+    #if: github.ref == 'refs/heads/main'
+    # The type of runner that the job will run on
+    needs: [check-altitudes, check-altitudes-waypointProcessor]
+    runs-on: ubuntu-latest
+    steps:
+      # Update Github Pages
+      - name: Trigger event for github pages update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: final-update-pages-event
+
