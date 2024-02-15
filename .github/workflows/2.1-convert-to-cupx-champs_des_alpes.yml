@@ -47,7 +47,4 @@ jobs:
         commit_message: ${{ steps.convert_to_cupx.outputs.LAST_COMMIT_MESSSAGE }}
         file_pattern: 'champs_des_alpes.cupx'
 
-    - name: Trigger event for github pages update
-      uses: peter-evans/repository-dispatch@v2
-      with:
-        event-type: update-pages-event
+   # 1.3-create-xcsoar-files will be executed. This is where the [update-pages-event] will be triggered
