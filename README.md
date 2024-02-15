@@ -108,8 +108,11 @@ Les "tag" sont:
 | #landmark | Montagne ou col bien connu des vélivoles. Le nom de la montagne peut être purement vélivole (i.e. Authon, ...)
 
 ## Rapports auto générés
-
-
+[doc-reports/](doc-reports/) contient des fichiers générés automatiquement.  
+| Outil | Commentaire | Fichiers |
+| --- | --- | --- |
+| [VerifAlti](/bin) | Verification des altitudes dans .cup par rapport a un fichier Terrain | Altitude_Check-*.md |
+ 
 ## Copyrights - Droits - Remerciements
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
 Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   

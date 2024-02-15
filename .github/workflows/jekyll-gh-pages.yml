@@ -48,3 +48,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Trigger event for Altitude Checks
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: check-altitudes-event

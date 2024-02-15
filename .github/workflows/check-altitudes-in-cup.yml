@@ -2,19 +2,22 @@ name: Check Altitudes in .cup
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
-  push:
-    branches:
-      - main
-    paths:
-      - '*.cup'
+  repository_dispatch:
+    types: [check-altitudes-event]
+
+  # # Triggers the workflow on push or pull request events but only for the "master" branch
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - '*.cup'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   check-altitude:
-    # if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
