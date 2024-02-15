@@ -49,9 +49,6 @@ jobs:
           IF NOT return_code_1 == 2 || return_code_2 == 2 || return_code_3 == 2 || return_code_4 == 2 (
             exit 0
           )
-          ELSE (
-            exit 1
-          )   
 
       # Push changes to repo    
       - name: Push changes into repo
