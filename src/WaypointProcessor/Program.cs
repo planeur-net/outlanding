@@ -35,8 +35,11 @@ namespace QuickStart
             [Option('b', "baseFileName", Required = true, HelpText = "Base file name")]
             public required string BaseFileName { get; set; }
 
-            [Option('d', "distance", Required = false, HelpText = "Max altitude difference to report an error")]
-            public int Distance { get; set; } = 50;
+            [Option('e', "errorDelta", Required = false, HelpText = "Max altitude difference to report an error")]
+            public int ErrorDelta { get; set; } = 50;
+
+            [Option('w', "warningDelta", Required = false, HelpText = "Max altitude difference to report a warning")]
+            public int WarningDelta { get; set; } = 50;
 
             [Option('o', "output", Required = true, HelpText = "MarkDown file output path")]
             public required string OutputFileName { get; set; }
@@ -70,7 +73,7 @@ namespace QuickStart
 
         private void CheckAltitudes(CheckAltitudesOptions options)
         {
-            var checkAltitudeService = new CheckAltitudeService(options.BaseFileName, options.Distance, options.OutputFileName);
+            var checkAltitudeService = new CheckAltitudeService(options.BaseFileName, options.ErrorDelta, options.WarningDelta, options.OutputFileName);
             checkAltitudeService.CheckAltitudes();
         }
 

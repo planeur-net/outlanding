@@ -85,6 +85,7 @@ jobs:
             dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
             dotnet run -- checkAltitudes -b ../../champs_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-champs_des_alpes.md
             dotnet run -- checkAltitudes -b ../../cols_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-cols_des_alpes.md
+            dotnet run -- checkAltitudes -b ../../mountain_peaks_FR.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-mountain_peaks_FR.md
 
             git pull
 

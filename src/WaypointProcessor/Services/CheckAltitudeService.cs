@@ -14,10 +14,11 @@ namespace WaypointProcessor.Services
     /// <summary>
     /// Finds duplicate points between two cup files
     /// </summary>
-    internal class CheckAltitudeService(string baseFileName, int distance, string outputFilename)
+    internal class CheckAltitudeService(string baseFileName, int errorDelta, int warningDelta, string outputFilename)
     {
         private readonly string _baseFilename = baseFileName;
-        private readonly int _distance = distance;
+        private readonly int _errorDelta = errorDelta;
+        private readonly int _warningDelta = warningDelta;
         private readonly string _outputFilename = outputFilename;
 
         private List<AltitudeCheckModel> listAltitudeChecks = [];
@@ -88,8 +89,9 @@ namespace WaypointProcessor.Services
                         Nom = currentPoint.Name,
                         AltiCup = (int)currentPoint.Altitude,
                         AltiTopo = (int)altApi,
-                        Delta = (int)delta
-                    });
+                        Delta = (int)delta,
+                        Error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta)
+                });
                 //}
             }
 
@@ -99,8 +101,8 @@ namespace WaypointProcessor.Services
         private void OutputToFile()
         {
             Console.WriteLine($"Writing outpout to: {_outputFilename}");
-            var header = "| Nom | Alti .cup | Alti API | Delta |";
-            var header2 = "|---|---|---|---|";
+            var header = "| Nom | Alti .cup | Alti API | Delta | Err / Warn |";
+            var header2 = "|---|---|---|---|---|";
 
             using (var outputFile = new StreamWriter(_outputFilename))
             {
