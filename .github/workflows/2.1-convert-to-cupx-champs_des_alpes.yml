@@ -51,9 +51,3 @@ jobs:
       uses: peter-evans/repository-dispatch@v2
       with:
         event-type: update-pages-event
-
-    # Launch Altitude Checks
-    - name: Trigger event - Reports - Altitude Checks
-      uses: peter-evans/repository-dispatch@v2
-      with:
-        event-type: check-altitudes-event
