@@ -45,7 +45,7 @@ jobs:
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../mountain_peaks_FR.cup --md ../doc-reports/Altitude_Check-mountain_peaks_FR.md
           set return_code_4 = %ERRORLEVEL%
 
-          IF NOT (return_code_1 == 2 || return_code_2 == 2 || return_code_3 == 2 || return_code_4 == 2) (
+          IF NOT return_code_1 == 2 (
             exit 0
           )
 
