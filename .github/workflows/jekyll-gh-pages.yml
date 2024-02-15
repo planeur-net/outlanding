@@ -21,15 +21,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Launch Altitude Checks
-  custom_jit_jobs:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger event - Reports - Altitude Checks
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          event-type: check-altitudes-event
-          
   # Build job
   build:
     runs-on: ubuntu-latest
