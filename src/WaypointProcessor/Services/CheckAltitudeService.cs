@@ -40,21 +40,36 @@ namespace WaypointProcessor.Services
                 lons.Add(wpBase.Lon.DecimalDegree);
             }
 
-            var latParam = string.Join<double>("|", lats).Replace(",", ".");
-            var lonParam = string.Join<double>("|", lons).Replace(",", ".");
+            var listLats = lats.Chunk(100).ToList();
+            var listLons = lons.Chunk(100).ToList();
+
+            var totalResponseModel = new ElevationResponseModel();
 
 
-            const string url = "https://wxs.ign.fr/calcul/alti/rest/elevation.json";
-            var param = new Dictionary<string, string?>() { {"lat", latParam }, { "lon", lonParam }, { "zonly", "true" } };
+            for (var i = 0; i < listLats.Count; i++)
+            {
+                Console.WriteLine($"Sending request for chunk {i+1} / {listLats.Count}");
+                var currentLats = listLats[i];
+                var currentLons = listLons[i];
 
-            var newUrl = new Uri(QueryHelpers.AddQueryString(url, queryString: param));
+                var latParam = string.Join<double>("|", currentLats).Replace(",", ".");
+                var lonParam = string.Join<double>("|", currentLons).Replace(",", ".");
 
-            var client = new HttpClient();
-            var response = client.GetStringAsync(newUrl).GetAwaiter().GetResult();
-            var responseModel = JsonSerializer.Deserialize<ElevationResponseModel>(response);
+                const string url = "https://wxs.ign.fr/calcul/alti/rest/elevation.json";
+                var param = new Dictionary<string, string?>() { { "lat", latParam }, { "lon", lonParam }, { "zonly", "true" } };
 
-            if (responseModel != null)
-                ComputeDelta(waypointsBase, responseModel);
+                var newUrl = new Uri(QueryHelpers.AddQueryString(url, queryString: param));
+
+                var client = new HttpClient();
+                var response = client.GetStringAsync(newUrl).GetAwaiter().GetResult();
+                var responseModel = JsonSerializer.Deserialize<ElevationResponseModel>(response);
+
+                if (responseModel != null )
+                    totalResponseModel.elevations.AddRange(responseModel.elevations);
+            }
+
+            if (totalResponseModel != null)
+                ComputeDelta(waypointsBase, totalResponseModel);
         }
 
         private void ComputeDelta(List<WaypointModel> waypointsBase, ElevationResponseModel responseModel)
