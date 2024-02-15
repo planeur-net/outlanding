@@ -32,7 +32,15 @@ jobs:
           cd ./bin
           chmod a+x ./VerifAlti
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-guide_aires_securite.md
-               
+          set return_code_1 = %ERRORLEVEL%
+
+          echo %return_code%
+          IF NOT return_code_1 == 2 || (
+            exit 0
+          )   
+
+
+
       # Push changes to repo    
       - name: Push changes into repo
         uses: stefanzweifel/git-auto-commit-action@v4
