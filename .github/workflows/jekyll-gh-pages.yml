@@ -34,7 +34,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-          verbose: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
