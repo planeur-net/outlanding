@@ -31,6 +31,8 @@ jobs:
           # Check Altitude in .cup files
           cd ./bin
           chmod a+x ./VerifAlti
+          set +e
+          
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-guide_aires_securite.md
           set return_code_1 = %ERRORLEVEL%
 
