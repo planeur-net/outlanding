@@ -19,14 +19,15 @@ namespace WaypointProcessor.Models
             return $"| {Nom} | {AltiCup} | {AltiTopo} | {Delta} | {Error} |";
         }
 
-        public static string GetErrorString(int delta, int errorDelta, int warningDelta)
+        public static string GetErrorString(int delta, int errorDelta, int warningDelta, int altApi)
         {
             delta = Math.Abs(delta);
-
-            if (delta >= warningDelta && delta <= errorDelta)
-                return "WRN";
+            if (altApi == -99999)               // API could not return altitude for point
+                return ":grey_question:";
+            else if (delta >= warningDelta && delta <= errorDelta)
+                return "Warning";
             else if (delta >= errorDelta)
-                return "ERR";
+                return "Error";
             else return "";
         }
     }
