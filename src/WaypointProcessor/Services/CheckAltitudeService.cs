@@ -101,12 +101,17 @@ namespace WaypointProcessor.Services
 
         private void OutputToFile()
         {
+            var commandLine = Environment.CommandLine;
+
             Console.WriteLine($"Writing outpout to: {_outputFilename}");
+            var commandLineMd = $"`{commandLine}`";
             var header = "| Nom | Alti .cup | Alti API | Delta | Err / Warn |";
             var header2 = "|---|---|---|---|---|";
 
             using (var outputFile = new StreamWriter(_outputFilename))
             {
+                outputFile.WriteLine(commandLineMd);
+                outputFile.WriteLine("  ");
                 outputFile.WriteLine(header);
                 outputFile.WriteLine(header2);
                 foreach (AltitudeCheckModel altCheckModel in listAltitudeChecks)
