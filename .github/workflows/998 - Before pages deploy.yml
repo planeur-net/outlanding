@@ -90,12 +90,6 @@ jobs:
             commit_message: 'Auto Generated'
             file_pattern: './doc-reports/*.md'
 
-        # Update Github Pages
-        - name: Trigger event for github pages update
-          uses: peter-evans/repository-dispatch@v2
-          with:
-            event-type: final-update-pages-event
-
    publish_github_pages:
     #if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
