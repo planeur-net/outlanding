@@ -14,12 +14,13 @@ namespace WaypointProcessor.Services
     /// <summary>
     /// Finds duplicate points between two cup files
     /// </summary>
-    internal class CheckAltitudeService(string baseFileName, int errorDelta, int warningDelta, string outputFilename)
+    internal class CheckAltitudeService(string baseFileName, int errorDelta, int warningDelta, string outputFilename, bool isVerbose)
     {
         private readonly string _baseFilename = baseFileName;
         private readonly int _errorDelta = errorDelta;
         private readonly int _warningDelta = warningDelta;
         private readonly string _outputFilename = outputFilename;
+        private readonly bool _isVerbose = isVerbose;
 
         private List<AltitudeCheckModel> listAltitudeChecks = [];
 
@@ -116,6 +117,7 @@ namespace WaypointProcessor.Services
                 outputFile.WriteLine(header2);
                 foreach (AltitudeCheckModel altCheckModel in listAltitudeChecks)
                 {
+                    if (_isVerbose || !string.IsNullOrEmpty(altCheckModel.Error)) { }
                     var line = altCheckModel.ToMarkDownTableLine();
                     outputFile.WriteLine(line);
                 }

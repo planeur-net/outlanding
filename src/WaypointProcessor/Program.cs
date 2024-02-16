@@ -43,6 +43,9 @@ namespace QuickStart
 
             [Option('o', "output", Required = true, HelpText = "MarkDown file output path")]
             public required string OutputFileName { get; set; }
+
+            [Option('v', "verbose", Required = true, HelpText = "Verbos mode: output all points = not just Err and Warn")]
+            public required bool IsVerbose { get; set; }
         }
 
 
@@ -73,7 +76,7 @@ namespace QuickStart
 
         private void CheckAltitudes(CheckAltitudesOptions options)
         {
-            var checkAltitudeService = new CheckAltitudeService(options.BaseFileName, options.ErrorDelta, options.WarningDelta, options.OutputFileName);
+            var checkAltitudeService = new CheckAltitudeService(options.BaseFileName, options.ErrorDelta, options.WarningDelta, options.OutputFileName, options.IsVerbose);
             checkAltitudeService.CheckAltitudes();
         }
 
