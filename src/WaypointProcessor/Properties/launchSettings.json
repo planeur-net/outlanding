@@ -2,7 +2,7 @@
   "profiles": {
     "WaypointProcessor": {
       "commandName": "Project",
-      "commandLineArgs": "checkAltitudes -b C:\\llauner\\src\\outlanding\\guide_aires_securite.cup -o C:\\Users\\SESA644858\\Downloads\\out.md"
+      "commandLineArgs": "checkAltitudes -b C:\\llauner\\src\\outlanding\\guide_aires_securite.cup -v -o C:\\Users\\SESA644858\\Downloads\\out.md"
     }
   }
 }

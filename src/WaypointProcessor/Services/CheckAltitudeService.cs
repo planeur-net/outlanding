@@ -84,8 +84,6 @@ namespace WaypointProcessor.Services
                 var delta = altBase - altApi;
                 var error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta, (int)altApi);
 
-                if (!string.IsNullOrEmpty(error))
-                {
                 listAltitudeChecks.Add(new AltitudeCheckModel
                     {
                         Nom = currentPoint.Name,
@@ -94,7 +92,6 @@ namespace WaypointProcessor.Services
                         Delta = (int)delta,
                         Error = error
                 });
-                }
             }
 
             OutputToFile();
@@ -117,9 +114,11 @@ namespace WaypointProcessor.Services
                 outputFile.WriteLine(header2);
                 foreach (AltitudeCheckModel altCheckModel in listAltitudeChecks)
                 {
-                    if (_isVerbose || !string.IsNullOrEmpty(altCheckModel.Error)) { }
-                    var line = altCheckModel.ToMarkDownTableLine();
-                    outputFile.WriteLine(line);
+                    if (_isVerbose || !string.IsNullOrEmpty(altCheckModel.Error))
+                    {
+                        var line = altCheckModel.ToMarkDownTableLine();
+                        outputFile.WriteLine(line);
+                    }
                 }
                     
             }
