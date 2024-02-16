@@ -1,4 +1,4 @@
-`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../mountain_peaks_FR.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-mountain_peaks_FR.md`
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../mountain_peaks_FR.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-WaypointProcessor-mountain_peaks_FR.md`
   
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
@@ -45,7 +45,7 @@
 | Aiguille Pierre André | 2813 | 2702 | 110 | ERR |
 | Aiguille Purtscheller | 3478 | 3374 | 103 | ERR |
 | Aiguille qui Remue | 3742 | 3642 | 99 | ERR |
-| Aiguille Verte | 4121 | 4070 | 50 | WRN |
+| Aiguille Verte | 4121 | 4070 | 50 | ERR |
 | Aiguilles Crochues/Sommet S | 2840 | 2775 | 64 | ERR |
 | Aiguilles de Pelens | 2523 | 2436 | 86 | ERR |
 | Aiguillette du Lauzet | 2717 | 2664 | 52 | ERR |
@@ -144,13 +144,13 @@
 | Mont Draillan | 974 | 919 | 54 | ERR |
 | Mont Fier | 1282 | 1220 | 61 | ERR |
 | Mont Mallet | 3970 | 3905 | 64 | ERR |
-| Mont Maudit / Monte Maudit | 4465 | 4414 | 50 | WRN |
+| Mont Maudit / Monte Maudit | 4465 | 4414 | 50 | ERR |
 | Montagne de Roussillon | 1460 | 1537 | -77 | ERR |
 | Montagne de Saint-Genis | 1432 | 1380 | 51 | ERR |
 | Monte Viradantour | 2912 | 2982 | -70 | ERR |
 | Montsérieux | 1696 | 1580 | 115 | ERR |
 | Pas de l'Échelle | 1758 | 1677 | 80 | ERR |
-| Petit Caïre | 2413 | 2362 | 50 | WRN |
+| Petit Caïre | 2413 | 2362 | 50 | ERR |
 | Petite Aiguille de la Floria | 2826 | 2758 | 67 | ERR |
 | Petite Aiguille de l'Arcelin | 2648 | 2551 | 96 | ERR |
 | Petite Aiguille Verte | 3512 | 3442 | 69 | ERR |
@@ -160,7 +160,7 @@
 | Pic de la Fare | 2138 | 2070 | 67 | ERR |
 | Pic de la Pyramide | 3382 | 3327 | 54 | ERR |
 | Pic de l'Aupillon | 2507 | 2446 | 60 | ERR |
-| Pic de Mal Cros | 3117 | 3066 | 50 | WRN |
+| Pic de Mal Cros | 3117 | 3066 | 50 | ERR |
 | Pic de Rochelaire | 3108 | 3052 | 55 | ERR |
 | Pic des Souffles | 3099 | 3040 | 58 | ERR |
 | Pic du Clapier du Peyron | 3169 | 3107 | 61 | ERR |
@@ -201,7 +201,7 @@
 | Pointe de la Selle | 2745 | 2642 | 102 | ERR |
 | Pointe de l'Aguille | 1716 | 1616 | 99 | ERR |
 | Pointe de Malhaubert | 3049 | 2953 | 95 | ERR |
-| Pointe de Sales | 2497 | 2446 | 50 | WRN |
+| Pointe de Sales | 2497 | 2446 | 50 | ERR |
 | Pointe de Sangaris | 2423 | 2309 | 113 | ERR |
 | Pointe de Sous-Dine | 1954 | 1827 | 126 | ERR |
 | Pointe de Vouilloz | 2672 | 2585 | 86 | ERR |
@@ -226,7 +226,7 @@
 | Pointe Haute de Mary | 3206 | 3000 | 205 | ERR |
 | Pointe Jeanne | 3245 | 3180 | 64 | ERR |
 | Pointe Lemercier | 3170 | 3097 | 72 | ERR |
-| Pointe Madeleine | 3627 | 3576 | 50 | WRN |
+| Pointe Madeleine | 3627 | 3576 | 50 | ERR |
 | Pointe Marguerite | 4065 | 4007 | 57 | ERR |
 | Pointe Maximin | 3329 | 3268 | 60 | ERR |
 | Pointe Nord de la Selle | 3295 | 3239 | 55 | ERR |
@@ -234,7 +234,7 @@
 | Pointe Richardson | 3350 | 3296 | 53 | ERR |
 | Pointe Sisyphe | 3460 | 3399 | 60 | ERR |
 | Pointe Swan | 3300 | 3208 | 92 | ERR |
-| Pointe Tonini | 3330 | 3279 | 50 | WRN |
+| Pointe Tonini | 3330 | 3279 | 50 | ERR |
 | Pointe Trifide | 3450 | 3332 | 117 | ERR |
 | Pointe Xavier Blanc | 3677 | 3605 | 71 | ERR |
 | Pointes d'Ayères Nord | 2644 | 2552 | 91 | ERR |
@@ -290,7 +290,7 @@
 | Tour de la Flachère | 2776 | 2724 | 51 | ERR |
 | Tour des Rousses | 2921 | 2864 | 56 | ERR |
 | Tour Germaine | 2189 | 2100 | 88 | ERR |
-| Tour Tatra | 3624 | 3573 | 50 | WRN |
+| Tour Tatra | 3624 | 3573 | 50 | ERR |
 | Tours de Boverjat | 3064 | 2952 | 111 | ERR |
 | Tours du Vallon | 2809 | 2728 | 80 | ERR |
 | Turge de Peyron | 2791 | 2690 | 100 | ERR |

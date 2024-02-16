@@ -1,4 +1,4 @@
-`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md`
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../guide_aires_securite.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md`
   
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
