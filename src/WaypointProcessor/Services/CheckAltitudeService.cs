@@ -82,7 +82,7 @@ namespace WaypointProcessor.Services
                 var altBase = currentPoint.Altitude;
                 var altApi = responseModel.elevations[i];
                 var delta = altBase - altApi;
-                var error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta);
+                var error = AltitudeCheckModel.GetErrorString((int)delta, _errorDelta, _warningDelta, (int)altApi);
 
                 if (!string.IsNullOrEmpty(error))
                 {
