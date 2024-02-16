@@ -1,3 +1,5 @@
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../mountain_peaks_FR.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-mountain_peaks_FR.md`
+  
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
 | Aiguille Centrale du Soreiller | 3338 | 3282 | 55 | ERR |

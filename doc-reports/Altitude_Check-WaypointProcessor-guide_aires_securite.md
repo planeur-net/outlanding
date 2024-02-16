@@ -1,3 +1,5 @@
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../guide_aires_securite.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md`
+  
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
 | #44 Valsusa | 380 | -99999 | 100379 | ERR |

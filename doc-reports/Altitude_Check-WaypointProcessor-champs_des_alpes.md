@@ -1,3 +1,5 @@
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../champs_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-champs_des_alpes.md`
+  
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
 | Envie Aero | 87 | -99999 | 100086 | ERR |

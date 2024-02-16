@@ -1,3 +1,5 @@
+`/home/runner/work/outlanding/outlanding/src/WaypointProcessor/bin/Debug/net8.0/WaypointProcessor.dll checkAltitudes -b ../../cols_des_alpes.cup -o ../../doc-reports/Altitude_Check-WaypointProcessor-cols_des_alpes.md`
+  
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
 | Col de la Ponsonière | 2541 | 2606 | -65 | ERR |
