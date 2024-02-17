@@ -24,7 +24,7 @@
 | #48 LFKE St Jean en Royans | 264 | 234 | 29 |  |
 | #50 LFLU Valence Chabeuil | 162 | 159 | 2 |  |
 | #52 LFJF Aubenasson | 240 | 242 | -2 |  |
-| #54 Aix en Diois | 500 | 529 | -29 |  |
+| #54 Aix en Diois | 530 | 529 | 0 |  |
 | #56 LFLI Annemasse | 494 | 486 | 7 |  |
 | #57 Habere Poche LF7469 | 1113 | 1088 | 24 |  |
 | #58 LFLP Annecy | 464 | 461 | 2 |  |
@@ -35,7 +35,7 @@
 | #66 LFKA Albertville | 314 | 314 | 0 |  |
 | #68 LFKD Sollieres Sardieres | 1299 | 1288 | 10 |  |
 | #7 LFNH Carpentras | 119 | 119 | 0 |  |
-| #70 LFKR St Remy de Maurienne | 450 | 429 | 20 |  |
+| #70 LFKR St Remy de Maurienne | 426 | 429 | -3 |  |
 | #72 Prealpi-Musine | 330 | -99999 | 100329 | :grey_question: |
 | #73 Busano | 300 | -99999 | 100299 | :grey_question: |
 | #74 Canavese | 310 | -99999 | 100309 | :grey_question: |
@@ -45,7 +45,7 @@
 | #78 LSGS Sion | 482 | -99999 | 100481 | :grey_question: |
 | #8 LFNT Avignon | 44 | 43 | 0 |  |
 | #9 LFNZ St Remy | 119 | 105 | 13 |  |
-| 110 Remoulins ULM | 55 | 24 | 30 |  |
+| 110 Remoulins ULM | 24 | 24 | 0 |  |
 | 111 Tarascon ULM | 10 | 6 | 3 |  |
 | 112 Eygalieres | 100 | 89 | 10 |  |
 | 113 Isle Sorgue | 65 | 63 | 1 |  |
@@ -53,7 +53,7 @@
 | 120 Gordes ZA | 203 | 187 | 15 |  |
 | 122 Bonnieux ZA | 180 | 218 | -38 |  |
 | 124 Mallemort | 110 | 112 | -2 |  |
-| 126 Lourmarin | 280 | 247 | 32 |  |
+| 126 Lourmarin | 250 | 247 | 2 |  |
 | 127 Banon | 770 | 769 | 0 |  |
 | 128 Vitrolles en Luberon | 360 | 361 | -1 |  |
 | 130 Rosans | 620 | 640 | -20 |  |
@@ -72,7 +72,7 @@
 | 223 Soleihas | 1120 | 1111 | 8 |  |
 | 224 Mousteiret | 1080 | 1078 | 1 |  |
 | 225 Logis du Pin | 1025 | 1024 | 0 |  |
-| 226 Caille | 1080 | 1124 | -44 |  |
+| 226 Caille | 1125 | 1124 | 0 |  |
 | 227 La chapelle | 1065 | 1064 | 0 |  |
 | 228 Trigance | 740 | 718 | 21 |  |
 | 229 Palud Verdon | 890 | 885 | 4 |  |

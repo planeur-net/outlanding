@@ -7,7 +7,7 @@
 | Entreveaux | 450 | 450 | 0 |  |
 | Fugieres | 1030 | 1036 | -6 |  |
 | La Javie | 800 | 799 | 0 |  |
-| La Javie_2 | 800 | 844 | -44 |  |
+| La Javie_2 | 845 | 844 | 0 |  |
 | Lesche-ULM | 975 | 976 | -1 |  |
 | Oex-ULM | 535 | 519 | 15 |  |
 | Richardiere | 1000 | 1000 | 0 |  |
