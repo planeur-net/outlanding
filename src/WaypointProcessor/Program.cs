@@ -61,6 +61,8 @@ namespace QuickStart
 
         private static void HandleParseError(IEnumerable<Error> errs)
         {
+            // Exit with error code
+            Environment.Exit(1);
         }
 
         private void RemoveDuplicates(DuplicatesOptions options)
