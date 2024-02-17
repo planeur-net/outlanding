@@ -2,5 +2,4 @@
 | Nom | Alti .cup | Alti topo | Delta | Erreur/Warning |
 | --- | --- | --- | --- | --- |
 |Arvieux|1580|1640|-60|ERR|
-|La Javie_2|800|869|-69|ERR|
 |Envie Aero|87|277|-190|ERR|
