@@ -5,7 +5,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Entreveaux",Entreaux,FR,4357.074N,00650.012E,450.0m,3,0,0.0m,,,,,"entreveaux.jpg"
 "Fugieres",Fugieres,FR,4457.333N,00547.833E,1030.0m,3,340,430.0m,,,"Sommet de monticule. Monte vers le Nord",,"fugieres1.jpg;fugieres.jpg"
 "La Javie",Javie,FR,4410.250N,00620.100E,800.0m,3,0,250.0m,,,"ZA Choisir en fct cultures.",,"la_javie.jpg"
-"La Javie_2",LaJavie2,FR,4410.132N,00619.789E,800.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
+"La Javie_2",LaJavie2,FR,4410.132N,00619.789E,845.0m,3,0,200.0m,,,"Au SE du champs de La Javie",,"javie2.jpg"
 "Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,130.000,"160/340 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable. Fosses de part et d'autre de la piste balises par cones rouges. Contact obligatoire: 0680528747 {terrain}",,"lesche.jpg"
 "Oex-ULM",SallaOex,FR,4558.682N,00637.943E,535.0m,5,360,200m,,,"Deux zones de 400m utilisables dans axe de la vallee. Attention cabane entre deux zones. Partie W piste ULM montante. Sol plan dans toute la plaine. Piste en gravier 200m etroite: collision avec manche a air.",,"oex.jpg;oex2.jpg"
 "Richardiere",Richrdr,FR,4449.235N,00533.589E,1000.0m,3,270,300.0m,,,"La Richardiere. En montee vers W",,"richardiere.jpg;richardiere2.jpg"
