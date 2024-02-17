@@ -32,10 +32,10 @@ jobs:
           chmod a+x ./VerifAlti
           set +e
 
-          ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-VerifAlti-guide_aires_securite.md
+          ./VerifAlti --topo ./Alpes_FR_2.trn --error 50 --warning 100 --cup ../guide_aires_securite.cup --md ../doc-reports/Altitude_Check-VerifAlti-guide_aires_securite.md
           set return_code_1 = %ERRORLEVEL%
 
-          ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../champs_des_alpes.cup --md ../doc-reports/Altitude_Check-VerifAlti-champs_des_alpes.md
+          ./VerifAlti --topo ./Alpes_FR_2.trn --error 50 --warning 100 --cup ../champs_des_alpes.cup --md ../doc-reports/Altitude_Check-VerifAlti-champs_des_alpes.md
           set return_code_2 = %ERRORLEVEL%
 
           ./VerifAlti --topo ./Alpes_FR_2.trn --summary --error 50 --warning 100 --cup ../cols_des_alpes.cup --md ../doc-reports/Altitude_Check-VerifAlti-cols_des_alpes.md
