@@ -11,7 +11,7 @@
 | Lesche-ULM | 975 | 976 | -1 |  |
 | Oex-ULM | 535 | 519 | 15 |  |
 | Richardiere | 1000 | 1000 | 0 |  |
-| Envie Aero | 87 | -99999 | 100086 | :grey_question: |
+| Envie Aero | 280 | -99999 | 100279 | :grey_question: |
 | Valenty_2 | 568 | 570 | -2 |  |
 | LIMA-Torino Aeritalia | 288 | -99999 | 100287 | :grey_question: |
 | LIMZ-Cuneo Levaldigi | 387 | -99999 | 100386 | :grey_question: |
