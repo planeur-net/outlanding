@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]73eaa44 2024-02-17T08:23:50+00:00 + [champs_des_alpes]73eaa44 2024-02-17T08:23:50+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]c7c41f7 2024-02-17T17:47:44+00:00 + [champs_des_alpes]c7c41f7 2024-02-17T17:47:44+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.800N,00524.200E,881.0m,2,30,534.0m,,"130.000","030/210 Altiport. Bas-Haut= 821-878m. {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -145,7 +145,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Lesche-ULM",LF2655,FR,4435.300N,00532.470E,975.0m,2,160,250.0m,16.0m,130.000,"160/340 Terrain ULM. QFU preferentiel 34 .Pente 2% montante vers NW. Piste inondable. Fosses de part et d'autre de la piste balises par cones rouges. Contact obligatoire: 0680528747 {terrain}",,"lesche.jpg"
 "Oex-ULM",SallaOex,FR,4558.682N,00637.943E,535.0m,5,360,200m,,,"Deux zones de 400m utilisables dans axe de la vallee. Attention cabane entre deux zones. Partie W piste ULM montante. Sol plan dans toute la plaine. Piste en gravier 200m etroite: collision avec manche a air.",,"oex.jpg;oex2.jpg"
 "Richardiere",Richrdr,FR,4449.235N,00533.589E,1000.0m,3,270,300.0m,,,"La Richardiere. En montee vers W",,"richardiere.jpg;richardiere2.jpg"
-"Envie Aero",Enviaero,IT,4441.733N,00724.150E,87.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
+"Envie Aero",Enviaero,IT,4441.733N,00724.150E,280.0m,2,0,0.0m,,,"Terrain prive.",,"envie.jpg"
 "Valenty_2",valenty2,FR,4422.500N,00556.000E,568.0m,3,026,480m,,,"Bonne alternative à Valenty",,"valenty2.jpg"
 "LIMA-Torino Aeritalia",LIMA,IT,4505.067N,00736.183E,288.0m,5,0,500.0m,,119.800,"100R/280R https://vfr-pilote.fr/aerodrome/lima/",,"LIMA.jpg;LIMA2.jpg"
 "LIMZ-Cuneo Levaldigi",LIMZCigi,IT,4432.850N,00737.383E,387.0m,5,30,2110.0m,,121.100,"030/210",,"LIMZ.jpg;LIMZ2.jpg"
