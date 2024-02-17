@@ -110,8 +110,7 @@ Tags are:
 [doc-reports/](doc-reports/) contains auto generated files. 
 | Tool | Comment | Files |
 | --- | --- | --- |
-| [VerifAlti](/bin) | Check altitude compared to a Terrain file | Altitude_Check-*.md |
-| [WaypointProcessor](/src/WaypointProcessor/) | Check altitude with [IGN API](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/calcul-altimetrique-rest#1870) | Altitude_Check-WaypointProcessor-*.md |
+| [WaypointProcessor](/src/WaypointProcessor/) | Check altitude with [IGN API](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/calcul-altimetrique-rest#1870) | Altitude_Check-*.md |
 
 ## Copyrights
 Pictures provided and used with permission from Jérémie Badaroux.  

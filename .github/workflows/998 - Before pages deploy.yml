@@ -12,7 +12,8 @@ jobs:
    # Launch Altitude Checks
 
    check-altitudes:
-    #if: github.ref == 'refs/heads/main'
+    # Disable Job for now as information provided by VeriAlti is not accurate
+    if: false                      
     # The type of runner that the job will run on
     name: check_altitude_verif_alti
     runs-on: ubuntu-latest
@@ -76,10 +77,10 @@ jobs:
           run: |
             cd ./src/WaypointProcessor
             dotnet build
-            dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -e 50 -w 100 -v -o ../../doc-reports/Altitude_Check-WaypointProcessor-guide_aires_securite.md
-            dotnet run -- checkAltitudes -b ../../champs_des_alpes.cup -e 50 -w 100 -v -o ../../doc-reports/Altitude_Check-WaypointProcessor-champs_des_alpes.md
-            dotnet run -- checkAltitudes -b ../../cols_des_alpes.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-WaypointProcessor-cols_des_alpes.md
-            dotnet run -- checkAltitudes -b ../../mountain_peaks_FR.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-WaypointProcessor-mountain_peaks_FR.md
+            dotnet run -- checkAltitudes -b ../../guide_aires_securite.cup -e 50 -w 100 -v -o ../../doc-reports/Altitude_Check-guide_aires_securite.md
+            dotnet run -- checkAltitudes -b ../../champs_des_alpes.cup -e 50 -w 100 -v -o ../../doc-reports/Altitude_Check-champs_des_alpes.md
+            dotnet run -- checkAltitudes -b ../../cols_des_alpes.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-cols_des_alpes.md
+            dotnet run -- checkAltitudes -b ../../mountain_peaks_FR.cup -e 50 -w 100 -o ../../doc-reports/Altitude_Check-mountain_peaks_FR.md
 
             git pull
 
@@ -93,7 +94,7 @@ jobs:
    publish_github_pages:
     #if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
-    needs: [check-altitudes, check-altitudes-waypointProcessor]
+    needs: [check-altitudes-waypointProcessor]
     runs-on: ubuntu-latest
     steps:
       # Update Github Pages
