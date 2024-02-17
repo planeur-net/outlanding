@@ -44,8 +44,8 @@ namespace QuickStart
             [Option('o', "output", Required = true, HelpText = "MarkDown file output path")]
             public required string OutputFileName { get; set; }
 
-            [Option('v', "verbose", Required = true, HelpText = "Verbos mode: output all points = not just Err and Warn")]
-            public required bool IsVerbose { get; set; }
+            [Option('v', "verbose", Required = false, HelpText = "Verbos mode: output all points = not just Err and Warn")]
+            public required bool IsVerbose { get; set; } = false;
         }
 
 
