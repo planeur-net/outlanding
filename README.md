@@ -112,6 +112,7 @@ Les "tag" sont:
 | Outil | Commentaire | Fichiers |
 | --- | --- | --- |
 | [WaypointProcessor](/src/WaypointProcessor/) | Verification des altitudes dans .cup avec l'[API IGN](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/calcul-altimetrique-rest#1870) | Altitude_Check-*.md |
+| [VerifAlti](/bin) | Verification des altitudes par rapport a un fichier Terrain | Altitude_Check-VerifAlti-*.md |
  
 ## Copyrights - Droits - Remerciements
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  

@@ -111,6 +111,8 @@ Tags are:
 | Tool | Comment | Files |
 | --- | --- | --- |
 | [WaypointProcessor](/src/WaypointProcessor/) | Check altitude with [IGN API](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/calcul-altimetrique-rest#1870) | Altitude_Check-*.md |
+| [VerifAlti](/bin) | Check altitudes against a Terrain file | Altitude_Check-VerifAlti-*.md |
+ 
 
 ## Copyrights
 Pictures provided and used with permission from Jérémie Badaroux.  
