@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"[guide_aires_securite]c7c41f7 2024-02-17T17:47:44+00:00 + [champs_des_alpes]c7c41f7 2024-02-17T17:47:44+00:00",,
+"version=",,,,,,,,,,,"[guide_aires_securite]ab954e5 2024-02-18T07:43:40+00:00 + [champs_des_alpes]ab954e5 2024-02-18T07:43:40+00:00",,
 "#10 LFNE Salon Eyguieres",LFNE,FR,4339.500N,00500.783E,76.0m,2,150,1290.0m,,120.450,"150/330 + 090/270 {aerodrome}",,"LFNE_Salon_Eyguieres.jpg"
 "#12 LFJE La Motte Chalancon",LFJE,FR,4429.800N,00524.200E,881.0m,2,30,534.0m,,"130.000","030/210 Altiport. Bas-Haut= 821-878m. {altiport}",,"LFJE_La_Motte_Chalancon.jpg"
 "#14 Cereste LF8421",#14,FR,4351.167N,00532.967E,330.0m,2,080,800.0m,,123.50,"080/260 Terrain prive. Piste balisee. Hangar. {terrain}",,"Cereste.jpg"
@@ -49,12 +49,12 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "113 Isle Sorgue",113,FR,4355.017N,00504.983E,65.0m,3,315,300.0m,,,"NW/SE Cultures hautes. Plusieurs champs. {difficile}",,"113_L_isle_sur_sorgue.jpg"
 "114 Orgon-Cheval Blanc",114,FR,4347.325N,00503.915E,90.0m,3,050,300.0m,,,"050/230 Prairie. Culture possible. Posable dans 2 sens. {normal}",,"114_Orgon_Cheval_Blanc.jpg"
 "120 Gordes ZA",120,FR,4354.750N,00515.100E,203.0m,3,360,300.0m,,,"ZA Possibilite cultures hautes. {facile}",,"120_Gordes.jpg"
-"122 Bonnieux ZA",122,FR,4350.000N,00517.500E,180.0m,3,0,300.0m,,,"ZA Possibilite cultures hautes. {facile}",,"122_Bonnieux.jpg"
+"122 Bonnieux ZA",122,FR,4350.000N,00517.500E,218.0m,3,0,300.0m,,,"ZA Possibilite cultures hautes. {facile}",,"122_Bonnieux.jpg"
 "124 Mallemort",124,FR,4344.425N,00510.900E,110.0m,3,270,400.0m,,,"270/090 Prairie. Cultures possibles. Proche du point entre Merindol et Mallemort. {facile}",,"124_Mallemort_Merindol.jpg"
 "126 Lourmarin",126,FR,4345.533N,00523.967E,250.0m,3,0,400.0m,,,"ZA Cultures. {facile}",,"126_Lourmarin.jpg"
 "127 Banon",127,FR,4404.000N,00540.000E,770.0m,3,0,300.0m,,,"ZA Zone cultivee attention aux champs lavande. {normal}",,"127_Banon.jpg"
 "128 Vitrolles en Luberon",128,FR,4347.280N,00535.600E,360.0m,3,0,300.0m,,,"N/S Remonte vers le N. Attention par vent N (turbulences). Autres champs posables. {normal}",,"128_Vitrolles_en_Luberon.jpg"
-"130 Rosans",130,FR,4422.883N,00528.300E,620.0m,3,180,400.0m,,,"N/S Remonte vers le N. Turbulences par NW. Autres champs posables. {facile}",,"130_Rosans.jpg"
+"130 Rosans",130,FR,4422.883N,00528.300E,640.0m,3,180,400.0m,,,"N/S Remonte vers le N. Turbulences par NW. Autres champs posables. {facile}",,"130_Rosans.jpg"
 "131 Sederon",131,FR,4413.233N,00534.483E,750.0m,3,090,250.0m,,,"ZA Attention par vent NW. {normal}",,"131_Sederon.jpg"
 "132 Sainte Jalle",132,FR,4420.067N,00518.183E,440.0m,3,305,250.0m,,,"305/125 Ligne electrique partie SE des champs. Vent arriere cote NE. {difficile}",,"132_Sainte_Jalle.jpg"
 "133 Curnier",133,FR,4423.380N,00513.200E,310.0m,3,090,300.0m,,,"E/W Prairie. Cultures possibles. Posable dans les 2 sens. {normal}",,"133_Curnier.jpg"
@@ -118,7 +118,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "529 Chauffayer",529,FR,4444.830N,00600.440E,910.0m,3,0,200.0m,,,"ZA Attention aux lignes electriques qui traversent la zone. {difficile}",,"529_chauffayer_1.jpg;529_chauffayer_2.jpg;529_chauffayer_3.jpg"
 "610 Bernex",610,FR,4621.533N,00638.850E,880.0m,3,080,400.0m,,,"080/260 Parcelles paralleles. Chemin agricole partage la ZA en deux secteurs faisant un denivele de 50cm. Vent arriere cote S du champ. {facile}",,"610_bernex_1.jpg;610_bernex_2.jpg"
 "611 Megevette",611,FR,4612.567N,00630.100E,900.0m,3,360,300.0m,,,"N/S Reco a pied indispensable. Possibilite clotures mobiles. Prairies. {difficile}",,"611_megevette_1.jpg;611_megevette_2.jpg"
-"612 St Jeoire",612,FR,4608.600N,00628.200E,590.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
+"612 St Jeoire",612,FR,4608.600N,00628.200E,620.0m,3,360,250.0m,,,"N Reco a pied indispensable. Atterro face au N. {difficile}",,"612_st_jeoire_1.jpg;612_st_jeoire_2.jpg"
 "613 Taninges",613,FR,4605.683N,00638.750E,625.0m,3,090,300.0m,,,"ZA Clotures mobiles. Prairies. {facile}",,"613_taninges_1.jpg;613_taninges_2.jpg"
 "614 Samoens",614,FR,4604.267N,00644.450E,715.0m,3,090,300.0m,,,"ZA Clotures modiles. Prairies. {facile}",,"614_samoens_1.jpg;614_samoens_2.jpg"
 "615 Bonneville",615,FR,4604.283N,00621.900E,450.0m,3,0,350.0m,,,"ZA Brise dans axe different des champs. Attention petites lignes electriques. {facile}",,"615_bonneville_1.jpg;615_bonneville_2.jpg"
