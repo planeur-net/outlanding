@@ -50,12 +50,12 @@
 |113 Isle Sorgue|65|63|2||
 |114 Orgon-Cheval Blanc|90|83|7||
 |120 Gordes ZA|203|188|15||
-|122 Bonnieux ZA|180|216|-36||
+|122 Bonnieux ZA|218|216|2||
 |124 Mallemort|110|113|-3||
 |126 Lourmarin|250|255|-5||
 |127 Banon|770|774|-4||
 |128 Vitrolles en Luberon|360|365|-5||
-|130 Rosans|620|644|-24||
+|130 Rosans|640|644|-4||
 |131 Sederon|750|757|-7||
 |132 Sainte Jalle|440|429|11||
 |133 Curnier|310|342|-32||
@@ -119,7 +119,7 @@
 |529 Chauffayer|910|914|-4||
 |610 Bernex|880|885|-5||
 |611 Megevette|900|893|7||
-|612 St Jeoire|590|625|-35||
+|612 St Jeoire|620|625|-5||
 |613 Taninges|625|649|-24||
 |614 Samoens|715|712|3||
 |615 Bonneville|450|459|-9||
