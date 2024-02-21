@@ -14,15 +14,21 @@ namespace WaypointProcessor.Services
     /// </summary>
     internal class DuplicatesFinderService
     {
-        private string _baseFilename;
-        private string? _comparedFileName;
-        private int _distance;
+        private readonly string _baseFilename;
+        private readonly string _comparedFileName;
+        private readonly int _distance;
 
-        public DuplicatesFinderService(string baseFileName, int distance, string? comparedFilename = null) 
+        public DuplicatesFinderService(string baseFileName, int distance, string comparedFilename)
         {
             _baseFilename = baseFileName;
-            _comparedFileName = comparedFilename;   
             _distance = distance;
+            _comparedFileName = comparedFilename;
+        }
+        public DuplicatesFinderService(string baseFileName, int distance)
+        {
+            _baseFilename = baseFileName;
+            _distance = distance;
+            _comparedFileName = string.Empty;
         }
 
         /// <summary>
@@ -35,9 +41,9 @@ namespace WaypointProcessor.Services
             var waypointsBase = parser.ParseFile(_baseFilename);
             var waypointCompared = parser.ParseFile(_comparedFileName);
 
-            foreach ( var wpBase in waypointsBase )
+            foreach (var wpBase in waypointsBase)
             {
-                foreach ( var wpComp in waypointCompared)
+                foreach (var wpComp in waypointCompared)
                 {
                     var dist = new Distance(wpBase.Coordinate, wpComp.Coordinate);
 
@@ -59,7 +65,7 @@ namespace WaypointProcessor.Services
             var parser = new CsvFileParser();
             var waypointsBase = parser.ParseFile(_baseFilename);
 
-            for (int i=0;i< waypointsBase.Count; i++)
+            for (int i = 0; i < waypointsBase.Count; i++)
             {
                 var current = i + 1;            // Index of current point in the list
                 for (var j = current; j < waypointsBase.Count; j++)
@@ -83,7 +89,7 @@ namespace WaypointProcessor.Services
         /// <param name="point1"></param>
         /// <param name="point2"></param>
         /// <param name="dist"></param>
-        private void OutputPoints(WaypointModel point1, WaypointModel point2, Distance dist)
+        private static void OutputPoints(WaypointModel point1, WaypointModel point2, Distance dist)
         {
             Console.WriteLine(point1.ToString());
             Console.WriteLine(point2.ToString());

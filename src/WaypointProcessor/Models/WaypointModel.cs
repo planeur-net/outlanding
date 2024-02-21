@@ -18,14 +18,14 @@ namespace WaypointProcessor.Models
     /// </summary>
     internal class WaypointModel
     {
-        private Coordinate _coordinate = null;
+        private Coordinate? _coordinate = null;
 
-        public string? Name { get; set; }
+        public required string Name { get; set; }
         public string? Code { get; set; }
         public string? Country { get; set; }
-        public CoordinatePart? Lat { get; set; }
-        public CoordinatePart? Lon { get; set; }
-        public Coordinate? Coordinate
+        public required CoordinatePart Lat { get; set; }
+        public required CoordinatePart Lon { get; set; }
+        public Coordinate Coordinate
         {
             get
             {
@@ -42,7 +42,7 @@ namespace WaypointProcessor.Models
             }
             set { _coordinate = value; }
         }
-        public string? Altitude { get; set; }
+        public int Altitude { get; set; }
 
         public override string ToString()
         {
@@ -60,24 +60,34 @@ namespace WaypointProcessor.Models
             Map(m => m.Country).Name("country");
             Map(m => m.Lat).Name("lat").TypeConverter<CoordConverter<CoordinatePart>>();
             Map(m => m.Lon).Name("lon").TypeConverter<CoordConverter<CoordinatePart>>();
-            Map(m => m.Altitude).Name("elev");
+            Map(m => m.Altitude).Name("elev").TypeConverter<AltitudeConverter<int>>();
         }
     }
 
-    internal class CoordConverter<T> : DefaultTypeConverter
+    internal class AltitudeConverter<T> : DefaultTypeConverter
     {
         public override object ConvertFromString(string text, IReaderRow row, MemberMapData memberMapData)
         {
-            var coordPart = CupCoordToDegresDecimalMinute(text);
+            var alt = text.ToLower().Replace("m", "");
+            var doubleValue = double.Parse(alt, System.Globalization.CultureInfo.InvariantCulture);
+            var intValue = Convert.ToInt32(Math.Floor(doubleValue));
+            return intValue;
+        }
+    }
+
+        internal class CoordConverter<T> : DefaultTypeConverter
+    {
+        public override object ConvertFromString(string text, IReaderRow row, MemberMapData memberMapData)
+        {
+            var coordPart = CoordConverter<T>.CupCoordToDegresDecimalMinute(text);
             return coordPart;
         }
-
         /// <summary>
         /// Convert a string from 4417.349N,00632.046E to N 44.289150 E 006.534100
         /// </summary>
         /// <param name="cupCoord"></param>
         /// <returns>CoordinatePart corresponding to the lat or lon</returns>
-        private CoordinatePart CupCoordToDegresDecimalMinute(string cupCoord)
+        private static CoordinatePart CupCoordToDegresDecimalMinute(string cupCoord)
         {
             // 4417.349N
             var decimalPosition = cupCoord.IndexOf('.');

@@ -106,7 +106,16 @@ Tags are:
 |  {col} | Mountain peak  |  | ![](doc/images/mountain_pass.png)|
 | #landmark | Well known Moutain or mountain pass. Name of the mountain could be a local glider pilot name
 
+## Auto generated reports
+[doc-reports/](doc-reports/) contains auto generated files. 
+| Tool | Comment | Files |
+| --- | --- | --- |
+| [WaypointProcessor](/src/WaypointProcessor/) | Check altitude with [IGN API](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/calcul-altimetrique-rest#1870) | Altitude_Check-*.md |
+| [VerifAlti](/bin) | Check altitudes against a Terrain file | Altitude_Check-VerifAlti-*.md |
+ 
+
 ## Copyrights
 Pictures provided and used with permission from Jérémie Badaroux.  
 Initial Mountain peaks files by: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   
 [XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) for the direct download from XCSoar
+Marc Till : VerifAlti = Tool to check altitudes compared top a Terrain file.
