@@ -17,7 +17,7 @@ on:
 # see: https://github.com/marketplace/actions/ftp-deployment
 jobs:
   convert-to-cupx:
-    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
+    #if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
     name: Convert guide_aires_securite.cup to .cupx
     runs-on: ubuntu-latest
     steps:
@@ -28,8 +28,10 @@ jobs:
       id: convert_to_cupx
       run: |
         echo "Creating new .cupx file"
-        zip points.zip guide_aires_securite.cup
-        zip -r pics.zip Pics
+        cp guide_aires_securite.cup POINTS.cup
+        zip points.zip POINTS.cup
+        mv ./Pics ./pics
+        zip -r pics.zip pics
         cat pics.zip points.zip > guide_aires_securite.cupx
         
         # push to repo
