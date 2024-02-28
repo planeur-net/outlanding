@@ -8,6 +8,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  LXNAV_CONNECT_POINTS_FOLDER_ID: "1Q8zzZsNvlY2Spo7REuXINsFSW1YHfYxP"
+
 jobs:
    copy-to-gdrive:
     # Copy files to Google Drive
@@ -19,21 +22,31 @@ jobs:
       - name: Clone this repo
         uses: actions/checkout@v3
           
-      # Upload files to Google Drive
+      # Cupx files
       - name: Upload to gdrive - cupx
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "*.cupx"
-          folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
+          folderId: ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
           overwrite: "true"
 
+      # Mountain peaks
+      - name: Upload to gdrive - cup
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*_peaks_*.cup"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
+      # Ludo specific waypoint file
       - name: Upload to gdrive - Misc waypoints
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "./Misc/Ludo_waypoints.cup"
-          folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
           overwrite: "true"
       
 
