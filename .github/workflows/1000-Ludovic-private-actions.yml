@@ -19,15 +19,22 @@ jobs:
       - name: Clone this repo
         uses: actions/checkout@v3
           
-      # # Add version information to guide_aires_securite.cup
-      - name: Upload to gdrive
+      # Upload files to Google Drive
+      - name: Upload to gdrive - cupx
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "*.cupx"
           folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
-         
+          overwrite: "true"
 
+      - name: Upload to gdrive - Misc waypoints
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "Misc/Ludo_waypoints.cup"
+          folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
+          overwrite: "true"
       
 
    
