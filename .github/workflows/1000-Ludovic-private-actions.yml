@@ -32,7 +32,7 @@ jobs:
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
-          filename: "Misc/Ludo_waypoints.cup"
+          filename: "./Misc/Ludo_waypoints.cup"
           folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
           overwrite: "true"
       
