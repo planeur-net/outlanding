@@ -1,0 +1,33 @@
+name: Ludovic Private Actions
+
+# Controls when the workflow will run
+on:
+  repository_dispatch:
+    types: [update-pages-event]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+   copy-to-gdrive:
+    # Copy files to Google Drive
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Clone this repo
+        uses: actions/checkout@v3
+          
+      # # Add version information to guide_aires_securite.cup
+      - name: Upload to gdrive
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*.cupx"
+          folderId: "1cPne5tYQhIVQPiiRz6NKjFoj1VOggrFp"
+         
+
+      
+
+   
