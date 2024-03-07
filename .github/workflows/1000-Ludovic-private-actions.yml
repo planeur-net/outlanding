@@ -31,6 +31,14 @@ jobs:
           folderId: ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
           overwrite: "true"
 
+      - name: Upload to gdrive - cup
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*.cup"
+          folderId: ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
       # Mountain peaks
       - name: Upload to gdrive - cup
         uses: adityak74/google-drive-upload-git-action@main
