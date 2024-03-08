@@ -1,0 +1,61 @@
+name: Ludovic Private Actions
+
+# Controls when the workflow will run
+on:
+  repository_dispatch:
+    types: [update-pages-event]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  LXNAV_CONNECT_POINTS_FOLDER_ID: "1Q8zzZsNvlY2Spo7REuXINsFSW1YHfYxP"
+
+jobs:
+   copy-to-gdrive:
+    # Copy files to Google Drive
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Clone this repo
+        uses: actions/checkout@v3
+          
+      # Cupx files
+      - name: Upload to gdrive - cupx
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*.cupx"
+          folderId: ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
+      - name: Upload to gdrive - cup
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*.cup"
+          folderId: ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
+      # Mountain peaks
+      - name: Upload to gdrive - cup
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "*_peaks_*.cup"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
+      # Ludo specific waypoint file
+      - name: Upload to gdrive - Misc waypoints
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "./Misc/Ludo_waypoints.cup"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+      
+
+   

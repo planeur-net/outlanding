@@ -28,8 +28,10 @@ jobs:
       id: convert_to_cupx
       run: |
         echo "Creating new .cupx file"
-        zip points.zip guide_aires_securite.cup
-        zip -r pics.zip Pics
+        cp guide_aires_securite.cup POINTS.cup
+        zip points.zip POINTS.cup
+        mv ./Pics ./pics
+        zip -r pics.zip pics
         cat pics.zip points.zip > guide_aires_securite.cupx
         
         # push to repo

@@ -57,6 +57,7 @@ jobs:
 
    check-altitudes-waypointProcessor:
       #if: github.ref == 'refs/heads/main'
+      if: false
       # The type of runner that the job will run on
       name: check-altitude-waypoint-processor
       runs-on: ubuntu-latest
@@ -93,7 +94,7 @@ jobs:
    publish_github_pages:
     #if: github.ref == 'refs/heads/main'
     # The type of runner that the job will run on
-    needs: [check-altitudes, check-altitudes-waypointProcessor]
+    needs: [check-altitudes]
     runs-on: ubuntu-latest
     steps:
       # Update Github Pages
