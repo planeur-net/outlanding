@@ -7,18 +7,18 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de Cabre",C-Cabre,FR,4432.983N,00535.917E,1180.0m,6,,,,,"{col}",,"col_de_cabre_1.jpg;col_de_cabre_2.jpg"
 "Col de Couleau",C-Coulea,FR,4441.464N,00627.600E,2787.0m,6,,,,,"{col}",,
 "Col de Freissinières",C-Fresin,FR,4444.237N,00621.221E,2782.0m,6,,,,,"{col}",,
-"Col de Grimone",C-Grmone,FR,4441.500N,00539.250E,1319.0m,6,,,,,"{col}",,"col_de_grimone_1.jpg;col_de_grimone_2.jpg"
-"Col de la Bataille",C-Batail,FR,4453.887N,00514.028E,1313.0m,6,,,,,"{col}",,
-"Col de la Cayolle",C-Cayol,FR,4415.551N,00644.631E,2326.0m,6,,,,,"{col}",,
+"Col de Grimone",C-Grmone,FR,4441.500N,00539.250E,1319.0m,6,,,,,"{col}",,
+"Col de la Bataille",C-Batail,FR,4453.887N,00514.028E,1313.0m,6,,,,,"{col}",,"col_bataille_1.jpg"
+"Col de la Cayolle",C-Cayol,FR,4415.551N,00644.631E,2326.0m,6,,,,,"{col}",,"col_cayolle_1.jpg"
 "Col de la Cine",C-Cine,FR,4406.603N,00623.918E,1505.0m,6,,,,,"{col}",,
-"Col de la Croix de Fer",C-CxFer,FR,4513.661N,00612.175E,2065.0m,6,,,,,"{col}",,
+"Col de la Croix de Fer",C-CxFer,FR,4513.661N,00612.175E,2065.0m,6,,,,,"{col}",,"col_croix_fer_1.jpg"
 "Col de la Croix Haute",C-Crxht,FR,4443.433N,00540.645E,1176.0m,6,,,,,"{col}",,
 "Col de la Faucille",C-Faucil,FR,4622.166N,00601.116E,1320.0m,6,,,,,"{col}",,
 "Col de la Forclaz",C-Forcla,CH,4603.469N,00700.082E,1526.0m,6,,,,,"{col}",,
 "Col de la Madeleine",C-Madele,FR,4526.101N,00622.528E,1993.0m,6,,,,,"{col}",,
-"Col de la Ponsonière",C-Ponsnr,FR,4503.278N,00627.956E,2541.0m,6,,,,,"{col}",,
+"Col de la Ponsonière",C-Ponsnr,FR,4503.278N,00627.956E,2541.0m,6,,,,,"{col}",,"col_ponsoniere_1.jpg"
 "Col de la Seigne",C-Seigne,FR,4545.050N,00648.400E,2516.0m,6,,,,,"{col}",,
-"Col de la Vallée Étroite",C-ValEtr,FR,4507.205N,00636.417E,2445.0m,6,,,,,"{col}",,
+"Col de la Vallée Étroite",C-ValEtr,FR,4507.205N,00636.417E,2445.0m,6,,,,,"{col}",,"col_vallee_etroite_1.jpg"
 "Col de Larche",C-Larche,FR,4425.332N,00653.903E,1948.0m,6,,,,,"{col}",,
 "Col de l'Échelle",C-Echell,FR,4501.590N,00639.419E,1766.0m,6,,,,,"{col}",,
 "Col de l'Iseran",C-Iseran,FR,4525.066N,00701.783E,2770.0m,6,,,,,"{col}",,
