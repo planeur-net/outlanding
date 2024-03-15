@@ -1,10 +1,10 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",,,,,,,,,,,"76c8d1b 2024-01-25T13:27:47+01:00",,
+"version=",,,,,,,,,,,"ad2ed0b 2024-03-15T08:19:30+01:00",,
 "Col Agnel",C-Agnel,FR,4441.030N,00658.753E,2744.0m,6,,,,,"{col}",,
-"Col d'Allos",C-Allos,FR,4417.836N,00635.648E,2247.0m,6,,,,,"{col}",,
-"Col de Balme",C-Balme,FR,4601.550N,00658.200E,2204.0m,6,,,,,"{col}",,
-"Col de Basmont",C-Basmon,FR,4533.133N,00623.333E,1791.0m,6,,,,,"{col}",,
-"Col de Cabre",C-Cabre,FR,4432.983N,00535.917E,1180.0m,6,,,,,"{col}",,
+"Col d'Allos",C-Allos,FR,4417.836N,00635.648E,2247.0m,6,,,,,"{col}",,"col_allos_1.jpg;col_allos_2.jpg"
+"Col de Balme",C-Balme,FR,4601.550N,00658.200E,2204.0m,6,,,,,"{col}",,"col_balme_1.jpg;col_balme_2.jpg"
+"Col de Basmont",C-Basmon,FR,4533.133N,00623.333E,1791.0m,6,,,,,"{col}",,"col_basmont_1.jpg;col_basmont_2.jpg"
+"Col de Cabre",C-Cabre,FR,4432.983N,00535.917E,1180.0m,6,,,,,"{col}",,"col_de_cabre_1.jpg;col_de_cabre_2.jpg"
 "Col de Couleau",C-Coulea,FR,4441.464N,00627.600E,2787.0m,6,,,,,"{col}",,
 "Col de Freissinières",C-Fresin,FR,4444.237N,00621.221E,2782.0m,6,,,,,"{col}",,
 "Col de Grimone",C-Grmone,FR,4441.500N,00539.250E,1319.0m,6,,,,,"{col}",,
