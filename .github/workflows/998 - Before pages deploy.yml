@@ -57,7 +57,7 @@ jobs:
 
    check-altitudes-waypointProcessor:
       #if: github.ref == 'refs/heads/main'
-      if: false
+      if: true
       # The type of runner that the job will run on
       name: check-altitude-waypoint-processor
       runs-on: ubuntu-latest
