@@ -2,9 +2,16 @@
   
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
-| Col de la Ponsonière | 2541 | 2606 | -65 | Error |
-| Col de Menée | 1580 | 1460 | 119 | Error |
-| Col du Rousset | 1255 | 1368 | -113 | Error |
+| Col de Basmont | 1791 | 1739 | 51 | Error |
+| Col de Larche | 1948 | 2003 | -55 | Error |
+| Col de Menée | 1580 | 1462 | 117 | Error |
+| Col de Pelouse | 2798 | 2725 | 72 | Error |
+| Col de Voza | 1653 | 1585 | 67 | Error |
+| Col des Tourettes | 2582 | 2484 | 97 | Error |
+| Col du Carro | 3122 | 3057 | 64 | Error |
+| Col du Rousset | 1255 | 1331 | -76 | Error |
+| Col du Talon | 2414 | 2347 | 66 | Error |
+| Col Vert | 1766 | 1700 | 65 | Error |
 | Col Aecherli | 1398 | -99999 | 101397 | :grey_question: |
 | Col Albrun | 2409 | -99999 | 102408 | :grey_question: |
 | Col de Balmberg | 1078 | -99999 | 101077 | :grey_question: |
@@ -16,6 +23,7 @@
 | Col de Susten | 2260 | -99999 | 102259 | :grey_question: |
 | Col de Bruenig | 1008 | -99999 | 101007 | :grey_question: |
 | Col des Mosses | 1445 | -99999 | 101444 | :grey_question: |
+| Col des Roches | 919 | 969 | -50 | Error |
 | Col du Gotthard | 2108 | -99999 | 102107 | :grey_question: |
 | Col du Grimsel | 2165 | -99999 | 102164 | :grey_question: |
 | Col du Lin | 1658 | -99999 | 101657 | :grey_question: |
@@ -36,6 +44,7 @@
 | Col Albula | 2312 | -99999 | 102311 | :grey_question: |
 | Col de Gavia | 2620 | -99999 | 102619 | :grey_question: |
 | Col de Maloja | 1815 | -99999 | 101814 | :grey_question: |
+| Col du Grand St Bernard | 2469 | -99999 | 102468 | :grey_question: |
 | Col du San Bernardino | 2065 | -99999 | 102064 | :grey_question: |
 | Col Falzarego | 2110 | -99999 | 102109 | :grey_question: |
 | Col Forcola | 2226 | -99999 | 102225 | :grey_question: |
