@@ -4,13 +4,11 @@
 |---|---|---|---|---|
 | Col de Basmont | 1791 | 1739 | 51 | Error |
 | Col de Larche | 1948 | 2003 | -55 | Error |
-| Col de Menée | 1580 | 1462 | 117 | Error |
 | Col de Pelouse | 2798 | 2725 | 72 | Error |
 | Col de Voza | 1653 | 1585 | 67 | Error |
 | Col des Tourettes | 2582 | 2484 | 97 | Error |
-| Col du Carro | 3122 | 3057 | 64 | Error |
+| Col du Carro | 3149 | 3057 | 91 | Error |
 | Col du Rousset | 1255 | 1331 | -76 | Error |
-| Col du Talon | 2414 | 2347 | 66 | Error |
 | Col Vert | 1766 | 1700 | 65 | Error |
 | Col Aecherli | 1398 | -99999 | 101397 | :grey_question: |
 | Col Albrun | 2409 | -99999 | 102408 | :grey_question: |
