@@ -1,5 +1,5 @@
 [version]
-2024-04-03T18:32:11.068Z
+2024-04-03T18:39:54.615Z
 image=Pics/
 [LFNE]
 image=Pics/LFNE_Salon_Eyguieres.jpg
@@ -358,6 +358,6 @@ image=Pics/castillon2.jpg
 image=Pics/chorges.jpg
 image=Pics/chorges_2.jpg
 [Mtgrdin2]
-image=Pics/montgardin2_1
-image=Pics/montgardin2_2
-image=Pics/montgardin2_3
+image=Pics/montgardin2_1.jpg
+image=Pics/montgardin2_2.jpg
+image=Pics/montgardin2_3.jpg
