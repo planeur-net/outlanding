@@ -27,3 +27,4 @@
 | Recoubeau | 493 | 489 | 3 |  |
 | St Martin Castillon-ULM | 330 | 321 | 8 |  |
 | Chorges | 908 | 906 | 1 |  |
+| Montgardin2 | 806 | 804 | 1 |  |
