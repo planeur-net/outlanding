@@ -3,7 +3,6 @@
 | Nom | Alti .cup | Alti API | Delta | Err / Warn |
 |---|---|---|---|---|
 | Col de Basmont | 1791 | 1739 | 51 | Error |
-| Col de Larche | 1948 | 2003 | -55 | Error |
 | Col de Pelouse | 2798 | 2725 | 72 | Error |
 | Col de Voza | 1653 | 1585 | 67 | Error |
 | Col des Tourettes | 2582 | 2484 | 97 | Error |
