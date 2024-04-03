@@ -19,7 +19,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de la Ponsonière",C-Ponsnr,FR,4503.278N,00627.956E,2541.0m,6,,,,,"{col}",,"col_ponsoniere_1.jpg"
 "Col de la Seigne",C-Seigne,FR,4545.050N,00648.400E,2516.0m,6,,,,,"{col}",,
 "Col de la Vallée Étroite",C-ValEtr,FR,4507.205N,00636.417E,2445.0m,6,,,,,"{col}",,"col_vallee_etroite_1.jpg"
-"Col de Larche",C-Larche,FR,4425.332N,00653.903E,1948.0m,6,,,,,"{col}",,
+"Col de Larche",C-Larche,FR,4425.332N,00653.903E,1996.0m,6,,,,,"{col}",,
 "Col de l'Échelle",C-Echell,FR,4501.590N,00639.419E,1766.0m,6,,,,,"{col}",,
 "Col de l'Iseran",C-Iseran,FR,4525.066N,00701.783E,2770.0m,6,,,,,"{col}",,
 "Col de l'Izoard",C-Izoard,FR,4449.200N,00644.033E,2360.0m,6,,,,,"{col}",,
