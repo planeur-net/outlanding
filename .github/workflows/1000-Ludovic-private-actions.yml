@@ -10,6 +10,7 @@ on:
 
 env:
   LXNAV_CONNECT_POINTS_FOLDER_ID: "1Q8zzZsNvlY2Spo7REuXINsFSW1YHfYxP"
+  LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID: "1csikusLjOikFTZ9nBPiPN9U0NgznByzR"
 
 jobs:
    copy-to-gdrive:
@@ -21,6 +22,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Clone this repo
         uses: actions/checkout@v3
+
+      - name: Clone airspace repo
+        uses: actions/checkout@v3
+        with:
+          repository: planeur-net/airspace
+          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          path: ./airspace
+          ref: main
           
       # Cupx files
       - name: Upload to gdrive - cupx
@@ -55,6 +64,15 @@ jobs:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "./Misc/Ludo_waypoints.cup"
           folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
+          overwrite: "true"
+
+      # Airspace file
+      - name: Upload to gdrive - Airspace file
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "./airspace/france.txt"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
           overwrite: "true"
       
 
