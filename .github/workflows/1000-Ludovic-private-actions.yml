@@ -3,7 +3,7 @@ name: Ludovic Private Actions
 # Controls when the workflow will run
 on:
   repository_dispatch:
-    types: [update-pages-event]
+    types: [update-pages-event, airspace-update]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
