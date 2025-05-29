@@ -77,7 +77,7 @@ See installation guide: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_details
 ### Naming convention
 The outlanding site booklet version is mentioned on the 2nd line of the .cup file, inside the code column.
 ```
-"version=",4.1,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
+"version=",4.2,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
 ```
 #<page_number> <airfield_name>: Airfield. The ICAO name of the airfield.  
 ```

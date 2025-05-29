@@ -47,7 +47,7 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 ## Fichiers de champs "vachables" pour les Alpes
 | Fichier  | Commentaire  |
 |---|---|
-|Guide des Aires de securite| Reprend les aerodromes et champs définis dans le Guide des aires de sécurité dans les Alpes Edition 4.1 Peut cependant contenir des differences liées aux corrections apportées par les contributeurs (altitude, position exacte, ...). [Fiabilité: bonne].
+|Guide des Aires de securite| Reprend les aerodromes et champs définis dans le Guide des aires de sécurité dans les Alpes Edition 4.2 Peut cependant contenir des differences liées aux corrections apportées par les contributeurs (altitude, position exacte, ...). [Fiabilité: bonne].
 | Champs des Alpes | Autres champs définis par des contributeurs. [Fiabilité: moyenne]
 |Cols des Alpes | Cols intéressants dans les Alpes
 |mountain_peaks_ | Noms des sommets en France, Suisse, Italie, Autriche et Pyrénées. :warning: Le fichier FR est en cours de simplification (densité des noms, noms vélivoles, ...). Source: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)
@@ -78,7 +78,7 @@ Voir l'aide a l'installation: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_d
 ### Guide de nommage
 La version du guide de reference est indiquée dans la 2e ligne du fichier cup, dans la colonne code.
 ```
-"version=",4.1,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
+"version=",4.2,,,,,,,,,,"c0007a7 2023-12-15T13:59:33+01:00",,
 ```
 #<num_page> <nom_aero>: Aerodrome. Le code est le code OACI de l'aerodrome  
 ```
