@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="CUPtoGPX CLI" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="43.65833333333333" lon="5.01305">
+    <ele>1290</ele>
+    <name>#10 LFNE Salon Eyguieres</name>
+  </wpt>
+  <wpt lat="44.49666666666667" lon="5.403333333333333">
+    <ele>534</ele>
+    <name>#12 LFJE La Motte Chalancon</name>
+  </wpt>
+  <wpt lat="43.852783333333335" lon="5.54945">
+    <ele>800</ele>
+    <name>#14 Cereste LF8421</name>
+  </wpt>
+  <wpt lat="43.73778333333333" lon="5.783616666666667">
+    <ele>1260</ele>
+    <name>#16 LFNF Vinon</name>
+  </wpt>
+  <wpt lat="43.77805" lon="6.159716666666666">
+    <ele>700</ele>
+    <name>#18 StCroix LF0429</name>
+  </wpt>
+  <wpt lat="43.87028333333333" lon="6.164166666666667">
+    <ele>800</ele>
+    <name>#20 LFTP Puimoisson</name>
+  </wpt>
+  <wpt lat="43.61055" lon="6.69695">
+    <ele>830</ele>
+    <name>#22 LFMF Fayence</name>
+  </wpt>
+  <wpt lat="44.51833333333333" lon="5.73555">
+    <ele>890</ele>
+    <name>#24 LFNJ Aspres Sur Buech</name>
+  </wpt>
+  <wpt lat="44.458333333333336" lon="5.727783333333333">
+    <ele>650</ele>
+    <name>#26 LFTM Serres La Batie</name>
+  </wpt>
+  <wpt lat="44.455" lon="6.037216666666667">
+    <ele>890</ele>
+    <name>#28 LFNA Gap Tallard</name>
+  </wpt>
+  <wpt lat="44.2875" lon="5.929716666666667">
+    <ele>1170</ele>
+    <name>#32 LFNS Sisteron</name>
+  </wpt>
+  <wpt lat="44.32528333333333" lon="6.030833333333334">
+    <ele>1170</ele>
+    <name>#34 Motte du Caire LF0431</name>
+  </wpt>
+  <wpt lat="44.06" lon="5.990833333333334">
+    <ele>1200</ele>
+    <name>#36 LFMX St Auban</name>
+  </wpt>
+  <wpt lat="44.342216666666666" lon="6.3727833333333335">
+    <ele>900</ele>
+    <name>#38 Seyne LF0430</name>
+  </wpt>
+  <wpt lat="44.39888333333333" lon="4.7175">
+    <ele>1200</ele>
+    <name>#4 LFHD Pierrelatte</name>
+  </wpt>
+  <wpt lat="44.70166666666667" lon="6.599716666666667">
+    <ele>860</ele>
+    <name>#40 LFNC St Crepin</name>
+  </wpt>
+  <wpt lat="44.388333333333335" lon="6.6097166666666665">
+    <ele>800</ele>
+    <name>#42 LFMR Barcelonnette</name>
+  </wpt>
+  <wpt lat="45.1125" lon="7.287166666666667">
+    <ele>360</ele>
+    <name>#44 Valsusa</name>
+  </wpt>
+  <wpt lat="45.066116666666666" lon="5.102783333333333">
+    <ele>740</ele>
+    <name>#46 LFHE Romans</name>
+  </wpt>
+  <wpt lat="45.02778333333333" lon="5.31">
+    <ele>0</ele>
+    <name>#48 LFKE St Jean en Royans</name>
+  </wpt>
+  <wpt lat="44.91555" lon="4.968616666666667">
+    <ele>2080</ele>
+    <name>#50 LFLU Valence Chabeuil</name>
+  </wpt>
+  <wpt lat="44.695" lon="5.15055">
+    <ele>700</ele>
+    <name>#52 LFJF Aubenasson</name>
+  </wpt>
+  <wpt lat="44.689166666666665" lon="5.409166666666667">
+    <ele>300</ele>
+    <name>#54 Aix en Diois</name>
+  </wpt>
+  <wpt lat="46.19195" lon="6.268883333333333">
+    <ele>1290</ele>
+    <name>#56 LFLI Annemasse</name>
+  </wpt>
+  <wpt lat="46.26971666666667" lon="6.463333333333333">
+    <ele>980</ele>
+    <name>#57 Habere Poche LF7469</name>
+  </wpt>
+  <wpt lat="45.93083333333333" lon="6.1063833333333335">
+    <ele>1630</ele>
+    <name>#58 LFLP Annecy</name>
+  </wpt>
+  <wpt lat="44.33583333333333" lon="4.90695">
+    <ele>1020</ele>
+    <name>#6 LFNV Valreas Visan</name>
+  </wpt>
+  <wpt lat="45.63916666666667" lon="5.88">
+    <ele>2020</ele>
+    <name>#60 LFLB Chambery Aix Les Bains</name>
+  </wpt>
+  <wpt lat="45.56138333333333" lon="5.976383333333334">
+    <ele>980</ele>
+    <name>#62 LFLE Challes les eaux</name>
+  </wpt>
+  <wpt lat="45.219166666666666" lon="5.849166666666667">
+    <ele>890</ele>
+    <name>#64 LFLG Grenoble Versoud</name>
+  </wpt>
+  <wpt lat="45.62721666666667" lon="6.329166666666667">
+    <ele>800</ele>
+    <name>#66 LFKA Albertville</name>
+  </wpt>
+  <wpt lat="45.25445" lon="6.80055">
+    <ele>620</ele>
+    <name>#68 LFKD Sollieres Sardieres</name>
+  </wpt>
+  <wpt lat="44.02333333333333" lon="5.090283333333334">
+    <ele>1200</ele>
+    <name>#7 LFNH Carpentras</name>
+  </wpt>
+  <wpt lat="45.36945" lon="6.28195">
+    <ele>900</ele>
+    <name>#70 LFKR St Remy de Maurienne</name>
+  </wpt>
+  <wpt lat="45.12433333333333" lon="7.521833333333333">
+    <ele>600</ele>
+    <name>#72 Prealpi-Musine</name>
+  </wpt>
+  <wpt lat="45.31016666666667" lon="7.665333333333333">
+    <ele>500</ele>
+    <name>#73 Busano</name>
+  </wpt>
+  <wpt lat="45.358333333333334" lon="7.719666666666667">
+    <ele>370</ele>
+    <name>#74 Canavese</name>
+  </wpt>
+  <wpt lat="45.48716666666667" lon="7.843833333333333">
+    <ele>620</ele>
+    <name>#75 Montalto Dora</name>
+  </wpt>
+  <wpt lat="45.73833333333333" lon="7.3675">
+    <ele>1500</ele>
+    <name>#76 LIMW Aoste</name>
+  </wpt>
+  <wpt lat="45.74016666666667" lon="7.48">
+    <ele>400</ele>
+    <name>#77 Chatelair</name>
+  </wpt>
+  <wpt lat="46.22" lon="7.328883333333334">
+    <ele>600</ele>
+    <name>#78 LSGS Sion</name>
+  </wpt>
+  <wpt lat="43.996116666666666" lon="4.75445">
+    <ele>1350</ele>
+    <name>#8 LFNT Avignon</name>
+  </wpt>
+  <wpt lat="43.768883333333335" lon="4.89305">
+    <ele>980</ele>
+    <name>#9 LFNZ St Remy</name>
+  </wpt>
+  <wpt lat="43.943333333333335" lon="4.58195">
+    <ele>500</ele>
+    <name>110 Remoulins ULM</name>
+  </wpt>
+  <wpt lat="43.788333333333334" lon="4.69695">
+    <ele>400</ele>
+    <name>111 Tarascon ULM</name>
+  </wpt>
+  <wpt lat="43.78333333333333" lon="4.992216666666667">
+    <ele>400</ele>
+    <name>112 Eygalieres</name>
+  </wpt>
+  <wpt lat="43.91695" lon="5.08305">
+    <ele>300</ele>
+    <name>113 Isle Sorgue</name>
+  </wpt>
+  <wpt lat="43.78875" lon="5.06525">
+    <ele>300</ele>
+    <name>114 Orgon-Cheval Blanc</name>
+  </wpt>
+  <wpt lat="43.9125" lon="5.251666666666667">
+    <ele>300</ele>
+    <name>120 Gordes ZA</name>
+  </wpt>
+  <wpt lat="43.833333333333336" lon="5.291666666666667">
+    <ele>300</ele>
+    <name>122 Bonnieux ZA</name>
+  </wpt>
+  <wpt lat="43.74041666666667" lon="5.181666666666667">
+    <ele>400</ele>
+    <name>124 Mallemort</name>
+  </wpt>
+  <wpt lat="43.75888333333333" lon="5.39945">
+    <ele>400</ele>
+    <name>126 Lourmarin</name>
+  </wpt>
+  <wpt lat="44.06666666666667" lon="5.666666666666667">
+    <ele>300</ele>
+    <name>127 Banon</name>
+  </wpt>
+  <wpt lat="43.788" lon="5.593333333333334">
+    <ele>300</ele>
+    <name>128 Vitrolles en Luberon</name>
+  </wpt>
+  <wpt lat="44.38138333333333" lon="5.471666666666667">
+    <ele>400</ele>
+    <name>130 Rosans</name>
+  </wpt>
+  <wpt lat="44.22055" lon="5.574716666666666">
+    <ele>250</ele>
+    <name>131 Sederon</name>
+  </wpt>
+  <wpt lat="44.33445" lon="5.30305">
+    <ele>250</ele>
+    <name>132 Sainte Jalle</name>
+  </wpt>
+  <wpt lat="44.38966666666666" lon="5.22">
+    <ele>300</ele>
+    <name>133 Curnier</name>
+  </wpt>
+  <wpt lat="44.00666666666667" lon="5.183333333333334">
+    <ele>220</ele>
+    <name>135 Methamis</name>
+  </wpt>
+  <wpt lat="43.68333333333333" lon="6.071383333333333">
+    <ele>500</ele>
+    <name>210 Quinson</name>
+  </wpt>
+  <wpt lat="43.68471666666667" lon="6.135">
+    <ele>550</ele>
+    <name>211 Artignosc</name>
+  </wpt>
+  <wpt lat="43.69166666666667" lon="6.2091666666666665">
+    <ele>500</ele>
+    <name>212 Bauden</name>
+  </wpt>
+  <wpt lat="43.625283333333336" lon="6.18305">
+    <ele>300</ele>
+    <name>213 Aups</name>
+  </wpt>
+  <wpt lat="43.48055" lon="5.711383333333333">
+    <ele>400</ele>
+    <name>214 Trets ULM</name>
+  </wpt>
+  <wpt lat="44.095283333333334" lon="6.5602833333333335">
+    <ele>300</ele>
+    <name>220 Thorame Haute</name>
+  </wpt>
+  <wpt lat="44.07695" lon="6.473616666666667">
+    <ele>300</ele>
+    <name>221 Thorame basse</name>
+  </wpt>
+  <wpt lat="43.98195" lon="6.531116666666667">
+    <ele>300</ele>
+    <name>222 La Mure</name>
+  </wpt>
+  <wpt lat="43.85361666666667" lon="6.64695">
+    <ele>250</ele>
+    <name>223 Soleihas</name>
+  </wpt>
+  <wpt lat="43.79861666666667" lon="6.635">
+    <ele>400</ele>
+    <name>224 Mousteiret</name>
+  </wpt>
+  <wpt lat="43.7775" lon="6.641116666666667">
+    <ele>500</ele>
+    <name>225 Logis du Pin</name>
+  </wpt>
+  <wpt lat="43.78138333333333" lon="6.736383333333333">
+    <ele>350</ele>
+    <name>226 Caille</name>
+  </wpt>
+  <wpt lat="43.76971666666667" lon="6.691666666666666">
+    <ele>350</ele>
+    <name>227 La chapelle</name>
+  </wpt>
+  <wpt lat="43.75445" lon="6.45555">
+    <ele>300</ele>
+    <name>228 Trigance</name>
+  </wpt>
+  <wpt lat="43.779716666666666" lon="6.35305">
+    <ele>240</ele>
+    <name>229 Palud Verdon</name>
+  </wpt>
+  <wpt lat="43.61695" lon="6.348883333333333">
+    <ele>300</ele>
+    <name>231 Ampus</name>
+  </wpt>
+  <wpt lat="43.53805" lon="6.317783333333334">
+    <ele>500</ele>
+    <name>232 Flayosc - ULM</name>
+  </wpt>
+  <wpt lat="44.56361666666667" lon="5.758883333333333">
+    <ele>300</ele>
+    <name>310 La Faurie</name>
+  </wpt>
+  <wpt lat="44.56055" lon="5.857216666666667">
+    <ele>400</ele>
+    <name>311 Montmaur</name>
+  </wpt>
+  <wpt lat="44.36" lon="5.93">
+    <ele>400</ele>
+    <name>312 Valenty</name>
+  </wpt>
+  <wpt lat="44.32055" lon="5.79195">
+    <ele>480</ele>
+    <name>313 Laragne ULM</name>
+  </wpt>
+  <wpt lat="44.31555" lon="5.744166666666667">
+    <ele>550</ele>
+    <name>314 Nossage</name>
+  </wpt>
+  <wpt lat="44.65445" lon="6.183883333333333">
+    <ele>200</ele>
+    <name>315 Chabottes</name>
+  </wpt>
+  <wpt lat="44.475" lon="6.103883333333333">
+    <ele>250</ele>
+    <name>316 Domaine de Malcor</name>
+  </wpt>
+  <wpt lat="44.46055" lon="6.218333333333334">
+    <ele>350</ele>
+    <name>317 Espinasses</name>
+  </wpt>
+  <wpt lat="44.54971666666667" lon="6.213616666666667">
+    <ele>230</ele>
+    <name>318 Montgardin</name>
+  </wpt>
+  <wpt lat="44.33583333333333" lon="6.163333333333333">
+    <ele>260</ele>
+    <name>320 Bayons</name>
+  </wpt>
+  <wpt lat="44.17" lon="5.841666666666667">
+    <ele>280</ele>
+    <name>321 Noyer sur Jabron</name>
+  </wpt>
+  <wpt lat="44.10166666666667" lon="6">
+    <ele>250</ele>
+    <name>322 Volonne</name>
+  </wpt>
+  <wpt lat="44.138333333333335" lon="5.98">
+    <ele>500</ele>
+    <name>323 Salignac</name>
+  </wpt>
+  <wpt lat="44.1175" lon="6.128333333333333">
+    <ele>250</ele>
+    <name>324 Thoard</name>
+  </wpt>
+  <wpt lat="44.03" lon="6.083333333333333">
+    <ele>300</ele>
+    <name>325 Mallemoisson</name>
+  </wpt>
+  <wpt lat="44.36833333333333" lon="6.31">
+    <ele>300</ele>
+    <name>330 Selonnet 1</name>
+  </wpt>
+  <wpt lat="44.346666666666664" lon="6.331666666666667">
+    <ele>390</ele>
+    <name>330 Selonnet 2</name>
+  </wpt>
+  <wpt lat="44.147216666666665" lon="6.281116666666667">
+    <ele>250</ele>
+    <name>331 Marcoux</name>
+  </wpt>
+  <wpt lat="43.9925" lon="6.386666666666667">
+    <ele>300</ele>
+    <name>332 Barreme</name>
+  </wpt>
+  <wpt lat="45.041666666666664" lon="6.838883333333333">
+    <ele>250</ele>
+    <name>410 Oulx</name>
+  </wpt>
+  <wpt lat="44.98278333333333" lon="6.493883333333334">
+    <ele>500</ele>
+    <name>411 Le Casset</name>
+  </wpt>
+  <wpt lat="44.87278333333333" lon="6.61">
+    <ele>300</ele>
+    <name>412 St Blaise</name>
+  </wpt>
+  <wpt lat="44.93528333333333" lon="6.680833333333333">
+    <ele>400</ele>
+    <name>413 Le Rosier</name>
+  </wpt>
+  <wpt lat="44.74333333333333" lon="6.575">
+    <ele>150</ele>
+    <name>420 Roche de Rame</name>
+  </wpt>
+  <wpt lat="44.600833333333334" lon="6.531666666666666">
+    <ele>200</ele>
+    <name>421 Chateauroux</name>
+  </wpt>
+  <wpt lat="44.535833333333336" lon="6.4336166666666665">
+    <ele>250</ele>
+    <name>422 Crots</name>
+  </wpt>
+  <wpt lat="44.534166666666664" lon="6.363333333333333">
+    <ele>450</ele>
+    <name>423 Prunieres</name>
+  </wpt>
+  <wpt lat="44.63666666666667" lon="5.062783333333333">
+    <ele>460</ele>
+    <name>510 Saou</name>
+  </wpt>
+  <wpt lat="44.76833333333333" lon="5.3533333333333335">
+    <ele>300</ele>
+    <name>511 Die ZA</name>
+  </wpt>
+  <wpt lat="44.5925" lon="5.473883333333333">
+    <ele>0</ele>
+    <name>513 Luc en Diois</name>
+  </wpt>
+  <wpt lat="44.661" lon="5.7125">
+    <ele>200</ele>
+    <name>515 Lus la croix haute</name>
+  </wpt>
+  <wpt lat="45.07666666666667" lon="5.681666666666667">
+    <ele>350</ele>
+    <name>520 Vif</name>
+  </wpt>
+  <wpt lat="45.08" lon="5.7775">
+    <ele>350</ele>
+    <name>521 Vizille</name>
+  </wpt>
+  <wpt lat="44.94016666666667" lon="5.62095">
+    <ele>350</ele>
+    <name>522 Grisail</name>
+  </wpt>
+  <wpt lat="44.852783333333335" lon="5.7725">
+    <ele>300</ele>
+    <name>523 St Jean Herans</name>
+  </wpt>
+  <wpt lat="44.80305" lon="5.904716666666666">
+    <ele>250</ele>
+    <name>524 Pellafol</name>
+  </wpt>
+  <wpt lat="44.79333333333334" lon="5.763333333333334">
+    <ele>550</ele>
+    <name>525 Montmeilleur</name>
+  </wpt>
+  <wpt lat="44.79083333333333" lon="5.688616666666666">
+    <ele>250</ele>
+    <name>526 Prebois</name>
+  </wpt>
+  <wpt lat="45.064166666666665" lon="6.03195">
+    <ele>350</ele>
+    <name>527 Bourg Oisans</name>
+  </wpt>
+  <wpt lat="44.747166666666665" lon="6.007333333333333">
+    <ele>200</ele>
+    <name>529 Chauffayer</name>
+  </wpt>
+  <wpt lat="46.35888333333333" lon="6.6475">
+    <ele>400</ele>
+    <name>610 Bernex</name>
+  </wpt>
+  <wpt lat="46.20945" lon="6.501666666666667">
+    <ele>300</ele>
+    <name>611 Megevette</name>
+  </wpt>
+  <wpt lat="46.14333333333333" lon="6.47">
+    <ele>250</ele>
+    <name>612 St Jeoire</name>
+  </wpt>
+  <wpt lat="46.09471666666666" lon="6.645833333333333">
+    <ele>300</ele>
+    <name>613 Taninges</name>
+  </wpt>
+  <wpt lat="46.07111666666667" lon="6.740833333333334">
+    <ele>300</ele>
+    <name>614 Samoens</name>
+  </wpt>
+  <wpt lat="46.07138333333333" lon="6.365">
+    <ele>350</ele>
+    <name>615 Bonneville</name>
+  </wpt>
+  <wpt lat="45.776666666666664" lon="6.2225">
+    <ele>350</ele>
+    <name>620 Doussard</name>
+  </wpt>
+  <wpt lat="45.708333333333336" lon="6.121666666666667">
+    <ele>600</ele>
+    <name>622 Motte en Bauges</name>
+  </wpt>
+  <wpt lat="45.641666666666666" lon="6.166666666666667">
+    <ele>450</ele>
+    <name>623 Ecole en bauges</name>
+  </wpt>
+  <wpt lat="45.49" lon="6.038333333333333">
+    <ele>400</ele>
+    <name>624 Francin-Montmelian</name>
+  </wpt>
+  <wpt lat="45.430283333333335" lon="5.76445">
+    <ele>300</ele>
+    <name>630 Les Echelles</name>
+  </wpt>
+  <wpt lat="45.40055" lon="5.730833333333333">
+    <ele>350</ele>
+    <name>631 St Laurent du Pont</name>
+  </wpt>
+  <wpt lat="45.27028333333333" lon="5.632216666666666">
+    <ele>400</ele>
+    <name>633 Voreppe</name>
+  </wpt>
+  <wpt lat="45.371383333333334" lon="5.970283333333334">
+    <ele>300</ele>
+    <name>632 St Vincent de Mercuze</name>
+  </wpt>
+  <wpt lat="45.92445" lon="6.72">
+    <ele>600</ele>
+    <name>710 Passy</name>
+  </wpt>
+  <wpt lat="45.723333333333336" lon="6.40945">
+    <ele>320</ele>
+    <name>720 Marthod</name>
+  </wpt>
+  <wpt lat="45.57305" lon="6.734166666666667">
+    <ele>300</ele>
+    <name>721 Landry</name>
+  </wpt>
+  <wpt lat="45.58833333333333" lon="6.750666666666667">
+    <ele>280</ele>
+    <name>721 Landry Les Ilettes</name>
+  </wpt>
+  <wpt lat="45.62555" lon="6.443616666666666">
+    <ele>200</ele>
+    <name>722 La Bathie</name>
+  </wpt>
+  <wpt lat="45.55695" lon="6.227783333333333">
+    <ele>250</ele>
+    <name>723 Aiton</name>
+  </wpt>
+</gpx>
