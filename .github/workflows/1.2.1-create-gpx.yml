@@ -49,7 +49,6 @@ jobs:
       run: |
         cd ./cup2gpx
         node ./cup2gpx.js ../outlanding/guide_aires_securite.cup
-        cp ./guide_aires_securite.gpx ../outlanding/guide_aires_securite.gpx
 
         # push to repo
         echo "Pulling latest version before push..."
