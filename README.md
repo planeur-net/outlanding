@@ -9,6 +9,7 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx) | | :heavy_check_mark:
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
+| | gpx | [guide_aires_securite.gpx](https://planeur-net.github.io/outlanding/guide_aires_securite.gpx) | | :heavy_check_mark:
 | | _details.txt | [guide_aires_securite_details.txt](https://planeur-net.github.io/outlanding/guide_aires_securite_details.txt) | XCSoar: Description des images | :heavy_check_mark:
 | | | [combined_guide+champs_details.txt](https://planeur-net.github.io/outlanding/combined_guide+champs_details.txt) | XCSoar: Guide + Champs des Alpes | :heavy_check_mark:
 | | zip | [guide_aires_securite.xcsoar.zip](https://planeur-net.github.io/outlanding/guide_aires_securite.xcsoar.zip) | [XCSoar: Tous les fichiers nécessaires](doc/xcsoar_waypoint_details.md) |:heavy_check_mark:
