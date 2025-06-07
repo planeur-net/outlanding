@@ -1,0 +1,69 @@
+# This workflow is triggered after the conversion to .cupx has been completed
+#       Generate .gpx files from the .cup file
+
+name: 1.2.1 - Create .gpx
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow After the version has been added
+  workflow_run:
+    workflows: ["1.2 - Create .kmz"]
+    types:
+      - completed
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# see: https://github.com/marketplace/actions/ftp-deployment
+jobs:
+  convert-to-gpx:
+    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
+    name: Checkout repo for cup
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: 🚚 Get latest code for outlanding
+      uses: actions/checkout@v3
+      with:
+        path: ./outlanding
+
+    - name: 🚚 Get latest code for cup2gpx
+      uses: actions/checkout@v3
+      with:
+        repository: llauner/cup2gpx
+        token: ${{ secrets.ACCESS_TOKEN_CUP2KMZ }}
+        path: ./cup2gpx
+        ref: master
+
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
+    - name: Install dependencies
+      run: | 
+        cd ./cup2gpx
+    
+    - name: ⚙️ Convert to .gpx
+      id: convert_to_kmz
+      run: |
+        cd ./cup2gpx
+        node ./cup2gpx.js ../outlanding/guide_aires_securite.cup
+        cp ./guide_aires_securite.gpx ../outlanding/guide_aires_securite.gpx
+
+        # push to repo
+        echo "Pulling latest version before push..."
+        cd ../outlanding
+        git pull
+
+        # Save commit message for future push
+        echo "LAST_COMMIT_MESSSAGE=`git log --format=%s -n 1 -- champs_des_alpes.cup`" >> $GITHUB_OUTPUT
+
+    - name: ⚙️ Push .gpx to repo
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        repository: ./outlanding
+        commit_message: ${{ steps.convert_to_kmz.outputs.LAST_COMMIT_MESSSAGE }}
+        file_pattern: 'guide_aires_securite.gpx'
+
+
