@@ -411,7 +411,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>110 Remoulins ULM</name>
+<name>110 Remoulins ULM LF3025</name>
 <description>005/185 Piste ULM Largeur=25-30m. Herbe fauchee. {terrain}</description>
 <styleUrl>#{terrain}</styleUrl>
 <Point>
@@ -571,7 +571,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>214 Trets ULM</name>
+<name>214 Trets ULM LF8355</name>
 <description>120/300 Terrain ULM. Piste balisee. Seuil decale en 30 (280m). {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
@@ -667,7 +667,7 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>232 Flayosc - ULM</name>
+<name>232 Flayosc - ULM LF8364</name>
 <description>020/200 Aerodrome prive. 20m de large. Terrain dans zone reglemente LF-R95 Le Luc (122.200). {facile}</description>
 <styleUrl>#{facile}</styleUrl>
 <Point>
@@ -875,8 +875,8 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>422 Crots</name>
-<description>060/240 ex-ULM en gravier. Piste non balisee. Haut tas de cailloux cote Nord. Attention kite surf et promeneurs. {difficile}</description>
+<name>422 Crots LF0551</name>
+<description>060/240 ULM en gravier. Piste non balisee. Haut tas de cailloux cote Nord. Attention kite surf et promeneurs. {difficile}</description>
 <styleUrl>#{difficile}</styleUrl>
 <Point>
 <coordinates>6.4336166666666665, 44.535833333333336</coordinates>
