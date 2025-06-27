@@ -44,7 +44,7 @@
 |#78 LSGS Sion|482|481|1||
 |#8 LFNT Avignon|44|42|2||
 |#9 LFNZ St Remy|119|105|14||
-|110 Remoulins ULM|24|24|0||
+|110 Remoulins ULM LF3025|24|24|0||
 |111 Tarascon ULM|10|8|2||
 |112 Eygalieres|100|90|10||
 |113 Isle Sorgue|65|63|2||
@@ -64,7 +64,7 @@
 |211 Artignosc|580|570|10||
 |212 Bauden|710|752|-42||
 |213 Aups|450|454|-4||
-|214 Trets ULM|240|241|-1||
+|214 Trets ULM LF8355|240|241|-1||
 |220 Thorame Haute|1100|1111|-11||
 |221 Thorame basse|1100|1114|-14||
 |222 La Mure|930|924|6||
@@ -76,7 +76,7 @@
 |228 Trigance|740|717|23||
 |229 Palud Verdon|890|894|-4||
 |231 Ampus|625|638|-13||
-|232 Flayosc - ULM|365|366|-1||
+|232 Flayosc - ULM LF8364|365|366|-1||
 |310 La Faurie|820|823|-3||
 |311 Montmaur|900|888|12||
 |312 Valenty|570|563|7||
@@ -102,7 +102,7 @@
 |413 Le Rosier|1400|1370|30||
 |420 Roche de Rame|920|968|-48||
 |421 Chateauroux|860|867|-7||
-|422 Crots|780|776|4||
+|422 Crots LF0551|780|776|4||
 |423 Prunieres|860|875|-15||
 |510 Saou|300|312|-12||
 |511 Die ZA|400|392|8||
