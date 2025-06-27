@@ -174,7 +174,7 @@
   </wpt>
   <wpt lat="43.943333333333335" lon="4.58195">
     <ele>500</ele>
-    <name>110 Remoulins ULM</name>
+    <name>110 Remoulins ULM LF3025</name>
   </wpt>
   <wpt lat="43.788333333333334" lon="4.69695">
     <ele>400</ele>
@@ -254,7 +254,7 @@
   </wpt>
   <wpt lat="43.48055" lon="5.711383333333333">
     <ele>400</ele>
-    <name>214 Trets ULM</name>
+    <name>214 Trets ULM LF8355</name>
   </wpt>
   <wpt lat="44.095283333333334" lon="6.5602833333333335">
     <ele>300</ele>
@@ -302,7 +302,7 @@
   </wpt>
   <wpt lat="43.53805" lon="6.317783333333334">
     <ele>500</ele>
-    <name>232 Flayosc - ULM</name>
+    <name>232 Flayosc - ULM LF8364</name>
   </wpt>
   <wpt lat="44.56361666666667" lon="5.758883333333333">
     <ele>300</ele>
@@ -406,7 +406,7 @@
   </wpt>
   <wpt lat="44.535833333333336" lon="6.4336166666666665">
     <ele>250</ele>
-    <name>422 Crots</name>
+    <name>422 Crots LF0551</name>
   </wpt>
   <wpt lat="44.534166666666664" lon="6.363333333333333">
     <ele>450</ele>
