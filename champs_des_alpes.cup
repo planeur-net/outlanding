@@ -23,6 +23,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Thones",Thones,FR,4553.667N,00620.385E,653.0m,3,231,260.0m,30.0m,,"Preferer QFU SW {facile}",,"thones.jpg"
 "Abondance",Abondnce,FR,4617.544N,00647.605E,1018.0m,3,290,350.0m,30.0m,,"QFU preferentiel W {normal}",,"abondnce.jpg"
 "Recoubeau",Recoubo,FR,4439.533N,00524.650E,493m,3,330,430m,30m,,"Cultures. Legere descente vers N. {facile}",,"recoubeau.jpg"
-"St Martin Castillon-ULM",LF8421,FR,4351.183N,00533.017E,330.0m,2,80,800.0m,75.0m,123.500,"080/260 Terrain Prive. Contact radio obligatoire.TDP 26 main gauche. TDP 08 main droite. http://www.aeroclubdupaysdapt.com",,"castillon1.jpg;castillon2.jpg"
+"St Martin Castillon-ULM",LF8421,FR,4351.183N,00533.017E,330.0m,2,80,800.0m,75.0m,125.335,"080/260 Terrain Prive. Contact radio obligatoire.TDP 26 main gauche. TDP 08 main droite. http://www.aeroclubdupaysdapt.com",,"castillon1.jpg;castillon2.jpg"
 "Chorges",Chorges,FR,4432.583N,00617.430E,908m,3,75,215.0m,,,"075 uniquement. 1km a l'Est de Chorges. Toucher apres le chemin. Reconnaissance a pied recommandee. Approche degagee {normal}",,"chorges.jpg;chorges_2.jpg"
 "Montgardin2",Mtgrdin2,FR,4433.317N,00613.950E,806m,3,80,300.0m,,,"080/280. 1.7km a l'est du champs officiel. Bonne alternative si etat le permet {facile}",,"montgardin2_1.jpg;montgardin2_2.jpg;montgardin2_3.jpg"
