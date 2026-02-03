@@ -30,6 +30,14 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           path: ./airspace
           ref: main
+
+      - name: Clone ABBP Vercors repo
+        uses: actions/checkout@v3
+        with:
+          repository: llauner/Appb-Vercors
+          token: ${{ secrets.ACCESS_TOKEN }}
+          path: ./appb
+          ref: master
           
       # Cupx files
       - name: Upload to gdrive - cupx
@@ -72,6 +80,15 @@ jobs:
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "./airspace/france.txt"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
+          overwrite: "true"
+
+      # APPB Vercors file
+      - name: Upload to gdrive - APPB Vercors airspace file
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "./appb/appb.txt"
           folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
           overwrite: "true"
       
