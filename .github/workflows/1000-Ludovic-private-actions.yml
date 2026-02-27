@@ -75,7 +75,7 @@ jobs:
           overwrite: "true"
 
       # Airspace file
-      - name: Upload to gdrive - Airspace file
+      - name: Upload to gdrive - Airspace file .txt
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
@@ -83,12 +83,20 @@ jobs:
           folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
           overwrite: "true"
 
-      # APPB Vercors file
-      - name: Upload to gdrive - APPB Vercors airspace file
+      - name: Upload to gdrive - Airspace file .cub
         uses: adityak74/google-drive-upload-git-action@main
         with:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
-          filename: "./appb/appb.txt"
+          filename: "./airspace/france.cub"
+          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
+          overwrite: "true"
+
+      # APPB Vercors file
+      - name: Upload to gdrive - APPB Vercors airspace file .cub
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
+          filename: "./appb/appb.cub"
           folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
           overwrite: "true"
       
