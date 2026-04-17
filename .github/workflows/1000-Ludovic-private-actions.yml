@@ -3,7 +3,7 @@ name: Ludovic Private Actions
 # Controls when the workflow will run
 on:
   repository_dispatch:
-    types: [update-pages-event, airspace-update]
+    types: [update-pages-event]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,22 +22,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Clone this repo
         uses: actions/checkout@v3
-
-      - name: Clone airspace repo
-        uses: actions/checkout@v3
-        with:
-          repository: planeur-net/airspace
-          token: ${{ secrets.ACCESS_TOKEN }}
-          path: ./airspace
-          ref: main
-
-      - name: Clone ABBP Vercors repo
-        uses: actions/checkout@v3
-        with:
-          repository: llauner/Appb-Vercors
-          token: ${{ secrets.ACCESS_TOKEN }}
-          path: ./appb
-          ref: master
           
       # Cupx files
       - name: Upload to gdrive - cupx
@@ -72,32 +56,6 @@ jobs:
           credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
           filename: "./Misc/Ludo_waypoints.cup"
           folderId:  ${{ env.LXNAV_CONNECT_POINTS_FOLDER_ID }}
-          overwrite: "true"
-
-      # Airspace file
-      - name: Upload to gdrive - Airspace file .txt
-        uses: adityak74/google-drive-upload-git-action@main
-        with:
-          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
-          filename: "./airspace/france.txt"
-          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
-          overwrite: "true"
-
-      - name: Upload to gdrive - Airspace file .cub
-        uses: adityak74/google-drive-upload-git-action@main
-        with:
-          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
-          filename: "./airspace/france.cub"
-          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
-          overwrite: "true"
-
-      # APPB Vercors file
-      - name: Upload to gdrive - APPB Vercors airspace file .cub
-        uses: adityak74/google-drive-upload-git-action@main
-        with:
-          credentials: ${{ secrets.GDRIVE_LUDOVIC_LAUNER_CREDENTIALS }}
-          filename: "./appb/appb.cub"
-          folderId:  ${{ env.LXNAV_CONNECT_POINTS_AIRSPACES_FOLDER_ID }}
           overwrite: "true"
       
 
