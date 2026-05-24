@@ -34,6 +34,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "Col de Vars",C-Vars,FR,4432.331N,00642.159E,2109.0m,6,,,,,"{col}",,
 "Col de Voza",C-Voza,FR,4552.566N,00645.666E,1653.0m,6,,,,,"{col}",,
 "Col des Aravis",C-Aravis,FR,4552.351N,00627.896E,1490.0m,6,,,,,"{col}",,"aravis1.jpg;aravis2.jpg"
+"Col des Ayes",C-Ayes,FR,4518.613N,00550.537E,1538.0m,6,,,,,"{col}",,
 "Col des Encombres",C-Encobr,FR,4517.658N,00627.726E,2325.0m,6,,,,,"Petit {col} des Encombres",,
 "Col des Montets",C-Montet,FR,4600.236N,00655.417E,1461.0m,6,,,,,"{col}",,
 "Col des Rochilles",C-Rochil,FR,4505.124N,00628.253E,2491.0m,6,,,,,"{col}",,
