@@ -342,6 +342,14 @@
 </Point>
 </Placemark>
 <Placemark>
+<name>Col des Ayes</name>
+<description>{col}</description>
+<styleUrl>#{col}</styleUrl>
+<Point>
+<coordinates>5.8422833333333335, 45.31021666666667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
 <name>Col des Encombres</name>
 <description>Petit {col} des Encombres</description>
 <styleUrl>#{col}</styleUrl>
