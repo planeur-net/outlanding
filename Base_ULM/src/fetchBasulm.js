@@ -22,6 +22,7 @@ const PICS_DIR = path.join(BASE_ULM_DIR, 'Pics');
 const DETAILS_FILE = path.join(WORKSPACE_DIR, 'basulm_terrains_details.txt');
 const LEGACY_DETAILS_FILE = path.join(WORKSPACE_DIR, 'basulm_terrain.details.txt');
 const CUPX_FILE = path.join(WORKSPACE_DIR, 'basulm_terrains.cupx');
+const GUIDE_CUP_FILE = path.join(WORKSPACE_DIR, 'guide_aires_securite.cup');
 
 const API_URL = 'https://basulm.ffplum.fr/getbasulm/get/basulm/listall';
 const API_KEY = 'VCAHQ8XSZB5FWG7Z0TW2';
@@ -126,6 +127,125 @@ const PAYS_MAP = {
 
 function countryCode(pays) {
   return PAYS_MAP[pays.toLowerCase()] || 'FR';
+}
+
+function isOaciCode(code) {
+  return /^[A-Za-z]{4}$/.test((code || '').trim());
+}
+
+function isAltisurface(desc) {
+  return /altisurface/i.test((desc || '').trim());
+}
+
+function normalizeText(value) {
+  return (value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function isPermanentlyClosed(desc) {
+  const normalized = normalizeText(desc);
+  return normalized.includes('ferme definitivement')
+    || normalized.includes('fermee definitivement')
+    || normalized.includes('fermee def');
+}
+
+function hasRunwayDimensionInfo(rwlenNum, rwwidthNum) {
+  return rwlenNum !== null || rwwidthNum !== null;
+}
+
+function isSurfaceAllowedForOutlanding(nature) {
+  const normalized = normalizeText(nature).trim();
+  return normalized === 'dur'
+    || normalized === 'bitume'
+    || normalized === 'beton'
+    || normalized === 'herbe'
+    || normalized === 'terre';
+}
+
+function isMainlandCodePattern(code) {
+  return /^LF[0-9A-Z]+$/i.test((code || '').trim());
+}
+
+function normalizeForMatch(value) {
+  return normalizeText(value)
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function parseCsvLine(line) {
+  const fields = [];
+  let current = '';
+  let inQuotes = false;
+
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === ',' && !inQuotes) {
+      fields.push(current);
+      current = '';
+    } else {
+      current += ch;
+    }
+  }
+  fields.push(current);
+  return fields;
+}
+
+function loadGuideIndex(filePath) {
+  if (!fs.existsSync(filePath)) {
+    console.warn(`Guide file not found: ${filePath}. Duplicate filter against guide will be skipped.`);
+    return [];
+  }
+
+  const lines = fs.readFileSync(filePath, 'utf8').split(/\r?\n/);
+  const entries = [];
+
+  for (const line of lines) {
+    if (!line || line.startsWith('name,code,')) continue;
+    if (line.startsWith('"version="')) continue;
+
+    const fields = parseCsvLine(line);
+    if (fields.length < 12) continue;
+
+    const name = (fields[0] || '').trim();
+    const code = (fields[1] || '').trim();
+    const desc = (fields[11] || '').trim();
+    if (!name && !code && !desc) continue;
+
+    entries.push({
+      nameNorm: normalizeForMatch(name),
+      codeNorm: normalizeForMatch(code),
+      descNorm: normalizeForMatch(desc),
+    });
+  }
+
+  console.log(`Loaded ${entries.length} guide entries from ${path.basename(filePath)}.`);
+  return entries;
+}
+
+function isAlreadyInGuide(name, code, guideEntries) {
+  if (!guideEntries.length) return false;
+
+  const basulmNameNorm = normalizeForMatch(name);
+  const basulmCodeNorm = normalizeForMatch(code);
+
+  for (const guide of guideEntries) {
+    if (guide.descNorm && basulmNameNorm && guide.descNorm.includes(basulmNameNorm)) return true;
+    if (guide.descNorm && basulmCodeNorm && guide.descNorm.includes(basulmCodeNorm)) return true;
+    if (guide.nameNorm && basulmNameNorm && guide.nameNorm.includes(basulmNameNorm)) return true;
+    if (guide.nameNorm && basulmCodeNorm && guide.nameNorm.includes(basulmCodeNorm)) return true;
+  }
+
+  return false;
 }
 
 // Escape a field for CSV (quote if it contains comma, quote, or newline)
@@ -459,6 +579,7 @@ async function main() {
 
   const now = new Date().toISOString().slice(0, 19).replace('T', ' ');
   const versionLabel = `basulm ${now}`;
+  const guideEntries = loadGuideIndex(GUIDE_CUP_FILE);
   const waypoints = [];
   const keptCodes = [];
 
@@ -467,6 +588,26 @@ async function main() {
   for (const t of terrains) {
     const name    = t.toponyme || '';
     const code    = t.code_terrain || '';
+    const desc    = t.type_terrain || '';
+    const nature  = t.nature_piste_1 || '';
+    if (!isMainlandCodePattern(code)) {
+      continue;
+    }
+    if (!isSurfaceAllowedForOutlanding(nature)) {
+      continue;
+    }
+    if (isOaciCode(code)) {
+      continue;
+    }
+    if (isAltisurface(desc)) {
+      continue;
+    }
+    if (isPermanentlyClosed(desc)) {
+      continue;
+    }
+    if (isAlreadyInGuide(name, code, guideEntries)) {
+      continue;
+    }
     const country = countryCode(t.pays || 'France');
     const lat     = convertCoord(t.latitude, false);
     const lon     = convertCoord(t.longitude, true);
@@ -475,6 +616,9 @@ async function main() {
     const rwdir   = rwDir(t.orientation_pref_1, t.orientation_piste_1);
     const rwlenNum = asNumber(t.longueur_piste_1);
     const rwwidthNum = asNumber(t.largeur_piste_1);
+    if (!hasRunwayDimensionInfo(rwlenNum, rwwidthNum)) {
+      continue;
+    }
     if ((rwlenNum !== null && rwlenNum < 300) || (rwwidthNum !== null && rwwidthNum < 30)) {
       continue;
     }
@@ -482,8 +626,6 @@ async function main() {
     const rwwidth = rwMetres(t.largeur_piste_1);
     const freqMatch = (t.radio || '').replace(',', '.').match(/\d{2,3}\.\d+/);
     const freq    = freqMatch ? freqMatch[0] : '';
-    const desc    = t.type_terrain || '';
-
     waypoints.push({
       name,
       code,
