@@ -19,8 +19,6 @@ const WORKSPACE_DIR = path.join(__dirname, '..', '..');
 const BASE_ULM_DIR = path.join(WORKSPACE_DIR, 'Base_ULM');
 const PDF_DIR = path.join(BASE_ULM_DIR, 'pdf');
 const PICS_DIR = path.join(BASE_ULM_DIR, 'Pics');
-const DETAILS_FILE = path.join(WORKSPACE_DIR, 'basulm_terrains_details.txt');
-const LEGACY_DETAILS_FILE = path.join(WORKSPACE_DIR, 'basulm_terrain.details.txt');
 const CUPX_FILE = path.join(WORKSPACE_DIR, 'basulm_terrains.cupx');
 const GUIDE_CUP_FILE = path.join(WORKSPACE_DIR, 'guide_aires_securite.cup');
 
@@ -445,29 +443,6 @@ function writeCupFile(versionLabel, waypoints) {
   console.log(`Written ${waypoints.length} waypoints to: ${OUTPUT_FILE}`);
 }
 
-function writeDetailsFile(codes) {
-  const detailsLines = [];
-
-  let linked = 0;
-
-  for (const code of codes) {
-    const pdfName = `${code}.pdf`;
-    if (!fs.existsSync(path.join(PDF_DIR, pdfName))) {
-      continue;
-    }
-
-    detailsLines.push(`[${code}]`);
-    detailsLines.push(`file=pdf/${pdfName}`);
-    linked++;
-  }
-
-  fs.writeFileSync(DETAILS_FILE, detailsLines.join('\r\n') + '\r\n', 'utf8');
-  if (fs.existsSync(LEGACY_DETAILS_FILE)) {
-    fs.unlinkSync(LEGACY_DETAILS_FILE);
-  }
-  console.log(`Written ${linked} detail entries to: ${DETAILS_FILE}`);
-}
-
 async function writeJpgFiles(codes) {
   fs.mkdirSync(PICS_DIR, { recursive: true });
 
@@ -683,7 +658,6 @@ async function main() {
   await writeJpgFiles(keptCodes);
   writeCupFile(versionLabel, waypoints);
   await writeCupxFile();
-  writeDetailsFile(keptCodes);
 }
 
 function downloadFile(url, dest) {

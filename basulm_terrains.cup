@@ -1,5 +1,5 @@
 name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
-"version=",4.2,,,,,,,,,,"basulm 2026-06-03 20:43:06",,
+"version=",4.2,,,,,,,,,,"basulm 2026-06-06 06:05:58",,
 Pouançay,LF8652,FR,4705.767N,00004.350W,41m,2,120,350m,,125.335,Base ULM Autorisation OBLIGATOIRE ,,"LF8652.jpg"
 Frevent,LF6224,FR,5016.683N,00218.167E,134m,2,30,300m,30m,125.335,Base ULM Autorisation OBLIGATOIRE ,,"LF6224.jpg"
 Egriselles-le-Bocage,LF8953,FR,4807.017N,00310.117E,196m,2,70,300m,40m,125.335,Base ULM Accès privé,,"LF8953.jpg"
