@@ -24,6 +24,9 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | |  [mountain_peaks_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_IT.cup) | Italie | :pencil2: | :heavy_check_mark: [IT-WPT-...](## "IT-WPT-mountain-peaks-Alps-PlaneurNet.cup") |
 | | |  [mountain_peaks_FR_CH_IT.cup](https://planeur-net.github.io/outlanding/mountain_peaks_FR_CH_IT.cup) | France + Suisse + Italie | :heavy_check_mark:
 | | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_Pyrenees.cup) | Pyrenees | :pencil2: |
+||||
+| Terrains ULM | cup | [basulm_terrains.cup](https://planeur-net.github.io/outlanding/basulm_terrains.cup) | | :heavy_check_mark: ||
+|              | cupx | [basulm_terrains.cupx](https://planeur-net.github.io/outlanding/basulm_terrains.cupx) | | :heavy_check_mark: ||
 
 ### Mise a jour des fichiers sur Android
 <table>
@@ -48,6 +51,7 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 | Champs des Alpes | Autres champs définis par des contributeurs. [Fiabilité: moyenne]
 |Cols des Alpes | Cols intéressants dans les Alpes
 |mountain_peaks_ | Noms des sommets en France, Suisse, Italie, Autriche et Pyrénées. :warning: Le fichier FR est en cours de simplification (densité des noms, noms vélivoles, ...). Source: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)
+| BasULM Terrains | Extrait de [basulm.ffplum.fr](basulm.ffplum.fr) en appliquant un [filtre specifique Vol a Voile](doc/basulm_filter.md)
 
 
 ### Les formats suivants sont maintenus:
@@ -107,3 +111,4 @@ Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.
 Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   
 [XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) pour le téléchargement direct depuis XCSoar de certains fichiers.  
 Marc Till : VerifAlti = Outil de vérification des altitudes par rapport a un fichier Terrain.
+[BasULM](https://basulm.ffplum.fr/) Base des terrains ULM

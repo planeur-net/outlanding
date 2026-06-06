@@ -1,0 +1,11 @@
+# Filtres appliques sur les terrains BasULM pour le Vol a Voile
+- `code_terrain` doit correspondre au motif France métropolitaine `LF...` via `isMainlandCodePattern(code)`.
+- `nature_piste_1` doit être une surface autorisée pour les champs vachables : `dur`, `bitume`, `beton`, `herbe` ou `terre`.
+- Les codes OACI sur 4 lettres sont exclus via `isOaciCode(code)`.
+- Les entrées dont `type_terrain` contient `altisurface` sont exclues via `isAltisurface(desc)`.
+- Les terrains fermés définitivement sont exclus si la description normalisée contient une variante de `fermé définitivement`.
+- Les entrées déjà présentes dans `guide_aires_securite.cup` sont exclues via `isAlreadyInGuide(name, code, guideEntries)`.
+- Au moins une dimension de piste doit être renseignée : longueur ou largeur.
+- Si la longueur de piste est renseignée, elle doit être d’au moins `300 m`.
+- Si la largeur de piste est renseignée, elle doit être d’au moins `30 m`.
+- En pratique, un terrain BASULM n’est conservé que s’il s’agit d’une entrée `LF...` de métropole, avec une surface autorisée, non OACI, non altisurface, non fermée définitivement, non déjà présente dans le guide, et avec des dimensions de piste exploitables.
