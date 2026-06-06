@@ -9,10 +9,6 @@ The data and information provided in this repository is for information use only
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
 | | gpx | [guide_aires_securite.gpx](https://planeur-net.github.io/outlanding/guide_aires_securite.gpx) | | :heavy_check_mark:
-| | _details.txt | [guide_aires_securite_details.txt](https://planeur-net.github.io/outlanding/guide_aires_securite_details.txt) | XCSoar: Image description | :heavy_check_mark:
-| | | [combined_guide+champs_details.txt](https://planeur-net.github.io/outlanding/combined_guide+champs_details.txt) | XCSoar: Booklet + Outlanding fields | :heavy_check_mark:
-| | zip | [guide_aires_securite.xcsoar.zip](https://planeur-net.github.io/outlanding/guide_aires_securite.xcsoar.zip) | [XCSoar: All necessary files](doc/xcsoar_waypoint_details.md) |:heavy_check_mark:
-| | | [combined_guide+champs.xcsoar.zip](https://planeur-net.github.io/outlanding/combined_guide+champs.xcsoar.zip) | XCSoar: Booklet + Outlanding fields | :heavy_check_mark:
 ||||
 | Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup) | | :pencil2: |
 | | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx) | | :heavy_check_mark:
@@ -57,9 +53,6 @@ An Android application [GithubDownloader](https://github.com/llauner/AirspaceDow
 - .cup : The source file. [SeeYou cup file format](./doc/SeeYou_CUP_file_format.pdf)
 - .cupx : Automatically generated from the .cup file and the /Pics folder. [SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Google Earth format. Automatically generated from the .cup file
-- [XCSoar _details.txt](#fichier-_detailstxt-pour-xcsoar): Automatically generated.
-- [guide_aires_securite.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Automatically generated. Contains files to be copied into the XCSoar files folder: Outlanding sites.
-- [combined_guide+champs.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Automatically generated. Contains files to be copied into the XCSoar files folder: Outlanding sites + Outlanding fields.
   
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
@@ -67,11 +60,6 @@ An Android application [GithubDownloader](https://github.com/llauner/AirspaceDow
 In the above table, files marked with a :heavy_check_mark: in the ![xcsoar](doc/images/xcsoar.png) column can be downloaded directly grom XCSoar.
 
 ![Download XCSoar](doc/images/xcsoar_download.jpg)
-
-### _details.txt file for XCSoar
-Automatically generated file:  
-The file *guide_aires_securite_details.txt* + the *Pics* directory allow to link a point to an image. 
-See installation guide: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_details.md)    
   
  ![Site Files](doc/images/Screenshot_XCSoar_wp_details.png)
 

@@ -10,10 +10,6 @@ Les renseignements fournis le sont a titre indicatif et ne sauraient engager la 
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
 | | gpx | [guide_aires_securite.gpx](https://planeur-net.github.io/outlanding/guide_aires_securite.gpx) | | :heavy_check_mark:
-| | _details.txt | [guide_aires_securite_details.txt](https://planeur-net.github.io/outlanding/guide_aires_securite_details.txt) | XCSoar: Description des images | :heavy_check_mark:
-| | | [combined_guide+champs_details.txt](https://planeur-net.github.io/outlanding/combined_guide+champs_details.txt) | XCSoar: Guide + Champs des Alpes | :heavy_check_mark:
-| | zip | [guide_aires_securite.xcsoar.zip](https://planeur-net.github.io/outlanding/guide_aires_securite.xcsoar.zip) | [XCSoar: Tous les fichiers nécessaires](doc/xcsoar_waypoint_details.md) |:heavy_check_mark:
-| | | [combined_guide+champs.xcsoar.zip](https://planeur-net.github.io/outlanding/combined_guide+champs.xcsoar.zip) | XCSoar: Guide + Champs des Alpes | :heavy_check_mark:
 ||||
 | Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup) | | :pencil2: |
 | | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx) | | :heavy_check_mark:
@@ -58,21 +54,12 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 - .cup : Le fichier source. [SeeYou cup file format](./doc/SeeYou_CUP_file_format.pdf)
 - .cupx : Fichier généré automatiquement a partir du .cup et du repertoire /Pics [SeeYou cupx file format](./doc/SeeYou_cupx_file_format.md)
 - .kml + .kmz : Format Google Earth. Fichier générés automatiquement a partir du .cup
-- [XCSoar _details.txt](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement
-- [guide_aires_securite.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Sécurité.  
-- [combined_guide+champs.xcsoar.zip](#fichier-_detailstxt-pour-xcsoar): Fichier généré automatiquement. Contient les fichiers a copier dans le repertoire XCSoar pour le Guide des Aires de Sécurité + Champs des Alpes. 
-  
 [![Vue Google map du fichier .kmz](doc/images/kmz_googlemap_view_small.png)](doc/images/kmz_googlemap_view.png)
 
 ### Download depuis XCSoar
 Dans le tableau des fichiers a télécharger, les fichiers marqués d'un :heavy_check_mark: dans la colonne Download depuis ![xcsoar](doc/images/xcsoar.png) sont...téléchargeables directement depuis XCSoar.  
 
 ![Download XCSoar](doc/images/xcsoar_download.jpg)
-
-### Fichier _details.txt pour XCSoar
-Fichier généré automatiquement:  
-Le fichier *guide_aires_securite_details.txt* ainsi que le repertoire *Pics* permettent d'associer une image a un point (champ, aerodrome, ...).  
-Voir l'aide a l'installation: [xcsoar_waypoint_details.md](doc/xcsoar_waypoint_details.md)    
   
  ![Site Files](doc/images/Screenshot_XCSoar_wp_details.png)
 
