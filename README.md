@@ -51,7 +51,7 @@ Une application Android [GithubDownloader](https://github.com/llauner/AirspaceDo
 | Champs des Alpes | Autres champs définis par des contributeurs. [Fiabilité: moyenne]
 |Cols des Alpes | Cols intéressants dans les Alpes
 |mountain_peaks_ | Noms des sommets en France, Suisse, Italie, Autriche et Pyrénées. :warning: Le fichier FR est en cours de simplification (densité des noms, noms vélivoles, ...). Source: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)
-| BasULM Terrains | Extrait de [basulm.ffplum.fr](basulm.ffplum.fr) en appliquant un [filtre specifique Vol a Voile](doc/basulm_filter.md)
+| Terrains ULM | Extrait de [basulm.ffplum.fr](basulm.ffplum.fr) en appliquant un [filtre specifique Vol a Voile](doc/basulm_filter.md)
 
 
 ### Les formats suivants sont maintenus:
@@ -110,5 +110,5 @@ Les "tag" sont:
 Images fournies et utilisées avec l'autorisation de Jérémie Badaroux.  
 Fichiers initiaux de Moutain Peaks files par: Dr.-Ing. Stefan V. Baumgartner: [blog.zirbitzkogel.at](http://zirbitzkogel.at/blog/en/2021/06/04/peaks-mountain-peaks-in-seeyou-cup-format-for-xcsoar/)   
 [XCSoar-data-content](https://github.com/XCSoar/xcsoar-data-content) pour le téléchargement direct depuis XCSoar de certains fichiers.  
-Marc Till : VerifAlti = Outil de vérification des altitudes par rapport a un fichier Terrain.
+Marc Till : VerifAlti = Outil de vérification des altitudes par rapport a un fichier Terrain.  
 [BasULM](https://basulm.ffplum.fr/) Base des terrains ULM
