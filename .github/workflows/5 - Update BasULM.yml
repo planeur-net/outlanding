@@ -10,7 +10,7 @@ permissions:
 jobs:
   update-basulm:
     if: github.repository == 'planeur-net/outlanding'
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
@@ -23,11 +23,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y poppler-utils
-
       - name: Install npm dependencies
         working-directory: Base_ULM
         run: npm ci
@@ -37,7 +32,10 @@ jobs:
 
       - name: Compute branch date
         id: branch_date
-        run: echo "value=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+        shell: pwsh
+        run: |
+          $date = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd')
+          "value=$date" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
 
       - name: Create branch, push changes, and open PR
         uses: peter-evans/create-pull-request@v6
