@@ -17,6 +17,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
+          sparse-checkout: |
+            .gitattributes
+            guide_aires_securite.cup
+            basulm_terrains.cup
+            basulm_terrains.cupx
+            Base_ULM
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,6 +36,13 @@ jobs:
 
       - name: Run BasULM updater
         run: node Base_ULM/src/fetchBasulm.js
+
+      - name: Remove transient dependencies
+        shell: pwsh
+        run: |
+          if (Test-Path Base_ULM/node_modules) {
+            Remove-Item -Recurse -Force Base_ULM/node_modules
+          }
 
       - name: Compute branch date
         id: branch_date
