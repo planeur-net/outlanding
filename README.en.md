@@ -6,16 +6,16 @@ The data and information provided in this repository is for information use only
 | File  | Format  | Link | Comment | Auto. Gen. | [Download from ![xcsoar](doc/images/xcsoar.png)](#download-depuis-xcsoar)|
 |---|---|---|---|---|---|
 | Outlanding sites booklet | cup | [guide_aires_securite.cup](https://planeur-net.github.io/outlanding/guide_aires_securite.cup) | | :pencil2: | :heavy_check_mark: [FR-WPT-...](## "FR-WPT-guide-des-aires-de-securite-Alps.cup") |
-| | cupx | [guide_aires_securite.cupx](https://planeur-net.github.io/outlanding/guide_aires_securite.cupx) | | :heavy_check_mark:
+| | cupx | [guide_aires_securite.cupx](https://raw.githubusercontent.com/planeur-net/outlanding/main/guide_aires_securite.cupx) | | :heavy_check_mark:
 | | kml | [guide_aires_securite.kml](https://planeur-net.github.io/outlanding/guide_aires_securite.kml) | | :heavy_check_mark:
 | | kmz | [guide_aires_securite.kmz](https://planeur-net.github.io/outlanding/guide_aires_securite.kmz) | | :heavy_check_mark:
 | | gpx | [guide_aires_securite.gpx](https://planeur-net.github.io/outlanding/guide_aires_securite.gpx) | | :heavy_check_mark:
 ||||
 | Champs des Alpes | cup | [champs_des_alpes.cup](https://planeur-net.github.io/outlanding/champs_des_alpes.cup) | | :pencil2: |
-| | cupx | [champs_des_alpes.cupx](https://planeur-net.github.io/outlanding/champs_des_alpes.cupx) | | :heavy_check_mark:
+| | cupx | [champs_des_alpes.cupx](https://raw.githubusercontent.com/planeur-net/outlanding/main/champs_des_alpes.cupx) | | :heavy_check_mark:
 ||||
 | Cols des Alpes | cup | [cols_des_alpes.cup](https://planeur-net.github.io/outlanding/cols_des_alpes.cup) | | :pencil2: | :heavy_check_mark: [FR-WPT-...](## "FR-WPT-mountain-passes-Alps-PlaneurNet.cup") |
-| | cupx | [cols_des_alpes.cupx](https://planeur-net.github.io/outlanding/cols_des_alpes.cupx) | | :heavy_check_mark:
+| | cupx | [cols_des_alpes.cupx](https://raw.githubusercontent.com/planeur-net/outlanding/main/cols_des_alpes.cupx) | | :heavy_check_mark:
 | | kml| [cols_des_alpes.kml](https://planeur-net.github.io/outlanding/cols_des_alpes.kml) | | :heavy_check_mark:
 | | kmz| [cols_des_alpes.kmz](https://planeur-net.github.io/outlanding/cols_des_alpes.kmz) | | :heavy_check_mark:
 ||||
@@ -26,7 +26,7 @@ The data and information provided in this repository is for information use only
 | | |  [mountain_peaks_Pyrenees.cup](https://planeur-net.github.io/outlanding/mountain_peaks_Pyrenees.cup) | Pyrenees | :pencil2: |
 ||||
 | Terrains ULM | cup | [basulm_terrains.cup](https://planeur-net.github.io/outlanding/basulm_terrains.cup) | | :heavy_check_mark: ||
-| | cupx | [basulm_terrains.cupx](https://planeur-net.github.io/outlanding/basulm_terrains.cupx) | | :heavy_check_mark: ||
+| | cupx | [basulm_terrains.cupx](https://raw.githubusercontent.com/planeur-net/outlanding/main/basulm_terrains.cupx) | | :heavy_check_mark: ||
 
 ### Update files on an Android Device
 <table>
