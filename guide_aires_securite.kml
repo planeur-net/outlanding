@@ -731,14 +731,6 @@
 </Point>
 </Placemark>
 <Placemark>
-<name>317 Espinasses</name>
-<description>270/90 Cultures fouragere attero delicat a partir debut juin. {difficile}</description>
-<styleUrl>#{difficile}</styleUrl>
-<Point>
-<coordinates>6.218333333333334, 44.46055</coordinates>
-</Point>
-</Placemark>
-<Placemark>
 <name>318 Montgardin</name>
 <description>330 Atterro face NW. Bumpy. Ne pas utiliser les champs au S. {normal}</description>
 <styleUrl>#{normal}</styleUrl>
