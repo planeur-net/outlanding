@@ -1,5 +1,12 @@
 {
     "cSpell.enableFiletypes": [
         "markdown_latex_combined"
-    ]
+    ],
+    "files.associations": {
+        "*.cup": "csv",
+        "*.cupx": "csv"
+    },
+    "[csv]": {
+        "editor.defaultFormatter": "janisdd.vscode-edit-csv"
+    }
 }
