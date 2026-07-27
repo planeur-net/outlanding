@@ -4,4 +4,5 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.trn filter=lfs diff=lfs merge=lfs -text
-Pics/LIMW_Aoste_zpa.jpg -filter -diff -merge -text
+# Do not use LFS for any files under folders named Pics*
+Pics*/** -filter -diff -merge -text
