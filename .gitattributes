@@ -4,3 +4,4 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.trn filter=lfs diff=lfs merge=lfs -text
+Pics/LIMW_Aoste_zpa.jpg -filter -diff -merge -text
