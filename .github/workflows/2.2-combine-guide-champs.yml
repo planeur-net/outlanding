@@ -1,0 +1,46 @@
+name: 2.2 - Combine guide_aires_securite + champs_des_alpes
+
+on:
+  workflow_run:
+    workflows:
+      - "1 - Add version to guide_aires_securite.cup"
+      - "2 - Add version to champs_des_alpes"
+    types:
+      - completed
+
+  workflow_dispatch:
+
+jobs:
+  combine_guide_champs:
+    if: github.ref == 'refs/heads/main' && github.repository == 'planeur-net/outlanding'
+    name: Combine_guide_champs
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: 🚚 Get latest code for outlanding
+        uses: actions/checkout@v3
+        with:
+          path: ./outlanding
+
+      - name: ⚙️ Combine guide_aires_securite + champs_des_alpes
+        id: combine_files
+        run: |
+          cd ./outlanding
+          echo "Combining guide_aires_securite.cup + champs_des_alpes.cup"
+          bash ./bin/combineFiles.sh
+
+          # Save commit message for future push
+          export sourceCommit=$(git log --format=%s -n 1 -- guide_aires_securite.cup champs_des_alpes.cup)
+          echo "LAST_COMMIT_MESSAGE=$sourceCommit" >> $GITHUB_OUTPUT
+
+      - name: ⚙️ Push to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./outlanding
+          commit_message: ${{ steps.combine_files.outputs.LAST_COMMIT_MESSAGE }}
+          file_pattern: 'combined_guide+champs.cup'
+
+      - name: Trigger event for github pages update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: update-pages-event
