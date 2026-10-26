@@ -29,7 +29,7 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,rwwidth,freq,desc,userdata,pics
 "#6 LFNV Valreas Visan",LFNV,FR,4420.150N,00454.417E,143.0m,2,020,1020.0m,,120.060,"020/200 {aerodrome}`",,"LFNV_Visan.jpg"
 "#60 LFLB Chambery Aix Les Bains",LFLB,FR,4538.350N,00552.800E,238.0m,5,180,2020.0m,,118.300,"180/360 {aerodrome}",,"LFLB_Chambery.jpg"
 "#62 LFLE Challes les eaux",LFLE,FR,4533.683N,00558.583E,299.0m,5,140,980.0m,,118.405,"140/320 {aerodrome}",,"LFLE_Challes_les_eaux.jpg"
-"#64 LFLG Grenoble Versoud",LFLG,FR,4513.150N,00550.950E,220.0m,5,040,890.0m,,121.000,"040/220 {aerodrome}",,"LFLG_Grenoble.jpg"
+"#64 LFLG Grenoble Versoud",LFLG,FR,4513.150N,00550.950E,220.0m,5,040,890.0m,,121.005,"040/220 {aerodrome}",,"LFLG_Grenoble.jpg"
 "#66 LFKA Albertville",LFKA,FR,4537.633N,00619.750E,314.0m,5,050,800.0m,,123.500,"050/230 {aerodrome}",,"LFKA_Alberville.jpg"
 "#68 LFKD Sollieres Sardieres",LFKD,FR,4515.267N,00648.033E,1299.0m,2,010,620.0m,,123.500,"010/190 {aerodrome}",,"LFKD_Sollieres.jpg"
 "#7 LFNH Carpentras",LFNH,FR,4401.400N,00505.417E,119.0m,5,130,1200.0m,,118.180,"130/310 {aerodrome}",,"LFNH_Carpentras.jpg"
